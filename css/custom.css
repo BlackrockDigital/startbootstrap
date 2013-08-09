@@ -1,7 +1,22 @@
+/* INSTRUCTIONS FOR USING CUSTOM.CSS */
+
+/* This stylesheet combines all of the custom CSS for the various Start Bootstrap starter templates that we've made. Follow the instructions below. */
+/* 1. Keep the SHARED CUSTOM STYLES FOR ALL TEMPLATES section intact no matter which template you're using. */
+/* 2. After that, simply delete the sections you aren't using! Delete comments as well. */
+/* 3. Be creative and keep customizing, these are only basic HTML starters with minimal styling. Don't be afraid to use color, go crazy! */
+
+/* -------------------------------------- */
+/* SHARED CUSTOM STYLES FOR ALL TEMPLATES */
+/* -------------------------------------- */
+
 body {
-  font-size: 16px; /* font size increased for greater legibility */
-  margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+	font-size: 16px; /* font size increased for greater legibility */
+	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 }
+
+/* --------------------------------------------------- */
+/* CUSTOM STYLES FOR THE 'BUSINESS FRONTPAGE TEMPLATE' */
+/* --------------------------------------------------- */
 
 /* change the URL to a picture of your choice - the higher quality the better! */
 .full {
@@ -10,7 +25,7 @@ body {
 	background-size: cover;
 }
 
-/* adjust the color and text shadow to optimize legibility once you have an image - vertically position to fit the picture  */
+/* adjust the color and text shadow to optimize legibility once you have an image set - you can also change the vertical positioning if desired  */
 .tagline {
 	color: #fff;
 	text-shadow: 0 0 10px #000;
