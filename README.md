@@ -1,9 +1,11 @@
 Start Bootstrap
 ==============
 
-Better HTML Starter Templates for Bootstrap
+Better HTML Starter Templates for [Twitter Bootstrap](http://getbootstrap.com/)
 
 Updated for Bootstrap v3.0.0
+
+More templates coming soon!
 
 Copyright and License
 ----
