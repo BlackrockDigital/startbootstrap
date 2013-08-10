@@ -7,7 +7,8 @@ Updated for Bootstrap v3.0.0
 
 More templates coming soon!
 
-8/10/13 - Added 'One Page Wonder' Template
+- 8/10/13 - Added 'One Page Wonder' Template
+- 8/10/13 - Added 'Round About' Template
 
 Copyright and License
 ----
