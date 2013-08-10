@@ -1,0 +1,77 @@
+/* INSTRUCTIONS FOR USING CUSTOM.CSS */
+
+/* This stylesheet combines all of the custom CSS for the various Start Bootstrap starter templates that we've made. Follow the instructions below. */
+/* 1. Keep the SHARED CUSTOM STYLES FOR ALL TEMPLATES section intact no matter which template you're using. */
+/* 2. After that, simply delete the sections you aren't using! Delete comments as well. */
+/* 3. Be creative and keep customizing, these are only basic HTML starters with minimal styling. Don't be afraid to use color, go crazy! */
+
+/* -------------------------------------- */
+/* SHARED CUSTOM STYLES FOR ALL TEMPLATES */
+/* -------------------------------------- */
+
+body {
+  margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+/* Top nav and header
+-------------------------------------------------- */
+
+.startbootstrap-nav {
+  background-color: #b84d45;
+}
+.startbootstrap-nav .navbar-brand {
+  color: #fff;
+}
+.startbootstrap-nav .navbar-nav > li > a,
+.masthead a {
+  color: #fbdedb;
+}
+.startbootstrap-nav .navbar-nav > li > a:hover,
+.masthead a:hover {
+  color: #fff;
+}
+.startbootstrap-nav .navbar-nav > .active > a,
+.startbootstrap-nav .navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: #a5423b;
+}
+.startbootstrap-nav .navbar-toggle {
+  border-color: #b84d45;
+}
+.startbootstrap-nav .navbar-toggle:hover {
+  background-color: #b84d45;
+  border-color: #b84d45;
+}
+
+/* Homepage elements */
+
+.masthead {
+  background-color: #b84d45;
+  color: #fff;
+  position: relative;
+  padding: 7em 0;
+  text-align: center;
+}
+
+.masthead h1 {
+  font-size: 5em;
+  line-height: 1;
+}
+
+#social {
+  padding-top: 5em;
+}
+
+.intro-marketing {
+  background-color: #fbdedb;
+  padding: 5em 0;
+}
+
+.templates {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.preview {
+  padding: 1em 0 3em;
+}
