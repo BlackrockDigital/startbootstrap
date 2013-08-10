@@ -6,6 +6,7 @@ Better HTML Starter Templates for [Twitter Bootstrap](http://getbootstrap.com/)
 Updated for Bootstrap v3.0.0
 
 More templates coming soon!
+8/10/13 - Added 'One Page Wonder' Template
 
 Copyright and License
 ----
