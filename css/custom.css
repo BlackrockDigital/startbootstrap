@@ -5,6 +5,11 @@
 /* 2. After that, simply delete the sections you aren't using! Delete comments as well. */
 /* 3. Be creative and keep customizing, these are only basic HTML starters with minimal styling. Don't be afraid to use color, go crazy! */
 
+/* TABLE OF CONTENTS */
+/* Line 13     Shared Custom Styles for All Templates */
+/* Line 40     Custom Styles the 'One Page Wonder' Template */
+/* Line 149    Custom Styles the 'Round About' Template */
+
 /* -------------------------------------- */
 /* SHARED CUSTOM STYLES FOR ALL TEMPLATES */
 /* -------------------------------------- */
@@ -138,5 +143,13 @@ body {
 .featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
 
 }
+
+/* END OF ONE PAGE WONDER STYLES */
+
+/* ------------------------------------------------ */
+/* CUSTOM STYLES FOR THE 'ONE PAGE WONDER' TEMPLATE */
+/* ------------------------------------------------ */
+
+/* There are no custom styles for 'Round About' - make sure you still use the shared custom styles at the top though! */
 
 /* END OF ONE PAGE WONDER STYLES */
