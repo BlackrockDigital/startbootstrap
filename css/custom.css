@@ -6,9 +6,10 @@
 /* 3. Be creative and keep customizing, these are only basic HTML starters with minimal styling. Don't be afraid to use color, go crazy! */
 
 /* TABLE OF CONTENTS */
-/* Line 13     Shared Custom Styles for All Templates */
-/* Line 40     Custom Styles the 'One Page Wonder' Template */
-/* Line 149    Custom Styles the 'Round About' Template */
+/* Line 14     Shared Custom Styles for All Templates */
+/* Line 41     Custom Styles the 'One Page Wonder' Template */
+/* Line 150    Custom Styles the 'Round About' Template */
+/* Line 158    Custom Styles the 'Heroic Features' Template */
 
 /* -------------------------------------- */
 /* SHARED CUSTOM STYLES FOR ALL TEMPLATES */
@@ -153,3 +154,17 @@ body {
 /* There are no custom styles for 'Round About' - make sure you still use the shared custom styles at the top though! */
 
 /* END OF ONE PAGE WONDER STYLES */
+
+/* ------------------------------------------------ */
+/* CUSTOM STYLES FOR THE 'HEROIC FEATURES' TEMPLATE */
+/* ------------------------------------------------ */
+
+.hero-spacer {
+	margin-top: 50px;
+}
+
+.hero-feature {
+	margin-bottom: 30px;/* spaces out the feature boxes once they start to stack responsively */
+}
+
+/* END OF HEROIC FEATURES STYLES */
