@@ -26,7 +26,7 @@ body {
 /* --------------------------------------------------- */
 
 /* change the URL to a picture of your choice - the higher quality the better! */
-.full {
+.business-header {
 	height: 400px;
 	background: url(http://placehold.it/1920x400) center center no-repeat;
 	background-size: cover;
