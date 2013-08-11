@@ -9,6 +9,8 @@ More templates coming soon!
 
 - 8/10/13 - Added 'One Page Wonder' Template
 - 8/10/13 - Added 'Round About' Template
+- 8/10/13 - Added 'Heroic Feature' Template
+- 8/10/13 - Added 'Full' Template
 
 Copyright and License
 ----
