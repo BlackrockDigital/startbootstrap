@@ -6,10 +6,11 @@
 /* 3. Be creative and keep customizing, these are only basic HTML starters with minimal styling. Don't be afraid to use color, go crazy! */
 
 /* TABLE OF CONTENTS */
-/* Line 14     Shared Custom Styles for All Templates */
-/* Line 41     Custom Styles the 'One Page Wonder' Template */
-/* Line 150    Custom Styles the 'Round About' Template */
-/* Line 158    Custom Styles the 'Heroic Features' Template */
+/* Line 15     Shared Custom Styles for All Templates */
+/* Line 42     Custom Styles the 'One Page Wonder' Template */
+/* Line 151    Custom Styles the 'Round About' Template */
+/* Line 159    Custom Styles the 'Heroic Features' Template */
+/* Line 172    Custom Styles the 'Full' Template */
 
 /* -------------------------------------- */
 /* SHARED CUSTOM STYLES FOR ALL TEMPLATES */
@@ -37,7 +38,7 @@ body {
 	text-shadow: 0 0 10px #000;
 }
 
-/* END OF BUSINESS FRONTPAGE STYLES */
+/* END OF 'BUSINESS FRONTPAGE' STYLES */
 
 /* ------------------------------------------------ */
 /* CUSTOM STYLES FOR THE 'ONE PAGE WONDER' TEMPLATE */
@@ -153,7 +154,7 @@ body {
 
 /* There are no custom styles for 'Round About' - make sure you still use the shared custom styles at the top though! */
 
-/* END OF ONE PAGE WONDER STYLES */
+/* END OF 'ONE PAGE WONDER' STYLES */
 
 /* ------------------------------------------------ */
 /* CUSTOM STYLES FOR THE 'HEROIC FEATURES' TEMPLATE */
@@ -167,4 +168,18 @@ body {
 	margin-bottom: 30px;/* spaces out the feature boxes once they start to stack responsively */
 }
 
-/* END OF HEROIC FEATURES STYLES */
+/* END OF 'HEROIC FEATURES' STYLES */
+
+/* ------------------------------------- */
+/* CUSTOM STYLES FOR THE 'FULL' TEMPLATE */
+/* ------------------------------------- */
+
+.full {
+  background: url(http://placehold.it/1920x1080) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* END OF 'FULL' STYLES */
