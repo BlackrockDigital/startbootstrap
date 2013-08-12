@@ -1,0 +1,11 @@
+body {
+	font-size: 16px; /* font size increased for greater legibility */
+	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+.hero-spacer {
+	margin-top: 50px;
+}
+
+.hero-feature {
+	margin-bottom: 30px;/* spaces out the feature boxes once they start to stack responsively */
+}
