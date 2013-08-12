@@ -5,8 +5,10 @@ Better HTML Starter Templates for [Twitter Bootstrap](http://getbootstrap.com/)
 
 Updated for Bootstrap v3.0.0
 
-More templates coming soon!
+Updates
+----
 
+- 8/12/13 - The custom.css has been removed in favor of seperate custom CSS files for each template. This way you won't have to dig through a giant custom CSS file to get what you want.
 - 8/10/13 - Added 'One Page Wonder' Template
 - 8/10/13 - Added 'Round About' Template
 - 8/10/13 - Added 'Heroic Feature' Template
