@@ -11,29 +11,44 @@ body {
 
 .startbootstrap-nav {
   background-color: #b84d45;
+  border: none;
 }
+
 .startbootstrap-nav .navbar-brand {
   color: #fff;
 }
+
 .startbootstrap-nav .navbar-nav > li > a,
 .masthead a {
   color: #fbdedb;
 }
+
 .startbootstrap-nav .navbar-nav > li > a:hover,
 .masthead a:hover {
   color: #fff;
 }
+
 .startbootstrap-nav .navbar-nav > .active > a,
 .startbootstrap-nav .navbar-nav > .active > a:hover {
   color: #fff;
   background-color: #a5423b;
 }
+
 .startbootstrap-nav .navbar-toggle {
   border-color: #b84d45;
 }
+
 .startbootstrap-nav .navbar-toggle:hover {
   background-color: #b84d45;
   border-color: #b84d45;
+}
+
+.startbootstrap-nav .navbar-collapse {
+  border: none;
+}
+
+.startbootstrap-nav .navbar-toggle .icon-bar {
+  background-color: #fff;
 }
 
 /* Homepage elements */
@@ -77,7 +92,7 @@ footer {
 @media (max-width: 991px) {
 
 .masthead {
-  padding: 4em 0;
+  padding: 1em 0;
 }
 
 .masthead h1 {
