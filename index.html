@@ -22,22 +22,27 @@
 
   <body>
 
-    <div class="startbootstrap-nav navbar navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top startbootstrap-nav" role="navigation">
       <div class="container">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-        <div class="nav-collapse collapse">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
             <li><a href="help.html">Help</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
 
     <!-- Masthead -->
     <div class="masthead">
@@ -47,8 +52,12 @@
           <div class="col-lg-12">
             <h1>Free HTML Starter Templates for Twitter Bootstrap</h1>
             <h3>Built to help you get started on your next Bootstrap project.</h3>
-            <p>Templates by <a href="http://www.ironsummitmedia.com">Iron Summit Media Strategies</a><br>
-            <strong>Update:</strong> Ready to use with Bootstrap 3 RC1!</p>
+            <p>Templates created and maintained by <a href="http://www.ironsummitmedia.com">Iron Summit Media Strategies</a></p>
+
+            <div class="alert alert-info alert-dismissable">
+              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+              <strong>Update 8/14/13:</strong> All templates are ready to use with Bootstrap 3 RC2!</a>
+            </div>
 
             <div id="social">
               <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
@@ -189,7 +198,7 @@
       <div class="container">
       
         <div class="row">
-          <div class="col-12">
+          <div class="col-lg-12">
             <p><a href="index.html">Home</a> &middot; <a href="help.html">Help</a> &middot; <a href="contact.html">Contact</a> <span class="pull-right hidden-sm"><a href="#">Back to top</a></span></p>
             <p>
               <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
