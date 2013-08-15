@@ -3,11 +3,12 @@ Start Bootstrap
 
 A growing library of HTML Starter Templates for [Twitter Bootstrap](http://getbootstrap.com/)
 
-Updated for Bootstrap v3.0.0
+Updated for Bootstrap v3.0.0 RC2
 
 Updates
 ----
 
+- 8/14/13 - Updated all templates for Bootstrap 3 RC2
 - 8/13/13 - Added 'Thumbnail Gallery' Template
 - 8/12/13 - Added 'The Big Picture' Template
 - 8/12/13 - The custom.css has been removed in favor of seperate custom CSS files for each template. This way you won't have to dig through a giant custom CSS file to get what you want.
