@@ -8,6 +8,7 @@ Updated for Bootstrap v3.0.0 RC2
 Updates
 ----
 
+- 8/18/13 - Added 'Full Slider' Template
 - 8/17/13 - Added 'Full Width Pics' Template
 - 8/14/13 - Updated all templates for Bootstrap 3 RC2
 - 8/13/13 - Added 'Thumbnail Gallery' Template
