@@ -18,6 +18,7 @@ body {
 
 .logo-wrapper {
 	padding: 100px inherit;
+	display: inline-block;
 }
 
 .section {
