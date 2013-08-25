@@ -3,7 +3,7 @@ Start Bootstrap
 
 A growing library of HTML Starter Templates for [Twitter Bootstrap](http://getbootstrap.com/)
 
-Updated for Bootstrap v3.0.0 RC2
+All Templates up to date for Bootstrap v3.0.0!
 
 Updates
 ----
