@@ -8,6 +8,7 @@ Updated for Bootstrap v3.0.0 RC2
 Updates
 ----
 
+- 8/24/13 - Added Glyphicons to the Repo
 - 8/24/13 - Added 'Blog Post' Template
 - 8/18/13 - Added 'Full Slider' Template
 - 8/17/13 - Added 'Full Width Pics' Template
