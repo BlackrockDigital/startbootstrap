@@ -5,7 +5,7 @@ A growing library of HTML Starter Templates for [Bootstrap 3](http://getbootstra
 
 All Templates up to date for Bootstrap v3.0.0!
 
-Updates
+Recent Updates
 ----
 
 - 8/25/13 - Added 'Logo Nav' Template
