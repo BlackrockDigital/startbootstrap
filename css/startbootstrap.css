@@ -26,6 +26,7 @@ body {
 .startbootstrap-nav .navbar-nav > li > a:hover,
 .masthead a:hover {
   color: #fff;
+  background-color: #a5423b;
 }
 
 .startbootstrap-nav .navbar-nav > .active > a,
