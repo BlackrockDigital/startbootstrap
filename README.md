@@ -8,6 +8,7 @@ All Templates up to date for Bootstrap v3.0.0!
 Recent Updates
 ----
 
+- 8/28/13 - Added 'Blog Home' Template
 - 8/25/13 - Added 'Logo Nav' Template
 - 8/24/13 - Added Glyphicons to the Repo
 - 8/24/13 - Added 'Blog Post' Template
