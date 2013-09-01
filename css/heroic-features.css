@@ -8,3 +8,7 @@ body {
 .hero-feature {
 	margin-bottom: 30px;/* spaces out the feature boxes once they start to stack responsively */
 }
+
+footer {
+	margin: 50px 0;
+}
