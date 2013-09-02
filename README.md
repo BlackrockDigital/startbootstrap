@@ -8,6 +8,7 @@ All Templates up to date for Bootstrap v3.0.0!
 Recent Updates
 ----
 
+- 9/01/13 - Standardized the footer across most templates. Reverted back to Bootstrap default font size on all templates.
 - 8/28/13 - Added 'Blog Home' Template
 - 8/25/13 - Added 'Logo Nav' Template
 - 8/24/13 - Added Glyphicons to the Repo
