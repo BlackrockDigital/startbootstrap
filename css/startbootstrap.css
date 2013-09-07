@@ -23,8 +23,7 @@ body {
   color: #fbdedb;
 }
 
-.startbootstrap-nav .navbar-nav > li > a:hover,
-.masthead a:hover {
+.startbootstrap-nav .navbar-nav > li > a:hover {
   color: #fff;
   background-color: #a5423b;
 }
