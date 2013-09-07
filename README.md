@@ -8,6 +8,9 @@ All Templates up to date for Bootstrap v3.0.0!
 Recent Updates
 ----
 
+- 9/06/13 - Bugfix for 'Full Slider' and 'The Big Picture' Templates
+- 9/06/13 - Added 'Half Slider' Template
+- 9/06/13 - Added 'Small Business' Template
 - 9/05/13 - We've launched the Start Bootstrap blog!
 - 9/01/13 - Standardized the footer across most templates. Reverted back to Bootstrap default font size on all templates.
 - 8/28/13 - Added 'Blog Home' Template
