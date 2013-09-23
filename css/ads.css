@@ -1,0 +1,59 @@
+.carbonad {
+  width: auto !important;
+  padding: 20px !important;
+  margin-top: 20px;
+  overflow: hidden; /* clearfix */
+  height: auto !important;
+  font-size: 13px !important;
+  line-height: 16px !important;
+  text-align: left;
+  background: #b84d45 !important;
+  border: 0 !important;
+  border-radius: 4px;
+}
+.carbonad-img {
+  margin: 0 !important;
+}
+.carbonad-text,
+.carbonad-tag {
+  float: none !important;
+  display: block !important;
+  width: auto !important;
+  height: auto !important;
+  margin-left: 145px !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  color: #fff;
+}
+.carbonad-text {
+  padding-top: 0 !important;
+}
+.carbonad-tag {
+  color: #fbdedb !important;
+  text-align: left !important;
+}
+.carbonad-text a,
+.carbonad-tag a {
+  color: #fff !important;
+}
+.carbonad #azcarbon > img {
+  display: none; /* hide what I assume are tracking images */
+}
+
+@media screen and (min-width: 991px) {
+  .carbonad {
+    margin-top: 0 !important;
+    width: auto !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carbonad {
+    position: absolute;
+    right: 0;
+    margin-right: 15px !important;
+    margin-top: 0 !important;
+    padding: 15px !important;
+    width: 330px !important;
+    min-height: 132px;
+  }
+}

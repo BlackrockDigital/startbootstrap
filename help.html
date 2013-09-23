@@ -17,6 +17,7 @@
     
     <!-- Start Bootstrap CSS - DON'T USE THIS FOR THE TEMPLATES! -->
     <link href="css/startbootstrap.css" rel="stylesheet">
+    <link href="css/ads.css" rel="stylesheet">
 
   </head>
 
@@ -37,6 +38,16 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Templates <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="templates.html">All Templates</a></li>
+                <li class="divider"></li>
+                <li><a href="home-page-templates.html">Home Page Templates</a></li>
+                <li><a href="other-page-templates.html">Other Page Templates</a></li>
+                <li><a href="full-site-templates.html">Full Site Templates</a></li>
+              </ul>
+            </li>
             <li class="active"><a href="help.html">Help</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="http://startbootstrap.tumblr.com/">Blog</a></li>
@@ -51,15 +62,23 @@
         <div class="row">
           <div class="col-lg-12">
             <h1 class="page-header">Help with Start Bootstrap</h1>
+            <ol class="breadcrumb">
+              <li><a href="index.html">Start Bootstrap</a></li>
+              <li class="active">Help</li>
+            </ol>
+          </div>
+          <div class="col-lg-8 col-md-8">
             <div class="alert alert-info">
               <button type="button" class="close" data-dismiss="alert">&times;</button>
               Our help page is still under development. Please contact us if you have any issues or suggestions. Thanks!
             </div>
             <h2>Using the Templates</h2>
             <p>Each template is a standalone HTML file. Some templates also have a custom CSS document (ex. <code>one-page-wonder.html</code> and <code>one-page-wonder.css</code>) You can either view the template preview and copy the HTML source code using your browser, or you can view the HTML on GitHub via the HTML button associated with each template. For the templates that have custom CSS styles attached to them, make sure you grab the corresponding CSS file either on GitHub or through your browser.</p>
-            
             <h2>Still Having Trouble?</h2>
             <p>We will be extending this help page as we get add more templates and get more requests. If you have a specific questions, please email us at <a href="mailto:help@startbootstrap.com">help@startbootstrap.com</a> and we will try our best to assist you.</p>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/51625/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
           </div>
         </div>
       </div>
@@ -72,7 +91,7 @@
       
         <div class="row">
           <div class="col-lg-12">
-            <p><a href="index.html">Home</a> &middot; <a href="help.html">Help</a> &middot; <a href="contact.html">Contact</a> &middot; <a href="http://startbootstrap.tumblr.com/">Blog</a><span class="pull-right hidden-sm"><a href="#">Back to top</a></span></p>
+            <p><a href="index.html">Home</a> &middot; <a href="templates.html">Templates</a> &middot; <a href="help.html">Help</a> &middot; <a href="contact.html">Contact</a> &middot; <a href="http://startbootstrap.tumblr.com/">Blog</a><span class="pull-right hidden-sm"><a href="#">Back to top</a></span></p>
             <p>
               <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
               <iframe id="gh-star" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
@@ -95,7 +114,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/custom.js"></script>
-	<script>
+    <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -104,7 +123,7 @@
       ga('create', 'UA-38417733-17', 'startbootstrap.com');
       ga('send', 'pageview');
     
-    </script>  
-    
-  </body>
+    </script>
+
+    </body>
 </html>

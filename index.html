@@ -17,6 +17,7 @@
     
     <!-- Start Bootstrap CSS - DON'T USE THIS FOR THE TEMPLATES! -->
     <link href="css/startbootstrap.css" rel="stylesheet">
+    <link href="css/ads.css" rel="stylesheet">
 
   </head>
 
@@ -37,6 +38,16 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Templates <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="templates.html">All Templates</a></li>
+                <li class="divider"></li>
+                <li><a href="home-page-templates.html">Home Page Templates</a></li>
+                <li><a href="other-page-templates.html">Other Page Templates</a></li>
+                <li><a href="full-site-templates.html">Full Site Templates</a></li>
+              </ul>
+            </li>
             <li><a href="help.html">Help</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="http://startbootstrap.tumblr.com/">Blog</a></li>
@@ -57,7 +68,7 @@
 
             <div class="alert alert-info alert-dismissable">
               <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-              <strong>Update 9/06/13:</strong> We've added two new templates! 'Small Business' and 'Half Slider' - See them below!
+              <strong>Update 9/17/13:</strong> We're gearing up for some major additions! Check out our plans on <a href="http://startbootstrap.tumblr.com/" class="alert-link">our latest blog post</a>!
             </div>
 
             <div id="social">
@@ -72,21 +83,33 @@
       </div>
     </div>
 
-    <!-- Page content -->
+    <!-- Intro home page content -->
     <div class="intro-marketing">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-md-4 intro-marketing-box">
             <h2><i class="icon-gift"></i> Forever Free</h2>
-            <p>Bootstrap HTML starter examples that are free to use, forever and ever. Customize them to your liking!</p>
+            <p>Bootstrap HTML starter examples that are free to download and use, forever and ever.</p>
           </div>
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-md-4 intro-marketing-box">
             <h2><i class="icon-github"></i> Open Source</h2>
             <p>Our Bootstrap starter templates are licensed under Apache 2.0 and <a href="https://github.com/ironsummitmedia/startbootstrap/">maintained on GitHub</a>.</p>
           </div>
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-md-4 intro-marketing-box">
+            <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/51625/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="col-lg-4 col-md-4 intro-marketing-box">
             <h2><i class="icon-folder-open"></i> Ready to Use</h2>
             <p>These free Bootstrap HTML templates are ready to use. Download what you like and get started!</p>
+          </div>
+          <div class="col-lg-4 col-md-4 intro-marketing-box">
+            <h2><i class="icon-ok"></i> Bootstrap 3 Updated</h2>
+            <p>All of these free templates are up to date and ready to use with Bootstrap 3!</p>
+          </div>
+          <div class="col-lg-4 col-md-4 intro-marketing-box">
+            <h2><i class="icon-bullhorn"></i> Connect With Us</h2>
+            <p><a href="https://twitter.com/SBootstrap">Follow us on Twitter</a> or <a href="http://startbootstrap.tumblr.com/">follow our blog</a> to keep an eye out for new templates being added!</p>
           </div>
         </div>
       </div>
@@ -95,178 +118,145 @@
     <!-- Page content -->
     <div class="templates">
       <div class="container">
+
         <div class="row">
-        
+          <div class="col-lg-12">
+            <h2 class="page-header">Newly Added Templates:</h2>
+          </div>
+
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
-              <a class="thumbnail" href="half-slider.html"><img src="http://www.startbootstrap.com/img/half-slider.jpg" class="img-responsive" alt="Half Page Full Width Slider Template for Twitter Bootstrap 3"></a>
-              <h3>Half Slider <span class="label label-info">New</span></h3>
+              <a class="thumbnail" href="half-slider.html"><img src="img/half-slider.jpg" class="img-responsive" alt="Half Page Full Width Slider Template for Twitter Bootstrap 3"></a>
+              <h3>Half Slider <span class="label label-primary">New</span></h3>
               <p>A half page background slider.</p>
-              <div class="btn-group"><a class="btn btn-default" href="half-slider.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/half-slider.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/half-slider.css"><i class="icon-download-alt"></i> CSS</a></div>
+              <div class="btn-group"><a class="btn btn-default" href="half-slider.html">Preview &amp; Download</a></div>
             </div>
           </div>
 
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
-              <a class="thumbnail" href="small-business.html"><img src="http://www.startbootstrap.com/img/small-business.jpg" class="img-responsive" alt="Business HTML Template for Twitter Bootstrap 3"></a>
-              <h3>Small Business <span class="label label-info">New</span></h3>
+              <a class="thumbnail" href="small-business.html"><img src="img/small-business.jpg" class="img-responsive" alt="Small Business HTML Template for Twitter Bootstrap 3"></a>
+              <h3>Small Business <span class="label label-primary">New</span></h3>
               <p>A small business template.</p>
-              <div class="btn-group"><a class="btn btn-default" href="small-business.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/small-business.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/small-business.css"><i class="icon-download-alt"></i> CSS</a></div>
+              <div class="btn-group"><a class="btn btn-default" href="small-business.html">Preview &amp; Download</a></div>
             </div>
           </div>
 
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
-              <a class="thumbnail" href="logo-nav.html"><img src="http://www.startbootstrap.com/img/logo-nav.jpg" class="img-responsive" alt="Custom Navbar Template with Logo for Twitter Bootstrap 3"></a>
-              <h3>Logo Nav</h3>
+              <a class="thumbnail" href="logo-nav.html"><img src="img/logo-nav.jpg" class="img-responsive" alt="Custom Navbar Template with Logo for Twitter Bootstrap 3"></a>
+              <h3>Logo Nav <span class="label label-primary">New</span></h3>
               <p>A right aligned nav with a logo.</p>
-              <div class="btn-group"><a class="btn btn-default" href="logo-nav.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/logo-nav.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/logo-nav.css"><i class="icon-download-alt"></i> CSS</a></div>
+              <div class="btn-group"><a class="btn btn-default" href="logo-nav.html">Preview &amp; Download</a></div>
             </div>
           </div>
 
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
-              <a class="thumbnail" href="blog-home.html"><img src="http://www.startbootstrap.com/img/blog-home.jpg" class="img-responsive" alt="Blog Template with Logo for Twitter Bootstrap 3"></a>
-              <h3>Blog Home</h3>
+              <a class="thumbnail" href="blog-home.html"><img src="img/blog-home.jpg" class="img-responsive" alt="Blog Template with Logo for Twitter Bootstrap 3"></a>
+              <h3>Blog Home <span class="label label-primary">New</span></h3>
               <p>A blog homepage template.</p>
-              <div class="btn-group"><a class="btn btn-default" href="blog-home.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/blog-home.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/blog-home.css"><i class="icon-download-alt"></i> CSS</a></div>
+              <div class="btn-group"><a class="btn btn-default" href="blog-home.html">Preview &amp; Download</a></div>
             </div>
           </div>
 
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
-              <a class="thumbnail" href="blog-post.html"><img src="http://www.startbootstrap.com/img/blog-post.jpg" class="img-responsive" alt="Blog Post Template for Twitter Bootstrap 3"></a>
-              <h3>Blog Post</h3>
+              <a class="thumbnail" href="blog-post.html"><img src="img/blog-post.jpg" class="img-responsive" alt="Blog Post Template for Twitter Bootstrap 3"></a>
+              <h3>Blog Post <span class="label label-primary">New</span></h3>
               <p>A simple blog post starter.</p>
-              <div class="btn-group"><a class="btn btn-default" href="blog-post.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/blog-post.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/blog-post.css"><i class="icon-download-alt"></i> CSS</a></div>
+              <div class="btn-group"><a class="btn btn-default" href="blog-post.html">Preview &amp; Download</a></div>
             </div>
           </div>
 
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
-              <a class="thumbnail" href="full-slider.html"><img src="http://www.startbootstrap.com/img/full-slider.jpg" class="img-responsive" alt="Full Page Background Slider Template for Twitter Bootstrap 3"></a>
-              <h3>Full Slider</h3>
+              <a class="thumbnail" href="full-slider.html"><img src="img/full-slider.jpg" class="img-responsive" alt="Full Page Background Slider Template for Twitter Bootstrap 3"></a>
+              <h3>Full Slider <span class="label label-primary">New</span></h3>
               <p>A full page background slider.</p>
-              <div class="btn-group"><a class="btn btn-default" href="full-slider.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/full-slider.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/full-slider.css"><i class="icon-download-alt"></i> CSS</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="preview">
-              <a class="thumbnail" href="full-width-pics.html"><img src="http://www.startbootstrap.com/img/full-width-pics.jpg" class="img-responsive" alt="Full With Images Homepage Template for Twitter Bootstrap"></a>
-              <h3>Full Width Pics</h3>
-              <p>A page with full width pictures.</p>
-              <div class="btn-group"><a class="btn btn-default" href="full-width-pics.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/full-width-pics.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/full-width-pics.css"><i class="icon-download-alt"></i> CSS</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="preview">
-              <a class="thumbnail" href="thumbnail-gallery.html"><img src="http://www.startbootstrap.com/img/thumbnail-gallery.jpg" class="img-responsive" alt="Thumbnail Gallery for Twitter Bootstrap"></a>
-              <h3>Thumbnail Gallery</h3>
-              <p>A four column gallery starter.</p>
-              <div class="btn-group"><a class="btn btn-default" href="thumbnail-gallery.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/thumbnail-gallery.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/thumbnail-gallery.css"><i class="icon-download-alt"></i> CSS</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="preview">
-              <a class="thumbnail" href="the-big-picture.html"><img src="http://www.startbootstrap.com/img/the-big-picture.jpg" class="img-responsive" alt="Portfolio Template for Twitter Bootstrap"></a>
-              <h3>The Big Picture</h3>
-              <p>An image background with a fixed bottom nav.</p>
-              <div class="btn-group"><a class="btn btn-default" href="the-big-picture.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/the-big-picture.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/the-big-picture.css"><i class="icon-download-alt"></i> CSS</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="preview">
-              <a class="thumbnail" href="business-frontpage.html"><img src="http://www.startbootstrap.com/img/business-frontpage.jpg" class="img-responsive" alt="Business Frontpage Bootstrap Template"></a>
-              <h3>Business Frontpage</h3>
-              <p>A full width image header with a fixed nav.</p>
-              <div class="btn-group"><a class="btn btn-default" href="business-frontpage.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/business-frontpage.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/business-frontpage.css"><i class="icon-download-alt"></i> CSS</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="preview">
-              <a class="thumbnail" href="one-page-wonder.html"><img src="http://www.startbootstrap.com/img/one-page-wonder.jpg" class="img-responsive" alt="One Page Free Bootstrap HTML Template"></a>
-              <h3>One Page Wonder</h3>
-              <p>A stylish one page template built for scrolling.</p>
-              <div class="btn-group"><a class="btn btn-default" href="one-page-wonder.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/one-page-wonder.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/one-page-wonder.css"><i class="icon-download-alt"></i> CSS</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="preview">
-              <a class="thumbnail" href="round-about.html"><img src="http://www.startbootstrap.com/img/round-about.jpg" class="img-responsive" alt="Free Bootstrap About Page Template"></a>
-              <h3>Round About</h3>
-              <p>An about page with round pictures.</p>
-              <div class="btn-group"><a class="btn btn-default" href="round-about.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/round-about.html"><i class="icon-download-alt"></i> HTML</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="preview">
-              <a class="thumbnail" href="heroic-features.html"><img src="http://www.startbootstrap.com/img/heroic-features.jpg" class="img-responsive" alt="Free Bootstrap Home Page Template"></a>
-              <h3>Heroic Features</h3>
-              <p>Feature awesome text-based content.</p>
-              <div class="btn-group"><a class="btn btn-default" href="heroic-features.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/heroic-features.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/heroic-features.css"><i class="icon-download-alt"></i> CSS</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="preview">
-              <a class="thumbnail" href="full.html"><img src="http://www.startbootstrap.com/img/full.jpg" class="img-responsive" alt="Free Bootstrap Full Page Image Background Template"></a>
-              <h3>Full</h3>
-              <p>A fixed position full page image background.</p>
-              <div class="btn-group"><a class="btn btn-default" href="full.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/full.html"><i class="icon-download-alt"></i> HTML</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/css/full.css"><i class="icon-download-alt"></i> CSS</a></div>
+              <div class="btn-group"><a class="btn btn-default" href="full-slider.html">Preview &amp; Download</a></div>
             </div>
           </div>
           
+        </div>
+        
+        <div class="row">
+          
+          <div class="col-lg-12">
+            <a class="btn btn-primary btn-lg pull-right" href="templates.html">View All Templates <i class="icon-double-angle-right"></i></a>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="page-header">Featured Templates:</h2>
+          </div>
+
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
-              <a class="thumbnail" href="bare.html"><img src="img/bare.jpg" class="img-responsive" alt="Bare Free Bootstrap HTML Template"></a>
+              <a class="thumbnail" href="bare.html"><img src="img/bare.jpg" class="img-responsive" alt="HTML Starter Template for Bootstrap 3"></a>
               <h3>Bare</h3>
               <p>A barebones Bootstrap HTML template.</p>
-              <div class="btn-group"><a class="btn btn-default" href="bare.html"><i class="icon-eye-open"></i> Preview</a></div>
-              <div class="btn-group"><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/bare.html"><i class="icon-download-alt"></i> HTML</a></div>
+              <div class="btn-group"><a class="btn btn-default" href="bare.html">Preview &amp; Download</a></div>
             </div>
           </div>
 
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
-              <h1>More Templates Added Weekly!</h1>
+              <a class="thumbnail" href="full-width-pics.html"><img src="img/full-width-pics.jpg" class="img-responsive" alt="Full With Images Homepage Template for Twitter Bootstrap"></a>
+              <h3>Full Width Pics</h3>
+              <p>A page with full width pictures.</p>
+              <div class="btn-group"><a class="btn btn-default" href="full-width-pics.html">Preview &amp; Download</a></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="preview">
+              <a class="thumbnail" href="thumbnail-gallery.html"><img src="img/thumbnail-gallery.jpg" class="img-responsive" alt="Thumbnail Gallery for Twitter Bootstrap"></a>
+              <h3>Thumbnail Gallery</h3>
+              <p>A four column gallery starter.</p>
+              <div class="btn-group"><a class="btn btn-default" href="thumbnail-gallery.html">Preview &amp; Download</a></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="preview">
+              <a class="thumbnail" href="the-big-picture.html"><img src="img/the-big-picture.jpg" class="img-responsive" alt="Portfolio Template for Twitter Bootstrap"></a>
+              <h3>The Big Picture</h3>
+              <p>An image background with a fixed bottom nav.</p>
+              <div class="btn-group"><a class="btn btn-default" href="the-big-picture.html">Preview &amp; Download</a></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="preview">
+              <a class="thumbnail" href="one-page-wonder.html"><img src="img/one-page-wonder.jpg" class="img-responsive" alt="One Page Free Bootstrap HTML Template"></a>
+              <h3>One Page Wonder</h3>
+              <p>A stylish one page template built for scrolling.</p>
+              <div class="btn-group"><a class="btn btn-default" href="one-page-wonder.html">Preview &amp; Download</a></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="preview">
+              <a class="thumbnail" href="full.html"><img src="img/full.jpg" class="img-responsive" alt="Free Bootstrap Full Page Image Background Template"></a>
+              <h3>Full</h3>
+              <p>A fixed position full page image background.</p>
+              <div class="btn-group"><a class="btn btn-default" href="full.html">Preview &amp; Download</a></div>
             </div>
           </div>
 
         </div>
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <a class="btn btn-primary btn-lg pull-right" href="templates.html">View All Templates <i class="icon-double-angle-right"></i></a>
+          </div>
+
+        </div>
+
       </div>
     </div>
     
@@ -277,7 +267,7 @@
       
         <div class="row">
           <div class="col-lg-12">
-            <p><a href="index.html">Home</a> &middot; <a href="help.html">Help</a> &middot; <a href="contact.html">Contact</a> &middot; <a href="http://startbootstrap.tumblr.com/">Blog</a><span class="pull-right hidden-sm"><a href="#">Back to top</a></span></p>
+            <p><a href="index.html">Home</a> &middot; <a href="templates.html">Templates</a> &middot; <a href="help.html">Help</a> &middot; <a href="contact.html">Contact</a> &middot; <a href="http://startbootstrap.tumblr.com/">Blog</a><span class="pull-right hidden-sm"><a href="#">Back to top</a></span></p>
             <p>
               <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
               <iframe id="gh-star" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
@@ -300,7 +290,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/custom.js"></script>
-	<script>
+    <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -309,7 +299,7 @@
       ga('create', 'UA-38417733-17', 'startbootstrap.com');
       ga('send', 'pageview');
     
-    </script>  
-    
+    </script>
+
     </body>
 </html>
