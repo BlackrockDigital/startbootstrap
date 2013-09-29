@@ -6,6 +6,7 @@ body {
 	background: url(http://lorempixel.com/g/1920/500/) no-repeat center center;
 	background-size: cover;
 	text-align: center;
+	padding: 100px 0;
 }
 
 .full-width-image-2 {
@@ -16,7 +17,6 @@ body {
 }
 
 .logo-wrapper {
-	padding: 100px inherit;
 	display: inline-block;
 }
 
