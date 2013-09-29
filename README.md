@@ -8,6 +8,7 @@ All Templates up to date for Bootstrap v3.0.0!
 Recent Updates
 ----
 
+- 9/28/13 - Added 'Simple Sidebar' Template
 - 9/26/13 - Added 'Modern Business' full website template and '2 Col Portfolio' and '1 Col Portfolio'
 - 9/06/13 - Bugfix for 'Full Slider' and 'The Big Picture' Templates
 - 9/06/13 - Added 'Half Slider' Template
