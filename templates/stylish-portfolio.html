@@ -24,9 +24,9 @@
       <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="icon-remove"></i></a>
         <li class="sidebar-brand"><a href="http://startbootstrap.com">Start Bootstrap</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -34,7 +34,7 @@
     <!-- /Side Menu -->
   
     <!-- Full Page Image Header Area -->
-    <div class="header">
+    <div id="top" class="header">
       <div class="vert-text">
         <h1>Start Bootstrap</h1>
         <h3><em>We</em> Build Great Templates, <em>You</em> Make Them Better</h3>
@@ -57,7 +57,7 @@
     <!-- /Intro -->
   
     <!-- Services -->
-    <div class="services">
+    <div id="services" class="services">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
@@ -108,7 +108,7 @@
     <!-- /Callout -->
 
     <!-- Portfolio -->
-    <div class="portfolio">
+    <div id ="portfolio" class="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
@@ -119,13 +119,13 @@
         <div class="row">
           <div class="col-md-4 col-md-offset-2 text-center">
             <div class="portfolio-item">
-              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"></a>
+              <a href="#top"><img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"></a>
               <h4>Cityscape</h4>
             </div>
           </div>
           <div class="col-md-4 text-center">
             <div class="portfolio-item">
-              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a>
+              <a href="#top"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a>
               <h4>Is That On Fire?</h4>
             </div>
           </div>
@@ -133,13 +133,13 @@
         <div class="row">
           <div class="col-md-4 col-md-offset-2 text-center">
             <div class="portfolio-item">
-              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-3.jpg"></a>
+              <a href="#top"><img class="img-portfolio img-responsive" src="img/portfolio-3.jpg"></a>
               <h4>Stop Sign</h4>
             </div>
           </div>
           <div class="col-md-4 text-center">
             <div class="portfolio-item">
-              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-4.jpg"></a>
+              <a href="#top"><img class="img-portfolio img-responsive" src="img/portfolio-4.jpg"></a>
               <h4>Narrow Focus</h4>
             </div>
           </div>
@@ -154,8 +154,8 @@
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
             <h3>The buttons below are impossible to resist.</h3>
-            <a href="#" class="btn btn-lg btn-default">Click Me!</a>
-            <a href="#" class="btn btn-lg btn-primary">Look at Me!</a>
+            <a href="#top" class="btn btn-lg btn-default">Click Me!</a>
+            <a href="#top" class="btn btn-lg btn-primary">Look at Me!</a>
           </div>
         </div>
       </div>
@@ -198,6 +198,24 @@
           $("#sidebar-wrapper").toggleClass("active");
       });
   </script>
+  <script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+              || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
 
   </body>
 
