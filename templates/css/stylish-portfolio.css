@@ -111,7 +111,7 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/bg.JPG) no-repeat center center fixed; 
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -148,10 +148,6 @@ i.service-icon {
   text-align: center;
 }
 
-i.service-icon:hover {
-  font-size: 68px;
-}
-
 /* Callout */
 
 .callout {
@@ -159,7 +155,7 @@ i.service-icon:hover {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/section-two.JPG) no-repeat center center fixed; 
+  background: url(../img/callout.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -193,8 +189,48 @@ i.service-icon:hover {
   margin: 10px;
 }
 
+/* Map */
+
+.map {
+  height: 500px;
+}
+
 /* Footer */
 
 footer {
   padding: 100px 0;
+}
+
+.top-scroll {
+  margin-top: 50px;
+}
+
+.top-scroll a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i.scroll {
+  color: #333333;
+}
+
+i.scroll:hover {
+  color: #0a5175;
+}
+/* Responsive */
+
+@media (max-width: 768px) {
+	
+  .header {
+	background: url(../img/bg.jpg) no-repeat center center scroll; 
+  }
+
+  .callout {
+	background: url(../img/callout.jpg) no-repeat center center scroll; 
+  }
+
+  .map {
+	height: 75%;
+  }
+
 }
