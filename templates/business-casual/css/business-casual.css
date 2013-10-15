@@ -1,0 +1,166 @@
+body {
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 1.6;
+  color: #000;
+}
+
+hr {
+  border-color: #999999;
+  max-width: 400px;
+}
+
+.brand,
+.address-bar {
+  display: none;
+}
+
+
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.img-full {
+  min-width: 100%;
+}
+
+.brand-name {
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  letter-spacing: normal;
+}
+
+.tagline-divider {
+  margin: 15px auto 3px;
+  border-color: #999999;
+  max-width: 250px;
+}
+
+.box {
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+  margin-bottom: 20px;
+  padding: 30px 15px;
+}
+
+.intro-text {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.img-border {
+  float: none;
+  margin: 0 auto 0;
+  border: #999999 solid 1px;
+}
+
+.img-left {
+  float: none;
+  margin: 0 auto 0;
+}
+
+footer {
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+}
+
+footer p {
+  margin: 0;
+  padding: 50px 0;
+}
+
+@media screen and (min-width: 768px) {
+
+.brand {
+  display: inherit;
+  font-weight: 700;
+  font-size: 5em;
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+  padding: 30px 0 10px;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.top-divider {
+  margin-top: 0;
+}
+
+.img-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.address-bar {
+  display: inherit;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 40px;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-header {
+  display: none;
+}
+
+.navbar {
+  min-height: 0;
+}
+
+.navbar-default {
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+  border: none;
+}
+
+.nav>li>a {
+  padding: 35px;
+}
+
+.navbar-nav>li>a {
+  line-height: normal;
+}
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+  font-size: 1.25em;
+}
+
+}
