@@ -8,242 +8,162 @@
 
 <url>
   <loc>http://startbootstrap.com/</loc>
-  <lastmod>2013-09-23T07:42:27+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/all-templates</loc>
-  <lastmod>2013-09-23T07:56:12+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/home-page-templates</loc>
-  <lastmod>2013-09-23T07:58:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/other-page-templates</loc>
-  <lastmod>2013-09-23T07:57:12+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/full-site-templates</loc>
-  <lastmod>2013-09-23T02:12:06+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/help</loc>
-  <lastmod>2013-09-23T02:12:07+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/contact</loc>
-  <lastmod>2013-09-23T02:12:06+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://startbootstrap.com/1-col-portfolio</loc>
-  <lastmod>2013-09-23T07:53:54+00:00</lastmod>
+  <loc>http://startbootstrap.com/sb-admin</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://startbootstrap.com/half-slider</loc>
-  <lastmod>2013-09-23T02:12:07+00:00</lastmod>
+  <loc>http://startbootstrap.com/business-casual</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://startbootstrap.com/small-business</loc>
-  <lastmod>2013-09-23T02:12:08+00:00</lastmod>
+  <loc>http://startbootstrap.com/modern-business</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://startbootstrap.com/logo-nav</loc>
-  <lastmod>2013-09-23T02:12:07+00:00</lastmod>
+  <loc>http://startbootstrap.com/stylish-portfolio</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://startbootstrap.com/blog-home</loc>
-  <lastmod>2013-09-23T02:12:06+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/blog-post</loc>
-  <lastmod>2013-09-23T02:12:06+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/bare</loc>
-  <lastmod>2013-09-23T02:12:06+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/full-width-pics</loc>
-  <lastmod>2013-09-23T02:12:06+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/thumbnail-gallery</loc>
-  <lastmod>2013-09-23T02:12:08+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/the-big-picture</loc>
-  <lastmod>2013-09-23T02:12:08+00:00</lastmod>
+  <loc>http://startbootstrap.com/simple-sidebar</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/one-page-wonder</loc>
-  <lastmod>2013-09-23T02:12:07+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://startbootstrap.com/full</loc>
-  <lastmod>2013-09-23T02:12:07+00:00</lastmod>
+  <loc>http://startbootstrap.com/portfolio-item</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/4-col-portfolio</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/3-col-portfolio</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/2-col-portfolio</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/1-col-portfolio</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/half-slider</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/small-business</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/logo-nav</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/blog-home</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/blog-post</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/full-slider</loc>
-  <lastmod>2013-09-23T02:12:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/full-width-pics</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/thumbnail-gallery</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/the-big-picture</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/business-frontpage</loc>
-  <lastmod>2013-09-23T02:12:06+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/round-about</loc>
-  <lastmod>2013-09-23T02:12:08+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/heroic-features</loc>
-  <lastmod>2013-09-23T02:12:07+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://startbootstrap.com/templates/1-col-portfolio</loc>
-  <lastmod>2013-09-23T07:41:59+00:00</lastmod>
+  <loc>http://startbootstrap.com/full</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://startbootstrap.com/templates/2-col-portfolio</loc>
-  <lastmod>2013-09-23T07:41:59+00:00</lastmod>
+  <loc>http://startbootstrap.com/bare</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/half-slider</loc>
-  <lastmod>2013-09-23T01:57:28+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/small-business</loc>
-  <lastmod>2013-09-23T01:57:29+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/logo-nav</loc>
-  <lastmod>2013-09-23T01:57:28+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/blog-home</loc>
-  <lastmod>2013-09-23T01:57:26+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/blog-post</loc>
-  <lastmod>2013-09-23T01:57:26+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/bare</loc>
-  <lastmod>2013-09-23T01:57:26+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/full-width-pics</loc>
-  <lastmod>2013-09-23T01:57:28+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/thumbnail-gallery</loc>
-  <lastmod>2013-09-23T01:57:29+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/the-big-picture</loc>
-  <lastmod>2013-09-23T01:57:29+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/one-page-wonder</loc>
-  <lastmod>2013-09-23T01:57:29+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/full</loc>
-  <lastmod>2013-09-23T01:57:28+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/full-slider</loc>
-  <lastmod>2013-09-23T01:57:28+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/business-frontpage</loc>
-  <lastmod>2013-09-23T01:57:26+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/round-about</loc>
-  <lastmod>2013-09-23T01:57:29+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/templates/heroic-features</loc>
-  <lastmod>2013-09-23T01:57:28+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.51</priority>
 </url>
 </urlset>
