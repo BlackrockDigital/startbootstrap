@@ -11,7 +11,8 @@ body {
 
 .startbootstrap-nav {
   background-color: #b84d45;
-  border: none;
+  border-color: #a5423b;
+  box-shadow: 0 1px 0 rgba(255,255,255,.1);
 }
 
 .startbootstrap-nav .navbar-brand {
@@ -78,6 +79,7 @@ body {
 .startbootstrap-nav .dropdown-menu > .active > a:hover,
 .startbootstrap-nav .dropdown-menu > .active > a:focus {
   background-color: #a5423b;
+  color: #fff;
 }
 
 
