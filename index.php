@@ -24,7 +24,7 @@
             <p>Templates created and maintained by <a href="http://www.ironsummitmedia.com">Iron Summit Media Strategies</a></p>
             <div class="alert alert-info alert-dismissable">
               <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-              <strong>Update 11/23/13:</strong> We've updated all of our templates to Bootstrap v3.0.2 and Font-Awesome v4.0.3! E-commerce templates coming soon!
+              <strong>Update 11/24/13:</strong> Our first e-commerce templates are here! Grab <a class="alert-link" href="shop-homepage.php">'Shop Homepage'</a> and <a class="alert-link" href="shop-item.php">'Shop Item'</a> now! Also be sure to check out <a class="alert-link" target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this e-commerce tutorial</a> for info on how to make these templates into a functional online store!
             </div>
             <div id="social">
               <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
@@ -96,7 +96,7 @@
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
               <a class="thumbnail" href="sb-admin.php"><img src="img/sb-admin.jpg" class="img-responsive" alt="Free Bootstrap Admin Template for Bootstrap 3"></a>
-              <h3>SB Admin <span class="label label-primary">New</span> <span class="label label-success">Full Site</span></h3>
+              <h3>SB Admin <span class="label label-success">Full Site</span></h3>
               <p>A free Bootstrap admin template.</p>
               <div class="btn-group"><a class="btn btn-default" href="sb-admin.php">Preview &amp; Download</a></div>
             </div>
@@ -105,7 +105,7 @@
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
               <a class="thumbnail" href="business-casual.php"><img src="img/business-casual.jpg" class="img-responsive" alt="Business Casual Free Website Theme for Bootstrap 3"></a>
-              <h3>Business Casual <span class="label label-primary">New</span> <span class="label label-success">Full Site</span></h3>
+              <h3>Business Casual <span class="label label-success">Full Site</span></h3>
               <p>A 4 page minimalist website theme.</p>
               <div class="btn-group"><a class="btn btn-default" href="business-casual.php">Preview &amp; Download</a></div>
             </div>
