@@ -156,4 +156,9 @@ table.tablesorter thead tr th:hover {
 	white-space: normal;
   }
 
+  .navbar-collapse {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
 }
