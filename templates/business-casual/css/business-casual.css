@@ -164,3 +164,11 @@ footer p {
 }
 
 }
+
+@media screen and (min-width: 1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
