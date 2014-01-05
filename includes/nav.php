@@ -27,6 +27,9 @@
             <li><a href="/contact">Contact</a></li>
             <li><a href="http://startbootstrap.tumblr.com/">Blog</a></li>
           </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a target="_blank" href="https://wrapbootstrap.com/?ref=StartBootstrap">Premium Themes by Wrap Bootstrap</a></li>
+          </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
     </nav>

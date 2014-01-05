@@ -22,10 +22,6 @@
             <h1>Free HTML Starter Templates for Bootstrap</h1>
             <h3>Built to help you get started on your next Bootstrap project.</h3>
             <p>Templates created and maintained by <a href="http://www.ironsummitmedia.com">Iron Summit Media Strategies</a></p>
-            <div class="alert alert-info alert-dismissable">
-              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-              <strong>Update 11/24/13:</strong> Our first e-commerce templates are here! Grab <a class="alert-link" href="shop-homepage.php">'Shop Homepage'</a> and <a class="alert-link" href="shop-item.php">'Shop Item'</a> now! Also be sure to check out <a class="alert-link" target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this e-commerce tutorial</a> for info on how to make these templates into a functional online store!
-            </div>
             <div id="social">
               <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
               <iframe id="gh-star" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
