@@ -22,6 +22,10 @@
             <h1>Free HTML Starter Templates for Bootstrap</h1>
             <h3>Built to help you get started on your next Bootstrap project.</h3>
             <p>Templates created and maintained by <a href="http://www.ironsummitmedia.com">Iron Summit Media Strategies</a></p>
+            <div class="alert alert-info alert-dismissable">
+              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+              Want to help support Start Bootstrap? <a class="alert-link" href="https://wrapbootstrap.com/theme/flex-admin-responsive-admin-template-WB032SCB1"> Check out our premium admin theme available at WrapBootstrap</a>! It comes with dedicated email support and a whole bunch of great features!
+            </div>
             <div id="social">
               <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
               <iframe id="gh-star" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
@@ -91,6 +95,15 @@
 
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
+              <a class="thumbnail" href="landing-page.php"><img src="img/landing-page.jpg" class="img-responsive" alt="Free Landing Page Template for Bootstrap 3"></a>
+              <h3>Landing Page <span class="label label-primary">New</span></h3>
+              <p>A stylish landing page template.</p>
+              <div class="btn-group"><a class="btn btn-default" href="landing-page.php">Preview &amp; Download</a></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="preview">
               <a class="thumbnail" href="sb-admin.php"><img src="img/sb-admin.jpg" class="img-responsive" alt="Free Bootstrap Admin Template for Bootstrap 3"></a>
               <h3>SB Admin <span class="label label-success">Full Site</span></h3>
               <p>A free Bootstrap admin template.</p>
@@ -131,15 +144,6 @@
               <h3>Simple Sidebar  <span class="label label-danger">Popular</span></h3>
               <p>A sidebar template with a hint of JavaScript.</p>
               <div class="btn-group"><a class="btn btn-default" href="simple-sidebar.php">Preview &amp; Download</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="preview">
-              <a class="thumbnail" href="one-page-wonder.php"><img src="img/one-page-wonder.jpg" class="img-responsive" alt="Free One Page Website Theme for Bootstrap"></a>
-              <h3>One Page Wonder</h3>
-              <p>A stylish one page template built for scrolling.</p>
-              <div class="btn-group"><a class="btn btn-default" href="one-page-wonder.php">Preview &amp; Download</a></div>
             </div>
           </div>
 

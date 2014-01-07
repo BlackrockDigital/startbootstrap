@@ -28,6 +28,15 @@
 
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
+            <a class="thumbnail" href="landing-page.php"><img src="img/landing-page.jpg" class="img-responsive" alt="Free Landing Page Template for Bootstrap 3"></a>
+            <h3>Landing Page <span class="label label-primary">New</span></h3>
+            <p>A stylish landing page template.</p>
+            <div class="btn-group"><a class="btn btn-default" href="landing-page.php">Preview &amp; Download</a></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="preview">
             <a class="thumbnail" href="shop-homepage.php"><img src="img/shop-homepage.jpg" class="img-responsive" alt="Shop Homepage Free Website Theme for Bootstrap 3"></a>
             <h3>Shop Homepage <span class="label label-primary">New</span></h3>
             <p>A simple shop homepage.</p>
@@ -37,19 +46,19 @@
 
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
+            <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/51625/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="preview">
             <a class="thumbnail" href="sb-admin.php"><img src="img/sb-admin.jpg" class="img-responsive" alt="Free Bootstrap Admin Template for Bootstrap 3"></a>
             <h3>SB Admin <span class="label label-success">Full Site</span></h3>
             <p>A free Bootstrap admin template.</p>
             <div class="btn-group"><a class="btn btn-default" href="sb-admin.php">Preview &amp; Download</a></div>
           </div>
         </div>
-
-        <div class="col-lg-4 col-sm-6">
-          <div class="preview">
-            <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/51625/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
-          </div>
-        </div>
-        <div class="clearfix"></div>
 
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
