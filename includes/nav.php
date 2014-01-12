@@ -28,7 +28,8 @@
             <li><a href="http://startbootstrap.tumblr.com/">Blog</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a target="_blank" href="https://wrapbootstrap.com/?ref=StartBootstrap">Premium Themes by Wrap Bootstrap</a></li>
+            <li><a target="_blank" href="http://designmodo.com/shop/?u=787">Frameworks by Designmodo <i class="small fa fa-share"></i></a></li>
+            <li><a class="hidden-sm visible-xs" target="_blank" href="https://wrapbootstrap.com/?ref=StartBootstrap">WrapBootstrap <i class="small fa fa-share"></i></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->

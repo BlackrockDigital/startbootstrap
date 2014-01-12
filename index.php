@@ -24,7 +24,7 @@
             <p>Templates created and maintained by <a href="http://www.ironsummitmedia.com">Iron Summit Media Strategies</a></p>
             <div class="alert alert-info alert-dismissable">
               <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-              Want to help support Start Bootstrap? <a class="alert-link" href="https://wrapbootstrap.com/theme/flex-admin-responsive-admin-template-WB032SCB1"> Check out our premium admin theme available at WrapBootstrap</a>! It comes with dedicated email support and a whole bunch of great features!
+              Looking for a beautifully designed, complete framework? Try one of <a target="_blank" class="alert-link" href="http://designmodo.com/shop/?u=787">Designmodo's excellent products</a>, and help support Start Bootstrap!
             </div>
             <div id="social">
               <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
@@ -89,11 +89,12 @@
     <div class="templates">
       <div class="container">
         <div class="row">
+
           <div class="col-lg-12">
             <h2 class="page-header">Featured Templates:</h2>
           </div>
 
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-md-4">
             <div class="preview">
               <a class="thumbnail" href="landing-page.php"><img src="img/landing-page.jpg" class="img-responsive" alt="Free Landing Page Template for Bootstrap 3"></a>
               <h3>Landing Page <span class="label label-primary">New</span></h3>
@@ -102,7 +103,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-md-4">
             <div class="preview">
               <a class="thumbnail" href="sb-admin.php"><img src="img/sb-admin.jpg" class="img-responsive" alt="Free Bootstrap Admin Template for Bootstrap 3"></a>
               <h3>SB Admin <span class="label label-success">Full Site</span></h3>
@@ -111,25 +112,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-sm-6">
-            <div class="preview">
-              <a class="thumbnail" href="business-casual.php"><img src="img/business-casual.jpg" class="img-responsive" alt="Business Casual Free Website Theme for Bootstrap 3"></a>
-              <h3>Business Casual <span class="label label-success">Full Site</span></h3>
-              <p>A 4 page minimalist website theme.</p>
-              <div class="btn-group"><a class="btn btn-default" href="business-casual.php">Preview &amp; Download</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="preview">
-              <a class="thumbnail" href="modern-business.php"><img src="img/modern-business.jpg" class="img-responsive" alt="Business Full Website Template for Bootstrap 3"></a>
-              <h3>Modern Business <span class="label label-success">Full Site</span></h3>
-              <p>A 17 page multi-purpose template.</p>
-              <div class="btn-group"><a class="btn btn-default" href="modern-business.php">Preview &amp; Download</a></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-md-4">
             <div class="preview">
               <a class="thumbnail" href="stylish-portfolio.php"><img src="img/stylish-portfolio.jpg" class="img-responsive" alt="Stylish Portfolio Template for Bootstrap 3"></a>
               <h3>Stylish Portfolio <span class="label label-danger">Popular</span></h3>
@@ -138,20 +121,52 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-sm-6">
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <a class="btn btn-primary btn-block btn-lg" href="all-templates.php">View All Templates</a>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <h2 class="page-header">Sponsored Templates:</h2>
+          </div>
+
+          <div class="col-md-4">
             <div class="preview">
-              <a class="thumbnail" href="simple-sidebar.php"><img src="img/simple-sidebar.jpg" class="img-responsive" alt="Simple Sidebar HTML Template for Bootstrap 3"></a>
-              <h3>Simple Sidebar  <span class="label label-danger">Popular</span></h3>
-              <p>A sidebar template with a hint of JavaScript.</p>
-              <div class="btn-group"><a class="btn btn-default" href="simple-sidebar.php">Preview &amp; Download</a></div>
+              <a target="_blank" class="thumbnail" href="http://designmodo.com/startup/?u=787"><img src="img/sponsored/startup-framework.jpg" class="img-responsive" alt="Startup Framework - Complete Bootstrap Theme Pacakge"></a>
+              <h3>Startup Framework</h3>
+              <p>A premium design framework. Includes <strong>25 templates</strong>.</p>
+              <div class="btn-group"><a target="_blank" class="btn btn-default" href="http://designmodo.com/startup/?u=787">Preview &amp; Download</a></div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="preview">
+              <a target="_blank" class="thumbnail" href="http://designmodo.com/startup/?u=787"><img src="img/sponsored/designmodo-1.jpg" class="img-responsive" alt="Free Bootstrap Theme Sample by Designmodo"></a>
+              <h3>Startup Demo 1</h3>
+              <p>A free sample framework by Designmodo.</p>
+              <div class="btn-group"><a target="_blank" class="btn btn-default" href="http://designmodo.com/startup/?u=787">Preview &amp; Download</a></div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="preview">
+              <a target="_blank" class="thumbnail" href="http://designmodo.com/startup/?u=787"><img src="img/sponsored/designmodo-2.jpg" class="img-responsive" alt="Free Bootstrap Template Sample by Designmodo"></a>
+              <h3>Startup Demo 2</h3>
+              <p>A free sample framework by Designmodo.</p>
+              <div class="btn-group"><a target="_blank" class="btn btn-default" href="http://designmodo.com/startup/?u=787">Preview &amp; Download</a></div>
             </div>
           </div>
 
         </div>
-        
+
         <div class="row">
-          <div class="col-lg-12">
-            <a class="btn btn-primary btn-lg pull-right" href="all-templates.php">View All Templates <i class="fa fa-angle-double-right"></i></a>
+          <div class="col-md-6 col-md-offset-3">
+            <a target="_blank" class="btn btn-primary btn-block btn-lg" href="http://designmodo.com/shop/?u=787">View All Designmodo Frameworks</a>
           </div>
         </div>
 
