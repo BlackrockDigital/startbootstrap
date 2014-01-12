@@ -18,7 +18,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header">All Start Bootstrap Templates</h1>
+          <h1 class="page-header"><i class="fa fa-archive"></i> All Start Bootstrap Templates</h1>
             <ol class="breadcrumb">
               <li><a href="index.php">Start Bootstrap</a></li>
               <li class="active">Templates</li>

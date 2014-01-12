@@ -16,11 +16,12 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Templates <i class="fa fa-caret-down"></i></a>
               <ul class="dropdown-menu">
-                <li><a href="/all-templates">All Templates</a></li>
+                <li><a href="/all-templates"><i class="fa fa-archive fa-fw"></i> All Templates</a></li>
                 <li class="divider"></li>
-                <li><a href="/home-page-templates">Home Page Templates</a></li>
-                <li><a href="/other-page-templates">Other Page Templates</a></li>
-                <li><a href="/full-site-templates">Full Site Templates</a></li>
+                <li><a href="/sponsored-templates"><i class="fa fa-star fa-fw yellow"></i> Sponsored Templates</a></li>
+                <li><a href="/home-page-templates"><i class="fa fa-home fa-fw"></i> Home Page Templates</a></li>
+                <li><a href="/other-page-templates"><i class="fa fa-file-o fa-fw"></i> Other Page Templates</a></li>
+                <li><a href="/full-site-templates"><i class="fa fa-sitemap fa-fw"></i> Full Site Templates</a></li>
               </ul>
             </li>
             <li><a href="/help">Help</a></li>
