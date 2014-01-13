@@ -18,10 +18,11 @@
               <ul class="dropdown-menu">
                 <li><a href="/all-templates"><i class="fa fa-archive fa-fw"></i> All Templates</a></li>
                 <li class="divider"></li>
-                <li><a href="/sponsored-templates"><i class="fa fa-star fa-fw yellow"></i> Sponsored Templates</a></li>
                 <li><a href="/home-page-templates"><i class="fa fa-home fa-fw"></i> Home Page Templates</a></li>
                 <li><a href="/other-page-templates"><i class="fa fa-file-o fa-fw"></i> Other Page Templates</a></li>
                 <li><a href="/full-site-templates"><i class="fa fa-sitemap fa-fw"></i> Full Site Templates</a></li>
+                <li class="divider"></li>
+                <li><a href="/sponsored-templates"><i class="fa fa-star fa-fw yellow"></i> Buy Bootstrap Templates</a></li>
               </ul>
             </li>
             <li><a href="/help">Help</a></li>
@@ -29,7 +30,7 @@
             <li><a href="http://startbootstrap.tumblr.com/">Blog</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a target="_blank" href="http://designmodo.com/shop/?u=787">Frameworks by Designmodo <i class="small fa fa-share"></i></a></li>
+            <li><a target="_blank" href="http://designmodo.com/shop/?u=787">Bootstrap Templates by Designmodo <i class="small fa fa-share"></i></a></li>
             <li><a class="hidden-sm visible-xs" target="_blank" href="https://wrapbootstrap.com/?ref=StartBootstrap">WrapBootstrap <i class="small fa fa-share"></i></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->

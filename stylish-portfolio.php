@@ -26,12 +26,12 @@
           </ol>
         </div>
         <div class="col-lg-7 col-md-7">
-          <p><a class="thumbnail" href="templates/stylish-portfolio.html" target="_blank" title="View Live Preview"><img class="img-responsive" src="img/stylish-portfolio.jpg"></a></p>
+          <p><a class="thumbnail" href="templates/stylish-portfolio/index.html" target="_blank" title="View Live Preview"><img class="img-responsive" src="img/stylish-portfolio.jpg"></a></p>
           <ul class="list-inline download-links">
-          <li><a class="btn btn-default" href="templates/stylish-portfolio.html" target="_blank"><i class="fa fa-eye"></i> Live Demo</a></li>
+          <li><a class="btn btn-default" href="templates/stylish-portfolio/index.html" target="_blank"><i class="fa fa-eye"></i> Live Demo</a></li>
           <li><a class="btn btn-default" href="downloads/stylish-portfolio.zip"><i class="fa fa-download"></i> Download</a></li>
-          <li><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/templates/stylish-portfolio.html"><i class="fa fa-github"></i> Raw HTML</a></li>
-          <li><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/templates/css/stylish-portfolio.css"><i class="fa fa-github"></i> Raw CSS</a></li>
+          <li><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/templates/stylish-portfolio/index.html"><i class="fa fa-github"></i> Raw HTML</a></li>
+          <li><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/blob/master/templates/stylish-portfolio/css/stylish-portfolio.css"><i class="fa fa-github"></i> Raw CSS</a></li>
           </ul>
         </div>
         <div class="col-lg-5 col-md-5">

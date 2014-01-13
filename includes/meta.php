@@ -1,5 +1,5 @@
-    <meta name="author" content="https://plus.google.com/+Ironsummitmedia">
-    <meta name="publisher" content="https://plus.google.com/+Startbootstrap">
+    <link href="https://plus.google.com/+Startbootstrap" rel="author">
+    <link href="https://plus.google.com/+Startbootstrap" rel="publisher">
     <link rel="icon" href="img/favicon.png" type="image/x-icon">
 
     <!-- Bootstrap core CSS -->

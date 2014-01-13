@@ -24,7 +24,7 @@
             <p>Templates created and maintained by <a href="http://www.ironsummitmedia.com">Iron Summit Media Strategies</a></p>
             <div class="alert alert-info alert-dismissable">
               <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-              Looking for a beautifully designed, complete framework? Try one of <a target="_blank" class="alert-link" href="http://designmodo.com/shop/?u=787">Designmodo's excellent products</a>, and help support Start Bootstrap!
+              Looking for a beautifully designed, Boostrap based design framework? Try out <a target="_blank" class="alert-link" href="http://designmodo.com/startup/?u=787">Designmodo's Startup Framework</a>! Enter the code <strong>'START' at checkout to receive 15% off</strong> of your total purchase, courtesy of Start Bootstrap!
             </div>
             <div id="social">
               <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
@@ -137,28 +137,28 @@
 
           <div class="col-md-4">
             <div class="preview">
-              <a target="_blank" class="thumbnail" href="http://designmodo.com/startup/?u=787"><img src="img/sponsored/startup-framework.jpg" class="img-responsive" alt="Startup Framework - Complete Bootstrap Theme Pacakge"></a>
+              <a target="_blank" class="thumbnail" href="sponsored-templates.php"><img src="img/sponsored/startup-framework.jpg" class="img-responsive" alt="Startup Framework - Complete Bootstrap Theme Pacakge"></a>
               <h3>Startup Framework</h3>
-              <p>A premium design framework. Includes <strong>25 templates</strong>.</p>
-              <div class="btn-group"><a target="_blank" class="btn btn-default" href="http://designmodo.com/startup/?u=787">Preview &amp; Download</a></div>
+              <p>A premium framework includinig <strong>25 bootstrap templates</strong>.</p>
+              <div class="btn-group"><a target="_blank" class="btn btn-default" href="sponsored-templates.php">Preview &amp; Buy</a></div>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="preview">
               <a target="_blank" class="thumbnail" href="http://designmodo.com/startup/?u=787"><img src="img/sponsored/designmodo-1.jpg" class="img-responsive" alt="Free Bootstrap Theme Sample by Designmodo"></a>
-              <h3>Startup Demo 1</h3>
-              <p>A free sample framework by Designmodo.</p>
-              <div class="btn-group"><a target="_blank" class="btn btn-default" href="http://designmodo.com/startup/?u=787">Preview &amp; Download</a></div>
+              <h3>Free Demo Template #1</h3>
+              <p>A free Demo Version of the Startup Framework by Designmodo.</p>
+              <div class="btn-group"><a target="_blank" class="btn btn-default" href="http://designmodo.github.io/startup-demo/?u=787">Preview &amp; Download</a></div>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="preview">
               <a target="_blank" class="thumbnail" href="http://designmodo.com/startup/?u=787"><img src="img/sponsored/designmodo-2.jpg" class="img-responsive" alt="Free Bootstrap Template Sample by Designmodo"></a>
-              <h3>Startup Demo 2</h3>
-              <p>A free sample framework by Designmodo.</p>
-              <div class="btn-group"><a target="_blank" class="btn btn-default" href="http://designmodo.com/startup/?u=787">Preview &amp; Download</a></div>
+              <h3>Free Demo Template #1</h3>
+              <p>A free Demo Version of the Startup Framework by Designmodo.</p>
+              <div class="btn-group"><a target="_blank" class="btn btn-default" href="http://designmodo.github.io/startup-demo/?u=787">Preview &amp; Download</a></div>
             </div>
           </div>
 
@@ -166,7 +166,7 @@
 
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
-            <a target="_blank" class="btn btn-primary btn-block btn-lg" href="http://designmodo.com/shop/?u=787">View All Designmodo Frameworks</a>
+            <a target="_blank" class="btn btn-primary btn-block btn-lg" href="http://designmodo.com/shop/?u=787">View All Designmodo Bootstrap Templates</a>
           </div>
         </div>
 
@@ -174,7 +174,7 @@
     </div>
     
     <hr>
-    
+
 <?php include_once('includes/footer.php'); ?>
 
 <?php include_once('includes/js.php'); ?>

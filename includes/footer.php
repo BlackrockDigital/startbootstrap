@@ -3,7 +3,13 @@
       
         <div class="row">
           <div class="col-lg-12">
-            <p><a href="index.php">Home</a> &middot; <a href="all-templates.php">Templates</a> &middot; <a href="help.php">Help</a> &middot; <a href="contact.php">Contact</a> &middot; <a href="http://startbootstrap.tumblr.com/">Blog</a><span class="pull-right hidden-sm"><a href="#">Back to top</a></span></p>
+            <p>
+              <a href="index.php">Home</a> &middot; <a href="all-templates.php">Templates</a> &middot; 
+              <a href="help.php">Help</a> &middot; 
+              <a href="contact.php">Contact</a> &middot; 
+              <a href="http://startbootstrap.tumblr.com/">Blog</a>
+              <span class="pull-right hidden-sm"><a href="#">Back to top</a></span>
+            </p>
             <p>
               <iframe id="gh-fork" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
               <iframe id="gh-star" src="http://ghbtns.com/github-btn.html?user=ironsummitmedia&repo=startbootstrap&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
