@@ -71,6 +71,9 @@
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
           <a class="thumbnail" href="https://wrapbootstrap.com/theme/flex-admin-responsive-admin-template-WB032SCB1" title="Flex Admin Premium Template"><img src="img/flex-admin.jpg" alt="Premium Admin Template for Bootstrap 3"></a>
+        </div>        
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+          <a class="thumbnail" href="sb-admin-v2.php" title="SB Admin 2 Template"><img src="img/sb-admin-v2.jpg" alt="Free Admin Template for Bootstrap 3"></a>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
           <a class="thumbnail" href="simple-sidebar.php" title="Simple Sidebar Template"><img src="img/simple-sidebar.jpg"></a>

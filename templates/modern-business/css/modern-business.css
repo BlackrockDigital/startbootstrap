@@ -9,11 +9,12 @@ For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap
 /* Global Styles */
 
 html, body {
-  height:100%;
+  height: 100%;
 }
 
 body {
-  padding-top: 50px; /* body padding for fixed top nav */
+  padding-top: 50px;
+ /* body padding for fixed top nav */
 }
 
 .img-home-portfolio,
@@ -33,7 +34,8 @@ body {
 }
 
 .section-colored {
-  background-color: #e1e1e1; /* change this to change the background color of a colored section */
+  background-color: #e1e1e1;
+ /* change this to change the background color of a colored section */
 }
 
 .sidebar {
@@ -123,8 +125,8 @@ footer {
 /* Responsive Styles */
 @media (max-width: 767px) {
 
-.carousel {
-  height: 70%; /* increases the carousel height so it looks good on phones */
-}
-
+  .carousel {
+    height: 70%;
+ /* increases the carousel height so it looks good on phones */
+  }
 }
