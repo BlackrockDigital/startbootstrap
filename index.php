@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Free HTML Starter Templates for Bootstrap - Up to date for Bootstrap 3! An even faster way to develop websites in Bootstrap!">
 
-    <title>Start Bootstrap - Free HTML Templates for Bootstrap 3</title>
+    <title>Start Bootstrap - Free HTML Templates and Themes for Bootstrap 3</title>
 
 <?php include_once('includes/meta.php'); ?>
   </head>
@@ -139,7 +139,7 @@
             <div class="preview">
               <a target="_blank" class="thumbnail" href="sponsored-templates.php"><img src="img/sponsored/startup-framework.jpg" class="img-responsive" alt="Startup Framework - Complete Bootstrap Theme Pacakge"></a>
               <h3>Startup Framework</h3>
-              <p>A premium framework includinig <strong>25 bootstrap templates</strong>.</p>
+              <p>A premium framework including <strong>25 bootstrap templates</strong>.</p>
               <div class="btn-group"><a target="_blank" class="btn btn-default" href="sponsored-templates.php">Preview &amp; Buy</a></div>
             </div>
           </div>

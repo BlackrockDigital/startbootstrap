@@ -32,6 +32,10 @@
           <li><a class="btn btn-default" href="downloads/sb-admin.zip"><i class="fa fa-download"></i> Download</a></li>
           <li><a class="btn btn-default" href="https://github.com/IronSummitMedia/startbootstrap/tree/master/templates/sb-admin"><i class="fa fa-github"></i> Source Files</a></li>
           </ul>
+          <div class="alert alert-info alert-dismissable">
+              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+              Check out <a class="alert-link" href="sb-admin-v2.php">SB Admin 2</a>! A new and improved, free admin template!
+          </div>
         </div>
         <div class="col-lg-5 col-md-5">
           <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/51625/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
