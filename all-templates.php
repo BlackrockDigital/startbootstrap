@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Free HTML Starter Templates for Bootstrap - Up to date for Bootstrap 3! An even faster way to develop websites in Bootstrap!">
 
-    <title>Start Bootstrap - Free HTML Templates for Bootstrap 3</title>
+    <title>Start Bootstrap - All Free Bootstrap Templates and Themes</title>
 
 <?php include_once('includes/meta.php'); ?>
   </head>
@@ -21,7 +21,7 @@
           <h1 class="page-header"><i class="fa fa-archive"></i> All Start Bootstrap Templates</h1>
             <ol class="breadcrumb">
               <li><a href="index.php">Start Bootstrap</a></li>
-              <li class="active">Templates</li>
+              <li class="active">All Templates</li>
             </ol>
         </div>
 
@@ -34,14 +34,14 @@
           </div>
         </div>
 
-        <div class="col-md-4">
-            <div class="preview">
-              <a class="thumbnail" href="sb-admin-v2.php"><img src="img/sb-admin-v2.jpg" class="img-responsive" alt="Free Bootstrap Admin Template for Bootstrap 3"></a>
-              <h3>SB Admin 2 <span class="label label-primary">New</span></h3>
-              <p>A <em>better</em> free Bootstrap admin template.</p>
-              <div class="btn-group"><a class="btn btn-default" href="sb-admin-v2.php">Preview &amp; Download</a></div>
-            </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="preview">
+            <a class="thumbnail" href="grayscale.php"><img src="img/grayscale.jpg" class="img-responsive" alt="Free Bootstrap Responsive One Page Theme"></a>
+            <h3>Grayscale <span class="label label-primary">New</span></h3>
+            <p>A free, responsive, one page Bootstrap theme.</p>
+            <div class="btn-group"><a class="btn btn-default" href="grayscale.php">Preview &amp; Download</a></div>
           </div>
+        </div>
 
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
@@ -52,8 +52,17 @@
 
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
+            <a class="thumbnail" href="sb-admin-v2.php"><img src="img/sb-admin-v2.jpg" class="img-responsive" alt="Free Bootstrap Admin Template for Bootstrap 3"></a>
+            <h3>SB Admin 2 <span class="label label-primary">New</span></h3>
+            <p>A <em>better</em> free Bootstrap admin template.</p>
+            <div class="btn-group"><a class="btn btn-default" href="sb-admin-v2.php">Preview &amp; Download</a></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="preview">
             <a class="thumbnail" href="landing-page.php"><img src="img/landing-page.jpg" class="img-responsive" alt="Free Landing Page Template for Bootstrap 3"></a>
-            <h3>Landing Page <span class="label label-primary">New</span></h3>
+            <h3>Landing Page <span class="label label-danger">Popular</span></h3>
             <p>A stylish landing page template.</p>
             <div class="btn-group"><a class="btn btn-default" href="landing-page.php">Preview &amp; Download</a></div>
           </div>
@@ -116,7 +125,7 @@
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
             <a class="thumbnail" href="simple-sidebar.php"><img src="img/simple-sidebar.jpg" class="img-responsive" alt="Simple Sidebar HTML Template for Bootstrap 3"></a>
-            <h3>Simple Sidebar  <span class="label label-danger">Popular</span></h3>
+            <h3>Simple Sidebar</h3>
             <p>A sidebar template with a hint of JavaScript.</p>
             <div class="btn-group"><a class="btn btn-default" href="simple-sidebar.php">Preview &amp; Download</a></div>
           </div>

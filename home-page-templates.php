@@ -26,21 +26,21 @@
             </ol>
         </div>
 
-          <div class="col-md-4">
-            <div class="preview">
-              <a class="thumbnail" href="sb-admin-v2.php"><img src="img/sb-admin-v2.jpg" class="img-responsive" alt="Free Bootstrap Admin Template for Bootstrap 3"></a>
-              <h3>SB Admin 2 <span class="label label-primary">New</span></h3>
-              <p>A <em>better</em> free Bootstrap admin template.</p>
-              <div class="btn-group"><a class="btn btn-default" href="sb-admin-v2.php">Preview &amp; Download</a></div>
-            </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="preview">
+            <a class="thumbnail" href="grayscale.php"><img src="img/grayscale.jpg" class="img-responsive" alt="Free Bootstrap Responsive One Page Theme"></a>
+            <h3>Grayscale <span class="label label-primary">New</span></h3>
+            <p>A free, responsive, one page Bootstrap theme.</p>
+            <div class="btn-group"><a class="btn btn-default" href="grayscale.php">Preview &amp; Download</a></div>
           </div>
+        </div>
 
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
-            <a class="thumbnail" href="landing-page.php"><img src="img/landing-page.jpg" class="img-responsive" alt="Free Landing Page Template for Bootstrap 3"></a>
-            <h3>Landing Page <span class="label label-primary">New</span></h3>
-            <p>A stylish landing page template.</p>
-            <div class="btn-group"><a class="btn btn-default" href="landing-page.php">Preview &amp; Download</a></div>
+            <a class="thumbnail" href="sb-admin-v2.php"><img src="img/sb-admin-v2.jpg" class="img-responsive" alt="Free Bootstrap Admin Template for Bootstrap 3"></a>
+            <h3>SB Admin 2 <span class="label label-primary">New</span></h3>
+            <p>A <em>better</em> free Bootstrap admin template.</p>
+            <div class="btn-group"><a class="btn btn-default" href="sb-admin-v2.php">Preview &amp; Download</a></div>
           </div>
         </div>
 
@@ -50,6 +50,15 @@
           </div>
         </div>
         <div class="clearfix"></div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="preview">
+            <a class="thumbnail" href="landing-page.php"><img src="img/landing-page.jpg" class="img-responsive" alt="Free Landing Page Template for Bootstrap 3"></a>
+            <h3>Landing Page <span class="label label-danger">Popular</span></h3>
+            <p>A stylish landing page template.</p>
+            <div class="btn-group"><a class="btn btn-default" href="landing-page.php">Preview &amp; Download</a></div>
+          </div>
+        </div>
 
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
@@ -99,7 +108,7 @@
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
             <a class="thumbnail" href="simple-sidebar.php"><img src="img/simple-sidebar.jpg" class="img-responsive" alt="Simple Sidebar HTML Template for Bootstrap 3"></a>
-            <h3>Simple Sidebar <span class="label label-danger">Popular</span></h3>
+            <h3>Simple Sidebar</h3>
             <p>A sidebar template with a hint of JavaScript.</p>
             <div class="btn-group"><a class="btn btn-default" href="simple-sidebar.php">Preview &amp; Download</a></div>
           </div>
