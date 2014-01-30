@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Our collection of free landing page templates and themes for Bootstrap features simple, easy to customize templats and styled, themed options as well!">
+    <meta name="description" content="Free HTML Starter Templates for Bootstrap - Up to date for Bootstrap 3! An even faster way to develop websites in Bootstrap!">
 
-    <title>Start Bootstrap - Free Landing Page Templates and Themes for Bootstrap 3</title>
+    <title>Start Bootstrap - Free One Page, Responsive Bootstrap Templates and Themes</title>
 
 <?php include_once('includes/meta.php'); ?>
   </head>
@@ -18,11 +18,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header">Landing Page Templates</h1>
+          <h1 class="page-header">One Page Templates</h1>
             <ol class="breadcrumb">
               <li><a href="index.php">Start Bootstrap</a></li>
-              <li><a href="all-templates.php">Templates</a></li>
-              <li class="active">Landing Page Templates</li>
+              <li class="active">One Page Templates</li>
             </ol>
         </div>
 
@@ -71,15 +70,6 @@
 
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
-            <a class="thumbnail" href="small-business.php"><img src="img/small-business.jpg" class="img-responsive" alt="Small Business HTML Template for Twitter Bootstrap 3"></a>
-            <h3>Small Business</h3>
-            <p>A small business template.</p>
-            <div class="btn-group"><a class="btn btn-default" href="small-business.php">Preview &amp; Download</a></div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-          <div class="preview">
             <a class="thumbnail" href="full-slider.php"><img src="img/full-slider.jpg" class="img-responsive" alt="Full Page Background Slider Template for Twitter Bootstrap 3"></a>
             <h3>Full Slider</h3>
             <p>A full page background slider.</p>
@@ -98,55 +88,10 @@
 
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
-            <a class="thumbnail" href="the-big-picture.php"><img src="img/the-big-picture.jpg" class="img-responsive" alt="Portfolio Template for Twitter Bootstrap"></a>
-            <h3>The Big Picture</h3>
-            <p>An image background with a fixed bottom nav.</p>
-            <div class="btn-group"><a class="btn btn-default" href="the-big-picture.php">Preview &amp; Download</a></div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-          <div class="preview">
-            <a class="thumbnail" href="business-frontpage.php"><img src="img/business-frontpage.jpg" class="img-responsive" alt="Business Frontpage Bootstrap Template"></a>
-            <h3>Business Frontpage</h3>
-            <p>A full width image header with a fixed nav.</p>
-            <div class="btn-group"><a class="btn btn-default" href="business-frontpage.php">Preview &amp; Download</a></div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-          <div class="preview">
             <a class="thumbnail" href="one-page-wonder.php"><img src="img/one-page-wonder.jpg" class="img-responsive" alt="One Page Free Bootstrap HTML Template"></a>
             <h3>One Page Wonder</h3>
             <p>A stylish one page template built for scrolling.</p>
             <div class="btn-group"><a class="btn btn-default" href="one-page-wonder.php">Preview &amp; Download</a></div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-          <div class="preview">
-            <a class="thumbnail" href="heroic-features.php"><img src="img/heroic-features.jpg" class="img-responsive" alt="Free Bootstrap Home Page Template"></a>
-            <h3>Heroic Features</h3>
-            <p>Feature awesome text-based content.</p>
-            <div class="btn-group"><a class="btn btn-default" href="heroic-features.php">Preview &amp; Download</a></div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-          <div class="preview">
-            <a class="thumbnail" href="full.php"><img src="img/full.jpg" class="img-responsive" alt="Free Bootstrap Full Page Image Background Template"></a>
-            <h3>Full</h3>
-            <p>A fixed position full page image background.</p>
-            <div class="btn-group"><a class="btn btn-default" href="full.php">Preview &amp; Download</a></div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-          <div class="preview">
-            <a class="thumbnail" href="bare.php"><img src="img/bare.jpg" class="img-responsive" alt="HTML Starter Template for Bootstrap 3"></a>
-            <h3>Bare</h3>
-            <p>A barebones Bootstrap HTML template.</p>
-            <div class="btn-group"><a class="btn btn-default" href="bare.php">Preview &amp; Download</a></div>
           </div>
         </div>
 

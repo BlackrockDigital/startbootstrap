@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Free HTML Starter Templates for Bootstrap - Up to date for Bootstrap 3! An even faster way to develop websites in Bootstrap!">
 
-    <title>Start Bootstrap - Free HTML Templates for Bootstrap 3</title>
+    <title>Start Bootstrap - All Free Bootstrap Templates and Themes</title>
 
 <?php include_once('includes/meta.php'); ?>
   </head>
@@ -18,29 +18,28 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header">Full Website Templates</h1>
+          <h1 class="page-header"><i class="fa fa-globe"></i> All Start Bootstrap Templates</h1>
             <ol class="breadcrumb">
               <li><a href="index.php">Start Bootstrap</a></li>
-              <li><a href="all-templates.php">Templates</a></li>
-              <li class="active">Full Website Templates</li>
+              <li class="active">All Templates</li>
             </ol>
         </div>
 
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
-            <a class="thumbnail" href="business-casual.php"><img src="img/business-casual.jpg" class="img-responsive" alt="Business Casual Free Website Theme for Bootstrap 3"></a>
-            <h3>Business Casual <span class="label label-success">Full Site</span></h3>
-            <p>A 4 page minimalist website theme.</p>
-            <div class="btn-group"><a class="btn btn-default" href="business-casual.php">Preview &amp; Download</a></div>
+            <a class="thumbnail" href="simple-sidebar.php"><img src="img/simple-sidebar.jpg" class="img-responsive" alt="Simple Sidebar HTML Template for Bootstrap 3"></a>
+            <h3>Simple Sidebar</h3>
+            <p>A sidebar template with a hint of JavaScript.</p>
+            <div class="btn-group"><a class="btn btn-default" href="simple-sidebar.php">Preview &amp; Download</a></div>
           </div>
         </div>
-        
+
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
-            <a class="thumbnail" href="modern-business.php"><img src="img/modern-business.jpg" class="img-responsive" alt="Business Full Website Template for Twitter Bootstrap 3"></a>
-            <h3>Modern Business <span class="label label-success">Full Site</span></h3>
-            <p>A 17 page multi-purpose template.</p>
-            <div class="btn-group"><a class="btn btn-default" href="modern-business.php">Preview &amp; Download</a></div>
+            <a class="thumbnail" href="logo-nav.php"><img src="img/logo-nav.jpg" class="img-responsive" alt="Custom Navbar Template with Logo for Twitter Bootstrap 3"></a>
+            <h3>Logo Nav</h3>
+            <p>A right aligned nav with a logo.</p>
+            <div class="btn-group"><a class="btn btn-default" href="logo-nav.php">Preview &amp; Download</a></div>
           </div>
         </div>
 
@@ -50,6 +49,15 @@
           </div>
         </div>
         <div class="clearfix"></div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="preview">
+            <a class="thumbnail" href="bare.php"><img src="img/bare.jpg" class="img-responsive" alt="HTML Starter Template for Bootstrap 3"></a>
+            <h3>Bare</h3>
+            <p>A barebones Bootstrap HTML template.</p>
+            <div class="btn-group"><a class="btn btn-default" href="bare.php">Preview &amp; Download</a></div>
+          </div>
+        </div>
 
       </div>
     </div>

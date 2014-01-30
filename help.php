@@ -25,13 +25,13 @@
           </ol>
         </div>
         <div class="col-lg-8 col-md-8">
-          <div class="alert alert-info">
-            <button type="button" class="close" data-dismiss="alert">&times;</button>
-            Our help page is still under development. Please contact us if you have any issues or suggestions. Thanks!
-          </div>
+          <h2>About Bootstrap</h2>
+          <p>Bootstrap is a "sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development." Before using any of Start Bootstrap's templates, it is recommended that you take a look at the <a href="http://getbootstrap.com">offical Bootstrap website</a> to understand the framework's capabilities and usage.</p>
           <h2>Using the Templates</h2>
-          <p>The templates featured on Start Bootstrap are built using the <a href="http://getbootstrap.com">Bootstrap 3</a> framework. In order to get the most out of these free templates, we recommend that you build an in-depth understanding of the Bootstrap framework. Some of these templates can be great learning tools and are a great place to start, but to unlock their full potential they will require some personalized customization.</p>
-          <p>Each template is a standalone HTML file. The templates also have a corresponding custom CSS file (ex. <code>one-page-wonder.html</code> and <code>one-page-wonder.css</code>) To access the templates you can either download the .zip file for a template (each .zip file is pre-packaged with the Bootstrap core components and jQuery), you can view the live preview and copy the HTML/CSS source code directly using your browser, or you can view the source files on GitHub.</p>
+          <p>The templates featured on Start Bootstrap are built using the <a href="http://getbootstrap.com">Bootstrap 3</a> framework. In order to get the most out of these free templates, we recommend that you build an in-depth understanding of the Bootstrap framework itself. The templates featured on Start Bootstrap can be great learning tools and are a great place to start when building a website. To unlock their full potential, the templates and themes will require some additional personalized customization.</p>
+          <p>To access the templates you can either download the .zip file for a template located on the template's preview page, you can view the live preview and copy the HTML/CSS source code directly, or you find the templates on our GitHub repository.</p>
+          <h2>Copyright and License</h2>
+          <p>Start Bootstrap is licensed under the Apache License, Version 2.0. The free templates and themes featured are open source, and free to use for any purpose - commercial or otherwise. You can <a href="https://github.com/IronSummitMedia/startbootstrap/blob/master/LICENSE">view a copy of our license</a> in the Start Bootstrap GitHub repository.</p>
           <h2>Bootstrap 3 Learning Resources</h2>
           <ul>
               <li><a href="http://getbootstrap.com/getting-started/">Official Bootstrap Documentation</a></li>

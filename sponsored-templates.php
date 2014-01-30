@@ -21,11 +21,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header"><i class="fa fa-star yellow"></i> Buy Startup Framework <small>by Designmodo</small></h1>
+          <h1 class="page-header"><i class="fa fa-shopping-cart"></i> Buy Startup Framework <small>by Designmodo</small></h1>
             <ol class="breadcrumb">
               <li><a href="index.php">Start Bootstrap</a></li>
               <li><a href="all-templates.php">Templates</a></li>
-              <li class="active"><i class="fa fa-star"></i> Startup Framework</li>
+              <li class="active"><i class="fa fa-shopping-cart"></i> Startup Framework</li>
             </ol>
           <div class="alert alert-info alert-dismissable">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
