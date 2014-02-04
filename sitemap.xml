@@ -17,17 +17,57 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://startbootstrap.com/home-page-templates</loc>
+  <loc>http://startbootstrap.com/popular-templates</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://startbootstrap.com/other-page-templates</loc>
+  <loc>http://startbootstrap.com/sponsored-templates</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/admin-dashboard-templates</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/full-site-templates</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/home-page-templates</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/one-page-templates</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/portfolio-templates</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/blog-templates</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/ecommerce-shop-templates</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/unstyled-templates</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/navigation-templates</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
@@ -42,34 +82,54 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://startbootstrap.com/sb-admin</loc>
+  <loc>http://startbootstrap.com/grayscale</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/sb-admin-v2</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/landing-page</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/shop-homepage</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/shop-item</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/sb-admin</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/business-casual</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/modern-business</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/stylish-portfolio</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/simple-sidebar</loc>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://startbootstrap.com/one-page-wonder</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://startbootstrap.com/portfolio-item</loc>
@@ -143,6 +203,11 @@
 </url>
 <url>
   <loc>http://startbootstrap.com/business-frontpage</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/one-page-wonder</loc>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>

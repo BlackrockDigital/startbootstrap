@@ -54,6 +54,7 @@
           <h4>Have an idea for a template?</h4>
           <p>Let us know! We love to create templates suggested by our users. Email us at <a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a> if you have an idea for a template you would like to see!</p>
         </div>
+
       </div>
     </div>
 

@@ -40,6 +40,7 @@
         <div class="col-lg-12">
           <h3>Design Recommendations and Features:</h3>
             <ul>
+              <li><span class="label label-primary">New</span> The scrolling navigation in Grayscale can be accessed as a raw, unstyled version in our <a href="scrolling-nav.php">Scrolling Nav template</a>.</li>
               <li>This template is a fully functional, premium quality Bootstrap theme. It includes the following features:</li>
                 <ul>
                   <li>Easing scroll function for smooth navigation - uses jQuery easing plugin.</li>
@@ -70,6 +71,9 @@
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
           <a class="thumbnail" href="full-slider.php" title="Stylish Portfolio"><img src="img/stylish-portfolio.jpg"></a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+          <a class="thumbnail" href="scrolling-nav.php" title="Scrolling Nav"><img src="img/scrolling-nav.jpg"></a>
         </div>
       </div>
     </div>

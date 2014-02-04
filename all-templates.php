@@ -36,10 +36,10 @@
 
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
-            <a class="thumbnail" href="grayscale.php"><img src="img/grayscale.jpg" class="img-responsive" alt="Free Bootstrap Responsive One Page Theme"></a>
-            <h3>Grayscale <span class="label label-primary">New</span></h3>
-            <p>A free, responsive, one page Bootstrap theme.</p>
-            <div class="btn-group"><a class="btn btn-default" href="grayscale.php">Preview &amp; Download</a></div>
+            <a class="thumbnail" href="scrolling-nav.php"><img src="img/scrolling-nav.jpg" class="img-responsive" alt="Free Bootstrap Responsive Scrolling Navbar Template"></a>
+            <h3>Scrolling Nav <span class="label label-primary">New</span></h3>
+            <p>A basic scrolling navbar template.</p>
+            <div class="btn-group"><a class="btn btn-default" href="scrolling-nav.php">Preview &amp; Download</a></div>
           </div>
         </div>
 
@@ -49,6 +49,15 @@
           </div>
         </div>
         <div class="clearfix"></div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="preview">
+            <a class="thumbnail" href="grayscale.php"><img src="img/grayscale.jpg" class="img-responsive" alt="Free Bootstrap Responsive One Page Theme"></a>
+            <h3>Grayscale <span class="label label-primary">New</span></h3>
+            <p>A free, responsive, one page Bootstrap theme.</p>
+            <div class="btn-group"><a class="btn btn-default" href="grayscale.php">Preview &amp; Download</a></div>
+          </div>
+        </div>
 
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
@@ -312,9 +321,8 @@
         </div>
 
         <div class="col-lg-4 col-sm-6">
-          <div class="preview">
-            <h2>New Templates Added Weekly!</h2>
-          </div>
+          <h4>Have an idea for a template?</h4>
+          <p>Let us know! We love to create templates suggested by our users. Email us at <a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a> if you have an idea for a template you would like to see!</p>
         </div>
 
       </div>
