@@ -7,7 +7,7 @@
 
     <!-- Font Awesome CSS -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-    
+
     <!-- Start Bootstrap CSS - DON'T USE THIS FOR THE TEMPLATES! -->
     <link href="css/startbootstrap.css" rel="stylesheet">
     <link href="css/ads.css" rel="stylesheet">

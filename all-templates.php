@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Free HTML Starter Templates for Bootstrap - Up to date for Bootstrap 3! An even faster way to develop websites in Bootstrap!">
 
-    <title>Start Bootstrap - All Free Bootstrap Templates and Themes</title>
+    <title>Start Bootstrap - All Free Bootstrap Themes and Templates</title>
 
 <?php include_once('includes/meta.php'); ?>
   </head>
