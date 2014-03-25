@@ -46,6 +46,6 @@ $email_content .= "Message:\n\n$message";
 mail ('YOUR-EMAIL-ADDRESS@YOUR-DOMAIN.com', 'YOUR WEBSITE NAME - Contact Form Submission', $email_content, $headers);
 	
 // send the user back to the form
-header('Location: contact.html?s='.urlencode('Thank you for your message.')); exit;
+header('Location: contact.php?s='.urlencode('Thank you for your message.')); exit;
 
 ?>
