@@ -9,7 +9,7 @@ For more information please visit the website at http://startbootstrap.com.
 
 Copyright and License
 ----
-Copyright 2013 [Iron Summit Media Strategies](http://www.ironsummitmedia.com/)
+Copyright 2013-2014 [Iron Summit Media Strategies](http://www.ironsummitmedia.com/)
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
