@@ -60,6 +60,7 @@
             <ul>
               <li>SB Admin 2 is an updated version of the original SB Admin free Bootstrap admin template.</li>
               <li>We recommend customizing the admin template beyond the default Bootstrap theme.</li>
+              <li>If you want to have the menu bar display as static, simply change from <code>navbar-fixed-top</code> to <code>navbar-static-top</code> and remove the <code>padding-top: 50px</code> and <code>padding-top: 100px</code> from both of the <code>body</code> elemends in the <code>sb-admin.css</code> stylesheet.</li>
             </ul>
         </div>
         <div class="col-lg-12">

@@ -4,7 +4,13 @@
 
  body {
     background-color: #f8f8f8;
-    padding-top: 50px;
+    padding-top: 100px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 50px;
+    }
 }
 
 /* Wrappers */
