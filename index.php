@@ -110,11 +110,22 @@
 
                 <div class="col-md-4">
                     <div class="preview">
+                        <a class="thumbnail" href="freelancer.php">
+                            <img src="img/freelancer.jpg" class="img-responsive" alt="Free One Page Website Theme for Bootstrap 3">
+                        </a>
+                        <h3>Freelancer <span class="label label-primary">New</span></h3>
+                        <p>A one page freelancer theme.</p>
+                        <div class="btn-group"><a class="btn btn-default" href="freelancer.php">Preview &amp; Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="preview">
                         <a class="thumbnail" href="grayscale.php">
                             <img src="img/grayscale.jpg" class="img-responsive" alt="Free Bootstrap Responsive One Page Theme">
                         </a>
-                        <h3>Grayscale <span class="label label-primary">New</span>
-                        </h3>
+                        <h3>Grayscale</h3>
                         <p>A free, responsive, one page Bootstrap theme.</p>
                         <div class="btn-group"><a class="btn btn-default" href="grayscale.php">Preview &amp; Download</a>
                         </div>
@@ -126,22 +137,9 @@
                         <a class="thumbnail" href="sb-admin-v2.php">
                             <img src="img/sb-admin-v2.jpg" class="img-responsive" alt="Free Bootstrap Admin Template for Bootstrap 3">
                         </a>
-                        <h3>SB Admin 2 <span class="label label-primary">New</span>
-                        </h3>
+                        <h3>SB Admin 2</h3>
                         <p>A <em>better</em> free Bootstrap admin template.</p>
                         <div class="btn-group"><a class="btn btn-default" href="sb-admin-v2.php">Preview &amp; Download</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="preview">
-                        <a class="thumbnail" href="landing-page.php">
-                            <img src="img/landing-page.jpg" class="img-responsive" alt="Free Landing Page Template for Bootstrap 3">
-                        </a>
-                        <h3>Landing Page</h3>
-                        <p>A stylish landing page template.</p>
-                        <div class="btn-group"><a class="btn btn-default" href="landing-page.php">Preview &amp; Download</a>
                         </div>
                     </div>
                 </div>

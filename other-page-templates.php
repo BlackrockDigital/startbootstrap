@@ -29,7 +29,7 @@
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
             <a class="thumbnail" href="sb-admin-v2.php"><img src="img/sb-admin-v2.jpg" class="img-responsive" alt="Free Bootstrap Admin Template for Bootstrap 3"></a>
-            <h3>SB Admin 2 <span class="label label-primary">New</span></h3>
+            <h3>SB Admin 2 <span class="label label-danger">Popular</span></h3>
             <p>A <em>better</em> free Bootstrap admin template.</p>
             <div class="btn-group"><a class="btn btn-default" href="sb-admin-v2.php">Preview &amp; Download</a></div>
           </div>

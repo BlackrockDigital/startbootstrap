@@ -28,7 +28,7 @@
         <div class="col-lg-4 col-sm-6">
           <div class="preview">
             <a class="thumbnail" href="scrolling-nav.php"><img src="img/scrolling-nav.jpg" class="img-responsive" alt="Free Bootstrap Responsive Scrolling Navbar Template"></a>
-            <h3>Scrolling Nav <span class="label label-primary">New</span></h3>
+            <h3>Scrolling Nav</h3>
             <p>A basic scrolling navbar template.</p>
             <div class="btn-group"><a class="btn btn-default" href="scrolling-nav.php">Preview &amp; Download</a></div>
           </div>
