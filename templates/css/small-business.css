@@ -2,8 +2,8 @@ body {
 	margin-top: 125px; /* adjust this if the height of the menu bar changes */
 }
 
-.nav {
-	margin-top: 28px; /* this is a faux center fix for the nav options - adjust this if you wish to change the logo height or the font of the menu items */
+.navbar-fixed-top .nav {
+	padding: 15px 0;
 }
 
 footer {

@@ -42,7 +42,6 @@
           <h3>Design Recommendations:</h3>
             <ul>
               <li>Use a retina-ready, responsive image option for the logo in the navigation bar, for example, <a href="http://retinajs.com/" target="_blank">retina.js</a>.</li>
-              <li>The menu items are centered with a faux center. You will need to edit the <code>logo-nav.css</code> file if you change the size of the logo or the size of the menu items in order to recenter the menu items.</li>
             </ul>
         </div>
         <div class="col-lg-12">

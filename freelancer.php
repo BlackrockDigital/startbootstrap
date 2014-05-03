@@ -44,7 +44,7 @@
               <li>Build with the <a href="http://bootswatch.com/flatly/">Flatly Theme</a> by <a href="http://bootswatch.com/">Bootswatch</a>. Try it with other Bootswatch skins!</li>
               <li>LESS files included for deeper customization.</li>
               <li>Collapsing navigation bar on scroll.</li>
-=            </ul>
+            </ul>
         </div>
         <div class="col-lg-12">
           <h3>Similar Templates:</h3>
