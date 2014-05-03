@@ -2,9 +2,9 @@
 
 /* ------------------------------- */
 
- body {
-    background-color: #f8f8f8;
+body {
     padding-top: 100px;
+    background-color: #f8f8f8;
 }
 
 @media(min-width:768px) {
@@ -17,7 +17,7 @@
 
 /* ------------------------------- */
 
- #wrapper {
+#wrapper {
     width: 100%;
 }
 
@@ -37,17 +37,13 @@
     }
 }
 
-.navbar-static-side ul li {
-    border-bottom: 1px solid #e7e7e7;
-}
-
 /* Navigation */
 
 /* ------------------------------- */
 
 /* Top Right Navigation Dropdown Styles */
 
- .navbar-top-links li {
+.navbar-top-links li {
     display: inline-block;
 }
 
@@ -103,7 +99,11 @@
 
 /* Sidebar Menu Styles */
 
- .sidebar-search {
+.navbar-static-side ul li {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.sidebar-search {
     padding: 15px;
 }
 
@@ -147,11 +147,25 @@
     }
 }
 
+@media(max-height:600px) and (max-width:767px) {
+    .sidebar-collapse {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+}
+
+@media(max-height:400px) and (max-width:767px) {
+    .sidebar-collapse {
+        max-height: 200px;
+        overflow-y: scroll;
+    }
+}
+
 /* Buttons */
 
 /* ------------------------------- */
 
- .btn-outline {
+.btn-outline {
     color: inherit;
     background-color: transparent;
     transition: all .5s;
@@ -191,7 +205,7 @@
 
 /* Dashboard Chat */
 
- .chat {
+.chat {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -228,13 +242,13 @@
 
 /* Login Page */
 
- .login-panel {
+.login-panel {
     margin-top: 25%;
 }
 
 /* Flot Chart Containers */
 
- .flot-chart {
+.flot-chart {
     display: block;
     height: 400px;
 }
@@ -246,7 +260,7 @@
 
 /* DataTables Overrides */
 
- table.dataTable thead .sorting,
+table.dataTable thead .sorting,
 table.dataTable thead .sorting_asc,
 table.dataTable thead .sorting_desc,
 table.dataTable thead .sorting_asc_disabled,
@@ -275,7 +289,7 @@ table.dataTable thead .sorting:after {
 
 /* Circle Buttons */
 
- .btn-circle {
+.btn-circle {
     width: 30px;
     height: 30px;
     padding: 6px 0;
