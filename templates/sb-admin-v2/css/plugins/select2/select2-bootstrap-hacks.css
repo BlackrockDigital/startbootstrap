@@ -1,0 +1,7 @@
+/* Hacks for select2 styling */
+
+.select2-container.form-control {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}

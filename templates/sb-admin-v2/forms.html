@@ -13,6 +13,8 @@
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Page-Level Plugin CSS - Forms -->
+    <link href="css/plugins/select2/select2.css" rel="stylesheet">
+    <link href="css/plugins/select2/select2-bootstrap-hacks.css" rel="stylesheet">
 
     <!-- SB Admin CSS - Include with every page -->
     <link href="css/sb-admin.css" rel="stylesheet">
@@ -470,6 +472,27 @@
                                                 <option>5</option>
                                             </select>
                                         </div>
+                                        <div class="form-group">
+                                            <label>Autocomplete Selects</label>
+                                            <select class="form-control" data-autocomplete>
+                                                <option>John</option>
+                                                <option>Wendy</option>
+                                                <option>Peter</option>
+                                                <option>Maria</option>
+                                                <option>Ian</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Multiple Autocomplete Selects</label>
+                                            <select class="form-control" multiple data-autocomplete>
+                                                <option>John</option>
+                                                <option>Wendy</option>
+                                                <option>Peter</option>
+                                                <option>Maria</option>
+                                                <option>Ian</option>
+                                            </select>
+                                        </div>
+
                                         <button type="submit" class="btn btn-default">Submit Button</button>
                                         <button type="reset" class="btn btn-default">Reset Button</button>
                                     </form>
@@ -564,6 +587,8 @@
     <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
 
     <!-- Page-Level Plugin Scripts - Forms -->
+    <script src="js/plugins/select2/select2.min.js"></script>
+    <script src="js/plugins/select2/select2-initialize.js"></script>
 
     <!-- SB Admin Scripts - Include with every page -->
     <script src="js/sb-admin.js"></script>
