@@ -1,0 +1,28 @@
+---
+layout: page
+title: Admin &amp; Dashboard
+description: "A collection of free, Bootstrap 3 built admin themes, dashboard templates, and webapp UI kits."
+meta-title: "Free Bootstrap 3 Admin Themes and Templates - Start Bootstrap"
+meta-description: "Start Bootstrap's collection of free and open source Bootstrap 3 admin themes, dashboard templates, and UI kits."
+redirect_from:
+  - /admin-dashboard-templates/
+---
+
+<div class="container">
+	<div class="row previews">
+		{% for post in site.categories.admin %}
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<a href="{{ post.source }}" class="post-image-link">
+					{{ post.content }}
+				</a>
+				<div class="caption">
+					<h3>{{ post.title }}</h3>
+					<p>{{ post.description }}</p>
+					<a href="{{ post.source }}" class="btn btn-default">Preview &amp; Download</a>
+				</div>
+			</div>
+		</div>	  
+		{% endfor %}
+	</div>
+</div>

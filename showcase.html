@@ -1,0 +1,36 @@
+---
+layout: page
+title: Showcase
+description: "A group of websites built using themes and templates from Start Bootstrap."
+meta-title: "Bootstrap Website Showcase"
+meta-description: "A showcase of Bootstrap built websites created using themes and templates from Start Bootstrap's free template library."
+---
+
+<div class="container">
+	<div class="row previews">
+		{% for post in site.categories.showcase %}
+		<div class="col-md-6">
+			<div class="thumbnail">
+				<a href="{{ post.source }}" class="post-image-link">
+					{{ post.content }}
+				</a>
+				<div class="caption">
+					<h3>{{ post.title }}</h3>
+					<p>Template Used: <a href="/template-overviews/{{ post.slug }}">{{ post.template }}</a></p>
+					<p>Published: {{ post.date | date: "%B %Y" }}</p>
+					<a href="{{ post.source }}" class="btn btn-default">Visit Website</a>
+				</div>
+			</div>
+		</div>		  
+		{% endfor %}
+	</div>
+	<div class="row">
+		<div class="col-lg-12 text-center">
+			<div class="well">
+				<h3>Submit a Site</h3>
+				<p>Do you have a site built with a Start Bootstrap template or theme that you want us to feature? If so, email us a link and we will take a look!</p>
+				<a class="btn btn-primary" href="mailto:feedback@startbootstrap.com">Email Us!</a>
+			</div>
+		</div>
+	</div>
+</div>

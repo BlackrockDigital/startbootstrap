@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+{% include head.html %}
+</head>
+
+<body>
+<!-- Navigation -->
+{% include nav.html %}
+
+<header class="sb-page-header">
+	<div class="container">
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.description }}</p>
+		{% include ad.html %}
+	</div>
+</header>
+
+<!-- Page Content -->
+<div class="container">
+	<ol class="breadcrumb">
+		<li><a href="/index.html">Start Bootstrap</a></li>
+		<li><a href="/template-categories/all">Templates</a></li>
+		<li class="active">{{ page.title }}</li>
+	</ol>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-7 col-md-6 preview-page-window">
+			<a target="_blank" title="View Live Preview" href="/templates/{{ page.slug }}/" class="thumbnail">
+				<img src="/assets/img/templates/{{ page.slug }}.jpg" class="img-responsive" alt="Free Bootstrap 3 Themes and Templates">
+			</a>
+			<ul class="list-inline preview-links">
+				<li><a target="_blank" href="/templates/{{ page.slug }}/" class="btn btn-default"><i class="fa fa-eye"></i> Live Preview</a></li>
+				<li><a href="/downloads/{{ page.slug }}.zip" class="btn btn-default"><i class="fa fa-download"></i> Download</a></li>
+				<li><a href="https://github.com/IronSummitMedia/startbootstrap/tree/master/templates/{{ page.slug }}" class="btn btn-default"><i class="fa fa-github"></i> View Source</a></li>
+			</ul>
+			<h4>License &amp; Author Details:</h4>
+			<p><a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a> by <a href="http://startbootstrap.com/">Start Bootstrap</a></p>
+			<hr class="small">
+			<h4>Theme Comments:</h4>
+			{% include disqus.html %}
+		</div>
+		<div class="col-lg-5 col-md-6 preview-page-content">
+			{{ content }}
+			<h4>Tags:</h4>
+			<ul class="list-inline list-tags">
+				{% for tags in page.tags %}
+				<li><a href="/template-categories/{{ tags }}" class="btn btn-xs btn-primary">{{ tags }}</a></li>
+				{% endfor %}
+			</ul>
+			<p>Please visit our <a href="/bootstrap-resources">resources page</a> for design ideas and our <a href="/help">help page</a> if you need assistance with this theme.</p>
+			<h4>Domain Name &amp; Hosting Offer:</h4>
+			<p class="hosting-offer">Need a domain name and hosting for your new website? <a href="http://hostoople.com/1/166.html"><img src="/assets/img/hostoople-logo.png" alt="Hostoople Logo"></a> has some of the best shared and reseller hosting plans around!</p>
+			<span class="label label-primary">Save 20% - Coupon Code: bootstrap</span>
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+{% include footer.html %}
+
+<!-- JavaScript -->
+{% include javascript.html %}
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+---
+layout: home
+title: Start Bootstrap
+meta-title: "Start Bootstrap"
+meta-description: "Free HTML starter themes and templates for Bootstrap - up to date for Bootstrap 3! An even faster way to develop websites in Bootstrap!"
+redirect_from:
+  - /index.php/
+---
+
+<div class="container">
+    <div class="row home-intro text-center">
+        <div class="col-lg-12">
+            <h2 class="tagline">Forever free, open source, and easy to use.</h2>
+            <p class="lead">Start Bootstrap is a library of <strong>free to download Bootstrap 3 themes and templates</strong>. Our themes are open source for any use, even commercial. Download what you like and get started!</p>
+            <hr class="small">
+        </div>
+    </div>
+    <div class="row previews">
+        {% for post in site.categories.featured %}
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <a href="{{ post.source }}" class="post-image-link">
+                    {{ post.content }}
+                </a>
+                <div class="caption">
+                    <h3>{{ post.title }}</h3>
+                    <p>{{ post.description }}</p>
+                    <a href="{{ post.source }}" class="btn btn-default">Preview &amp; Download</a>
+                </div>
+            </div>
+        </div>    
+        {% endfor %}
+    </div>
+    <div class="text-center btn-home">
+        <a href="/template-categories/all" class="btn btn-outline">View All Themes &amp; Templates</a>
+    </div>
+    <hr class="small">
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <h3>Looking for something more?</h3>
+            <p class="lead dm-promo-lead">Try Startup Framework by Designmodo for free!</p>
+            <p class="dm-promo-deal"><span class="small label label-primary">Save 15% - Coupon Code: START</span></p>
+        </div>
+    </div>
+    <div class="row previews">
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <a href="http://designmodo.com/startup/?u=787" class="post-image-link">
+                    <img src="assets/img/premium/startup-framework-home.jpg" alt="Premium Bootstrap Framework - Startup Framework">
+                </a>
+                <div class="caption">
+                    <h3>Startup Framework</h3>
+                    <p>A premium, Bootstrap based framework.</p>
+                    <a href="http://designmodo.com/startup/?u=787" class="btn btn-default">Preview &amp; Purchase</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <a href="http://designmodo.github.io/startup-demo/?u=787" class="post-image-link">
+                    <img src="assets/img/premium/startup-framework-demo-1.jpg" alt="Free Bootstrap Framework - Startup Framework Demo">
+                </a>
+                <div class="caption">
+                    <h3>Free Demo One</h3>
+                    <p>Video, sign-up form, and price table.</p>
+                    <a href="http://designmodo.github.io/startup-demo/?u=787" class="btn btn-default">Preview &amp; Download</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <a href="http://designmodo.github.io/startup-demo/?u=787" class="post-image-link">
+                    <img src="assets/img/premium/startup-framework-demo-2.jpg" alt="Free Bootstrap Framework - Startup Framework Demo">
+                </a>
+                <div class="caption">
+                    <h3>Free Demo Two</h3>
+                    <p>A universal theme with parallax elements.</p>
+                    <a href="http://designmodo.github.io/startup-demo/?u=787" class="btn btn-default">Preview &amp; Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center btn-home">
+        <a href="/buy-bootstrap-templates/" class="btn btn-outline">View More Premium Themes</a>
+    </div>
+    <hr class="small">
+</div>

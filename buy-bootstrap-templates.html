@@ -1,0 +1,59 @@
+---
+layout: page
+title: Premium Themes
+description: "A hand selected group the best Bootstrap themes and templates from around the web."
+meta-title: "Buy Bootstrap Themes &amp; Templates"
+meta-description: "A collection of some of the best premium Bootstrap themes and templates from around the web."
+redirect_from:
+  - /sponsored-templates/
+---
+
+<div class="container">
+    <div class="row previews">
+        <div class="col-lg-12">
+            <div class="thumbnail featured">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a href="http://designmodo.com/startup/?u=787">
+                            <img src="/assets/img/premium/startup-framework.jpg" class="img-responsive" alt="Startup Framework by Designmodo">
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="caption">
+                            <h3>Startup Framework by Designmodo</h3>
+                            <p><i class="fa fa-tag"></i> SAVE 15% - Enter the coupon code 'START' during checkout to save!</p>
+                            <p>Startup Framework is a Bootstrap 3 based website builder for professionals. The framework includes <strong>25 sample themes</strong> and <strong>100 components</strong> that designers and developers can use to create premium quality websites quickly and easily.</p>
+                            <a href="http://designmodo.com/startup/?u=787" class="btn btn-primary">Preview</a>
+                            <a href="http://designmodo.com/startup/?u=787" class="btn btn-default">Purchase</a>
+                            <a href="http://designmodo.github.io/startup-demo/?u=787" class="btn btn-default">Free Demo Version</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% for post in site.categories.premium %}
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <a href="{{ post.source }}" class="post-image-link">
+                    {{ post.content }}
+                </a>
+                <div class="caption">
+                    <h3>{{ post.title }}</h3>
+                    <p>{{ post.description }}</p>
+                    <a href="{{ post.source }}" class="btn btn-primary">Preview</a>
+                    <a href="{{ post.purchase-link }}" class="btn btn-default">Purchase</a>
+                </div>
+            </div>
+        </div>    
+        {% endfor %}
+    </div>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <div class="well">
+                <h3>Need Something Custom Built?</h3>
+                <p class="lead">We do that too!</p>
+                <a class="btn btn-primary" href="/bootstrap-design-services/">Find Out More!</a>
+            </div>
+        </div>
+    </div>
+</div>

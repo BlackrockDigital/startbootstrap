@@ -1,5 +1,0 @@
-sitemap: http://startbootstrap.com/sitemap.xml
-
-User-agent: *
-Disallow: /templates/
-Disallow: /downloads/

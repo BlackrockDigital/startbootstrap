@@ -1,0 +1,28 @@
+---
+layout: page
+title: All Templates
+description: "Our complete collection of Bootstrap themes and templates. Use our themes for any project, personal or commercial."
+meta-title: "All Free Bootstrap Themes &amp; Templates"
+meta-description: "Start Bootstrap's entire collection of free Bootstrap themes and templates. All of our themes are open source and free to download."
+redirect_from:
+  - /all-templates/
+---
+
+<div class="container">
+	<div class="row previews">
+		{% for post in site.categories.template %}
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<a href="{{ post.source }}" class="post-image-link">
+					{{ post.content }}
+				</a>
+				<div class="caption">
+					<h3>{{ post.title }}</h3>
+					<p>{{ post.description }}</p>
+					<a href="{{ post.source }}" class="btn btn-default">Preview &amp; Download</a>
+				</div>
+			</div>
+		</div>	  
+		{% endfor %}
+	</div>
+</div>

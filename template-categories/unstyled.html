@@ -1,0 +1,28 @@
+---
+layout: page
+title: Unstyled Templates
+description: "A collection of unstyled Bootstrap 3 templates to help you get started with your next Bootstrap project."
+meta-title: "Unstyled Starter Templates for Bootstrap"
+meta-description: "Start Bootstrap's collection of unstyled starter templates and themes for Bootstrap 3. These themes are easy to customize and ready to use."
+redirect_from:
+  - /unstyled-templates/
+---
+
+<div class="container">
+	<div class="row previews">
+		{% for post in site.categories.unstyled %}
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<a href="{{ post.source }}" class="post-image-link">
+					{{ post.content }}
+				</a>
+				<div class="caption">
+					<h3>{{ post.title }}</h3>
+					<p>{{ post.description }}</p>
+					<a href="{{ post.source }}" class="btn btn-default">Preview &amp; Download</a>
+				</div>
+			</div>
+		</div>	  
+		{% endfor %}
+	</div>
+</div>

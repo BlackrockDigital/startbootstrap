@@ -1,0 +1,28 @@
+---
+layout: page
+title: One Page Themes
+description: "A collection of one page website themes and templates built with Bootstrap 3."
+meta-title: "Free Bootstrap One Page Themes"
+meta-description: "Start Bootstrap's collection of free one page Bootstrap themes are easy to customize, free to download, and open source for any project, personal or commercial."
+redirect_from:
+  - /one-page-templates/
+---
+
+<div class="container">
+	<div class="row previews">
+		{% for post in site.categories.one-page %}
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<a href="{{ post.source }}" class="post-image-link">
+					{{ post.content }}
+				</a>
+				<div class="caption">
+					<h3>{{ post.title }}</h3>
+					<p>{{ post.description }}</p>
+					<a href="{{ post.source }}" class="btn btn-default">Preview &amp; Download</a>
+				</div>
+			</div>
+		</div>	  
+		{% endfor %}
+	</div>
+</div>

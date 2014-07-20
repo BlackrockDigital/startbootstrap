@@ -2,82 +2,111 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blog Post - Modern Business - Start Bootstrap Template</title>
+    <title>Modern Business - Start Bootstrap Template</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Add custom CSS here -->
+    <!-- Custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
 <body>
 
+    <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Modern Business</a>
+                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="about.html">About</a>
+                    <li>
+                        <a href="about.html">About</a>
                     </li>
-                    <li><a href="services.html">Services</a>
+                    <li>
+                        <a href="services.html">Services</a>
                     </li>
-                    <li><a href="contact.php">Contact</a>
+                    <li>
+                        <a href="contact.html">Contact</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
                             </li>
-                            <li><a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
                             </li>
-                            <li><a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
                             </li>
-                            <li><a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
                             </li>
-                            <li><a href="portfolio-item.html">Single Portfolio Item</a>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="blog-home-1.html">Blog Home 1</a>
+                            <li>
+                                <a href="blog-home-1.html">Blog Home 1</a>
                             </li>
-                            <li><a href="blog-home-2.html">Blog Home 2</a>
+                            <li>
+                                <a href="blog-home-2.html">Blog Home 2</a>
                             </li>
-                            <li class="active"><a href="blog-post.html">Blog Post</a>
+                            <li class="active">
+                                <a href="blog-post.html">Blog Post</a>
                             </li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="full-width.html">Full Width Page</a>
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
                             </li>
-                            <li><a href="sidebar.html">Sidebar Page</a>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
                             </li>
-                            <li><a href="faq.html">FAQ</a>
+                            <li>
+                                <a href="faq.html">FAQ</a>
                             </li>
-                            <li><a href="404.html">404</a>
+                            <li>
+                                <a href="404.html">404</a>
                             </li>
-                            <li><a href="pricing.html">Pricing Table</a>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
                             </li>
                         </ul>
                     </li>
@@ -88,13 +117,15 @@
         <!-- /.container -->
     </nav>
 
+    <!-- Page Content -->
     <div class="container">
 
+        <!-- Page Heading/Breadcrumbs -->
         <div class="row">
-
             <div class="col-lg-12">
                 <h1 class="page-header">Blog Post
-                    <small>A Sample Blog Post</small>
+                    <small>by <a href="#">Start Bootstrap</a>
+                    </small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
@@ -102,39 +133,41 @@
                     <li class="active">Blog Post</li>
                 </ol>
             </div>
-
         </div>
+        <!-- /.row -->
 
+        <!-- Content Row -->
         <div class="row">
 
+            <!-- Blog Post Content Column -->
             <div class="col-lg-8">
 
-                <!-- the actual blog post: title/author/date/content -->
-                <hr>
-                <p><i class="fa fa-clock-o"></i> Posted on August 24, 2013 at 9:00 PM by <a href="#">Start Boostrap</a>
-                </p>
-                <hr>
-                <img src="http://placehold.it/900x300" class="img-responsive">
-                <hr>
-                <p class="lead">Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-                <p>You know, being a test pilot isn't always the healthiest business in the world.</p>
-                <p>Cookie jelly beans soufflé icing. Gummi bears tootsie roll powder chupa chups cheesecake chocolate jelly-o lollipop lollipop. Halvah applicake chupa chups. Marshmallow chocolate jujubes icing lollipop gummi bears chupa chups pudding bonbon. Jelly beans jelly soufflé jujubes. Sesame snaps lollipop icing donut lemon drops soufflé.</p>
-                <p>Donut caramels gingerbread. Sweet roll macaroon pastry cotton candy oat cake sesame snaps biscuit lemon drops dessert. Candy canes carrot cake danish carrot cake soufflé jelly chocolate cake muffin. Topping brownie donut. Oat cake marzipan dragée cheesecake. Donut chocolate cake jujubes tart dragée toffee.</p>
-                <p>Tilefish electric knifefish salmon shark southern Dolly Varden. Pacific argentine tope golden shiner ilisha barreleye loosejaw catla, dogteeth tetra catfish tenpounder nase scup Ragfish brotula." Codlet brook lamprey pleco, Japanese eel convict cichlid titan triggerfish, plownose chimaera topminnow Black scalyfin. Walleye pollock, blue shark Sacramento blackfish prickleback airbreathing catfish yellowfin cutthroat trout, goby southern sandfish. North Pacific daggertooth dorab cepalin weever flying gurnard.</p>
-                <p><strong>Placeholder text by:</strong>
-                </p>
-                <ul>
-                    <li><a href="http://spaceipsum.com/">Space Ipsum</a>
-                    </li>
-                    <li><a href="http://cupcakeipsum.com/">Cupcake Ipsum</a>
-                    </li>
-                    <li><a href="http://tunaipsum.com/">Tuna Ipsum</a>
-                    </li>
-                </ul>
+                <!-- Blog Post -->
 
                 <hr>
 
-                <!-- the comment box -->
+                <!-- Date/Time -->
+                <p><i class="fa fa-clock-o"></i> Posted on August 24, 2013 at 9:00 PM</p>
+
+                <hr>
+
+                <!-- Preview Image -->
+                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+
+                <hr>
+
+                <!-- Post Content -->
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
+
+                <hr>
+
+                <!-- Blog Comments -->
+
+                <!-- Comments Form -->
                 <div class="well">
                     <h4>Leave a Comment:</h4>
                     <form role="form">
@@ -147,81 +180,114 @@
 
                 <hr>
 
-                <!-- the comments -->
-                <h3>Start Bootstrap
-                    <small>9:41 PM on August 24, 2013</small>
-                </h3>
-                <p>This has to be the worst blog post I have ever read. It simply makes no sense. You start off by talking about space or something, then you randomly start babbling about cupcakes, and you end off with random fish names.</p>
+                <!-- Posted Comments -->
 
-                <h3>Start Bootstrap
-                    <small>9:47 PM on August 24, 2013</small>
-                </h3>
-                <p>Don't listen to this guy, any blog with the categories 'dinosaurs, spaceships, fried foods, wild animals, alien abductions, business casual, robots, and fireworks' has true potential.</p>
+                <!-- Comment -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Start Bootstrap
+                            <small>August 25, 2014 at 9:30 PM</small>
+                        </h4>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
+
+                <!-- Comment -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Start Bootstrap
+                            <small>August 25, 2014 at 9:30 PM</small>
+                        </h4>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        <!-- Nested Comment -->
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="http://placehold.it/64x64" alt="">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Nested Start Bootstrap
+                                    <small>August 25, 2014 at 9:30 PM</small>
+                                </h4>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
+                        </div>
+                        <!-- End Nested Comment -->
+                    </div>
+                </div>
 
             </div>
 
-            <div class="col-lg-4">
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+                <!-- Blog Search Well -->
                 <div class="well">
                     <h4>Blog Search</h4>
                     <div class="input-group">
                         <input type="text" class="form-control">
                         <span class="input-group-btn">
-                            <button class="btn btn-default" type="button"><i class="fa fa-search"></i>
-                            </button>
+                            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
                         </span>
                     </div>
-                    <!-- /input-group -->
+                    <!-- /.input-group -->
                 </div>
-                <!-- /well -->
+
+                <!-- Blog Categories Well -->
                 <div class="well">
-                    <h4>Popular Blog Categories</h4>
+                    <h4>Blog Categories</h4>
                     <div class="row">
                         <div class="col-lg-6">
                             <ul class="list-unstyled">
-                                <li><a href="#dinosaurs">Dinosaurs</a>
+                                <li><a href="#">Category Name</a>
                                 </li>
-                                <li><a href="#spaceships">Spaceships</a>
+                                <li><a href="#">Category Name</a>
                                 </li>
-                                <li><a href="#fried-foods">Fried Foods</a>
+                                <li><a href="#">Category Name</a>
                                 </li>
-                                <li><a href="#wild-animals">Wild Animals</a>
+                                <li><a href="#">Category Name</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <ul class="list-unstyled">
-                                <li><a href="#alien-abductions">Alien Abductions</a>
+                                <li><a href="#">Category Name</a>
                                 </li>
-                                <li><a href="#business-casual">Business Casual</a>
+                                <li><a href="#">Category Name</a>
                                 </li>
-                                <li><a href="#robots">Robots</a>
+                                <li><a href="#">Category Name</a>
                                 </li>
-                                <li><a href="#fireworks">Fireworks</a>
+                                <li><a href="#">Category Name</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
+                    <!-- /.row -->
                 </div>
-                <!-- /well -->
+
+                <!-- Side Widget Well -->
                 <div class="well">
                     <h4>Side Widget Well</h4>
-                    <p>Bootstrap's default well's work great for side widgets! What is a widget anyways...?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
                 </div>
-                <!-- /well -->
+
             </div>
+
         </div>
-
-    </div>
-    <!-- /.container -->
-
-    <div class="container">
+        <!-- /.row -->
 
         <hr>
 
+        <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Company 2013</p>
+                    <p>Copyright &copy; Your Website 2014</p>
                 </div>
             </div>
         </footer>
@@ -229,10 +295,11 @@
     </div>
     <!-- /.container -->
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modern-business.js"></script>
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 

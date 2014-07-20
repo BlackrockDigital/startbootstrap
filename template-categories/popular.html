@@ -1,0 +1,28 @@
+---
+layout: page
+title: Most Popular
+description: "A collection of the most popular Bootstrap themes and templates on Start Bootstrap."
+meta-title: "Most Popular Bootstrap Themes"
+meta-description: "Start Bootstrap's most popular themes and templates. All of our themes are 100% free to use and completely open source for all projects, even commercial."
+redirect_from:
+  - /popular-templates/
+---
+
+<div class="container">
+	<div class="row previews">
+		{% for post in site.categories.popular %}
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<a href="{{ post.source }}" class="post-image-link">
+					{{ post.content }}
+				</a>
+				<div class="caption">
+					<h3>{{ post.title }}</h3>
+					<p>{{ post.description }}</p>
+					<a href="{{ post.source }}" class="btn btn-default">Preview &amp; Download</a>
+				</div>
+			</div>
+		</div>	  
+		{% endfor %}
+	</div>
+</div>

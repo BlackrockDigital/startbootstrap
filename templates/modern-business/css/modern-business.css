@@ -1,132 +1,93 @@
-/* 
-Custom CSS for...
-'Modern Business' HTML Theme by Start Bootstrap
-
-All Start Bootstrap themes are licensed under Apache 2.0. 
-For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
-*/
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
 
 /* Global Styles */
 
-html, body {
-  height: 100%;
+html,
+body {
+    height: 100%;
 }
 
 body {
-  padding-top: 50px;
- /* body padding for fixed top nav */
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-.img-home-portfolio,
-.img-customer,
-.portfolio-item {
-  margin-bottom: 30px;
+.img-portfolio {
+    margin-bottom: 30px;
 }
 
-.tab-pane {
-  margin-top: 15px;
+.img-hover:hover {
+    opacity: 0.8;
 }
 
-/* Page Sections */
-.section,
-.section-colored {
-  padding: 50px 0;
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
 }
 
-.section-colored {
-  background-color: #e1e1e1;
- /* change this to change the background color of a colored section */
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
 }
 
-.sidebar {
-  margin-top: 40px;
-}
-
-.sidebar ul {
-  border-radius: 5px;
-  padding: 5px;
-  border: 1px solid #cccccc;
-}
-
-/* Half Page Height Carousel Customization */
-.carousel {
-  height: 50%;
-}
-
-.item,
-.active,
-.carousel-inner {
-  height: 100%;
-}
-
-.fill {
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-
-/* Social Icons Styles */
-.list-social-icons {
-  margin-bottom: 45px;
-}
-
-.tooltip-social a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.facebook-link a:hover {
-  color: #3b5998;
-}
-
-.linkedin-link a:hover {
-  color: #007fb1;
-}
-
-.twitter-link a:hover {
-  color: #39a9e0;
-}
-
-.google-plus-link a:hover {
-  color: #d14836;
-}
-
-/* Service Page Styles */
-.service-icon {
-  font-size: 50px;
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 /* 404 Page Styles */
+
 .error-404 {
-  font-size: 8em;
+    font-size: 100px;
 }
 
 /* Pricing Page Styles */
+
 .price {
-  font-size: 4em;
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
 }
 
-.price-cents {
-  vertical-align: super;
-  font-size: 50%;
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
 }
 
-.price-month {
-  font-size: 35%;
-  font-style: italic;
+.period {
+    display: block;
+    font-style: italic;
 }
 
 /* Footer Styles */
+
 footer {
-  margin: 50px 0;
+    margin: 50px 0;
 }
 
 /* Responsive Styles */
-@media (max-width: 767px) {
 
-  .carousel {
-    height: 70%;
- /* increases the carousel height so it looks good on phones */
-  }
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
 }

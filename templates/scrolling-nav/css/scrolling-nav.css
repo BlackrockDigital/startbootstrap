@@ -1,3 +1,9 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
 body {
     width: 100%;
     height: 100%;
@@ -17,7 +23,6 @@ html {
     }
 
     .top-nav-collapse {
-        /* Customize the look and feel of the collapsed top nav here */
         padding: 0;
     }
 }

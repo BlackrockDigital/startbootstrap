@@ -1,0 +1,28 @@
+---
+layout: page
+title: Navigation &amp; Menus
+description: "A collection of Bootstrap 3 navigation menus, custom Boostrap navbars, and alternative menu bar and navigation layouts."
+meta-title: "Custom Bootstrap Navigation Menus"
+meta-description: "Start Bootstrap's collection of custom Bootstrap navigation menus, navbar layouts, and other menu and navigation options for the Bootstrap framework."
+redirect_from:
+  - /navigation-templates/
+---
+
+<div class="container">
+	<div class="row previews">
+		{% for post in site.categories.navigation-menus %}
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<a href="{{ post.source }}" class="post-image-link">
+					{{ post.content }}
+				</a>
+				<div class="caption">
+					<h3>{{ post.title }}</h3>
+					<p>{{ post.description }}</p>
+					<a href="{{ post.source }}" class="btn btn-default">Preview &amp; Download</a>
+				</div>
+			</div>
+		</div>	  
+		{% endfor %}
+	</div>
+</div>

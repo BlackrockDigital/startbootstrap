@@ -1,0 +1,28 @@
+---
+layout: page
+title: Landing Pages
+description: "A collection of free, Bootstrap built landing page and home page themes and templates."
+meta-title: "Free Bootstrap Landing Page Themes"
+meta-description: "Start Bootstrap's collection of landing page and home page themes are perfect for portfolios, small businesses, and more. Download our free Bootstrap 3 themes today!"
+redirect_from:
+  - /home-page-templates/
+---
+
+<div class="container">
+	<div class="row previews">
+		{% for post in site.categories.landing-pages %}
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<a href="{{ post.source }}" class="post-image-link">
+					{{ post.content }}
+				</a>
+				<div class="caption">
+					<h3>{{ post.title }}</h3>
+					<p>{{ post.description }}</p>
+					<a href="{{ post.source }}" class="btn btn-default">Preview &amp; Download</a>
+				</div>
+			</div>
+		</div>	  
+		{% endfor %}
+	</div>
+</div>

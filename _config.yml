@@ -1,0 +1,12 @@
+# Site Settings
+baseurl: ""
+url: http://startbootstrap.com
+encoding: UTF-8
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+
+# Jekyll Redirect From Plugin for Redirects from Start Bootstrap Old Version
+gems:
+  - jekyll-redirect-from

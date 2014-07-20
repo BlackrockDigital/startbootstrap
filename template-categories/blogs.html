@@ -1,0 +1,28 @@
+---
+layout: page
+title: Blogs
+description: "A collection of free to download, open source Bootstrap blog templates and themes."
+meta-title: "Free Bootstrap Blog Templates"
+meta-description: "Our Bootstrap blog templates and themes are free to download, and open source. Use them for any project, personal or commercial."
+redirect_from:
+  - /blog-templates/
+---
+
+<div class="container">
+	<div class="row previews">
+		{% for post in site.categories.blogs %}
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<a href="{{ post.source }}" class="post-image-link">
+					{{ post.content }}
+				</a>
+				<div class="caption">
+					<h3>{{ post.title }}</h3>
+					<p>{{ post.description }}</p>
+					<a href="{{ post.source }}" class="btn btn-default">Preview &amp; Download</a>
+				</div>
+			</div>
+		</div>	  
+		{% endfor %}
+	</div>
+</div>

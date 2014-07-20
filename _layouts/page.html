@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+{% include head.html %}
+</head>
+
+<body>
+<!-- Navigation -->
+{% include nav.html %}
+
+<header class="sb-page-header">
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.description }}</p>
+        {% include ad.html %}
+    </div>
+</header>
+
+<!-- Page Content -->
+<div class="container">
+	<ol class="breadcrumb">
+		<li><a href="/index.html">Start Bootstrap</a></li>
+		<li class="active">{{ page.title }}</li>
+	</ol>
+</div>
+{{ content }}
+
+<!-- Footer -->
+{% include footer.html %}
+
+<!-- JavaScript -->
+{% include javascript.html %}
+
+</body>
+
+</html>

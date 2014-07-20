@@ -1,0 +1,50 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ page.meta-description }}">
+<meta name="author" content="Start Bootstrap">
+
+<title>
+  {% if page.meta-title == "Start Bootstrap" %}
+    {{ page.meta-title }} - Free Bootstrap Themes and Templates
+  {% else %}
+    {{ page.meta-title }} - Start Bootstrap
+  {% endif %}
+</title>
+
+<!-- Google+ Authorship Information -->
+<link rel="author" href="https://plus.google.com/+Startbootstrap">
+<link rel="publisher" href="https://plus.google.com/+Startbootstrap">
+
+<!-- Canonical -->
+<link rel="canonical" href="http://startbootstrap.com{{ page.url }}">
+
+<!-- Fav Icon and Apple Touch Icons -->
+<link rel="icon" href="/assets/img/ico/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/assets/img/ico/touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/ico/touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/ico/touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/ico/touch-icon-ipad-retina.png">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{% if page.meta-title == "Start Bootstrap" %}Free Bootstrap Themes and Templates{% else %}{{ page.meta-title }}{% endif %}">
+<meta property="og:site_name" content="Start Bootstrap">
+<meta property="og:type" content="website">
+<meta property="og:description" content="{{ page.meta-description }}">
+<meta property="og:image" content="http://startbootstrap.com/assets/img/og/og-image.png">
+<meta property="og:url" content="http://startbootstrap.com{{ page.url }}">
+
+<!-- Fonts -->
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,700italic,400,700" rel="stylesheet" type="text/css">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- Bootstrap Core CSS -->
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<!-- Start Bootstrap Custom CSS -->
+<link href="{{ "/assets/css/startbootstrap.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->

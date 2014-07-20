@@ -2,83 +2,111 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Modern Business - Start Bootstrap Template</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Add custom CSS here -->
+    <!-- Custom CSS -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
 <body>
 
+    <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-                <a class="navbar-brand" href="index.html">Modern Business</a>
+                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="about.html">About</a>
+                    <li>
+                        <a href="about.html">About</a>
                     </li>
-                    <li><a href="services.html">Services</a>
+                    <li>
+                        <a href="services.html">Services</a>
                     </li>
-                    <li><a href="contact.php">Contact</a>
+                    <li>
+                        <a href="contact.html">Contact</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
                             </li>
-                            <li><a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
                             </li>
-                            <li><a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
                             </li>
-                            <li><a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
                             </li>
-                            <li><a href="portfolio-item.html">Single Portfolio Item</a>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
                             </li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="blog-home-1.html">Blog Home 1</a>
+                            <li>
+                                <a href="blog-home-1.html">Blog Home 1</a>
                             </li>
-                            <li><a href="blog-home-2.html">Blog Home 2</a>
+                            <li>
+                                <a href="blog-home-2.html">Blog Home 2</a>
                             </li>
-                            <li><a href="blog-post.html">Blog Post</a>
+                            <li>
+                                <a href="blog-post.html">Blog Post</a>
                             </li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="full-width.html">Full Width Page</a>
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
                             </li>
-                            <li><a href="sidebar.html">Sidebar Page</a>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
                             </li>
-                            <li><a href="faq.html">FAQ</a>
+                            <li>
+                                <a href="faq.html">FAQ</a>
                             </li>
-                            <li><a href="404.html">404</a>
+                            <li>
+                                <a href="404.html">404</a>
                             </li>
-                            <li><a href="pricing.html">Pricing Table</a>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
                             </li>
                         </ul>
                     </li>
@@ -89,7 +117,8 @@
         <!-- /.container -->
     </nav>
 
-    <div id="myCarousel" class="carousel slide">
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -102,20 +131,19 @@
             <div class="item active">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
                 <div class="carousel-caption">
-                    <h1>Modern Business - A Bootstrap 3 Template</h1>
+                    <h2>Caption 1</h2>
                 </div>
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
                 <div class="carousel-caption">
-                    <h1>Ready to Style &amp; Add Content</h1>
+                    <h2>Caption 2</h2>
                 </div>
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
                 <div class="carousel-caption">
-                    <h1>Additional Layout Options at <a href="http://startbootstrap.com">http://startbootstrap.com</a>
-                    </h1>
+                    <h2>Caption 3</h2>
                 </div>
             </div>
         </div>
@@ -127,187 +155,137 @@
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="icon-next"></span>
         </a>
-    </div>
+    </header>
 
-    <div class="section">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <h3><i class="fa fa-check-circle"></i> Bootstrap 3 Built</h3>
-                    <p>The 'Modern Business' website template by <a href="http://startbootstrap.com">Start Bootstrap</a> is built with <a href="http://getbootstrap.com">Bootstrap 3</a>. Make sure you're up to date with latest Bootstrap documentation!</p>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <h3><i class="fa fa-pencil"></i> Ready to Style &amp; Edit</h3>
-                    <p>You're ready to go with this pre-built page structure, now all you need to do is add your own custom stylings! You can see some free themes over at <a href="http://bootswatch.com">Bootswatch</a>, or come up with your own using <a href="http://getbootstrap.com/customize/">the Bootstrap customizer</a>!</p>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <h3><i class="fa fa-folder-open"></i> Many Page Options</h3>
-                    <p>This template features many common pages that you might see on a business website. Pages include: about, contact, portfolio variations, blog, pricing, FAQ, 404, services, and general multi-purpose pages.</p>
-                </div>
-            </div>
-            <!-- /.row -->
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.section -->
-
-    <div class="section-colored text-center">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Modern Business: A Clean &amp; Simple Full Website Template by Start Bootstrap</h2>
-                    <p>A complete website design featuring various single page templates from Start Bootstraps library of free HTML starter templates.</p>
-                    <hr>
-                </div>
-            </div>
-            <!-- /.row -->
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.section-colored -->
-
-    <div class="section">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Display Some Work on the Home Page Portfolio</h2>
-                    <hr>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
-                        <img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
-                        <img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
-                        <img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
-                        <img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
-                        <img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450">
-                    </a>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <a href="portfolio-item.html">
-                        <img class="img-responsive img-home-portfolio" src="http://placehold.it/700x450">
-                    </a>
-                </div>
-            </div>
-            <!-- /.row -->
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.section -->
-
-    <div class="section-colored">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <h2>Modern Business Features Include:</h2>
-                    <ul>
-                        <li>Bootstrap 3 Framework</li>
-                        <li>Mobile Responsive Design</li>
-                        <li>Predefined File Paths</li>
-                        <li>Working PHP Contact Page</li>
-                        <li>Minimal Custom CSS Styles</li>
-                        <li>Unstyled: Add Your Own Style and Content!</li>
-                        <li>Font-Awesome fonts come pre-installed!</li>
-                        <li>100% <strong>Free</strong> to Use</li>
-                        <li>Open Source: Use for any project, private or commercial!</li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <img class="img-responsive" src="http://placehold.it/700x450/ffffff/cccccc">
-                </div>
-            </div>
-            <!-- /.row -->
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.section-colored -->
-
-    <div class="section">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <img class="img-responsive" src="http://placehold.it/700x450">
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <h2>Modern Business Features Include:</h2>
-                    <ul>
-                        <li>Bootstrap 3 Framework</li>
-                        <li>Mobile Responsive Design</li>
-                        <li>Predefined File Paths</li>
-                        <li>Working PHP Contact Page</li>
-                        <li>Minimal Custom CSS Styles</li>
-                        <li>Unstyled: Add Your Own Style and Content!</li>
-                        <li>Font-Awesome fonts come pre-installed!</li>
-                        <li>100% <strong>Free</strong> to Use</li>
-                        <li>Open Source: Use for any project, private or commercial!</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- /.row -->
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.section -->
-
+    <!-- Page Content -->
     <div class="container">
 
-        <div class="row well">
-            <div class="col-lg-8 col-md-8">
-                <h4>'Modern Business' is a ready-to-use, Bootstrap 3 updated, multi-purpose HTML theme!</h4>
-                <p>For more templates and more page options that you can integrate into this website template, visit Start Bootstrap!</p>
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Welcome to Modern Business
+                </h1>
             </div>
-            <div class="col-lg-4 col-md-4">
-                <a class="btn btn-lg btn-primary pull-right" href="http://startbootstrap.com">See More Templates!</a>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- /.row -->
 
-    </div>
-    <!-- /.container -->
+        <!-- Portfolio Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Portfolio Heading</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- /.row -->
 
-    <div class="container">
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Modern Business Features</h2>
+            </div>
+            <div class="col-md-6">
+                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <ul>
+                    <li><strong>Bootstrap v3.2.0</strong>
+                    </li>
+                    <li>jQuery v1.11.0</li>
+                    <li>Font Awesome v4.1.0</li>
+                    <li>Working PHP contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                    <li>17 HTML pages</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
 
         <hr>
 
+        <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Company 2013</p>
+                    <p>Copyright &copy; Your Website 2014</p>
                 </div>
             </div>
         </footer>
@@ -315,10 +293,18 @@
     </div>
     <!-- /.container -->
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modern-business.js"></script>
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 </body>
 

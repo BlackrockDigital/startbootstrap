@@ -1,0 +1,581 @@
+@import "variables.less";
+@import "mixins.less";
+
+body {
+    margin-top: 50px;
+    .body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand,
+.brand-name {
+    .heading-font;
+}
+
+p.lead {
+    .body-font;
+	font-weight: 400;
+}
+
+hr.small {
+    max-width: 100px;
+    margin: 50px auto;
+	border-color: fade(black, 20%)
+}
+
+.text-yellow {
+    color: #f1c40f;
+}
+
+p.dm-promo-lead {
+    margin-bottom: 10px;
+}
+
+p.dm-promo-deal {
+    margin-bottom: 30px;
+}
+
+.well {
+    background-color: #fff;
+    background-image: url(/assets/img/premium-bg.png);
+}
+
+// Homepage Styles
+
+header.marquee {
+	padding: 50px 0;
+	text-align: center;
+	color: white;
+    background-color: @brand-color;
+	background-image: url(/assets/img/bg.png);
+
+    .brand-name {
+        display: block;
+        font-size: 50px;
+        line-height: 1;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 1;
+        margin: 20px 0;
+    }
+
+    p {
+        font-size: 16px;
+    	color: fade(white, 80%);
+    	line-height: 1.4;
+    	a {
+    		color: white;
+    	}
+    }
+
+    img.logo {
+    	margin-bottom: 50px;
+    }
+
+    .btn-cta {
+        margin: 20px 0 0;
+        padding: 10px 15px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        .heading-font;
+        font-size: 14px;
+
+        &:hover {
+            color: @brand-color;
+            background-color: white;
+        }
+    }
+}
+
+@media(min-width:768px) {
+    header.marquee {
+        padding: 150px 0;
+
+        .brand-name {
+            font-size: 80px;
+        }
+
+        h1 {
+            font-size: 34px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .btn-cta {
+            padding: 15px 20px;
+            font-size: 18px;
+        }
+    }
+}
+
+.home-intro {
+    h2.tagline {
+        .body-font;
+        font-size: 35px;
+        margin-top: 50px;
+        font-weight: 300;
+    }
+    p.lead {
+        max-width: 100%;
+        margin: 0 auto;
+        strong {
+            font-weight: 600;
+        }
+    }
+}
+
+@media(min-width:768px) {
+    .home-intro {
+        p.lead {
+            max-width: 75%;
+        }
+    }
+}
+
+.btn-outline {
+    padding: 10px 15px;
+    border: 1px solid @brand-color;
+    background-color: transparent;
+    color: @brand-color;
+    .heading-font;
+    font-size: 16px;
+
+    &:hover {
+        color: white;
+        background-color: @brand-color;
+    }
+}
+
+// Navigation
+
+.navbar-default {
+    background-color: white;
+}
+
+// Template Preview Panes
+
+.preview-thumb {
+    margin-bottom: 50px;
+}
+
+// Custom Page Headers
+
+.sb-page-header {
+    position: relative;
+    padding: 30px 15px;
+    text-align: center;
+    color: fade(white,80%);
+    background-color: @brand-color;
+    background-image: url(/assets/img/bg.png);
+    margin-bottom: 40px;
+    font-size: 20px;
+
+    h1 {
+        margin-top: 0;
+        color: white;
+    }
+
+    p {
+        margin-bottom: 0;
+        line-height: 1.4;
+    }
+
+    .container {
+        position: relative;
+    }
+}
+
+@media(min-width:768px) {
+    .sb-page-header {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: left;
+        font-size: 24px;
+
+        h1 {
+            font-size: 60px;
+            line-height: 1;
+        }
+    }
+}
+
+@media(min-width:992px) {
+    .sb-page-header {
+        h1, p {
+            margin-right: 380px;
+        }
+    }
+}
+
+// Carbon Ads
+
+.carbonad {
+    width: auto !important;
+    height: auto !important;
+    margin: 30px -30px -31px !important;
+    padding: 20px !important;
+    border: solid fade(white,50%) !important;
+    border-width: 1px 0 !important;
+    overflow: hidden; /* clearfix */
+    text-align: left;
+    font-size: 13px !important;
+    line-height: 16px !important;
+    background: transparent !important;
+}
+
+.carbonad-img {
+    margin: 0 !important;
+}
+
+.carbonad-text,
+.carbonad-tag {
+    display: block !important;
+    float: none !important;
+    width: auto !important;
+    height: auto !important;
+    margin-left: 145px !important;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+.carbonad-text {
+    padding-top: 0 !important;
+    color: fade(white,80%);
+}
+
+.carbonad-tag {
+    text-align: left !important;
+    color: inherit !important;
+}
+
+.carbonad-text a,
+.carbonad-tag a {
+    color: white !important;
+}
+
+.carbonad #azcarbon > img {
+    display: none; /* hide what I assume are tracking images */
+}
+
+header.marquee .carbonad {
+    margin: 50px -15px 0 !important;
+}
+
+@media(min-width:480px) {
+    .carbonad {
+        width: 330px !important;
+        margin: 20px auto !important;
+        border-width: 1px !important;
+        border-radius: 4px;
+    }
+
+    header.marquee .carbonad {
+        margin: 50px auto 0 !important;
+    }
+}
+
+@media(min-width:768px) {
+    .carbonad {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media(min-width:992px) {
+    .carbonad {
+        position: absolute;
+        top: 0;
+        right: 15px; /* 15px instead of 0 since box-sizing */
+        width: 330px !important;
+        margin: 0 !important;
+        padding: 15px !important;
+    }
+
+    header.marquee .carbonad {
+        position: static;
+    }
+}
+
+// Template Preview Boxes
+
+.previews {
+    .thumbnail {
+        text-align: center;
+        background-image: url(/assets/img/premium-bg.png);
+        margin-bottom: 15px;
+
+        img {
+            border: 1px solid darken(white, 10%);
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+
+        p {
+            margin: 15px 0;
+        }
+
+        .btn {
+            margin-bottom: 20px;
+        }
+    }
+    .featured {
+        text-align: left;
+    }
+}
+
+@media(min-width:768px) {
+    .previews {
+        .thumbnail {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+// Preview Pages
+
+.preview-page-window {
+    margin-bottom: 30px;
+    ul.preview-links {
+        text-align: center;
+        li {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media(min-width:768px) {
+    .preview-page-window {
+        margin-bottom: 0;
+        ul.preview-links {
+            text-align: left;
+            li {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+.preview-page-content {
+    p,
+    ul,
+    .thumbnail {
+        margin-bottom: 30px;
+    }
+    ul.list-tags {
+        text-transform: capitalize;
+    }
+}
+
+p.hosting-offer {
+    margin-bottom: 10px;
+}
+
+// Resources Page
+
+.resource-name {
+    width: 200px;
+}
+
+.resource-link {
+    width: 140px;
+}
+
+// Footer
+
+.cta-mail {
+    color: white;
+    background-color: @brand-color;
+    background-image: url(/assets/img/bg.png);
+    padding: 50px 0;
+    margin-top: 50px;
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .input-group {
+        max-width: 500px;
+        margin: 30px auto 0;
+    }
+}
+
+// Markdown Override
+
+.post-image-link {
+    p {
+        margin: 0 !important;
+    }
+}
+
+// Resources Page
+
+.resources {
+    h2, h3 {
+        margin-top: 0;
+        padding-top: 60px;
+    }
+}
+
+.submit-box {
+    margin-top: 60px;
+    h3 {
+        padding-top: 0;
+    }
+}
+
+// Bootstrap Docs Sidebar used on Resources Page
+// Sidebar code taken from the Official Bootstrap Docs - http://getbootstrap.com/
+
+.bs-docs-sidebar.affix {
+    position: static;
+}
+
+@media(min-width:768px) {
+    .bs-docs-sidebar {
+        padding-left: 20px;
+    }
+}
+
+.bs-docs-sidenav {
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+
+.bs-docs-sidebar .nav>li>a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #999;
+}
+
+.bs-docs-sidebar .nav>li>a:hover,
+.bs-docs-sidebar .nav>li>a:focus {
+    padding-left: 19px;
+    border-left: 1px solid @brand-color;
+    text-decoration: none;
+    color: @brand-color;
+    background-color: transparent;
+}
+
+.bs-docs-sidebar .nav>.active>a,
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active:focus>a {
+    padding-left: 18px;
+    border-left: 2px solid @brand-color;
+    font-weight: 700;
+    color: @brand-color;
+    background-color: transparent;
+}
+
+.bs-docs-sidebar .nav .nav {
+    display: none;
+    padding-bottom: 10px;
+}
+
+.bs-docs-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bs-docs-sidebar .nav .nav>li>a:hover,
+.bs-docs-sidebar .nav .nav>li>a:focus {
+    padding-left: 29px;
+}
+
+.bs-docs-sidebar .nav .nav>.active>a,
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active:focus>a {
+    padding-left: 28px;
+    font-weight: 500;
+}
+
+.back-to-top {
+    display: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #999;
+}
+
+.back-to-top:hover {
+    text-decoration: none;
+    color: @brand-color;
+}
+
+@media(min-width:768px) {
+    .back-to-top {
+        display: block;
+    }
+}
+
+@media(min-width:992px) {
+    .bs-docs-sidebar .nav>.active>ul {
+        display: block;
+    }
+
+    .bs-docs-sidebar.affix,
+    .bs-docs-sidebar.affix-bottom {
+        width: 213px;
+    }
+
+    .bs-docs-sidebar.affix {
+        position: fixed;
+        top: 20px;
+    }
+
+    .bs-docs-sidebar.affix-bottom {
+        position: absolute;
+    }
+
+    .bs-docs-sidebar.affix-bottom .bs-docs-sidenav,
+    .bs-docs-sidebar.affix .bs-docs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width:1200px) {
+    .bs-docs-sidebar.affix-bottom,
+    .bs-docs-sidebar.affix {
+        width: 263px;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    .footer-left,
+    .footer-right,
+    .footer-below {
+        text-align: left;
+    }
+}
+
+@media(min-width:992px) {
+    footer {
+        .footer-left {
+            text-align: left;
+        }
+        .footer-right {
+            text-align: right;
+        }
+        .footer-below {
+            text-align: center;
+        }
+    }
+}

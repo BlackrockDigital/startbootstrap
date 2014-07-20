@@ -1,0 +1,28 @@
+---
+layout: page
+title: Portfolios
+description: "A collection of Bootstrap portfolio themes and templates perfect for web designers, developers, artists, and more!"
+meta-title: "Free Bootstrap Portfolio Themes &amp; Templates"
+meta-description: "Start Bootstrap's collection of free Bootstrap portfolio themes and templates. Our portfolio themes are perfect for web designers, agencies, artists, and more!"
+redirect_from:
+  - /portfolio-templates/
+---
+
+<div class="container">
+	<div class="row previews">
+		{% for post in site.categories.portfolios %}
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<a href="{{ post.source }}" class="post-image-link">
+					{{ post.content }}
+				</a>
+				<div class="caption">
+					<h3>{{ post.title }}</h3>
+					<p>{{ post.description }}</p>
+					<a href="{{ post.source }}" class="btn btn-default">Preview &amp; Download</a>
+				</div>
+			</div>
+		</div>	  
+		{% endfor %}
+	</div>
+</div>
