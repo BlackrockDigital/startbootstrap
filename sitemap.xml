@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://startbootstrap.com/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-categories/all/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-categories/popular/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/buy-bootstrap-templates/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-categories/admin-dashboard/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-categories/full-websites/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-categories/landing-pages/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-categories/one-page/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-categories/portfolios/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-categories/blogs/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-categories/ecommerce/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-categories/unstyled/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-categories/navigation-menus/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/bootstrap-resources/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/showcase/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/help/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/contact/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/bootstrap-design-services/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/agency/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/freelancer/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/grayscale/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/sb-admin-2/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/landing-page/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/sb-admin/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/all-templates/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/index.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/scrolling-nav/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/shop-item/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/shop-homepage/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/business-casual/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/portfolio-item/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/stylish-portfolio/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/simple-sidebar/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/modern-business/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/4-col-portfolio/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/3-col-portfolio/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/2-col-portfolio/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/1-col-portfolio/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/full-width-pics/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/thumbnail-gallery/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/the-big-picture/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/small-business/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/round-about/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/one-page-wonder/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/logo-nav/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/heroic-features/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/half-slider/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/full-slider/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/full/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/business-frontpage/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/blog-post/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/blog-home/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/template-overviews/bare/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/agency/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/freelancer/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/grayscale/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/landing-page/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/scrolling-nav/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/shop-item/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/shop-homepage/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/business-casual/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/portfolio-item/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/stylish-portfolio/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/simple-sidebar/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/4-col-portfolio/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/3-col-portfolio/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/2-col-portfolio/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/1-col-portfolio/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/full-width-pics/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/thumbnail-gallery/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/the-big-picture/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/small-business/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/round-about/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/one-page-wonder/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/logo-nav/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/heroic-features/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/half-slider/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/full-slider/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/full/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/business-frontpage/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/blog-post/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/blog-home/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/bare/</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/index.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/login.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/flot.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/morris.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/tables.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/forms.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/panels-wells.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/buttons.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/notifications.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/typography.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/grid.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin-2/blank.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin/index.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin/charts.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin/tables.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin/forms.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin/bootstrap-elements.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin/bootstrap-grid.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/sb-admin/blank-page.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/business-casual/index.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/business-casual/about.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/business-casual/blog.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/business-casual/contact.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/index.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/about.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/services.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/contact.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/portfolio-1-col.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/portfolio-2-col.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/portfolio-3-col.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/portfolio-4-col.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/portfolio-item.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/blog-home-1.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/blog-home-2.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/blog-post.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/full-width.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/sidebar.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/faq.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/404.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>http://startbootstrap.com/templates/modern-business/pricing.html</loc>
+  <lastmod>2014-07-21T03:24:01+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+</urlset>
