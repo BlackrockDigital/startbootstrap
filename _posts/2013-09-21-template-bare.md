@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Bare"
 slug: bare
 source: /template-overviews/bare
