@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "MaxFront"
 slug: maxfront
 source: http://gridgum.com/theme-preview/maxfront-multipurpose-bootstrap-theme?affiliates=29

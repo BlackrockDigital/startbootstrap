@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Modern Business"
 slug: modern-business
 source: /template-overviews/modern-business

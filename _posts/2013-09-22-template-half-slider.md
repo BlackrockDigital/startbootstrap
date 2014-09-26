@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Half Slider"
 slug: half-slider
 source: /template-overviews/half-slider

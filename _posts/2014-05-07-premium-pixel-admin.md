@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Pixel Admin"
 slug: pixel-admin
 source: http://wrapbootstrap.com/preview/WB07403R9?ref=StartBootstrap

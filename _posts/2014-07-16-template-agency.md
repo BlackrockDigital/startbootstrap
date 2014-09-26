@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Agency"
 slug: agency
 source: /template-overviews/agency

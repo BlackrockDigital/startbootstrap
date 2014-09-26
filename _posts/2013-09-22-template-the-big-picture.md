@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The Big Picture"
 slug: the-big-picture
 source: /template-overviews/the-big-picture

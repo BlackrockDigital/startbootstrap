@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Business Frontpage"
 slug: business-frontpage
 source: /template-overviews/business-frontpage

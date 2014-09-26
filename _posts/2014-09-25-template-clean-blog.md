@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Clean Blog"
 slug: clean-blog
 source: /template-overviews/clean-blog

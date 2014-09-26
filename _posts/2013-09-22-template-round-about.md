@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Round About"
 slug: round-about
 source: /template-overviews/round-about

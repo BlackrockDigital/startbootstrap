@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Portfolio Item"
 slug: portfolio-item
 source: /template-overviews/portfolio-item

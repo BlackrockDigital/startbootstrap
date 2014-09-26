@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "ProVolve Entertainment"
 slug: stylish-portfolio
 source: http://www.provolveentertainment.com/5-year-mark/

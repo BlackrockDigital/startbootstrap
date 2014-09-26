@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Landing Page"
 slug: landing-page
 source: /template-overviews/landing-page

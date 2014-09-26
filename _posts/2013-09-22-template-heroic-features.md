@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Heroic Features"
 slug: heroic-features
 source: /template-overviews/heroic-features

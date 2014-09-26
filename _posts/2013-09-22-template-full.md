@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Full"
 slug: full
 source: /template-overviews/full

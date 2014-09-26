@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Blog Post"
 slug: blog-post
 source: /template-overviews/blog-post

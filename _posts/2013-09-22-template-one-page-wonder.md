@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "One Page Wonder"
 slug: one-page-wonder
 source: /template-overviews/one-page-wonder

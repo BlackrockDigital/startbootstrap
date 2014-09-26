@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Thumbnail Gallery"
 slug: thumbnail-gallery
 source: /template-overviews/thumbnail-gallery

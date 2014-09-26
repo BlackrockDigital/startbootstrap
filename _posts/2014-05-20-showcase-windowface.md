@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Windowface"
 slug: grayscale
 source: http://windowface.tv/

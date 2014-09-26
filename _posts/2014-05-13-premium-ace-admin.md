@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Ace Admin"
 slug: ace-admin
 source: http://wrapbootstrap.com/preview/WB0B30DGR?ref=StartBootstrap

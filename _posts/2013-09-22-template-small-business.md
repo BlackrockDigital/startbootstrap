@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Small Business"
 slug: small-business
 source: /template-overviews/small-business

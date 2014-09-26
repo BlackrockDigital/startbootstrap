@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Metronic"
 slug: metronic
 source: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=IronSummitMedia

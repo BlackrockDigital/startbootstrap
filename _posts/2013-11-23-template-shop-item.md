@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Shop Item"
 slug: shop-item
 source: /template-overviews/shop-item

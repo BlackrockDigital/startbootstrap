@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Flat UI Pro"
 slug: flat-ui-pro
 source: http://designmodo.com/flat/?u=787

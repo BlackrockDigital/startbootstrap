@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Prodigal Sun Mate"
 slug: one-page-wonder
 source: http://www.prodigalsunmate.com/

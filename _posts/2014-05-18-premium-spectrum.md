@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Spectrum"
 slug: spectrum
 source: http://wrapbootstrap.com/preview/WB0317BRF

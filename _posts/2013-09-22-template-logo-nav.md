@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Logo Nav"
 slug: logo-nav
 source: /template-overviews/logo-nav

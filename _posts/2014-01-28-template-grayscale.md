@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Grayscale"
 slug: grayscale
 source: /template-overviews/grayscale

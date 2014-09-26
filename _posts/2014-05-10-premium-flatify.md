@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Flatify"
 slug: flatify
 source: http://wrapbootstrap.com/preview/WB0977873?ref=StartBootstrap

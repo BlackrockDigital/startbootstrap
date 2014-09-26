@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Porto"
 slug: porto
 source: http://themeforest.net/item/porto-responsive-html5-template/4106987?ref=IronSummitMedia

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Simple Sidebar"
 slug: simple-sidebar
 source: /template-overviews/simple-sidebar

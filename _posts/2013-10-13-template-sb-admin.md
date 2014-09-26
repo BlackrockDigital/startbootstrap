@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "SB Admin"
 slug: sb-admin
 source: /template-overviews/sb-admin

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Stylish Portfolio"
 slug: stylish-portfolio
 source: /template-overviews/stylish-portfolio

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Scrolling Nav"
 slug: scrolling-nav
 source: /template-overviews/scrolling-nav

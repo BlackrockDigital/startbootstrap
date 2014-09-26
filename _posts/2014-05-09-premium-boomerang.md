@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Boomerang"
 slug: boomerang
 source: http://wrapbootstrap.com/preview/WB021609D?ref=StartBootstrap

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "DashGum"
 slug: dashgum
 source: http://gridgum.com/theme-preview/dashgum-bootstrap-dashboard?affiliates=29

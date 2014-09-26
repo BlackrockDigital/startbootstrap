@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Flex Admin"
 slug: flex-admin
 source: http://wrapbootstrap.com/preview/WB032SCB1

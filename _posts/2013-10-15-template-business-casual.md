@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Business Casual"
 slug: business-casual
 source: /template-overviews/business-casual

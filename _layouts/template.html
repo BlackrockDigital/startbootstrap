@@ -36,8 +36,44 @@
 				<li><a href="/downloads/{{ page.slug }}.zip" class="btn btn-default"><i class="fa fa-download"></i> Download</a></li>
 				<li><a href="https://github.com/IronSummitMedia/startbootstrap/tree/gh-pages/templates/{{ page.slug }}" class="btn btn-default"><i class="fa fa-github"></i> View Source</a></li>
 			</ul>
+			{% if page.alt-version %}
+			<h4>Alternate Versions:</h4>
+			<ul class="list-inline preview-links">
+				{% if page.wordpress %}
+				<li><a class="btn btn-default" href="{{ page.wordpress }}"><i class="fa fa-wordpress"></i> WordPress Version</a></li>
+				{% endif %}
+				{% if page.tumblr %}
+				<li><a class="btn btn-default" href="{{ page.tumblr }}"><i class="fa fa-tumblr-square"></i> Tumblr Version</a></li>
+				{% endif %}
+				{% if page.jekyll %}
+				<li><a class="btn btn-default" href="{{ page.jekyll }}"><i class="fa fa-flask"></i> Jekyll Version</a></li>
+				{% endif %}
+			</ul>
+			{% endif %}
+			{% if page.user-version %}
+			<h4>User Contributed Versions:</h4>
+			<p class="small"><i class="fa fa-warning"></i> For license details and support of user contributed versions, please contact the versions author.</p>
+			<ul class="list-inline preview-links">
+				{% if page.user-wordpress %}
+				<li><a class="btn btn-default" href="{{ page.user-wordpress }}"><i class="fa fa-wordpress"></i> WordPress Version</a></li>
+				{% endif %}
+				{% if page.user-tumblr %}
+				<li><a class="btn btn-default" href="{{ page.user-tumblr }}"><i class="fa fa-tumblr-square"></i> Tumblr Version</a></li>
+				{% endif %}
+				{% if page.user-jekyll %}
+				<li><a class="btn btn-default" href="{{ page.user-jekyll }}"><i class="fa fa-flask"></i> Jekyll Version</a></li>
+				{% endif %}
+				{% if page.user-c %}
+				<li><a class="btn btn-default" href="{{ page.user-c }}"><i class="fa fa-github"></i> C# Version</a></li>
+				{% endif %}
+			</ul>
+			{% endif %}
 			<h4>License &amp; Author Details:</h4>
-			<p><a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0</a> by <a href="http://startbootstrap.com/">Start Bootstrap</a></p>
+			<p>
+				{% if page.license %}<a href="{{ page.license-url }}">{{ page.license }}</a>{% else %}<a href="{{ site.license-url }}">{{ site.license }}</a>{% endif %} by {% if page.author %}<a href="{{ page.author-url }}">{{ page.author }}</a>{% else %}<a href="{{ site.url }}">{{ site.author }}</a>{% endif %}
+				<br>
+				{% if page.author %}<span class="small"><i class="fa fa-warning"></i> This is a user contributed theme and is not supported by Start Bootstrap.</span>{% endif %}
+			</p>
 			<hr class="small">
 			<h4>Theme Comments:</h4>
 			{% include disqus.html %}
@@ -51,9 +87,9 @@
 				{% endfor %}
 			</ul>
 			<p>Please visit our <a href="/bootstrap-resources">resources page</a> for design ideas and our <a href="/help">help page</a> if you need assistance with this theme.</p>
-			<h4>Domain Name &amp; Hosting Offer:</h4>
-			<p class="hosting-offer">Need a domain name and hosting for your new website? <a href="http://hostoople.com/1/166.html"><img src="/assets/img/hostoople-logo.png" alt="Hostoople Logo"></a> has some of the best shared and reseller hosting plans around!</p>
-			<span class="label label-primary">Save 20% - Coupon Code: bootstrap</span>
+			<h4>Special Hosting Offer:</h4>
+			<p class="hosting-offer">Need hosting for your new website? <a href="http://hostoople.com/1/166.html"><img src="/assets/img/hostoople-logo.png" alt="Hostoople Logo"></a> has plans starting at $3.95/month! Use the coupon code "<strong>bootstrap</strong>" to save 20%!</p>
+			<a href="http://hostoople.com/1/166.html" class="btn btn-primary btn-xs"><i class="fa fa-chevron-circle-right"></i> See Hosting Plans!</a>
 		</div>
 	</div>
 </div>

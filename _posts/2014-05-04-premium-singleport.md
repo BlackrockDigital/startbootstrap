@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "SinglePort"
 slug: singleport
 source: http://gridgum.com/theme-preview/singleport-clean-portfolio-template?affiliates=29

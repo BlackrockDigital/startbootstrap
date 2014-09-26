@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Reen"
 slug: reen
 source: http://wrapbootstrap.com/preview/WB00PN23G?ref=StartBootstrap

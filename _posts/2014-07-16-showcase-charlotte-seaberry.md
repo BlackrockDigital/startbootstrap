@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Charlotte Seaberry"
 slug: grayscale
 source: http://www.charlotteseaberry.com/

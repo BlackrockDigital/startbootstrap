@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "3 Col Portfolio"
 slug: 3-col-portfolio
 source: /template-overviews/3-col-portfolio

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Full Slider"
 slug: full-slider
 source: /template-overviews/full-slider

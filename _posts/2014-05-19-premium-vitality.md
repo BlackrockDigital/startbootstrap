@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Vitality"
 slug: vitality
 source: http://wrapbootstrap.com/preview/WB02K3KK3

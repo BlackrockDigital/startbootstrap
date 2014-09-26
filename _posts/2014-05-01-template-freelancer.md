@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Freelancer"
 slug: freelancer
 source: /template-overviews/freelancer

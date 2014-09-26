@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Unify"
 slug: unify
 source: http://wrapbootstrap.com/preview/WB0412697?ref=StartBootstrap

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Atropos"
 slug: atropos
 source: http://wrapbootstrap.com/preview/WB05SR527?ref=StartBootstrap

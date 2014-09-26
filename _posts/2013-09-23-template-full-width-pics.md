@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Full Width Pics"
 slug: full-width-pics
 source: /template-overviews/full-width-pics
