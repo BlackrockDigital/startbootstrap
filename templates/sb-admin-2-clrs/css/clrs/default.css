@@ -1,0 +1,55 @@
+@import url('green.css');
+
+.navbar-header {
+	width: 220px
+}
+
+@media (min-width: 768px) {
+	#page-wrapper {
+		margin: 0 0 0 220px;
+	}
+	
+	.sidebar {
+		width: 220px
+	}
+}
+
+.page-header {
+	margin-top: 59px;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.page-header small {
+	font-size: 16px;
+	letter-spacing: 0px;
+	font-weight: 300;
+	color: #888;
+}
+
+.nav>li>a {
+	padding: 15px 15px;
+}
+
+.panel {
+	margin-bottom: 20px;
+}
+
+.dropdown .dropdown-toggle {
+	color: #1bb7a0;	
+}
+
+.dropdown-menu>li>a {
+	color: #767676;
+}
+
+.dropdown-toggle:hover {
+	background: #1bb7a0 !important;
+	color: #fff !important;
+	
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease
+}
