@@ -47,7 +47,7 @@
 			</ul>
 			<ul class="list-inline preview-links">
 				<li><a target="_blank" href="http://ironsummitmedia.github.io/startbootstrap-{{ page.slug }}/" class="btn btn-default"><i class="fa fa-eye"></i> Live Preview</a></li>
-				<li><a href="https://github.com/IronSummitMedia/startbootstrap-{{ page.slug }}/archive/gh-pages.zip" class="btn btn-default"><i class="fa fa-download"></i> Download</a></li>
+				<li><a href="https://github.com/IronSummitMedia/startbootstrap-{{ page.slug }}/archive/v{{ page.version }}.zip" class="btn btn-default"><i class="fa fa-download"></i> Download</a></li>
 				<li><a href="https://github.com/IronSummitMedia/startbootstrap-{{ page.slug }}" class="btn btn-default"><i class="fa fa-github"></i> View Source on GitHub</a></li>
 			</ul>
 			{% if page.alt-version %}
@@ -79,6 +79,9 @@
 				{% endif %}
 				{% if page.user-ghost %}
 				<li><a class="btn btn-default" href="{{ page.user-ghost }}"><i class="fa fa-github"></i> Ghost Version</a></li>
+				{% endif %}
+				{% if page.user-grain %}
+				<li><a class="btn btn-default" href="{{ page.user-grain }}"><i class="fa fa-github"></i> Grain Version</a></li>
 				{% endif %}
 				{% if page.user-rtl %}
 				<li><a class="btn btn-default" href="{{ page.user-rtl }}"><i class="fa fa-github"></i> RTL Version</a></li>
