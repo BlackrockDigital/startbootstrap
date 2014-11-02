@@ -32,7 +32,9 @@
                         return this.top = c - e - d
                     },
                     bottom: function() {
-                        return this.bottom = a(".bs-docs-footer").outerHeight(!0)
+                        var f = $('.cta-mail').outerHeight(true),
+                            g = $('footer').outerHeight(true);
+                        return this.bottom = f + g
                     }
                 }
             })
