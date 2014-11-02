@@ -10,9 +10,10 @@ For more information please visit the website at [http://startbootstrap.com](htt
 
 There are currently 34 themes and templates available on Start Bootstrap:
 
-| Bare  | A Bootstrap HTML starter template | [Preview &amp; Download](http://startbootstrap.com/template-overviews/bare/) | [GitHub Source](https://github.com/IronSummitMedia/startbootstrap-bare) |
-| Blog Home  | A blog home page template | [Preview &amp; Download](http://startbootstrap.com/template-overviews/blog-home/) | [GitHub Source](https://github.com/IronSummitMedia/startbootstrap-blog-home) |
-
+- **Bare**
+  [Preview &amp; Download](http://startbootstrap.com/template-overviews/bare/) - [GitHub Source](https://github.com/IronSummitMedia/startbootstrap-bare)
+- **Blog Home**
+  [Preview &amp; Download](http://startbootstrap.com/template-overviews/blog-home/) - [GitHub Source](https://github.com/IronSummitMedia/startbootstrap-blog-home)
 
 ## Copyright and License
 Copyright 2013-2014 [Iron Summit Media Strategies](http://www.ironsummitmedia.com/)
