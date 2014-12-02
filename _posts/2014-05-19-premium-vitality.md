@@ -1,8 +1,8 @@
 ---
 title: "Vitality"
 slug: vitality
-source: http://wrapbootstrap.com/preview/WB02K3KK3
-purchase-link: "https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3"
+source: http://wrapbootstrap.com/preview/WB02K3KK3?ref=StartBootstrap
+purchase-link: "https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3?ref=StartBootstrap"
 categories: premium
 description: Multipurpose One Page Theme
 ---
