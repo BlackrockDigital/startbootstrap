@@ -83,6 +83,9 @@
 				{% if page.user-grain %}
 				<li><a class="btn btn-default" href="{{ page.user-grain }}"><i class="fa fa-github"></i> Grain Version</a></li>
 				{% endif %}
+				{% if page.user-anchor %}
+				<li><a class="btn btn-default" href="{{ page.user-anchor }}"><i class="fa fa-github"></i> Anchor CMS Version</a></li>
+				{% endif %}
 				{% if page.user-rtl %}
 				<li><a class="btn btn-default" href="{{ page.user-rtl }}"><i class="fa fa-github"></i> RTL Version</a></li>
 				{% endif %}
@@ -91,6 +94,9 @@
 				{% endif %}
 				{% if page.user-c %}
 				<li><a class="btn btn-default" href="{{ page.user-c }}"><i class="fa fa-github"></i> C# Version</a></li>
+				{% endif %}
+				{% if page.user-sass %}
+				<li><a class="btn btn-default" href="{{ page.user-sass }}"><i class="fa fa-github"></i> Sass Version</a></li>
 				{% endif %}
 			</ul>
 			{% endif %}
