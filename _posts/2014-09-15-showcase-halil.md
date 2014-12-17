@@ -1,7 +1,7 @@
 ---
 title: "Marko Savic"
 slug: scrolling-nav
-source: http://markosavic.trstenikdm.com/
+source: http://markosavic.elektronskoposlovanje.rs/
 categories: showcase
 description: Personal Portfolio Website
 template: "Scrolling Nav"

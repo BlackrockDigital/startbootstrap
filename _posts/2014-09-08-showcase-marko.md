@@ -1,7 +1,7 @@
 ---
 title: "Halil Karaca"
 slug: freelancer
-source: http://markosavic.elektronskoposlovanje.rs/
+source: http://www.halilk.com/
 categories: showcase
 description: Personal Portfolio Website
 template: "Freelancer"
