@@ -2,7 +2,7 @@
 
 A library of open source, free to download, HTML starter templates for [Bootstrap](http://getbootstrap.com/)
 
-All of the templates and themes featured on Start Bootstrap are up to date for Bootstrap 3.3.0!
+All of the templates and themes featured on Start Bootstrap are up to date for Bootstrap 3.3.1!
 
 For more information please visit the website at [http://startbootstrap.com](http://startbootstrap.com).
 
@@ -48,7 +48,7 @@ There are currently 34 themes and templates available on Start Bootstrap:
 - [**Bare**](http://startbootstrap.com/template-overviews/bare/) - A Bootstrap HTML starter template.
 
 ## Copyright and License
-Copyright 2013-2014 [Iron Summit Media Strategies](http://www.ironsummitmedia.com/)
+Copyright 2013-2015 [Iron Summit Media Strategies](http://www.ironsummitmedia.com/)
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
