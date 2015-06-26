@@ -10,8 +10,9 @@ For more information please visit the website at [http://startbootstrap.com](htt
 
 **UPDATE:** As of October 2014, the templates directory in this main repository no longer contains the raw template files! Each template now has it's own repository on GitHub. You can view all Start Bootstrap repositories on the [Iron Summit Media Strategies organization page](https://github.com/IronSummitMedia).
 
-There are currently 34 themes and templates available on Start Bootstrap:
+There are currently 35 themes and templates available on Start Bootstrap:
 
+- [**Creative**](http://startbootstrap.com/template-overviews/creative/) - A one page creative theme.
 - [**Clean Blog**](http://startbootstrap.com/template-overviews/clean-blog/) - A clean blog theme.
 - [**Agency**](http://startbootstrap.com/template-overviews/agency/) - A one page agency theme.
 - [**Freelancer**](http://startbootstrap.com/template-overviews/freelancer/) - A one page freelancer theme.
