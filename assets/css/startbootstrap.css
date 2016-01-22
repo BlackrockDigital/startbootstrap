@@ -235,18 +235,18 @@ header.marquee .btn-cta:hover {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif!important
 }
 
-#carbonads .carbon-wrap .carbonad-text {
+#carbonads .carbon-wrap .carbon-text {
     padding-top: 0!important;
     color: rgba(255, 255, 255, .8)
 }
 
-#carbonads .carbon-wrap .carbonad-poweredby {
+#carbonads .carbon-wrap .carbon-poweredby {
     text-align: left!important;
     color: inherit!important
 }
 
-#carbonads .carbon-wrap .carbonad-text a,
-#carbonads .carbon-wrap .carbonad-tag a {
+#carbonads .carbon-wrap .carbon-text a,
+#carbonads .carbon-wrap .carbon-tag a {
     color: white!important
 }
 
