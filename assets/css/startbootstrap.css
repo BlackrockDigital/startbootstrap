@@ -225,33 +225,29 @@ header.marquee .btn-cta:hover {
 	float: left;
 }
 
-.carbonad-text,
-.carbonad-tag {
-    display: block!important;
-    float: none!important;
-    width: auto!important;
-    height: auto!important;
-    margin-left: 145px!important;
+#carbonads .carbon-wrap .carbon-text,
+#carbonads .carbon-wrap .carbon-poweredby {
+	display: block!important;
+	float: none!important;
+	width: auto!important;
+	height: auto!important;
+	margin-left: 145px!important;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif!important
 }
 
-.carbonad-text {
+#carbonads .carbon-wrap .carbonad-text {
     padding-top: 0!important;
     color: rgba(255, 255, 255, .8)
 }
 
-.carbonad-tag {
+#carbonads .carbon-wrap .carbonad-poweredby {
     text-align: left!important;
     color: inherit!important
 }
 
-.carbonad-text a,
-.carbonad-tag a {
-    color: #fff!important
-}
-
-.carbonad #azcarbon>img {
-    display: none
+#carbonads .carbon-wrap .carbonad-text a,
+#carbonads .carbon-wrap .carbonad-tag a {
+    color: white!important
 }
 
 header.marquee #carbonads {
@@ -259,7 +255,7 @@ header.marquee #carbonads {
 }
 
 @media (min-width:480px) {
-    .carbonad {
+    #carbonads {
         width: 330px!important;
         margin: 20px auto!important;
         border-width: 1px!important;
