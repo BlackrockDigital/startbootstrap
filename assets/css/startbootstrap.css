@@ -204,7 +204,7 @@ header.marquee .btn-cta:hover {
     }
 }
 
-.carbonads {
+#carbonads {
     width: auto!important;
     height: auto!important;
     margin: 30px -30px -31px!important;
