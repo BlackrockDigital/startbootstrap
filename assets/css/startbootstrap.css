@@ -226,7 +226,7 @@ header.marquee .btn-cta:hover {
 }
 
 #carbonads .carbon-wrap .carbon-text,
-#carbonads .carbon-wrap .carbon-poweredby {
+#carbonads .carbon-poweredby {
 	display: block!important;
 	float: none!important;
 	width: auto!important;
@@ -243,7 +243,7 @@ header.marquee .btn-cta:hover {
 
 #carbonads .carbon-wrap .carbon-poweredby {
     text-align: left!important;
-    color: white!important
+    color: inherit;!important
 }
 
 header.marquee #carbonads {
