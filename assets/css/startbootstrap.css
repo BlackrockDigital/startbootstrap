@@ -204,7 +204,7 @@ header.marquee .btn-cta:hover {
     }
 }
 
-.carbonad {
+.carbonads {
     width: auto!important;
     height: auto!important;
     margin: 30px -30px -31px!important;
@@ -220,8 +220,6 @@ header.marquee .btn-cta:hover {
 }
 
 .carbonad-img {
-	display: block;
-	float: left;
     margin: 0!important
 }
 
@@ -232,7 +230,6 @@ header.marquee .btn-cta:hover {
     width: auto!important;
     height: auto!important;
     margin-left: 145px!important;
-    color: white!important;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif!important
 }
 
