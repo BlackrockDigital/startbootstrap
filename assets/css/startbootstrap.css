@@ -252,7 +252,7 @@ header.marquee .btn-cta:hover {
     display: none
 }
 
-header.marquee .carbonad {
+header.marquee #carbonads {
     margin: 50px -15px 0!important
 }
 
@@ -263,20 +263,20 @@ header.marquee .carbonad {
         border-width: 1px!important;
         border-radius: 4px
     }
-    header.marquee .carbonad {
+    header.marquee #carbonads {
         margin: 50px auto 0!important
     }
 }
 
 @media (min-width:768px) {
-    .carbonad {
+    #carbonads {
         margin-right: 0!important;
         margin-left: 0!important
     }
 }
 
 @media (min-width:992px) {
-    .carbonad {
+    #carbonads {
         position: absolute;
         top: 0;
         right: 15px;
@@ -284,7 +284,7 @@ header.marquee .carbonad {
         margin: 0!important;
         padding: 15px!important
     }
-    header.marquee .carbonad {
+    header.marquee #carbonads {
         position: static
     }
 }
