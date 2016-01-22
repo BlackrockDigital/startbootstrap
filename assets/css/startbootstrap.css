@@ -219,8 +219,10 @@ header.marquee .btn-cta:hover {
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, .4)
 }
 
-.carbonad-img {
-    margin: 0!important
+#carbonads .carbon-wrap .carbon-img {
+	margin: 0!important;
+	display: block;
+	float: left;
 }
 
 .carbonad-text,
