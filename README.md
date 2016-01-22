@@ -8,7 +8,7 @@ For more information please visit the website at [http://startbootstrap.com](htt
 
 ## Current Templates
 
-**UPDATE:** As of October 2014, the templates directory in this main repository no longer contains the raw template files! Each template now has it's own repository on GitHub. You can view all Start Bootstrap repositories on the [Iron Summit Media Strategies organization page](https://github.com/IronSummitMedia).
+**UPDATE:** As of October 2014, the templates directory in this main repository no longer contains the raw template files! Each template now has it's own repository on GitHub. You can view all Start Bootstrap repositories on the [Blackrock Digital organization page](https://github.com/BlackrockDigital).
 
 There are currently 35 themes and templates available on Start Bootstrap:
 
@@ -49,7 +49,7 @@ There are currently 35 themes and templates available on Start Bootstrap:
 - [**Bare**](http://startbootstrap.com/template-overviews/bare/) - A Bootstrap HTML starter template.
 
 ## Copyright and License
-Copyright 2013-2015 [Iron Summit Media Strategies](http://www.ironsummitmedia.com/)
+Copyright 2013-2016 [Blackrock Digital](http://blackrockdigital.io/)
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
