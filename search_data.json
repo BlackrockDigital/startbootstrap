@@ -1,0 +1,17 @@
+---
+layout: null
+---
+{
+  {% for post in site.categories.template %}
+
+    "{{ post.url | slugify }}": {
+      "title": "{{ post.title | xml_escape }}",
+      "url": " {{ post.url | xml_escape }}",
+      "author": "{{ post.author | xml_escape }}",
+      "category": "{{ post.categories | xml_escape }}",
+      "source": "{{ post.source | xml_escape }}",
+      "description": "{{ post.description | xml_escape }}"
+    }
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}
