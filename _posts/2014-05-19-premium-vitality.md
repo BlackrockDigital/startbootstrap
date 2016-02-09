@@ -7,4 +7,4 @@ categories: premium
 description: Multipurpose One Page Theme
 ---
 
-<img src="/assets/img/premium/vitality.jpg" class="img-responsive" alt="Vitality - One Page Bootstrap Theme">
+<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/premium/vitality.jpg" class="img-responsive" alt="Vitality - One Page Bootstrap Theme">

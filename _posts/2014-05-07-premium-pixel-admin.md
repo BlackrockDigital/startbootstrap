@@ -7,4 +7,4 @@ categories: premium
 description: Premium Admin Theme
 ---
 
-<img src="/assets/img/premium/pixel-admin.jpg" class="img-responsive" alt="Pixel Admin - Premium Admin Theme">
+<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/premium/pixel-admin.jpg" class="img-responsive" alt="Pixel Admin - Premium Admin Theme">

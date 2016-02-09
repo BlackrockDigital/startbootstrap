@@ -7,4 +7,4 @@ description: ProVolve Entertainment's 5 Year Anniversary
 template: "Stylish Portfolio"
 ---
 
-<img src="/assets/img/showcase/provolve.jpg" class="img-responsive" alt="ProVolve Entertainment by the Numbers">
+<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/showcase/provolve.jpg" class="img-responsive" alt="ProVolve Entertainment by the Numbers">

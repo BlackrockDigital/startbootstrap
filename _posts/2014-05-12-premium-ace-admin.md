@@ -7,4 +7,4 @@ categories: premium
 description: Responsive Admin Template
 ---
 
-<img src="/assets/img/premium/ace-admin.jpg" class="img-responsive" alt="Ace Admin - Responsive Admin Template">
+<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/premium/ace-admin.jpg" class="img-responsive" alt="Ace Admin - Responsive Admin Template">

@@ -7,4 +7,4 @@ categories: premium
 description: Responsive Website Template
 ---
 
-<img src="/assets/img/premium/unify.jpg" class="img-responsive" alt="Unify - Responsive Website Template">
+<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/premium/unify.jpg" class="img-responsive" alt="Unify - Responsive Website Template">

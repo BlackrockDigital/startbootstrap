@@ -6,4 +6,4 @@ categories: template landing-pages one-page portfolios unstyled
 description: A full page image slider template.
 ---
 
-<img src="/assets/img/templates/full-slider.jpg" class="img-responsive" alt="Full Page Bootstrap Image Carousel Slider">
+<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/templates/full-slider.jpg" class="img-responsive" alt="Full Page Bootstrap Image Carousel Slider">

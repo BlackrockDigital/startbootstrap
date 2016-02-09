@@ -6,4 +6,4 @@ categories: template portfolios unstyled
 description: A two column portfolio template.
 ---
 
-<img src="/assets/img/templates/2-col-portfolio.jpg" class="img-responsive" alt="Free Bootstrap 3 Portfolio Theme">
+<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/templates/2-col-portfolio.jpg" class="img-responsive" alt="Free Bootstrap 3 Portfolio Theme">

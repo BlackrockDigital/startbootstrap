@@ -6,4 +6,4 @@ categories: template landing-pages one-page unstyled
 description: Full width picture backgrounds.
 ---
 
-<img src="/assets/img/templates/full-width-pics.jpg" class="img-responsive" alt="Bootstrap Full Width Picture Page Backgrounds">
+<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/templates/full-width-pics.jpg" class="img-responsive" alt="Bootstrap Full Width Picture Page Backgrounds">

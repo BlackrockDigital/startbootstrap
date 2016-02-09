@@ -7,4 +7,4 @@ categories: premium
 description: Responsive Admin Theme
 ---
 
-<img src="/assets/img/premium/inspinia.jpg" class="img-responsive" alt="Inspinia - Bootstrap Admin Theme">
+<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/premium/inspinia.jpg" class="img-responsive" alt="Inspinia - Bootstrap Admin Theme">
