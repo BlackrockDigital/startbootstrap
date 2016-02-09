@@ -71,3 +71,28 @@
         </div>
     </div>
 </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="searchModalLabel">Search Themes:</h4>
+            </div>
+            <div class="modal-body">
+                <form action="get" id="site_search">
+                    <div class="input-group">
+                        <input class="form-control" type="text" id="search_box">
+                        <span class="input-group-btn">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                        </span>
+                    </div>
+                </form>
+                <ul style="display: block; margin-top: 15px;" id="search_results"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
