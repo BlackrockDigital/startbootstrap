@@ -8,7 +8,7 @@ markdown: kramdown
 permalink: pretty
 
 # Site Details
-license: "Apache 2.0"
+license: "MIT"
 license-url: "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
 author: "Start Bootstrap"
 
