@@ -62,7 +62,8 @@
 				{% if page.jekyll %}
 				<li><a class="btn btn-default" href="{{ page.jekyll }}"><img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/jekyll-logo.svg" style="height: 16px;" alt="Jekyll Logo"> Jekyll Version</a></li>
 				{% endif %}
-			</ul>
+			</ul><li><a class="btn btn-default" href="{{ page.user-blogger }}"><i class="fa fa-github"></i> Blogger Version</a></li>
+	
 			{% endif %}
 			{% if page.user-version %}
 			<h4>User Contributed Versions:</h4>
@@ -103,6 +104,9 @@
 				{% endif %}
 				{% if page.user-blogger %}
 				<li><a class="btn btn-default" href="{{ page.user-blogger }}"><i class="fa fa-github"></i> Blogger Version</a></li>
+				{% endif %}
+				{% if page.user-pico %}
+				<li><a class="btn btn-default" href="{{ page.user-pico }}"><i class="fa fa-github"></i> Pico CMS Version</a></li>
 				{% endif %}
 			</ul>
 			{% endif %}
