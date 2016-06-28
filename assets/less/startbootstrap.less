@@ -1,4 +1,9 @@
-@import "variables.less";
+@import "../../node_modules/bootstrap/less/bootstrap.less";
+
+// Override Variables
+
+@brand-primary: #b84d45;
+
 @import "mixins.less";
 
 body {
@@ -51,7 +56,7 @@ header.marquee {
 	padding: 50px 0;
 	text-align: center;
 	color: white;
-    background-color: @brand-color;
+    background-color: @brand-primary;
 	background-image: url(/assets/img/bg.png);
 
     .brand-name {
@@ -89,7 +94,7 @@ header.marquee {
         font-size: 14px;
 
         &:hover {
-            color: @brand-color;
+            color: @brand-primary;
             background-color: white;
         }
     }
@@ -144,15 +149,15 @@ header.marquee {
 
 .btn-outline {
     padding: 10px 15px;
-    border: 1px solid @brand-color;
+    border: 1px solid @brand-primary;
     background-color: transparent;
-    color: @brand-color;
+    color: @brand-primary;
     .heading-font;
     font-size: 16px;
 
     &:hover {
         color: white;
-        background-color: @brand-color;
+        background-color: @brand-primary;
     }
 }
 
@@ -175,7 +180,7 @@ header.marquee {
     padding: 30px 15px;
     text-align: center;
     color: fade(white,80%);
-    background-color: @brand-color;
+    background-color: @brand-primary;
     background-image: url(/assets/img/bg.png);
     margin-bottom: 40px;
     font-size: 20px;
@@ -219,90 +224,83 @@ header.marquee {
 
 // Carbon Ads
 
-.carbonad {
-    width: auto !important;
-    height: auto !important;
-    margin: 30px -30px -31px !important;
-    padding: 20px !important;
-    border: solid fade(white,50%) !important;
-    border-width: 1px 0 !important;
-    overflow: hidden; /* clearfix */
+#carbonads {
+    width: auto!important;
+    height: auto!important;
+    margin: 30px -30px -31px!important;
+    padding: 20px!important;
+    border: solid rgba(255, 255, 255, .5)!important;
+    border-width: 1px 0!important;
+    overflow: hidden;
     text-align: left;
-    font-size: 13px !important;
-    line-height: 16px !important;
-    background: transparent !important;
-    box-shadow: 0 0 10px 5px hsla(0, 0%, 0%, .4);
+    font-size: 13px!important;
+    line-height: 16px!important;
+    background: transparent!important;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .4)
 }
 
-.carbonad-img {
-    margin: 0 !important;
+#carbonads .carbon-wrap .carbon-img {
+    margin: 0!important;
+    display: block;
+    float: left;
 }
 
-.carbonad-text,
-.carbonad-tag {
-    display: block !important;
-    float: none !important;
-    width: auto !important;
-    height: auto !important;
-    margin-left: 145px !important;
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+#carbonads .carbon-wrap .carbon-text,
+#carbonads .carbon-poweredby {
+    display: block!important;
+    float: none!important;
+    width: auto!important;
+    height: auto!important;
+    margin-left: 145px!important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+    color: white!important;
 }
 
-.carbonad-text {
-    padding-top: 0 !important;
-    color: fade(white,80%);
+#carbonads .carbon-wrap .carbon-text {
+    padding-top: 0!important;
+    color: rgba(255, 255, 255, .8)
 }
 
-.carbonad-tag {
-    text-align: left !important;
-    color: inherit !important;
+#carbonads .carbon-poweredby {
+    text-align: left!important;
+    color: inherit!important;
+    margin-top: 10px!important;
 }
 
-.carbonad-text a,
-.carbonad-tag a {
-    color: white !important;
+header.marquee #carbonads {
+    margin: 50px -15px 0!important
 }
 
-.carbonad #azcarbon > img {
-    display: none; /* hide what I assume are tracking images */
-}
-
-header.marquee .carbonad {
-    margin: 50px -15px 0 !important;
-}
-
-@media(min-width:480px) {
-    .carbonad {
-        width: 330px !important;
-        margin: 20px auto !important;
-        border-width: 1px !important;
-        border-radius: 4px;
+@media (min-width:480px) {
+    #carbonads {
+        width: 330px!important;
+        margin: 20px auto!important;
+        border-width: 1px!important;
+        border-radius: 4px
     }
-
-    header.marquee .carbonad {
-        margin: 50px auto 0 !important;
+    header.marquee #carbonads {
+        margin: 50px auto 0!important
     }
 }
 
-@media(min-width:768px) {
-    .carbonad {
-        margin-right: 0 !important;
-        margin-left: 0 !important;
+@media (min-width:768px) {
+    #carbonads {
+        margin-right: 0!important;
+        margin-left: 0!important
     }
 }
 
-@media(min-width:992px) {
-    .carbonad {
+@media (min-width:992px) {
+    #carbonads {
         position: absolute;
         top: 0;
-        right: 15px; /* 15px instead of 0 since box-sizing */
-        width: 330px !important;
-        margin: 0 !important;
-        padding: 15px !important;
+        right: 15px;
+        width: 330px!important;
+        margin: 0!important;
+        padding: 15px!important
     }
-
-    header.marquee .carbonad {
-        position: static;
+    header.marquee #carbonads {
+        position: static
     }
 }
 
@@ -395,7 +393,7 @@ p.hosting-offer {
 
 .cta-mail {
     color: white;
-    background-color: @brand-color;
+    background-color: @brand-primary;
     background-image: url(/assets/img/bg.png);
     padding: 50px 0;
     margin-top: 50px;
@@ -463,9 +461,9 @@ p.hosting-offer {
 .bs-docs-sidebar .nav>li>a:hover,
 .bs-docs-sidebar .nav>li>a:focus {
     padding-left: 19px;
-    border-left: 1px solid @brand-color;
+    border-left: 1px solid @brand-primary;
     text-decoration: none;
-    color: @brand-color;
+    color: @brand-primary;
     background-color: transparent;
 }
 
@@ -473,9 +471,9 @@ p.hosting-offer {
 .bs-docs-sidebar .nav>.active:hover>a,
 .bs-docs-sidebar .nav>.active:focus>a {
     padding-left: 18px;
-    border-left: 2px solid @brand-color;
+    border-left: 2px solid @brand-primary;
     font-weight: 700;
-    color: @brand-color;
+    color: @brand-primary;
     background-color: transparent;
 }
 
@@ -516,7 +514,7 @@ p.hosting-offer {
 
 .back-to-top:hover {
     text-decoration: none;
-    color: @brand-color;
+    color: @brand-primary;
 }
 
 @media(min-width:768px) {
