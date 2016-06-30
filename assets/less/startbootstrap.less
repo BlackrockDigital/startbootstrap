@@ -1,9 +1,5 @@
 @import "../../node_modules/bootstrap/less/bootstrap.less";
-
-// Override Variables
-
-@brand-primary: #b84d45;
-
+@import "variables.less";
 @import "mixins.less";
 
 body {
@@ -24,7 +20,6 @@ h6,
 
 p.lead {
     .body-font;
-	font-weight: 400;
 }
 
 hr.small {
@@ -68,7 +63,7 @@ header.marquee {
     h1 {
         font-size: 24px;
         line-height: 1;
-        margin: 20px 0;
+        margin: 5px 0 15px;
     }
 
     p {
@@ -102,10 +97,10 @@ header.marquee {
 
 @media(min-width:768px) {
     header.marquee {
-        padding: 150px 0;
+        padding: 100px 0;
 
         .brand-name {
-            font-size: 80px;
+            font-size: 82px;
         }
 
         h1 {
