@@ -6782,7 +6782,7 @@ header.marquee .brand-name {
 header.marquee h1 {
   font-size: 24px;
   line-height: 1;
-  margin: 20px 0;
+  margin: 5px 0 15px;
 }
 header.marquee p {
   font-size: 16px;
@@ -6811,10 +6811,10 @@ header.marquee .btn-cta:hover {
 }
 @media (min-width: 768px) {
   header.marquee {
-    padding: 150px 0;
+    padding: 100px 0;
   }
   header.marquee .brand-name {
-    font-size: 80px;
+    font-size: 82px;
   }
   header.marquee h1 {
     font-size: 34px;
