@@ -7,4 +7,4 @@ categories: premium
 description: Responsive Admin Template
 ---
 
-<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/premium/flex-admin.jpg" class="img-responsive" alt="Flex Admin - Bootstrap Admin Theme">
+<img src="/assets/img/premium/flex-admin.jpg" class="img-responsive" alt="Flex Admin - Bootstrap Admin Theme">

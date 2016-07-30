@@ -7,4 +7,4 @@ categories: premium
 description: Designed for Products
 ---
 
-<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/premium/velocity.jpg" class="img-responsive" alt="Velocity - Bootstrap eCommerce Theme">
+<img src="/assets/img/premium/velocity.jpg" class="img-responsive" alt="Velocity - Bootstrap eCommerce Theme">

@@ -7,4 +7,4 @@ categories: premium
 description: Flexible Multipurpose Theme
 ---
 
-<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/premium/spectrum.jpg" class="img-responsive" alt="Spectrum - One Page Bootstrap Theme">
+<img src="/assets/img/premium/spectrum.jpg" class="img-responsive" alt="Spectrum - One Page Bootstrap Theme">
