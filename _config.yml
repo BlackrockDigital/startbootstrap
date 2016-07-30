@@ -1,6 +1,7 @@
 # Site Settings
 baseurl: ""
-url: http://startbootstrap.com
+url: https://startbootstrap.com
+enforce_ssl: startbootstrap.com
 encoding: UTF-8
 
 # Build Settings
