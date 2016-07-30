@@ -7,4 +7,4 @@ description: Personal Portfolio Website
 template: "Freelancer"
 ---
 
-<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/showcase/halil.jpg" class="img-responsive" alt="Freelancer Portfolio Website">
+<img src="/assets/img/showcase/halil.jpg" class="img-responsive" alt="Freelancer Portfolio Website">

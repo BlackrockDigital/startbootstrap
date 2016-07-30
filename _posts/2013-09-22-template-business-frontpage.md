@@ -6,4 +6,4 @@ categories: template landing-pages unstyled
 description: A business home page template.
 ---
 
-<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/templates/business-frontpage.jpg" class="img-responsive" alt="Free Bootstrap Business Website Template">
+<img src="/assets/img/templates/business-frontpage.jpg" class="img-responsive" alt="Free Bootstrap Business Website Template">

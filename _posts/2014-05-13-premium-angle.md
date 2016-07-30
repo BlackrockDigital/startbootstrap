@@ -7,4 +7,4 @@ categories: premium
 description: Bootstrap Admin App + AngularJS
 ---
 
-<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/premium/angle.jpg" class="img-responsive" alt="Angle - Bootstrap Angular Admin Theme">
+<img src="/assets/img/premium/angle.jpg" class="img-responsive" alt="Angle - Bootstrap Angular Admin Theme">

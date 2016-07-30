@@ -7,4 +7,4 @@ categories: premium
 description: Made for Designers - Portfolio
 ---
 
-<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/premium/reen.jpg" class="img-responsive" alt="Reen - Made for Designers - Portfolio">
+<img src="/assets/img/premium/reen.jpg" class="img-responsive" alt="Reen - Made for Designers - Portfolio">

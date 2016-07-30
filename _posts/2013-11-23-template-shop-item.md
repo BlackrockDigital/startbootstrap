@@ -6,4 +6,4 @@ categories: template ecommerce unstyled
 description: An online store item template.
 ---
 
-<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/templates/shop-item.jpg" class="img-responsive" alt="Free Bootstrap Online Store Template">
+<img src="/assets/img/templates/shop-item.jpg" class="img-responsive" alt="Free Bootstrap Online Store Template">

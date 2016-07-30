@@ -6,4 +6,4 @@ categories: template admin full-websites unstyled popular
 description: A free Bootstrap admin template.
 ---
 
-<img src="http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/templates/sb-admin.jpg" class="img-responsive" alt="Free Bootstrap Admin Template - SB Admin">
+<img src="/assets/img/templates/sb-admin.jpg" class="img-responsive" alt="Free Bootstrap Admin Template - SB Admin">
