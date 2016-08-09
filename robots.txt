@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: http://startbootstrap.com/sitemap.xml
+Sitemap: https://startbootstrap.com/sitemap.xml

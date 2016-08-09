@@ -1,0 +1,167 @@
+// Typography
+
+body {
+	@include body-font;
+	margin-top: 51px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	@include heading-font;
+}
+
+// Custom Page Headings
+
+.page-heading {
+    position: relative;
+    padding: 30px 15px;
+    text-align: center;
+    color: fade-out(white, 0.5);
+    background-color: $brand-primary;
+    margin-bottom: 30px;
+    font-size: 20px;
+    @include background-texture;
+
+    h1 {
+        margin-top: 0;
+        color: white;
+    }
+
+    p {
+        margin-bottom: 0;
+        line-height: 1.4;
+    }
+
+    .container {
+        position: relative;
+    }
+}
+
+@media(min-width:768px) {
+    .page-heading {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: left;
+        font-size: 24px;
+
+        h1 {
+            font-size: 60px;
+            line-height: 1;
+        }
+    }
+}
+
+@media(min-width:992px) {
+    .page-heading {
+        h1, p {
+            margin-right: 380px;
+        }
+    }
+}
+
+// Page Sections
+
+section.page {
+    margin-bottom: 30px;
+    h2:first-child {
+        margin-top: 0;
+    }
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+// New Badge - Make sure parent element is relative position
+
+.badge-new {
+    color: black;
+    font-size: 14px;
+    line-height: 28px;
+    top: -6px;
+    right: -10px;
+    font-family: 'Patrick Hand SC';
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    background: #FCD670;
+    border-bottom: 2px solid darken(#FCD670, 15%);
+    border-radius: 100%;
+    -ms-transform: rotate(-12deg); /* IE 9 */
+    -webkit-transform: rotate(-12deg); /* Chrome, Safari, Opera */
+    transform: rotate(-12deg);
+    text-transform: none;
+}
+
+// Preview Panels
+
+.preview-panel {
+    text-align: center;
+    background-color: $breadcrumb-bg;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    border-bottom: 3px solid $gray-lighter;
+    position: relative;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    a {
+        img {
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
+            border-left: 1px solid $breadcrumb-bg;
+            border-right: 1px solid $breadcrumb-bg;
+        }
+        &:hover {
+            img {
+                opacity: 0.8;
+            }
+        }
+    }
+    .preview-panel-content {
+        padding: 30px 15px;
+        h4 {
+            margin: 0;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        p {
+            margin: 15px 0;
+        }
+        .btn {
+            font-size: 11px;
+            border-color: $gray-lighter;
+            &:hover {
+                border-color: darken($gray-lighter, 10%);
+            }
+        }
+    }
+}
+
+// Disqus Comments
+
+.disqus-comments {
+    margin-bottom: 30px;
+}
+
+// Overrides
+
+.breadcrumb {
+    margin-bottom: 30px;
+    border-bottom: 3px solid $gray-lighter;
+}
+
+.well {
+    background-color: $breadcrumb-bg;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 3px solid $gray-lighter;
+    box-shadow: none;
+    margin-bottom: 30px;
+    padding: 20px;
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: 10px;
+    }
+}

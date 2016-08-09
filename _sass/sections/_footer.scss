@@ -1,0 +1,89 @@
+footer {
+
+    .footer-mailchimp {
+        color: white;
+        background-color: $brand-primary;
+        padding: 50px 0;
+        @include background-texture;
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .input-group {
+            max-width: 500px;
+            margin: 30px auto 0;
+            input {
+                border: 0;
+                border-bottom: $btn-default-border 3px solid;
+                box-shadow: none;
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+            .input-group-btn {
+                border-left: 2px solid $btn-default-border;
+                .btn {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .footer-social {
+        margin-top: 50px;
+        margin-bottom: 0;
+        ul.list-inline {
+            margin: 0;
+            li {
+                a {
+                    display: block;
+                    height: 50px;
+                    width: 50px;
+                    line-height: 50px;
+                    font-size: 25px;
+                    border-radius: 100%;
+                    color: white;
+                }
+                &.social-github {
+                    a {
+                        background-color: $brand-github;
+                        &:hover {
+                            background-color: darken($brand-github, 5%);
+                        }
+                    }
+                }
+                &.social-twitter {
+                    a {
+                        background-color: $brand-twitter;
+                        &:hover {
+                            background-color: darken($brand-twitter, 5%);
+                        }
+                    }
+                }
+                &.social-facebook {
+                    a {
+                        background-color: $brand-facebook;
+                        &:hover {
+                            background-color: darken($brand-facebook, 5%);
+                        }
+                    }
+                }
+                &.social-google-plus {
+                    a {
+                        background-color: $brand-google-plus;
+                        &:hover {
+                            background-color: darken($brand-google-plus, 5%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-main {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+}

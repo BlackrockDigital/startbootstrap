@@ -1,23 +1,16 @@
 {
   "name": "startbootstrap",
   "title": "Start Bootstrap",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "homepage": "http://startbootstrap.com",
-  "author": "Start Bootstrap",
+  "author": "Blackrock Digital LLC",
   "license": {
     "type": "MIT",
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
   },
   "devDependencies": {
-    "bootstrap": "^3.3.6",
-    "font-awesome": "^4.6.3",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.10",
-    "gulp-header": "^1.8.7",
-    "gulp-less": "^3.1.0",
-    "gulp-rename": "^1.2.2",
-    "jquery": "^1.11.3",
-    "run-sequence": "^1.2.2"
+    "bootstrap": "^4.0.0-alpha.2",
+    "bootstrap-sass": "^3.3.6"
   },
   "repository": {
     "type": "git",

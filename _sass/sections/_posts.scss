@@ -1,0 +1,101 @@
+.post-previews {
+	h3:first-child {
+		margin-top: 0;
+	}
+	h3 {
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	.category,
+	.date {
+		display: inline-block;
+		margin-right: 7px;
+		font-size: 12px;
+		i {
+			font-size: 11px;
+			margin-right: 2px;
+		}
+	}
+}
+
+.pagination {
+	margin: 30px 0;
+}
+
+.breadcrumb-post {
+	margin-top: 30px;
+}
+
+article.post {
+	header {
+		h1 {
+			margin-top: 0;
+		}
+		.author,
+		.date,
+		.tag {
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+		.author {
+			font-size: 16px;
+		}
+		.date,
+		.tag {
+			font-weight: 300;
+			i {
+				margin-right: 3px;
+			}
+		}
+		.date {
+			display: inline-block;
+			margin-bottom: 30px;
+			margin-right: 15px;
+		}
+		.tag {
+			display: inline-block;
+		}
+	}
+	p {
+		font-size: 1.75rem;
+		line-height: 2.75rem;
+		margin-bottom: 20px;
+	}
+	.pager {
+		margin-bottom: 30px;
+		li {
+			a {
+				width: 48%;
+				border-radius: 4px;
+			}
+		}
+	}
+}
+
+.author-info {
+	position: relative;
+	.author-content {
+		padding-left: 90px;
+		h3 {
+			margin-top: 10px;
+		}
+	}
+	img {
+		position: absolute;
+		left: 15px;
+		top: 25px;
+		height: 75px;
+		width: 75px;
+	}
+}
+
+.latest-posts {
+	ul {
+		padding-left: 0;
+		li {
+			list-style: none;
+			padding: 10px 0;
+			border-bottom: 1px solid $navbar-default-border;
+		}
+	}
+}

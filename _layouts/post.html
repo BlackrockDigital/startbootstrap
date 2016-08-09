@@ -1,0 +1,105 @@
+---
+layout: default
+---
+
+<!-- Page Content -->
+<div class="container">
+	<ol class="breadcrumb breadcrumb-post">
+		<li><a href="/">Start Bootstrap</a></li>
+		<li><a href="/articles">Articles</a></li>
+		<li class="active">{{ page.title }}</li>
+	</ol>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+
+			<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+
+				<header>
+					<h1 itemprop="name headline">{{ page.title }}</h1>
+					<div class="author">
+						By <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+					</div>
+					<hr>
+					<div class="date">
+						<i class="icon-clock"></i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+					</div>
+					<div class="tag">
+						<i class="icon-tag"></i> {{ page.category }}
+					</div>
+				</header>
+
+				<div itemprop="articleBody">
+					{{ content }}
+				</div>
+
+				<ul class="list-inline">
+					<li>
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://startbootstrap.com{{ page.url }}" data-via="SBootstrap" data-lang="en">Tweet</a>
+					</li>
+					<li>
+						<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fstartbootstrap.com{{ page.url }}&layout=button&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					</li>
+				</ul>
+				
+				<hr>
+
+				<ul class="pager">
+					{% if page.previous.url %}
+					<li class="previous"><a href="{{ page.previous.url }}">&laquo; {{page.previous.title}}</a></li>
+					{% endif %}
+					{% if page.next.url %}
+					<li class="next"><a href="{{ page.next.url }}">{{page.next.title}} &raquo;</a></li>
+					{% endif %}
+				</ul>
+
+			</article>
+
+			<div class="well author-info">
+				<img class="pull-left img-responsive img-circle" src="/img/authors/{{ page.author-slug }}.png" alt="">
+				<div class="author-content">
+					<h3>{{ page.author }}</h3>
+					<p>{{ page.author-desc }}</p>
+					<ul class="list-inline">
+						{% if page.author-url %}
+						<li>
+							<i class="icon-globe"></i> <a href="{{ page.author-url }}">{{ page.author-url }}</a>
+						</li>
+						{% endif %}
+						{% if page.author-github %}
+						<li>
+							<i class="icon-social-github"></i> <a href="https://github.com/{{ page.author-github }}">{{ page.author-github }}</a>
+						</li>
+						{% endif %}
+						{% if page.author-twitter %}
+						<li>
+							<i class="icon-social-twitter"></i> <a href="https://twitter.com/{{ page.author-twitter }}">@{{ page.author-twitter }}</a>
+						</li>
+						{% endif %}
+					</ul>
+				</div>
+			</div>
+
+			{% include disqus.html %}
+
+		</div>
+
+		<div class="col-md-4">
+			<div class="carbon-post">
+				{% include ad.html %}
+			</div>
+			<div class="well latest-posts">
+				<h3>Latest Posts:</h3>
+				<ul>
+					{% for post in site.posts offset: 0 limit: 5  %}
+					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+				<small><a href="/posts">&laquo; All Posts</a></small>
+			</div>
+		</div>
+
+	</div>
+</div>
