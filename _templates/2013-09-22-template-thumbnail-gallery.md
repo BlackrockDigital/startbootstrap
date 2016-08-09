@@ -1,0 +1,31 @@
+---
+title:			"Thumbnail Gallery"
+slug:			thumbnail-gallery
+src:			/template-overviews/thumbnail-gallery
+categories:		template unstyled
+description:	"A thumbnail grid perfect for creating photo galleries quickly and easily with Bootstrap 3."
+bump:			"A simple image gallery template."
+img-src:		/img/templates/thumbnail-gallery.jpg
+img-desc:		"Bootstrap Image Gallery Template"
+layout:			template-overview
+
+meta-title: "Thumbnail Gallery - Bootstrap 3 Image Gallery" 
+meta-description: "A Bootstrap 3 photo gallery template with thumbnails and a working grid. All Start Bootstrap templates are free to download and open source."
+
+features:
+  - Thumbnail links for each image
+  - Fixed top navigation bar
+  - Easily customizable Bootstrap responsive grid format
+
+long-description: "Thumbnail Gallery is a simple image gallery template for Bootstrap built websites. It features a 3x4 image grid with thumbnails."
+
+alt-version:		"no"
+user-version:		"no"
+
+redirect_from:
+  - /thumbnail-gallery/
+  - /thumbnail-gallery.php/
+  - /thumbnail-gallery.html/
+  - /templates/thumbnail-gallery.html/
+  - /downloads/thumbnail-gallery.zip/
+---

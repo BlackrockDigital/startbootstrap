@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+{% include heading.html %}
+
+<div class="container">
+
+	<div class="row">
+	{% for template in site.templates reversed %}
+
+		{% if template.categories contains page.slug %}
+	    <div class="col-md-4 col-sm-6">
+	    	<div class="preview-panel">
+		    	<a href="{{ template.src }}">
+		    		<img src="{{ template.img-src }}" class="img-responsive" alt="{{ template.img-desc }}">
+		    	</a>
+		    	<div class="preview-panel-content">
+		    		<h4>{{ template.title }}</h4>
+		    		<p>{{ template.bump }}</p>
+		    		<a href="{{ template.src }}" class="btn btn-default">Preview &amp; Download</a>
+		    	</div>
+				{% if template.categories contains 'new' %}
+				<div class="badge-new">New!</div>
+				{% endif %}
+	    	</div>
+	    </div>
+		{% endif %}
+
+	{% endfor %}
+
+	{% for item in site.premium reversed %}
+
+		{% if item.categories contains page.slug %}
+	    <div class="col-md-4 col-sm-6">
+	    	<div class="preview-panel">
+		    	<a href="{{ item.src }}">
+		    		<img src="{{ item.img-src }}" class="img-responsive" alt="{{ item.img-desc }}">
+		    	</a>
+		    	<div class="preview-panel-content">
+		    		<h4>{{ item.title }}</h4>
+		    		<p>{{ item.bump }}</p>
+		    		<a href="{{ item.src }}" class="btn btn-default">Preview &amp; Purchase</a>
+		    	</div>
+				{% if item.categories contains 'new' %}
+				<div class="badge-new">New!</div>
+				{% endif %}
+	    	</div>
+	    </div>
+		{% endif %}
+
+	{% endfor %}
+	</div>
+
+	{{ content }}
+
+</div>

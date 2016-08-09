@@ -1,0 +1,23 @@
+// Navigation
+
+.navbar-default {
+	.navbar-header {
+		.navbar-toggle {
+			margin-top: 7px;
+			margin-bottom: 6px;
+			font-size: 12px;
+			text-transform: uppercase;
+			@include heading-font;
+			i {
+				margin-right: 2px;
+				font-size: 10px;
+			}
+		}
+		.navbar-brand {
+			@include heading-font;
+		}
+	}
+	.navbar-right li a:focus {
+		outline: none;
+	}
+}

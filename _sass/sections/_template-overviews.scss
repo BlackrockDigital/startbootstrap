@@ -1,0 +1,68 @@
+// Template Overview
+
+.overview-panel {
+    background-color: $breadcrumb-bg;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    border-bottom: 3px solid $gray-lighter;
+    a {
+        img {
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
+            border-left: 1px solid $breadcrumb-bg;
+            border-right: 1px solid $breadcrumb-bg;
+        }
+        &:hover {
+            img {
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+.download-links {
+    padding: 15px;
+    text-align: center;
+    ul.list-inline {
+        margin-bottom: 0;
+        li {
+            margin-bottom: 15px;
+            display: block;
+            text-align: center;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    @media(min-width:463px) {
+        text-align: left;
+        ul.list-inline {
+            li {
+                margin-bottom: 0;
+                display: inline-block;
+            }
+        }
+    }
+    .btn {
+        font-size: 11px;
+        border-color: $gray-lighter;
+        &:hover {
+            border-color: darken($gray-lighter, 10%);
+        }
+        .brand-logo {
+            margin-top: -2px;
+            height: 10px;
+            width: 10px;
+        }
+    }
+    p.small {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+}
+
+.social-links {
+    li {
+        margin-bottom: 15px;
+    }
+}

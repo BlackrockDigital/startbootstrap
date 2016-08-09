@@ -1,0 +1,116 @@
+.modal-search {
+
+    .modal-dialog {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100%;
+        margin: 0;
+
+        .modal-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            min-height: 100%;
+            box-shadow: none;
+            border-radius: 0;
+            background-clip: border-box;
+            border: none;
+
+            .modal-body {
+                padding-top: 125px;
+
+                form {
+                    .input-group {
+                        .form-control {
+                            padding: 15px 10px;
+                            font-size: 1.5rem;
+                            border: none;
+                            border-bottom: 1px solid $gray-lighter;
+                            box-shadow: none;
+                            &:focus {
+                                outline: none;
+                            }
+                            @media (min-width: 768px) {
+                                padding: 30px 10px;
+                                font-size: 4rem;
+                            }
+                        }
+                        .input-group-btn {
+                            .btn {
+                                border: none;
+                                background: transparent;
+                                color: $gray-base;
+                                font-size: 2rem;
+                                &:focus {
+                                    outline: none;
+                                }
+                                &:hover {
+                                    opacity: 0.5;
+                                }
+                                @media (min-width: 768px) {
+                                    font-size: 3rem;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+    }
+
+
+
+
+    .close-modal {
+        position: absolute;
+        width:75px;
+        height:75px;
+        background-color:transparent;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.3;
+        }
+        .lr {
+            height:75px;
+            width:1px;
+            margin-left:35px;
+            background-color:$brand-primary;
+            transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            /* IE 9 */
+            -webkit-transform: rotate(45deg);
+            /* Safari and Chrome */
+            z-index:1051;
+            .rl {
+                height:75px;
+                width:1px;
+                background-color:$brand-primary;
+                transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                /* IE 9 */
+                -webkit-transform: rotate(90deg);
+                /* Safari and Chrome */
+                z-index:1052;
+            }
+        }
+    }
+
+
+
+}
+
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: white;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: .97;
+  filter: alpha(opacity=97);
+}

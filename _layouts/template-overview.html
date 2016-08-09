@@ -1,0 +1,130 @@
+---
+layout: default
+---
+
+{% include heading.html %}
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-7">
+			<div class="overview-panel">
+				<a target="_blank" href="https://blackrockdigital.github.io/startbootstrap-{{ page.slug }}/">
+					<img src="{{ page.img-src }}" class="img-responsive" alt="{{ page.img-desc }}">
+				</a>
+				<div class="download-links">
+					<ul class="list-inline">
+						<li>
+							<a href="https://blackrockdigital.github.io/startbootstrap-{{ page.slug }}/" class="btn btn-default">
+								<i class="fa fa-eye"></i> Live Preview
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/BlackrockDigital/startbootstrap-{{ page.slug }}/archive/gh-pages.zip" class="btn btn-default">
+								<i class="fa fa-download"></i> Download
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/BlackrockDigital/startbootstrap-{{ page.slug }}" class="btn btn-default">	<i class="fa fa-github"></i> View Source
+							</a>
+						</li>
+					</ul>	
+				</div>
+			</div>
+			{% if page.alt-version == "yes" %}
+			<div class="well download-links">
+		        <h4>Official Alternate Versions</h4>
+		        <ul class="list-inline">
+		        	{% if page.alt-jekyll %}
+		            <li>
+		                <a href="{{ page.alt-jekyll }}" class="btn btn-default"><img class="brand-logo" src="/img/brand-logos/jekyll-logo.svg" alt="Jekyll Version of {{ page.title }}"> Jekyll</a>
+		            </li>
+		            {% endif %}
+		        </ul>
+			</div>
+			{% endif %}
+			{% if page.user-version == "yes" %}
+			<div class="well download-links">
+		        <h4>User Contributed Versions</h4>
+		        <ul class="list-inline">
+		        	{% if page.user-jekyll %}
+		            <li>
+		                <a href="{{ page.user-jekyll }}" class="btn btn-default"><img class="brand-logo" src="/img/brand-logos/jekyll-logo.svg" alt="Jekyll Version of {{ page.title }}"> Jekyll</a>
+		            </li>
+		            {% endif %}
+		            {% if page.user-ghost %}
+		            <li>
+		                <a href="{{ page.user-ghost }}" class="btn btn-default"><img class="brand-logo" src="/img/brand-logos/ghost-logo.svg" alt="Ghost Version of {{ page.title }}"> Ghost</a>
+		            </li>
+		            {% endif %}
+		        	{% if page.user-wordpress %}
+		            <li>
+		                <a href="{{ page.user-wordpress }}" class="btn btn-default"><i class="fa fa-wordpress"></i> WordPress</a>
+		            </li>
+		            {% endif %}
+		            {% if page.user-grav %}
+		            <li>
+		                <a href="{{ page.user-grav }}" class="btn btn-default"><img class="brand-logo" src="/img/brand-logos/grav-logo.svg" alt="Grav Version of {{ page.title }}"> Grav</a>
+		            </li>
+		            {% endif %}
+		            {% if page.user-anchor %}
+		            <li>
+		                <a href="{{ page.user-anchor }}" class="btn btn-default"><img class="brand-logo" src="/img/brand-logos/anchor-logo.svg" alt="Anchor CMS Version of {{ page.title }}"> Anchor</a>
+		            </li>
+		            {% endif %}
+		            {% if page.user-blogger %}
+		            <li>
+		                <a href="{{ page.user-blogger }}" class="btn btn-default"><img class="brand-logo" src="/img/brand-logos/blogger-logo.svg" alt="Blogger Version of {{ page.title }}"> Blogger</a>
+		            </li>
+		            {% endif %}
+		            {% if page.user-meteor %}
+		            <li>
+		                <a href="{{ page.user-meteor }}" class="btn btn-default"><img class="brand-logo" src="/img/brand-logos/meteor-logo.svg" alt="Jekyll Version of {{ page.title }}"> Meteor</a>
+		            </li>
+		            {% endif %}
+		            {% if page.user-rtl %}
+		            <li>
+		                <a href="{{ page.user-rtl }}" class="btn btn-default"><i class="fa fa-github"></i> RTL</a>
+		            </li>
+		            {% endif %}
+		        </ul>
+		        <p class="small text-muted"><i class="icon-exclamation text-primary"></i> User contributed versions are not created, supported, or updated by Start Bootstrap. For support and license information on these versions, please contact the versions creator.</p>
+			</div>
+			{% endif %}
+
+			{% include disqus.html %}
+		</div>
+		<div class="col-md-5">
+			<ul class="list-inline social-links">
+			    <li>
+			        <iframe id="gh-fork" src="https://ghbtns.com/github-btn.html?user=blackrockdigital&repo=startbootstrap-{{ page.slug }}&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55px" height="20px"></iframe>
+
+			        <iframe id="gh-star" src="https://ghbtns.com/github-btn.html?user=blackrockdigital&repo=startbootstrap-{{ page.slug }}&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+			    </li>
+			    <li>
+			        <a href="https://twitter.com/SBootstrap" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @SBootstrap</a>
+
+			        <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://startbootstrap.com/template-overviews/{{ page.slug }}/" data-via="SBootstrap" data-lang="en">Tweet</a>
+			    </li>
+			</ul>
+			<div class="well">
+				<h3>Need Help?</h3>
+				<!-- <p>Feeling stuck? Have a look at some of the <strong><a href="/articles">guides and tutorials</a></strong> available on Start Bootstrap. Need something more? You can also <strong><a href="/bootstrap-design-services">hire a designer</a></strong> to help you with your project or to create a custom build of any theme!</p> -->
+				<p>Feeling stuck? Need something more? You can <strong><a href="/bootstrap-design-services">hire a designer</a></strong> to help you with your project or to create a custom build of any theme!</p>
+			</div>
+			<div class="well">
+				<h3>Description:</h3>
+				<p>{{page.long-description}}</p>
+			</div>
+			<div class="well">
+				<h3>Features:</h3>
+				<ul>
+					{% for feature in page.features %}
+					<li>{{ feature }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+{{ content }}

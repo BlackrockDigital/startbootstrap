@@ -1,18 +1,43 @@
+# Site Information
+license:          "MIT"
+license-url:      "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+author:           "Blackrock Digital"
+
 # Site Settings
-baseurl: ""
-url: https://startbootstrap.com
-enforce_ssl: startbootstrap.com
-encoding: UTF-8
+baseurl:          ""
 
-# Build Settings
-markdown: kramdown
-permalink: pretty
+# Build settings
+exclude:          [node_modules]
 
-# Site Details
-license: "MIT"
-license-url: "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-author: "Start Bootstrap"
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-# Jekyll Redirect From Plugin for Redirects from Start Bootstrap Old Version
+# Permalinks
+permalink:        pretty
+
+# Server
+url:              https://startbootstrap.com
+enforce_ssl:      startbootstrap.com
+encoding:         UTF-8
+host:             0.0.0.0
+port:             9001
+
+# Gems
 gems:
+  - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-paginate
+  - rouge
+
+# Collections
+collections:
+  premium:
+    output: false
+  templates:
+    output: true
+    permalink: /template-overviews/:title/
+
+# Pagination
+paginate: 5
+paginate_path: "/articles/page:num/"

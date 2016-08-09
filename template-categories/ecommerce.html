@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: template-category
+slug: ecommerce
 title: Ecommerce
 description: "A collection of Bootstrap based ecommerce templates and themes that are free to download and open source."
 meta-title: "Bootstrap Ecommerce Themes &amp; Templates"
@@ -8,22 +9,3 @@ redirect_from:
   - /ecommerce-shop-templates/
   - /ecommerce-shop-templates.php/
 ---
-
-<div class="container">
-	<div class="row previews">
-		{% for post in site.categories.ecommerce %}
-		<div class="col-lg-4 col-sm-6">
-			<div class="thumbnail">
-				<a href="{{ post.source }}" class="post-image-link">
-					{{ post.content }}
-				</a>
-				<div class="caption">
-					<h3>{{ post.title }}</h3>
-					<p>{{ post.description }}</p>
-					<a href="{{ post.source }}" class="btn btn-default">Preview &amp; Download</a>
-				</div>
-			</div>
-		</div>	  
-		{% endfor %}
-	</div>
-</div>

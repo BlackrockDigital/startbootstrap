@@ -1,0 +1,140 @@
+// Resources Page
+
+.resource-name {
+    width: 200px;
+}
+
+.resource-link {
+    width: 116px;
+}
+
+.submit-box {
+    margin-top: 50px;
+    h3 {
+        padding-top: 0;
+    }
+}
+
+// Bootstrap Docs Sidebar used on Resources Page
+// Sidebar code taken from the Official Bootstrap Docs - http://getbootstrap.com/
+
+.bs-docs-sidebar.affix {
+    position: static;
+}
+
+@media(min-width:768px) {
+    .bs-docs-sidebar {
+        padding-left: 20px;
+    }
+}
+
+.bs-docs-sidenav {
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+.bs-docs-sidebar .nav>li>a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #999;
+}
+
+.bs-docs-sidebar .nav>li>a:hover,
+.bs-docs-sidebar .nav>li>a:focus {
+    padding-left: 19px;
+    border-left: 1px solid $brand-primary;
+    text-decoration: none;
+    color: $brand-primary;
+    background-color: transparent;
+}
+
+.bs-docs-sidebar .nav>.active>a,
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active:focus>a {
+    padding-left: 18px;
+    border-left: 2px solid $brand-primary;
+    font-weight: 700;
+    color: $brand-primary;
+    background-color: transparent;
+}
+
+.bs-docs-sidebar .nav .nav {
+    display: none;
+    padding-bottom: 10px;
+}
+
+.bs-docs-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bs-docs-sidebar .nav .nav>li>a:hover,
+.bs-docs-sidebar .nav .nav>li>a:focus {
+    padding-left: 29px;
+}
+
+.bs-docs-sidebar .nav .nav>.active>a,
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active:focus>a {
+    padding-left: 28px;
+    font-weight: 500;
+}
+
+.back-to-top {
+    display: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #999;
+}
+
+.back-to-top:hover {
+    text-decoration: none;
+    color: $brand-primary;
+}
+
+@media(min-width:768px) {
+    .back-to-top {
+        display: block;
+    }
+}
+
+@media(min-width:992px) {
+    .bs-docs-sidebar .nav>.active>ul {
+        display: block;
+    }
+
+    .bs-docs-sidebar.affix,
+    .bs-docs-sidebar.affix-bottom {
+        width: 213px;
+    }
+
+    .bs-docs-sidebar.affix {
+        position: fixed;
+        top: 20px;
+    }
+
+    .bs-docs-sidebar.affix-bottom {
+        position: absolute;
+    }
+
+    .bs-docs-sidebar.affix-bottom .bs-docs-sidenav,
+    .bs-docs-sidebar.affix .bs-docs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width:1200px) {
+    .bs-docs-sidebar.affix-bottom,
+    .bs-docs-sidebar.affix {
+        width: 263px;
+    }
+}

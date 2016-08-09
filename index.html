@@ -1,86 +1,105 @@
 ---
-layout: home
-title: Start Bootstrap
-meta-title: "Start Bootstrap"
-meta-description: "Free HTML starter themes and templates for Bootstrap - up to date for Bootstrap 3! An even faster way to develop websites in Bootstrap!"
-redirect_from:
-  - /index.php/
+layout: default
+meta-title: Start Bootstrap
+meta-description: Free open source Bootstrap themes and templates up to date for Bootstrap 3! An even faster way to develop websites in Bootstrap!
 ---
 
-<div class="container">
-    <div class="row home-intro text-center">
-        <div class="col-lg-12">
-            <h2 class="tagline">Forever free, open source, and easy to use.</h2>
-            <p class="lead">Start Bootstrap is a library of <strong>free to download Bootstrap 3 themes and templates</strong>. Our themes are open source for any use, even commercial. Download what you like and get started!</p>
-            <hr class="small">
-        </div>
+<header class="marquee">
+    <div class="container-fluid">
+        <div class="marquee-brand">Start Bootstrap</div>
+        <!-- Replace when guides go live! -->
+        <!-- <h1 class="marquee-heading">Free Bootstrap Themes, Templates, &amp; Guides</h1> -->
+        <h1 class="marquee-heading">Free Bootstrap Themes &amp; Templates</h1>
+        <ul class="list-inline">
+            <li><a href="/template-categories/all/" class="btn btn-default btn-lg">Browse All Themes &amp; Templates</a></li>
+            <!-- Add when guides go live! -->
+            <!-- <li><a href="#" class="btn btn-default btn-lg">Browse Guides &amp; Tutorials <span class="badge-new">New!</span></a></li> -->
+        </ul>
+        <a class="marquee-img" href="https://wrapbootstrap.com/?ref=StartBootstrap">
+            <img src="/img/wrapbootstrap.jpg" alt="">
+        </a>
     </div>
-    <div class="row previews">
-        {% for post in site.categories.featured %}
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <a href="{{ post.source }}" class="post-image-link">
-                    {{ post.content }}
-                </a>
-                <div class="caption">
-                    <h3>{{ post.title }}</h3>
-                    <p>{{ post.description }}</p>
-                    <a href="{{ post.source }}" class="btn btn-default">Preview &amp; Download</a>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-    <div class="text-center btn-home">
-        <a href="/template-categories/all" class="btn btn-outline">View All Themes &amp; Templates</a>
-    </div>
-    <hr class="small">
-    <div class="row text-center">
-        <div class="col-lg-12">
-            <h3>Looking for something more?</h3>
-            <p class="lead">Try these premium Bootstrap themes from WrapBootstrap!</p>
-        </div>
-    </div>
-    <div class="row previews">
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <a href="https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3?ref=StartBootstrap" class="post-image-link">
-                    <img src="/assets/img/premium/vitality.jpg" alt="Premium One Page Bootstrap Theme">
-                </a>
-                <div class="caption">
-                    <h3>Vitality</h3>
-                    <p>Multipurpose One Page Theme</p>
-                    <a href="https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3?ref=StartBootstrap" class="btn btn-default">Preview &amp; Purchase</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <a href="https://wrapbootstrap.com/theme/velocity-designed-for-products-WB0N38R04?ref=StartBootstrap" class="post-image-link">
-                    <img src="/assets/img/premium/velocity.jpg" alt="Premium Bootstrap Theme - Velocity">
-                </a>
-                <div class="caption">
-                    <h3>Velocity</h3>
-                    <p>Designed for Products</p>
-                    <a href="https://wrapbootstrap.com/theme/velocity-designed-for-products-WB0N38R04?ref=StartBootstrap" class="btn btn-default">Preview &amp; Purchase</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-            <div class="thumbnail">
-                <a href="https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S?ref=StartBootstrap" class="post-image-link">
-                    <img src="/assets/img/premium/inspinia.jpg" alt="Premium Bootstrap Admin Template">
-                </a>
-                <div class="caption">
-                    <h3>Inspinia</h3>
-                    <p>Responsive Admin Theme</p>
-                    <a href="https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S?ref=StartBootstrap" class="btn btn-default">Preview &amp; Purchase</a>
-                </div>
+</header>
+
+<section class="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2>Forever free, open source, and easy to use.</h2>
+                <!-- Replace when guides go live! -->
+                <!-- <p class="lead">Start Bootstrap is a collection of <strong>free to download Bootstrap themes and templates</strong>, and <strong>Bootstrap tutorials and guides</strong>. Our themes are open source and you can use them for any purpose, even comercially!</p> -->
+                <p class="lead">Start Bootstrap is a collection of <strong>free to download Bootstrap themes and templates</strong>. Our themes are open source and you can use them for any purpose, even comercially!</p>
             </div>
         </div>
     </div>
-    <div class="text-center btn-home">
-        <a href="/buy-bootstrap-templates/" class="btn btn-outline">View More Premium Themes</a>
+</section>
+
+<hr class="hr-home">
+
+<section class="themes">
+    <div class="container">
+        <div class="row">
+            {% for template in site.templates reversed %}
+            {% if template.categories contains 'featured' %}
+            <div class="col-md-4 col-sm-6">
+                <div class="preview-panel">
+                    <a href="{{ template.src }}">
+                        <img src="{{ template.img-src }}" class="img-responsive" alt="{{ template.img-desc }}">
+                    </a>
+                    <div class="preview-panel-content">
+                        <h4>{{ template.title }}</h4>
+                        <p>{{ template.bump }}</p>
+                        <a href="{{ template.src }}" class="btn btn-default">Preview &amp; Download</a>
+                    </div>
+                    {% if template.categories contains 'new' %}
+                    <div class="badge-new">New!</div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="/template-categories/all/" class="btn btn-lg btn-primary">View All Themes &amp; Templates</a>
+            </div>
+        </div>
     </div>
-    <hr class="small">
-</div>
+</section>
+
+<hr class="hr-home">
+
+<section class="premium">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2>Looking for something more?</h2>
+                <p class="lead">Try these premium themes from WrapBootstrap!</p>
+            </div>
+            {% for item in site.premium reversed %}
+            {% if item.categories contains 'featured' %}
+            <div class="col-md-4 col-sm-6">
+                <div class="preview-panel">
+                    <a href="{{ item.src }}">
+                        <img src="{{ item.img-src }}" class="img-responsive" alt="{{ item.img-desc }}">
+                    </a>
+                    <div class="preview-panel-content">
+                        <h4>{{ item.title }}</h4>
+                        <p>{{ item.bump }}</p>
+                        <a href="{{ item.src }}" class="btn btn-default">Preview &amp; Download</a>
+                    </div>
+                    {% if item.categories contains 'new' %}
+                    <div class="badge-new">New!</div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="/buy-bootstrap-templates/" class="btn btn-lg btn-primary">View More Premium Themes</a>
+            </div>                
+        </div>
+    </div>
+</section>
