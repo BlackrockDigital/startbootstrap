@@ -22,6 +22,8 @@ Along with a shiny new design update to Start Bootstrap, I wanted to share with 
 
 In the past, support for the content on Start Bootstrap has been limited to code comments, Disqus discussions, email requests, and GitHub issues - until now! I'm proud to announce that Start Bootstrap will begin publishing code tutorials to help educate designers and developers who are newer to Bootstrap or need help working with templates and themes. I'll also be releasing design guides which will offer techniques and inspiration for those who are looking to create Bootstrap websites with a unique look and feel!
 
+I'll be elaborating a bit more on the structure of these new resources in a follow up post soon!
+
 ### New Themes
 
 In addition to the guides and tutorials, there will also be some shiny new themes coming to Start Bootstrap! I've been listening to your suggestions on Twitter and via email, and I'll be creating versions of some frequently requested templates.
