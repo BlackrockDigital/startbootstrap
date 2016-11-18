@@ -30,6 +30,19 @@ layout: default
 					</ul>	
 				</div>
 			</div>
+			{% if page.v4-version == "yes" %}
+			<div class="well download-links" style="position: relative;">
+				<div class="badge-new">New!</div>
+		        <h4>Bootstrap 4 Alpha Version</h4>
+		        <ul class="list-inline">
+		        	{% if page.alt-v4 %}
+		            <li>
+		                <a href="{{ page.alt-v4 }}" class="btn btn-default"><i class="fa fa-download"></i> Download v4</a>
+		            </li>
+		            {% endif %}
+		        </ul>
+			</div>
+			{% endif %}
 			{% if page.alt-version == "yes" %}
 			<div class="well download-links">
 		        <h4>Official Alternate Versions</h4>
