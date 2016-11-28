@@ -4,7 +4,9 @@
 
 .page-heading {
 
-    #carbonads {
+    #carbonads,
+    #sfnql_5 {
+
         width: auto!important;
         height: auto!important;
         margin: 30px -30px -31px!important;
@@ -39,15 +41,23 @@
             padding: 15px!important;
         }
 
-        .carbon-wrap {
+        .carbon-wrap,
+        .sfnql_5-wrap {
 
-            .carbon-img {
+            .carbon-img,
+            .sfnql_5-img {
                 margin: 0!important;
                 display: block;
                 float: left;
+
+                img {
+                    display: block;
+                }
+
             }
 
-            .carbon-text {
+            .carbon-text,
+            .sfnql_5-text {
                 display: block!important;
                 float: none!important;
                 width: auto!important;
@@ -59,7 +69,8 @@
 
         }
 
-        .carbon-poweredby {
+        .carbon-poweredby
+        .sfnql_5-poweredby {
             display: block!important;
             float: none!important;
             width: auto!important;
