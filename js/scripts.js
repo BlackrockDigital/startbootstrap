@@ -80,6 +80,14 @@ $(function() {
     }
 }(document, "script", "twitter-wjs");
 
+// Miza Ad Script
+(function(window, base) {
+    var script = document.createElement("script");
+    script.src = "//" + base + "/c?r=" + Math.random();
+    script.async = true;
+    document.getElementsByTagName('head')[0].appendChild(script);
+})(window, "sfnql.misosoup.io");
+
 // Google Analytics Tracking Script
 (function(i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
