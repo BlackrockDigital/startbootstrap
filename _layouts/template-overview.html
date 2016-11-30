@@ -24,7 +24,7 @@ layout: default
 							</a>
 						</li>
 						<li>
-							<a href="https://github.com/BlackrockDigital/startbootstrap-{{ page.slug }}" class="btn btn-default">	<i class="fa fa-github"></i> View Source
+							<a href="https://github.com/BlackrockDigital/startbootstrap-{{ page.slug }}" class="btn btn-default"><i class="fa fa-github"></i> View Source
 							</a>
 						</li>
 					</ul>	
@@ -37,7 +37,7 @@ layout: default
 		        <ul class="list-inline">
 		        	{% if page.alt-v4 %}
 		            <li>
-		                <a href="{{ page.alt-v4 }}" class="btn btn-default"><i class="fa fa-download"></i> Download v4</a>
+		                <a href="{{ page.alt-v4 }}" class="btn btn-default" onclick="ga('send','event','Download','Download {{ page.title }} v4')"><i class="fa fa-download"></i> Download v4</a>
 		            </li>
 		            {% endif %}
 		        </ul>
