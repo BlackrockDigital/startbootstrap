@@ -21,6 +21,10 @@ long-description: "4 Col Portfolio is a basic, four column image grid ideal for 
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/archive/v4-dev.zip"
+
 redirect_from:
   - /4-col-portfolio/
   - /4-col-portfolio.php/

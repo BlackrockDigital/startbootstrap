@@ -21,6 +21,10 @@ long-description: "1 Col Portfolio is a single column portfolio page template. E
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/archive/v4-dev.zip"
+
 redirect_from:
   - /1-col-portfolio/
   - /1-col-portfolio.php/
