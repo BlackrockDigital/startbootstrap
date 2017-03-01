@@ -21,6 +21,10 @@ long-description: "Heroic features is an unstyled template featuring a hero unit
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-heroic-features/archive/v4-dev.zip"
+
 redirect_from:
   - /heroic-features/
   - /heroic-features.php/

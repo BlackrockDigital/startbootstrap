@@ -21,6 +21,10 @@ long-description: "Full is a Bootstrap 3 HTML starter template for creating page
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-full/archive/v4-dev.zip"
+
 redirect_from:
   - /full/
   - /full.php/

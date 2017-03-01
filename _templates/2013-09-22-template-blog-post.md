@@ -22,6 +22,10 @@ long-description: "Blog Post is a simple Bootstrap starter template for creating
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-blog-post/archive/v4-dev.zip"
+
 redirect_from:
   - /blog-post/
   - /blog-post.php/

@@ -23,6 +23,10 @@ long-description: "Full Width Pics is a unique Bootstrap starter template for a 
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-full-width-pics/archive/v4-dev.zip"
+
 redirect_from:
   - /full-width-pics/
   - /full-width-pics.php/

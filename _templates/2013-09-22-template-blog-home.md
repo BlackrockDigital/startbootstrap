@@ -23,6 +23,10 @@ long-description: "Blog Home is an unstyled Bootstrap template you can use to qu
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-blog-home/archive/v4-dev.zip"
+
 redirect_from:
   - /blog-home/
   - /blog-home.php/
