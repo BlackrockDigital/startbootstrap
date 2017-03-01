@@ -23,6 +23,10 @@ long-description: "One Page Wonder is an unstyled Bootstrap 3 starter template f
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/archive/v4-dev.zip"
+
 redirect_from:
   - /one-page-wonder/
   - /one-page-wonder.php/

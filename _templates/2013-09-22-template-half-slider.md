@@ -23,6 +23,10 @@ long-description: "Half Slider is a half page height, full width image slider te
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-half-slider/archive/v4-dev.zip"
+
 redirect_from:
   - /half-slider/
   - /half-slider.php/

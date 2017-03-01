@@ -21,6 +21,10 @@ long-description: "Logo Nav is a Bootstrap 3 navigation template that replaces t
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-logo-nav/archive/v4-dev.zip"
+
 redirect_from:
   - /logo-nav/
   - /logo-nav.php/

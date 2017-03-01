@@ -23,6 +23,10 @@ long-description: "Business Frontpage is a basic HTML starter template for creat
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-business-frontpage/archive/v4-dev.zip"
+
 redirect_from:
   - /business-frontpage/
   - /business-frontpage.php/
