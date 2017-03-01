@@ -21,6 +21,10 @@ long-description: "2 Col Portfolio is a basic, unstyled portfolio grid template 
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/archive/v4-dev.zip"
+
 redirect_from:
   - /2-col-portfolio/
   - /2-col-portfolio.php/

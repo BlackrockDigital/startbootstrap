@@ -21,6 +21,10 @@ long-description: "3 Col Portfolio is a simple, three column portfolio page grid
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/archive/v4-dev.zip"
+
 redirect_from:
   - /3-col-portfolio/
   - /3-col-portfolio.php/
