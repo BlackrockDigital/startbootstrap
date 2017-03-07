@@ -1,16 +1,19 @@
 // Typography
-
 body {
-	@include body-font;
-	margin-top: 51px;
+    @include body-font;
+    margin-top: 55px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	@include heading-font;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include heading-font;
 }
 
 // Custom Page Headings
-
 .page-heading {
     position: relative;
     padding: 30px 15px;
@@ -20,17 +23,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
     font-size: 20px;
     @include background-texture;
-
     h1 {
         margin-top: 0;
         color: white;
     }
-
     p {
         margin-bottom: 0;
         line-height: 1.4;
     }
-
     .container {
         position: relative;
     }
@@ -42,7 +42,6 @@ h1, h2, h3, h4, h5, h6 {
         padding-bottom: 60px;
         text-align: left;
         font-size: 24px;
-
         h1 {
             font-size: 60px;
             line-height: 1;
@@ -52,14 +51,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(min-width:992px) {
     .page-heading {
-        h1, p {
+        h1,
+        p {
             margin-right: 380px;
         }
     }
 }
 
 // Page Sections
-
 section.page {
     margin-bottom: 30px;
     h2:first-child {
@@ -71,7 +70,6 @@ section.page {
 }
 
 // New Badge - Make sure parent element is relative position
-
 .badge-new {
     color: black;
     font-size: 14px;
@@ -86,83 +84,65 @@ section.page {
     background: #FCD670;
     border-bottom: 2px solid darken(#FCD670, 15%);
     border-radius: 100%;
-    -ms-transform: rotate(-12deg); /* IE 9 */
-    -webkit-transform: rotate(-12deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(-12deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-12deg);
+    /* Chrome, Safari, Opera */
     transform: rotate(-12deg);
     text-transform: none;
 }
 
 // Preview Panels
-
-.preview-panel {
-    text-align: center;
-    background-color: $breadcrumb-bg;
+.sb-preview {
     margin-bottom: 30px;
-    border-radius: 4px;
-    border-bottom: 3px solid $gray-lighter;
-    position: relative;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    a {
-        img {
-            border-top-right-radius: 4px;
-            border-top-left-radius: 4px;
-            border-left: 1px solid $breadcrumb-bg;
-            border-right: 1px solid $breadcrumb-bg;
-        }
-        &:hover {
-            img {
-                opacity: 0.8;
+    .card {
+        background: darken(white, 4%);
+        border: 1px solid darken(white, 7%);
+        border-bottom: 3px solid darken(white, 7%);
+        .sb-preview-img {
+            @include transition;
+            &:hover {
+                opacity: 0.7;
             }
         }
-    }
-    .preview-panel-content {
-        padding: 30px 15px;
-        h4 {
-            margin: 0;
-            font-size: 20px;
-            line-height: 20px;
+        .card-block {
+            padding: 1.5rem 1.5rem 0;
         }
-        p {
-            margin: 15px 0;
-        }
-        .btn {
-            font-size: 11px;
-            border-color: $gray-lighter;
-            &:hover {
-                border-color: darken($gray-lighter, 10%);
+        .card-footer {
+            padding: 0.75rem 1.5rem 1.5rem;
+            background: transparent;
+            border: 0;
+            .btn {
+                font-size: 11px;
             }
         }
     }
 }
 
 // Disqus Comments
-
 .disqus-comments {
     margin-bottom: 30px;
 }
 
 // Overrides
-
 .breadcrumb {
     margin-bottom: 30px;
-    border-bottom: 3px solid $gray-lighter;
+    background: darken(white, 4%);
+    border-bottom: 3px solid darken(white, 7%);
 }
 
-.well {
-    background-color: $breadcrumb-bg;
-    border-radius: 4px;
-    border: none;
-    border-bottom: 3px solid $gray-lighter;
-    box-shadow: none;
+.sb-card {
+    background: darken(white, 4%);
+    border: 1px solid darken(white, 7%);
+    border-bottom: 3px solid darken(white, 7%);
     margin-bottom: 30px;
-    padding: 20px;
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        margin-top: 10px;
+    .sb-img {
+        @include transition;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+    .btn {
+        font-size: 11px;
     }
 }

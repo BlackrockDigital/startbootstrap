@@ -16,13 +16,12 @@ features:
   - Responsive image in the navbar header
   - Fixed top navigation bar
 
-long-description: "Logo Nav is a Bootstrap 3 navigation template that replaces the default text in the navbar header with an image."
+long-description: "Logo Nav is a Bootstrap 4 navigation template that replaces the default text in the navbar header with an image."
 
 alt-version:		"no"
 user-version:		"no"
 
 v4-version:			"yes"
-
 alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-logo-nav/archive/v4-dev.zip"
 
 redirect_from:

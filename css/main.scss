@@ -3,26 +3,19 @@
 ---
 @charset "utf-8";
 
-//== Colors
-//
-//## Gray and brand colors for use across Bootstrap.
+// Colors
 
-$gray-base:					#000 !default;
-$gray-darker:				lighten($gray-base, 13.5%) !default; // #222
-$gray-dark:					lighten($gray-base, 20%) !default;   // #333
-$gray:						lighten($gray-base, 33.5%) !default; // #555
-$gray-light:				lighten($gray-base, 46.7%) !default; // #777
-$gray-lighter:				lighten($gray-base, 93.5%) !default; // #eee
+// Create grayscale
+$gray-dark:                 #292b2c !default;
+$gray:                      #464a4c !default;
+$gray-light:                #636c72 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
 
 $brand-primary:				#b84d45 !default;
-$brand-success:				#5cb85c !default;
-$brand-info:				#5bc0de !default;
-$brand-warning:				#f0ad4e !default;
-$brand-danger:				#d9534f !default;
 
-$navbar-default-color:		$gray-light !default;
-$navbar-default-bg:			#fff !default;
-$navbar-default-border:		darken($navbar-default-bg, 6.5%) !default;
+// Buttons
+$btn-primary-border:		darken($brand-primary, 5%);
 
 // Brand Colors for Social Links
 $brand-github:				#333333;
@@ -31,7 +24,7 @@ $brand-facebook:			#3b5998;
 $brand-google-plus:			#dd4b39;
 
 // Import bootstrap-sass
-@import "../vendor/bootstrap-sass/bootstrap";
+@import "../bootstrap/bootstrap.scss";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

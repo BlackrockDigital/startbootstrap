@@ -10,7 +10,7 @@ img-desc:		"Free Bootstrap Online Store Template"
 layout:			template-overview
 
 meta-title: "Shop Item - Bootstrap Ecommerce Shop Item Template"
-meta-description: "A Bootstrap 3 ecommerce template for shop or store items. All Start Bootstrap templates are free to download and open source."
+meta-description: "A Bootstrap 4 ecommerce template for shop or store items. All Start Bootstrap templates are free to download and open source."
 
 features:
   - Sidebar navigation list for shop categories
@@ -21,6 +21,9 @@ long-description: "Shop Item is a basic, unstyled ecommerce template for Bootstr
 
 alt-version:		"no"
 user-version:		"no"
+
+v4-version:			"yes"
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-shop-item/archive/v4-dev.zip"
 
 redirect_from:
   - /shop-item/

@@ -1,41 +1,47 @@
 footer {
-
     .footer-mailchimp {
         color: white;
         background-color: $brand-primary;
         padding: 50px 0;
         @include background-texture;
-
-        h2 {
-            margin-top: 0;
-        }
-
         .input-group {
             max-width: 500px;
             margin: 30px auto 0;
             input {
                 border: 0;
-                border-bottom: $btn-default-border 3px solid;
+                border-bottom: $btn-secondary-border 3px solid;
                 box-shadow: none;
                 &:focus {
                     box-shadow: none;
                 }
+                &::-webkit-input-placeholder {
+                    @include body-font;
+                }
+                &::-moz-placeholder {
+                    @include body-font;
+                }
+                &:-ms-input-placeholder {
+                    @include body-font;
+                }
+                &:-moz-placeholder {
+                    @include body-font;
+                }
             }
             .input-group-btn {
-                border-left: 2px solid $btn-default-border;
+                border-left: 2px solid $btn-secondary-border;
                 .btn {
                     font-size: 12px;
                 }
             }
         }
     }
-
     .footer-social {
         margin-top: 50px;
         margin-bottom: 0;
         ul.list-inline {
             margin: 0;
             li {
+                margin: 0 10px;
                 a {
                     display: block;
                     height: 50px;
@@ -48,6 +54,7 @@ footer {
                 &.social-github {
                     a {
                         background-color: $brand-github;
+                        @include transition;
                         &:hover {
                             background-color: darken($brand-github, 5%);
                         }
@@ -56,6 +63,7 @@ footer {
                 &.social-twitter {
                     a {
                         background-color: $brand-twitter;
+                        @include transition;
                         &:hover {
                             background-color: darken($brand-twitter, 5%);
                         }
@@ -64,6 +72,7 @@ footer {
                 &.social-facebook {
                     a {
                         background-color: $brand-facebook;
+                        @include transition;
                         &:hover {
                             background-color: darken($brand-facebook, 5%);
                         }
@@ -72,6 +81,7 @@ footer {
                 &.social-google-plus {
                     a {
                         background-color: $brand-google-plus;
+                        @include transition;
                         &:hover {
                             background-color: darken($brand-google-plus, 5%);
                         }
@@ -80,10 +90,8 @@ footer {
             }
         }
     }
-
     .footer-main {
         text-align: center;
         padding: 50px 0;
     }
-
 }

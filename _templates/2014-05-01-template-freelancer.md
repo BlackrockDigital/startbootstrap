@@ -32,6 +32,9 @@ alt-jekyll:     "https://github.com/BlackrockDigital/startbootstrap-freelancer-j
 
 user-version:   "no"
 
+v4-version:     "yes"
+alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-freelancer/archive/v4-dev.zip"
+
 redirect_from:
   - /freelancer/
   - /freelancer.php/

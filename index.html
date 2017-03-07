@@ -11,9 +11,8 @@ meta-description: Free open source Bootstrap themes and templates up to date for
         <!-- <h1 class="marquee-heading">Free Bootstrap Themes, Templates, &amp; Guides</h1> -->
         <h1 class="marquee-heading">Free Bootstrap Themes &amp; Templates</h1>
         <ul class="list-inline">
-            <li><a href="/template-categories/all/" class="btn btn-default btn-lg">Browse All Themes &amp; Templates<div class="badge-new">New!</div></a></li>
-            <!-- Add when guides go live! -->
-            <!-- <li><a href="#" class="btn btn-default btn-lg">Browse Guides &amp; Tutorials <span class="badge-new">New!</span></a></li> -->
+            <li><a href="/template-categories/all/" class="btn btn-secondary btn-lg">Browse All Themes &amp; Templates<div class="badge-new">New!</div></a></li>
+            <!-- <li><a href="#" class="btn btn-secondary btn-lg">Browse Guides &amp; Tutorials <span class="badge-new">New!</span></a></li> -->
         </ul>
         <a class="marquee-img" href="https://wrapbootstrap.com/?ref=StartBootstrap">
             <img src="/img/wrapbootstrap.jpg" alt="">
@@ -24,7 +23,7 @@ meta-description: Free open source Bootstrap themes and templates up to date for
 <section class="intro">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-lg-8 offset-lg-2">
                 <h2>Forever free, open source, and easy to use.</h2>
                 <!-- Replace when guides go live! -->
                 <!-- <p class="lead">Start Bootstrap is a collection of <strong>free to download Bootstrap themes and templates</strong>, and <strong>Bootstrap tutorials and guides</strong>. Our themes are open source and you can use them for any purpose, even comercially!</p> -->
@@ -39,17 +38,20 @@ meta-description: Free open source Bootstrap themes and templates up to date for
 <section class="themes">
     <div class="container">
         <div class="row">
+
             {% for template in site.templates reversed %}
             {% if template.categories contains 'featured' %}
-            <div class="col-md-4 col-sm-6">
-                <div class="preview-panel">
-                    <a href="{{ template.src }}">
-                        <img src="{{ template.img-src }}" class="img-responsive" alt="{{ template.img-desc }}">
+            <div class="col-lg-4 col-md-6 sb-preview text-center">
+                <div class="card h-100">
+                    <a class="sb-preview-img" href="{{ template.src }}">
+                        <img class="card-img-top img-fluid" src="{{ template.img-src }}" alt="{{ template.img-desc }}">
                     </a>
-                    <div class="preview-panel-content">
-                        <h4>{{ template.title }}</h4>
-                        <p>{{ template.bump }}</p>
-                        <a href="{{ template.src }}" class="btn btn-default">Preview &amp; Download</a>
+                    <div class="card-block">
+                        <h4 class="card-title">{{ template.title }}</h4>
+                        <p class="card-text">{{ template.bump }}</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="{{ template.src }}" class="btn btn-secondary">Preview &amp; Download</a>
                     </div>
                     {% if template.categories contains 'new' %}
                     <div class="badge-new">New!</div>
@@ -58,6 +60,7 @@ meta-description: Free open source Bootstrap themes and templates up to date for
             </div>
             {% endif %}
             {% endfor %}
+
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -72,27 +75,32 @@ meta-description: Free open source Bootstrap themes and templates up to date for
 <section class="premium">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-lg-8 offset-lg-2">
                 <h2>Looking for something more?</h2>
                 <p class="lead">Try these premium themes from WrapBootstrap!</p>
             </div>
             {% for item in site.premium reversed %}
             {% if item.categories contains 'featured' %}
-            <div class="col-md-4 col-sm-6">
-                <div class="preview-panel">
-                    <a href="{{ item.src }}">
-                        <img src="{{ item.img-src }}" class="img-responsive" alt="{{ item.img-desc }}">
+
+
+            <div class="col-lg-4 col-md-6 sb-preview text-center">
+                <div class="card h-100">
+                    <a class="sb-preview-img" href="{{ item.src }}">
+                        <img class="card-img-top img-fluid" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
                     </a>
-                    <div class="preview-panel-content">
-                        <h4>{{ item.title }}</h4>
-                        <p>{{ item.bump }}</p>
-                        <a href="{{ item.src }}" class="btn btn-default">Preview &amp; Download</a>
+                    <div class="card-block">
+                        <h4 class="card-title">{{ item.title }}</h4>
+                        <p class="card-text">{{ item.bump }}</p>
                     </div>
-                    {% if item.categories contains 'new' %}
+                    <div class="card-footer">
+                        <a href="{{ item.src }}" class="btn btn-secondary">Preview &amp; Download</a>
+                    </div>
+                    {% if template.categories contains 'new' %}
                     <div class="badge-new">New!</div>
                     {% endif %}
                 </div>
             </div>
+
             {% endif %}
             {% endfor %}
         </div>

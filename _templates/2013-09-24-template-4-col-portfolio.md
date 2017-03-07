@@ -6,11 +6,11 @@ categories:		template portfolios unstyled
 description:	"An unstlyed, four column, portfolio page grid perfect for showcasing a large group of projects or works."
 bump:			"A four column portfolio template."
 img-src:		/img/templates/4-col-portfolio.jpg
-img-desc:		"Free Bootstrap 3 Portfolio Theme"
+img-desc:		"Free Bootstrap 4 Portfolio Theme"
 layout:			template-overview
 
 meta-title: "Four Column Portfolio - Free Bootstrap Template"
-meta-description: "A four column portfolio page template for Bootstrap 3. All Start Bootstrap templates are free to use and open source."
+meta-description: "A four column portfolio page template for Bootstrap 4. All Start Bootstrap templates are free to use and open source."
 
 features:
   - Four column portfolio layout
@@ -22,7 +22,6 @@ alt-version:		"no"
 user-version:		"no"
 
 v4-version:			"yes"
-
 alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/archive/v4-dev.zip"
 
 redirect_from:

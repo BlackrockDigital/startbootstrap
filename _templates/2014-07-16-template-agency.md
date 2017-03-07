@@ -27,13 +27,12 @@ long-description: "Agency is a stylish, one page Bootstrap theme for agencies an
 
 alt-version:		"no"
 
-v4-version:     "yes"
-
-alt-v4:       "https://github.com/BlackrockDigital/startbootstrap-agency/archive/v4-dev.zip"
-
 user-version:		"yes"
 user-jekyll:		"https://github.com/y7kim/agency-jekyll-theme"
 user-grav:			"https://github.com/getgrav/grav-theme-agency"
+
+v4-version:     "yes"
+alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-agency/archive/v4-dev.zip"
 
 redirect_from:
   - /agency/

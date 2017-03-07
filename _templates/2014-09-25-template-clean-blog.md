@@ -31,6 +31,9 @@ user-wordpress:		"https://github.com/deviodigital/cleanblog"
 user-blogger:		"https://github.com/abhibagul/Clean-Blog-Bootstrap-template-Blogger-Version"
 user-anchor:		"https://github.com/Th3f/Basic"
 
+v4-version:			"yes"
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-clean-blog/archive/v4-dev.zip"
+
 redirect_from:
   - /clean-blog/
   - /downloads/clean-blog.zip/
