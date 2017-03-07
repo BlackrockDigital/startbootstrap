@@ -2,7 +2,7 @@
 
 A library of open source, free to download, HTML starter templates for [Bootstrap](http://getbootstrap.com/)
 
-All of the templates and themes featured on Start Bootstrap are up to date for Bootstrap 3.3.6!
+All of the templates and themes featured on Start Bootstrap are up to date for Bootstrap 4!
 
 For more information please visit the website at [http://startbootstrap.com](http://startbootstrap.com).
 

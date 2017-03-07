@@ -22,7 +22,6 @@ alt-version:		"no"
 user-version:		"no"
 
 v4-version:			"yes"
-
 alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-heroic-features/archive/v4-dev.zip"
 
 redirect_from:

@@ -10,21 +10,25 @@ layout: default
 	{% for template in site.templates reversed %}
 
 		{% if template.categories contains page.slug %}
-	    <div class="col-md-4 col-sm-6">
-	    	<div class="preview-panel">
-		    	<a href="{{ template.src }}">
-		    		<img src="{{ template.img-src }}" class="img-responsive" alt="{{ template.img-desc }}">
-		    	</a>
-		    	<div class="preview-panel-content">
-		    		<h4>{{ template.title }}</h4>
-		    		<p>{{ template.bump }}</p>
-		    		<a href="{{ template.src }}" class="btn btn-default">Preview &amp; Download</a>
-		    	</div>
-				{% if template.categories contains 'new' %}
-				<div class="badge-new">New!</div>
-				{% endif %}
-	    	</div>
-	    </div>
+
+		<div class="col-lg-4 col-md-6 sb-preview text-center">
+		    <div class="card h-100">
+		        <a class="sb-preview-img" href="{{ template.src }}">
+		            <img class="card-img-top img-fluid" src="{{ template.img-src }}" alt="{{ template.img-desc }}">
+		        </a>
+		        <div class="card-block">
+		            <h4 class="card-title">{{ template.title }}</h4>
+		            <p class="card-text">{{ template.bump }}</p>
+		        </div>
+		        <div class="card-footer">
+		            <a href="{{ template.src }}" class="btn btn-secondary">Preview &amp; Download</a>
+		        </div>
+		        {% if template.categories contains 'new' %}
+		        <div class="badge-new">New!</div>
+		        {% endif %}
+		    </div>
+		</div>
+
 		{% endif %}
 
 	{% endfor %}
@@ -32,21 +36,25 @@ layout: default
 	{% for item in site.premium reversed %}
 
 		{% if item.categories contains page.slug %}
-	    <div class="col-md-4 col-sm-6">
-	    	<div class="preview-panel">
-		    	<a href="{{ item.src }}">
-		    		<img src="{{ item.img-src }}" class="img-responsive" alt="{{ item.img-desc }}">
-		    	</a>
-		    	<div class="preview-panel-content">
-		    		<h4>{{ item.title }}</h4>
-		    		<p>{{ item.bump }}</p>
-		    		<a href="{{ item.src }}" class="btn btn-default">Preview &amp; Purchase</a>
-		    	</div>
-				{% if item.categories contains 'new' %}
-				<div class="badge-new">New!</div>
-				{% endif %}
-	    	</div>
-	    </div>
+
+		<div class="col-lg-4 col-md-6 sb-preview text-center">
+		    <div class="card h-100">
+		        <a class="sb-preview-img" href="{{ item.src }}">
+		            <img class="card-img-top img-fluid" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
+		        </a>
+		        <div class="card-block">
+		            <h4 class="card-title">{{ item.title }}</h4>
+		            <p class="card-text">{{ item.bump }}</p>
+		        </div>
+		        <div class="card-footer">
+		            <a href="{{ item.src }}" class="btn btn-secondary">Preview &amp; Purchase</a>
+		        </div>
+		        {% if item.categories contains 'new' %}
+		        <div class="badge-new">New!</div>
+		        {% endif %}
+		    </div>
+		</div>
+
 		{% endif %}
 
 	{% endfor %}

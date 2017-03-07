@@ -28,6 +28,9 @@ long-description: "Creative is a one page Bootstrap theme for creatives, small b
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:     "yes"
+alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-creative/archive/v4-dev.zip"
+
 redirect_from:
   - /creative/
   - /downloads/creative.zip/

@@ -6,7 +6,7 @@ categories:		template landing-pages unstyled
 description:	"A free, easy to use, Bootstrap starter template perfect for building small business marketing websites."
 bump:			"A simple business Bootstrap template."
 img-src:		/img/templates/small-business.jpg
-img-desc:		"Free Small Business Template for Bootstrap 3"
+img-desc:		"Free Small Business Template for Bootstrap 4"
 layout:			template-overview
 
 meta-title: "Small Business - Bootstrap Marketing Website Template"
@@ -22,6 +22,9 @@ long-description: "Small Business is a landing page template for Bootstrap built
 
 alt-version:		"no"
 user-version:		"no"
+
+v4-version:			"yes"
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-small-business/archive/v4-dev.zip"
 
 redirect_from:
   - /small-business/

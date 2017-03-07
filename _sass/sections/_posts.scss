@@ -1,101 +1,108 @@
 .post-previews {
-	h3:first-child {
-		margin-top: 0;
-	}
-	h3 {
-		margin-top: 30px;
-		margin-bottom: 0;
-	}
-	.category,
-	.date {
-		display: inline-block;
-		margin-right: 7px;
-		font-size: 12px;
-		i {
-			font-size: 11px;
-			margin-right: 2px;
-		}
-	}
+    h3:first-child {
+        margin-top: 0;
+    }
+    h3 {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .category,
+    .date {
+        display: inline-block;
+        margin-right: 7px;
+        font-size: 14px;
+        i {
+            font-size: 13px;
+            margin-right: 2px;
+        }
+    }
 }
 
 .pagination {
-	margin: 30px 0;
+    margin: 30px 0;
 }
 
 .breadcrumb-post {
-	margin-top: 30px;
+    margin-top: 84px;
 }
 
 article.post {
-	header {
-		h1 {
-			margin-top: 0;
-		}
-		.author,
-		.date,
-		.tag {
-			text-transform: uppercase;
-			font-weight: 700;
-		}
-		.author {
-			font-size: 16px;
-		}
-		.date,
-		.tag {
-			font-weight: 300;
-			i {
-				margin-right: 3px;
-			}
-		}
-		.date {
-			display: inline-block;
-			margin-bottom: 30px;
-			margin-right: 15px;
-		}
-		.tag {
-			display: inline-block;
-		}
-	}
-	p {
-		font-size: 1.75rem;
-		line-height: 2.75rem;
-		margin-bottom: 20px;
-	}
-	.pager {
-		margin-bottom: 30px;
-		li {
-			a {
-				width: 48%;
-				border-radius: 4px;
-			}
-		}
-	}
+    header {
+        .author,
+        .date,
+        .tag {
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .author {
+            font-size: 16px;
+        }
+        .date,
+        .tag {
+            font-weight: 300;
+            i {
+                margin-right: 3px;
+            }
+        }
+        .date {
+            display: inline-block;
+            margin-bottom: 30px;
+            margin-right: 15px;
+        }
+        .tag {
+            display: inline-block;
+        }
+    }
+    p {
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+        margin-bottom: 30px;
+    }
+    h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .pager {
+        margin-bottom: 30px;
+        li {
+            a {
+                width: 48%;
+                border-radius: 4px;
+            }
+        }
+    }
 }
 
 .author-info {
-	position: relative;
-	.author-content {
-		padding-left: 90px;
-		h3 {
-			margin-top: 10px;
-		}
-	}
-	img {
-		position: absolute;
-		left: 15px;
-		top: 25px;
-		height: 75px;
-		width: 75px;
-	}
+    position: relative;
+    margin-bottom: 30px;
+    .author-content {
+        padding-left: 90px;
+        h3 {
+            margin-top: 10px;
+        }
+    }
+    img {
+        position: absolute;
+        left: 15px;
+        top: 25px;
+        height: 75px;
+        width: 75px;
+    }
 }
 
-.latest-posts {
-	ul {
-		padding-left: 0;
-		li {
-			list-style: none;
-			padding: 10px 0;
-			border-bottom: 1px solid $navbar-default-border;
-		}
-	}
+.sb-pager-link {
+	display: inline-block;
+	border: 1px solid darken(white, 7%);
+	border-bottom: 3px solid darken(white, 7%);
+    width: 49%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    text-align: center;
+    @include transition;
+    &:hover {
+    	background: darken(white, 5%);
+    	text-decoration: none;
+    }
 }

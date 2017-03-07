@@ -28,6 +28,9 @@ alt-version:		"no"
 user-version:		"yes"
 user-jekyll:		"https://github.com/jeromelachaud/grayscale-theme"
 
+v4-version:     "yes"
+alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-grayscale/archive/v4-dev.zip"
+
 redirect_from:
   - /grayscale/
   - /grayscale.php/

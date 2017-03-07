@@ -8,8 +8,8 @@ meta-description: "Start Bootstrap's official blog and article database. A great
 <!-- Page Content -->
 <div class="container">
 	<ol class="breadcrumb breadcrumb-post">
-		<li><a href="/">Start Bootstrap</a></li>
-		<li class="active">{{ page.title }}</li>
+		<li class="breadcrumb-item"><a href="/">Start Bootstrap</a></li>
+		<li class="breadcrumb-item active">{{ page.title }}</li>
 	</ol>
 </div>
 
@@ -17,7 +17,7 @@ meta-description: "Start Bootstrap's official blog and article database. A great
 
 	<div class="row">
 
-		<div class="col-md-8">
+		<div class="col-lg-8">
 
 			<div class="post-previews">
 				{% for post in paginator.posts %}
@@ -31,38 +31,38 @@ meta-description: "Start Bootstrap's official blog and article database. A great
 			{% if paginator.total_pages > 1 %}
 			<ul class="pagination">
 				{% if paginator.previous_page %}
-				<li>
-					<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+				<li class="page-item">
+					<a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
 				</li>
 				{% else %}
-				<li class="disabled">
-					<a href="#" disabled>&laquo; Prev</a>
+				<li class="page-item disabled">
+					<a class="page-link" href="#" disabled>&laquo; Prev</a>
 				</li>
 				{% endif %}
 
 				{% for page in (1..paginator.total_pages) %}
 				{% if page == paginator.page %}
-				<li class="disabled">
-					<a href="#">{{ page }}</a>
+				<li class="page-item disabled">
+					<a class="page-link" href="#">{{ page }}</a>
 				</li>
 				{% elsif page == 1 %}
-				<li>
-					<a href="/articles/">{{ page }}</a>
+				<li class="page-item">
+					<a class="page-link" href="/articles/">{{ page }}</a>
 				</li>
 				{% else %}
-				<li>
-					<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+				<li class="page-item">
+					<a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
 				</li>
 				{% endif %}
 				{% endfor %}
 
 				{% if paginator.next_page %}
-				<li>
-					<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+				<li class="page-item">
+					<a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
 				</li>
 				{% else %}
-				<li class="disabled">
-					<a href="#">Next &raquo;</a>
+				<li class="page-item disabled">
+					<a class="page-link" href="#">Next &raquo;</a>
 				</li>
 				{% endif %}
 
@@ -71,7 +71,7 @@ meta-description: "Start Bootstrap's official blog and article database. A great
 
 		</div>
 
-		<div class="col-md-4">
+		<div class="col-lg-4">
 			<div class="carbon-post">
 				{% include ad.html %}
 			</div>

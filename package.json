@@ -1,7 +1,7 @@
 {
   "name": "startbootstrap",
   "title": "Start Bootstrap",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "homepage": "http://startbootstrap.com",
   "author": "Blackrock Digital LLC",
   "license": {
@@ -9,8 +9,7 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
   },
   "devDependencies": {
-    "bootstrap": "^4.0.0-alpha.2",
-    "bootstrap-sass": "^3.3.6"
+    "bootstrap": "^4.0.0-alpha.6"
   },
   "repository": {
     "type": "git",

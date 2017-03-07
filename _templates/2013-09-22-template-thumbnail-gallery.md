@@ -3,14 +3,14 @@ title:			"Thumbnail Gallery"
 slug:			thumbnail-gallery
 src:			/template-overviews/thumbnail-gallery
 categories:		template unstyled
-description:	"A thumbnail grid perfect for creating photo galleries quickly and easily with Bootstrap 3."
+description:	"A thumbnail grid perfect for creating photo galleries quickly and easily with Bootstrap 4."
 bump:			"A simple image gallery template."
 img-src:		/img/templates/thumbnail-gallery.jpg
 img-desc:		"Bootstrap Image Gallery Template"
 layout:			template-overview
 
-meta-title: "Thumbnail Gallery - Bootstrap 3 Image Gallery" 
-meta-description: "A Bootstrap 3 photo gallery template with thumbnails and a working grid. All Start Bootstrap templates are free to download and open source."
+meta-title: "Thumbnail Gallery - Bootstrap 4 Image Gallery" 
+meta-description: "A Bootstrap 4 photo gallery template with thumbnails and a working grid. All Start Bootstrap templates are free to download and open source."
 
 features:
   - Thumbnail links for each image
@@ -21,6 +21,9 @@ long-description: "Thumbnail Gallery is a simple image gallery template for Boot
 
 alt-version:		"no"
 user-version:		"no"
+
+v4-version:			"yes"
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-thumbnail-gallery/archive/v4-dev.zip"
 
 redirect_from:
   - /thumbnail-gallery/

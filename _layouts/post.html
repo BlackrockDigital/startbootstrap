@@ -5,15 +5,15 @@ layout: default
 <!-- Page Content -->
 <div class="container">
 	<ol class="breadcrumb breadcrumb-post">
-		<li><a href="/">Start Bootstrap</a></li>
-		<li><a href="/articles">Articles</a></li>
-		<li class="active">{{ page.title }}</li>
+		<li class="breadcrumb-item"><a href="/">Start Bootstrap</a></li>
+		<li class="breadcrumb-item"><a href="/articles">Articles</a></li>
+		<li class="breadcrumb-item active">{{ page.title }}</li>
 	</ol>
 </div>
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-8">
+		<div class="col-lg-8">
 
 			<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
@@ -36,49 +36,51 @@ layout: default
 				</div>
 
 				<ul class="list-inline">
-					<li>
+					<li class="list-inline-item">
 						<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://startbootstrap.com{{ page.url }}" data-via="SBootstrap" data-lang="en">Tweet</a>
 					</li>
-					<li>
+					<li class="list-inline-item">
 						<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fstartbootstrap.com{{ page.url }}&layout=button&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 					</li>
 				</ul>
 				
 				<hr>
 
-				<ul class="pager">
+				<div class="clearfix">
 					{% if page.previous.url %}
-					<li class="previous"><a href="{{ page.previous.url }}">&laquo; {{page.previous.title}}</a></li>
+					<a class="sb-pager-link float-left" href="{{ page.previous.url }}">&laquo; {{page.previous.title}}</a>
 					{% endif %}
 					{% if page.next.url %}
-					<li class="next"><a href="{{ page.next.url }}">{{page.next.title}} &raquo;</a></li>
+					<a class="sb-pager-link float-right" href="{{ page.next.url }}">{{page.next.title}} &raquo;</a>
 					{% endif %}
-				</ul>
+				</div>
 
 			</article>
 
-			<div class="well author-info">
-				<img class="pull-left img-responsive img-circle" src="/img/authors/{{ page.author-slug }}.png" alt="">
-				<div class="author-content">
-					<h3>{{ page.author }}</h3>
-					<p>{{ page.author-desc }}</p>
-					<ul class="list-inline">
-						{% if page.author-url %}
-						<li>
-							<i class="icon-globe"></i> <a href="{{ page.author-url }}">{{ page.author-url }}</a>
-						</li>
-						{% endif %}
-						{% if page.author-github %}
-						<li>
-							<i class="icon-social-github"></i> <a href="https://github.com/{{ page.author-github }}">{{ page.author-github }}</a>
-						</li>
-						{% endif %}
-						{% if page.author-twitter %}
-						<li>
-							<i class="icon-social-twitter"></i> <a href="https://twitter.com/{{ page.author-twitter }}">@{{ page.author-twitter }}</a>
-						</li>
-						{% endif %}
-					</ul>
+			<div class="card sb-card author-info">
+				<div class="card-block">
+					<img class="pull-left img-fluid rounded-circle" src="/img/authors/{{ page.author-slug }}.png" alt="">
+					<div class="author-content">
+						<h3>{{ page.author }}</h3>
+						<p>{{ page.author-desc }}</p>
+						<ul class="list-inline">
+							{% if page.author-url %}
+							<li class="list-inline-item">
+								<i class="icon-globe"></i> <a href="{{ page.author-url }}">{{ page.author-url }}</a>
+							</li>
+							{% endif %}
+							{% if page.author-github %}
+							<li class="list-inline-item">
+								<i class="icon-social-github"></i> <a href="https://github.com/{{ page.author-github }}">{{ page.author-github }}</a>
+							</li>
+							{% endif %}
+							{% if page.author-twitter %}
+							<li class="list-inline-item">
+								<i class="icon-social-twitter"></i> <a href="https://twitter.com/{{ page.author-twitter }}">@{{ page.author-twitter }}</a>
+							</li>
+							{% endif %}
+						</ul>
+					</div>
 				</div>
 			</div>
 
@@ -86,18 +88,20 @@ layout: default
 
 		</div>
 
-		<div class="col-md-4">
+		<div class="col-lg-4">
 			<div class="carbon-post">
 				{% include ad.html %}
 			</div>
-			<div class="well latest-posts">
-				<h3>Latest Posts:</h3>
-				<ul>
-					{% for post in site.posts offset: 0 limit: 5  %}
-					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-					{% endfor %}
-				</ul>
-				<small><a href="/articles">&laquo; All Posts</a></small>
+			<div class="card sb-card latest-posts">
+				<div class="card-block">
+					<h3 class="mb-3">Latest Posts:</h3>
+					<ul class="list-unstyled">
+						{% for post in site.posts offset: 0 limit: 5  %}
+						<li class="mb-3"><a href="{{ post.url }}">{{ post.title }}</a></li>
+						{% endfor %}
+					</ul>
+					<small><a href="/articles">&laquo; All Posts</a></small>
+				</div>
 			</div>
 		</div>
 

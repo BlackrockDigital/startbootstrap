@@ -10,7 +10,7 @@ img-desc:		"Free Bootstrap Ecommerce Template"
 layout:			template-overview
 
 meta-title: "Shop Homepage - Bootstrap Ecommerce Store Template"
-meta-description: "A Bootstrap 3 ecommerce homepage template for shop or store items. All Start Bootstrap templates are free to download and open source."
+meta-description: "A Bootstrap 4 ecommerce homepage template for shop or store items. All Start Bootstrap templates are free to download and open source."
 
 features:
   - Header carousel for featured items
@@ -21,6 +21,9 @@ long-description: "Shop Homepage is a starter template for a Bootstrap based onl
 
 alt-version:		"no"
 user-version:		"no"
+
+v4-version:			"yes"
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-shop-homepage/archive/v4-dev.zip"
 
 redirect_from:
   - /shop-homepage/

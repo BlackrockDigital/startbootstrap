@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bootstrap Resources
-description: "A comprehensive list of Bootstrap 3 and related resources maintained by Start Bootstrap."
+description: "A comprehensive list of Bootstrap and related resources maintained by Start Bootstrap."
 meta-title: "Bootstrap Resources and Plugins List"
 meta-description: "Bootstrap resources page meta description goes here."
 ---
@@ -10,57 +10,58 @@ meta-description: "Bootstrap resources page meta description goes here."
 <div class="container">
 	<div class="row">
 
-		<div class="col-md-3">
-			<div class="bs-docs-sidebar">
-				<ul class="nav bs-docs-sidenav">
-					<li>
-						<a href="#official">Official Bootstrap Resources</a>
-					</li>
-					<li>
-						<a href="#premium-themes">Premium Bootstrap Themes</a>
-					</li>
-					<li>
-						<a href="#free-themes">Free Bootstrap Themes</a>
-					</li>
-					<li>
-						<a href="#showcases">Bootstrap Showcases</a>
-					</li>
-					<li>
-						<a href="#dev-tools">Bootstrap Development Tools</a>
-					</li>
-					<li>
-						<a href="#ui">Bootstrap UI Extensions</a>
-					</li>
-					<li>
-						<a href="#plugins">Bootstrap jQuery Plugins</a>
-						<ul class="nav">
-							<li>
-								<a href="#plugins-form">Form Plugins</a>
-							</li>
-							<li>
-								<a href="#plugins-table">Table Plugins</a>
-							</li>
-							<li>
-								<a href="#plugins-menu">Menu &amp; Navigation Plugins</a>
-							</li>
-							<li>
-								<a href="#plugins-notification">Notification Plugins</a>
-							</li>
-							<li>
-								<a href="#plugins-modal">Modal Plugins</a>
-							</li>
-							<li>
-								<a href="#plugins-other">Other Plugins</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-				<a class="back-to-top" href="#top">Back to top</a>
-				<a href="#submitResource" data-toggle="modal" class="btn btn-sm btn-primary" style="margin-left: 20px; margin-top: 10px;">Submit a Resource</a>
-			</div>
+		<div class="col-lg-3 sb-sidebar">
+		    <div class="sticky-top">
+		        <ul class="nav flex-column">
+		            <li class="nav-item">
+		                <a class="nav-link" href="#official">Official Bootstrap Resources</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="#premium-themes">Premium Bootstrap Themes</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="#free-themes">Free Bootstrap Themes</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="#showcases">Bootstrap Showcases</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="#dev-tools">Bootstrap Development Tools</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="#ui">Bootstrap UI Extensions</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="#plugins">Bootstrap jQuery Plugins</a>
+		                <ul class="nav flex-column ml-3">
+		                    <li class="nav-item">
+		                        <a class="nav-link" href="#plugins-form">Form Plugins</a>
+		                    </li>
+		                    <li class="nav-item">
+		                        <a class="nav-link" href="#plugins-table">Table Plugins</a>
+		                    </li>
+		                    <li class="nav-item">
+		                        <a class="nav-link" href="#plugins-menu">Menu &amp; Navigation Plugins</a>
+		                    </li>
+		                    <li class="nav-item">
+		                        <a class="nav-link" href="#plugins-notification">Notification Plugins</a>
+		                    </li>
+		                    <li class="nav-item">
+		                        <a class="nav-link" href="#plugins-modal">Modal Plugins</a>
+		                    </li>
+		                    <li class="nav-item">
+		                        <a class="nav-link" href="#plugins-other">Other Plugins</a>
+		                    </li>
+		                </ul>
+		            </li>
+		        </ul>
+		        <a href="#submitResource" data-toggle="modal" class="ml-2 mt-4 btn btn-sm btn-primary">Submit a Resource</a>
+		    </div>
 		</div>
 
-		<div class="col-md-9 resources">
+
+
+		<div class="col-lg-9 resources">
 
 			<!-- Official Bootstrap Resources -->
 			<h2 class="page-header" id="official">Official Bootstrap Resources:</h2>
@@ -940,10 +941,12 @@ meta-description: "Bootstrap resources page meta description goes here."
 				</table>
 			</div>
 
-			<div class="text-center well submit-box">
-				<h3>Is something missing?</h3>
-				<p>Start Bootstrap can add your missing resource to this list!</p>
-				<a href="#submitResource" data-toggle="modal" class="btn btn-primary btn-sm">Submit a Resource</a>
+			<div class="card sb-card text-center">
+				<div class="card-block">
+					<h3>Is something missing?</h3>
+					<p>Start Bootstrap can add your missing resource to this list!</p>
+					<a href="#submitResource" data-toggle="modal" class="btn btn-primary">Submit a Resource</a>
+				</div>
 			</div>
 
 		</div>

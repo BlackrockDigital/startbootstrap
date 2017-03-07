@@ -3,14 +3,14 @@ title:			"Full Slider"
 slug:			full-slider
 src:			/template-overviews/full-slider
 categories:		template landing-pages one-page portfolios unstyled popular
-description:	"A full page background image slider for Bootstrap 3 using the built-in Bootstrap carousel plugin."
+description:	"A full page background image slider for Bootstrap 4 using the built-in Bootstrap carousel plugin."
 bump:			"A full page image slider template."
 img-src:		/img/templates/full-slider.jpg
 img-desc:		"Full Page Bootstrap Image Carousel Slider"
 layout:			template-overview
 
-meta-title: "Full Slider - Bootstrap 3 Background Image Slider"
-meta-description: "A full page background image slider template for Bootstrap 3 built with the default Bootstrap carousel. All Start Bootstrap templates are free to download and open source."
+meta-title: "Full Slider - Bootstrap 4 Background Image Slider"
+meta-description: "A full page background image slider template for Bootstrap 4 built with the default Bootstrap carousel. All Start Bootstrap templates are free to download and open source."
 
 features:
   - Full page image slider
@@ -23,7 +23,6 @@ alt-version:		"no"
 user-version:		"no"
 
 v4-version:			"yes"
-
 alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-full-slider/archive/v4-dev.zip"
 
 redirect_from:

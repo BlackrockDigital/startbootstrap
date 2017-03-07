@@ -3,14 +3,14 @@ title:			"Full Width Pics"
 slug:			full-width-pics
 src:			/template-overviews/full-width-pics
 categories:		template landing-pages one-page unstyled
-description:	"A Bootstrap 3 website template featuring content sections with full page width image backgrounds."
+description:	"A Bootstrap 4 website template featuring content sections with full page width image backgrounds."
 bump:			"Full width picture backgrounds."
 img-src:		/img/templates/full-width-pics.jpg
 img-desc:		"Bootstrap Full Width Picture Page Backgrounds"
 layout:			template-overview
 
 meta-title: "Full Width Pics - Free Bootstrap Template"
-meta-description: "A Bootstrap 3 template featuring full page width image backgrounds. All Start Bootstrap templates are free to download and open source."
+meta-description: "A Bootstrap 4 template featuring full page width image backgrounds. All Start Bootstrap templates are free to download and open source."
 
 features:
   - Full width image sections
@@ -24,7 +24,6 @@ alt-version:		"no"
 user-version:		"no"
 
 v4-version:			"yes"
-
 alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-full-width-pics/archive/v4-dev.zip"
 
 redirect_from:

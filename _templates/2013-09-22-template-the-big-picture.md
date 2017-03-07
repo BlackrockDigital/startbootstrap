@@ -21,6 +21,9 @@ long-description: "The Big Picture is an artistic, full screen background image 
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:			"yes"
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-the-big-picture/archive/v4-dev.zip"
+
 redirect_from:
   - /the-big-picture/
   - /the-big-picture.php/
