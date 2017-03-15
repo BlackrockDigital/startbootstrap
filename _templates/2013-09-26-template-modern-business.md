@@ -26,6 +26,9 @@ long-description: "Modern Business is a fully loaded Bootstrap 4 website starter
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:     "yes"
+alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-modern-business/archive/v4-dev.zip"
+
 redirect_from:
   - /modern-business/
   - /modern-business.php/
