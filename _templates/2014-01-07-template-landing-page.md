@@ -27,6 +27,9 @@ alt-version:		"no"
 user-version:		"yes"
 user-jekyll:		"https://github.com/swcool/landing-page-theme"
 
+v4-version:			"yes"
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-landing-page/archive/v4-dev.zip"
+
 redirect_from:
   - /landing-page/
   - /landing-page.php/

@@ -26,4 +26,7 @@ long-description: "New Age is a Bootstrap app landing page theme to help you bea
 
 alt-version:		"no"
 user-version:		"no"
+
+v4-version:			"yes"
+alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-new-age/archive/v4-dev.zip"
 ---
