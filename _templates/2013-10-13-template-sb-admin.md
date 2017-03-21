@@ -28,6 +28,9 @@ long-description: "SB Admin is a free to download Bootstrap admin template. This
 alt-version:		"no"
 user-version:		"no"
 
+v4-version:     "yes"
+alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-sb-admin/archive/v4-dev.zip"
+
 redirect_from:
   - /sb-admin/
   - /sb-admin.php/
