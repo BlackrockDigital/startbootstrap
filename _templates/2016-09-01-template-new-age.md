@@ -2,7 +2,7 @@
 title:			"New Age"
 slug:			new-age
 src:			/template-overviews/new-age
-categories:		template landing-pages one-page featured popular new
+categories:		template landing-pages one-page featured popular
 description:	"A bold and colorful Bootstrap landing page theme for web apps or other business use."
 bump:			"An app landing page theme."
 img-src:		/img/templates/new-age.jpg
