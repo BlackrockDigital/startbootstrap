@@ -14,8 +14,8 @@ meta-description: Free open source Bootstrap themes and templates up to date for
             <li><a href="/template-categories/all/" class="btn btn-secondary btn-lg">Browse All Themes &amp; Templates<div class="badge-new">New!</div></a></li>
             <!-- <li><a href="#" class="btn btn-secondary btn-lg">Browse Guides &amp; Tutorials <span class="badge-new">New!</span></a></li> -->
         </ul>
-        <a class="marquee-img" href="https://wrapbootstrap.com/?ref=StartBootstrap">
-            <img src="/img/wrapbootstrap.jpg" alt="">
+        <a class="marquee-img" href="https://wrapbootstrap.com/?ref=StartBootstrap" onclick="ga('send','event','Referral','Referral WrapBootstrap Home')">
+            <img src="/img/wrapbootstrap.jpg" alt="Premium Bootstrap Themes">
         </a>
     </div>
 </header>
@@ -85,7 +85,7 @@ meta-description: Free open source Bootstrap themes and templates up to date for
 
             <div class="col-lg-4 col-md-6 sb-preview text-center">
                 <div class="card h-100">
-                    <a class="sb-preview-img" href="{{ item.src }}">
+                    <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Referral','Referral WrapBootstrap Template Preview')">
                         <img class="card-img-top img-fluid" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
                     </a>
                     <div class="card-block">
@@ -93,7 +93,7 @@ meta-description: Free open source Bootstrap themes and templates up to date for
                         <p class="card-text">{{ item.bump }}</p>
                     </div>
                     <div class="card-footer">
-                        <a href="{{ item.src }}" class="btn btn-secondary">Preview &amp; Download</a>
+                        <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Referral','Referral WrapBootstrap Template Preview')">Preview &amp; Download</a>
                     </div>
                     {% if template.categories contains 'new' %}
                     <div class="badge-new">New!</div>
