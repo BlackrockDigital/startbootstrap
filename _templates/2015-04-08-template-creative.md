@@ -34,4 +34,5 @@ alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-creative/arc
 redirect_from:
   - /creative/
   - /downloads/creative.zip/
+  - /templates/creative/
 ---

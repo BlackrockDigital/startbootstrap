@@ -35,5 +35,6 @@ redirect_from:
   - /grayscale/
   - /grayscale.php/
   - /templates/grayscale.html/
+  - /templates/grayscale/
   - /downloads/grayscale.zip/
 ---

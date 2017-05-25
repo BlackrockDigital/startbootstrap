@@ -28,5 +28,6 @@ redirect_from:
   - /bare/
   - /bare.php/
   - /templates/bare.html/
+  - /templates/bare/
   - /downloads/bare.zip/
 ---

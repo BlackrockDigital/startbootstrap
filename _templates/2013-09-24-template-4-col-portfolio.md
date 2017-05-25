@@ -28,5 +28,6 @@ redirect_from:
   - /4-col-portfolio/
   - /4-col-portfolio.php/
   - /templates/4-col-portfolio.html/
+  - /templates/4-col-portfolio/
   - /downloads/4-col-portfolio.zip/
 ---

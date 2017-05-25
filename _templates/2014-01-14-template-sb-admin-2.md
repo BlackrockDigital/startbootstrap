@@ -36,6 +36,7 @@ user-meteor:    "https://github.com/lmaccherone/sb-admin-2-meteor"
 redirect_from:
   - /sb-admin-v2/
   - /sb-admin-v2.php/
+  - /templates/sb-admin-2/
   - /templates/sb-admin-v2/
   - /templates/sb-admin-v2/tables.html/
   - /templates/sb-admin-v2/login.html/

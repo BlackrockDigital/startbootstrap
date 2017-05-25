@@ -28,5 +28,6 @@ redirect_from:
   - /logo-nav/
   - /logo-nav.php/
   - /templates/logo-nav.html/
+  - /templates/logo-nav/
   - /downloads/logo-nav.zip/
 ---

@@ -33,6 +33,7 @@ redirect_from:
   - /stylish-portfolio.php/
   - /stylish-portfolio.html/
   - /templates/stylish-portfolio.html/
+  - /templates/stylish-portfolio/
   - /templates/stylish-portfolio/l/
   - /stylish-projects/
   - /stylish-gallery/

@@ -28,5 +28,6 @@ redirect_from:
   - /full/
   - /full.php/
   - /templates/full.html/
+  - /templates/full/
   - /downloads/full.zip/
 ---

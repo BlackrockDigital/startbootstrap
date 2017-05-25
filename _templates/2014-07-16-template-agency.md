@@ -36,5 +36,6 @@ alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-agency/archi
 
 redirect_from:
   - /agency/
+  - /templates/agency/
   - /downloads/agency.zip/
 ---
