@@ -28,4 +28,6 @@ redirect_from:
   - /1-col-portfolio/
   - /1-col-portfolio.php/
   - /downloads/1-col-portfolio.zip/
+  - /templates/1-col-portfolio.html/
+  - /templates/1-col-portfolio/
 ---

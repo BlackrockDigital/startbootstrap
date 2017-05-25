@@ -30,5 +30,6 @@ redirect_from:
   - /thumbnail-gallery.php/
   - /thumbnail-gallery.html/
   - /templates/thumbnail-gallery.html/
+  - /templates/thumbnail-gallery/
   - /downloads/thumbnail-gallery.zip/
 ---

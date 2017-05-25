@@ -35,6 +35,7 @@ redirect_from:
   - /sb-admin/
   - /sb-admin.php/
   - /templates/sb-admin.html/
+  - /templates/sb-admin/
   - /templates/sb-admin/typography/
   - /templates/sb-admin/typography.html/
   - /downloads/sb-admin.zip/

@@ -29,5 +29,6 @@ redirect_from:
   - /full-slider/
   - /full-slider.php/
   - /templates/full-slider.html/
+  - /templates/full-slider/
   - /downloads/full-slider.zip/
 ---

@@ -29,5 +29,6 @@ redirect_from:
   - /portfolio-item/
   - /portfolio-item.php/
   - /templates/portfolio-item.html/
+  - /templates/portfolio-item/
   - /downloads/portfolio-item.zip/
 ---

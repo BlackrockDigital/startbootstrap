@@ -29,5 +29,6 @@ redirect_from:
   - /blog-post/
   - /blog-post.php/
   - /templates/blog-post.html/
+  - /templates/blog-post/
   - /downloads/blog-post.zip/
 ---

@@ -33,5 +33,6 @@ alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-landing-page/arch
 redirect_from:
   - /landing-page/
   - /landing-page.php/
+  - templates/landing-page/
   - /downloads/landing-page.zip/
 ---

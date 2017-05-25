@@ -37,4 +37,5 @@ alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-clean-blog/archiv
 redirect_from:
   - /clean-blog/
   - /downloads/clean-blog.zip/
+  - /templates/clean-blog/
 ---

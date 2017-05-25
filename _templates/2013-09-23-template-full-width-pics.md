@@ -30,5 +30,6 @@ redirect_from:
   - /full-width-pics/
   - /full-width-pics.php/
   - /templates/full-width-pics.html/
+  - /templates/full-width-pics/
   - /downloads/full-width-pics.zip/
 ---

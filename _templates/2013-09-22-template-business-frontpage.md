@@ -30,5 +30,6 @@ redirect_from:
   - /business-frontpage/
   - /business-frontpage.php/
   - /templates/business-frontpage.html/
+  - /templates/business-frontpage/
   - /downloads/business-frontpage.zip/
 ---

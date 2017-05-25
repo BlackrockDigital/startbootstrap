@@ -29,5 +29,6 @@ redirect_from:
   - /shop-item/
   - /shop-item.php/
   - /templates/shop-item.html/
+  - /templates/shop-item/
   - /downloads/shop-item.zip/
 ---

@@ -31,5 +31,6 @@ redirect_from:
   - /one-page-wonder.php/
   - /one-page-wonder.html/
   - /templates/one-page-wonder.html/
+  - /templates/one-page-wonder/
   - /downloads/one-page-wonder.zip/
 ---

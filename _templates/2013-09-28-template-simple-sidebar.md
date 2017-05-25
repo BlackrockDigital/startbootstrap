@@ -25,6 +25,7 @@ user-version:		"no"
 redirect_from:
   - /simple-sidebar/
   - /simple-sidebar.php/
+  - /templates/simple-sidebar/
   - /templates/simple-sidebar.html/
   - /downloads/simple-sidebar.zip/
 ---

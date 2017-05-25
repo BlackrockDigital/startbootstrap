@@ -25,5 +25,6 @@ user-version:		"no"
 redirect_from:
   - /scrolling-nav/
   - /scrolling-nav.php/
+  - /templates/scrolling-nav/
   - /downloads/scrolling-nav.zip/
 ---

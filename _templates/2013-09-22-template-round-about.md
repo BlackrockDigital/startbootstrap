@@ -28,5 +28,6 @@ redirect_from:
   - /round-about/
   - /round-about.php/
   - /templates/round-about.html/
+  - /templates/round-about/
   - /downloads/round-about.zip/
 ---

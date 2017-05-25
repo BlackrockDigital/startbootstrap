@@ -30,5 +30,6 @@ redirect_from:
   - /half-slider/
   - /half-slider.php/
   - /templates/half-slider.html/
+  - /templates/half-slider/
   - /downloads/half-slider.zip/
 ---

@@ -34,6 +34,7 @@ redirect_from:
   - /modern-business.php/
   - /modern-business.html/
   - /templates/modern-business.html/
+  - /templates/modern-business/
   - /templates/modern-business/contact.php/
   - /modern-business/about.html/
   - /downloads/modern-business.zip/

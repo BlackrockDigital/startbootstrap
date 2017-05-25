@@ -33,6 +33,7 @@ redirect_from:
   - /business-casual/
   - /business-casual.php/
   - /templates/business-casual.html/
+  - /templates/business-casual/
   - /business-casual/about.html/
   - /downloads/business-casual.zip/
 ---
