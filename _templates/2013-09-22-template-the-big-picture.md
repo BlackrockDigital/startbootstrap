@@ -30,5 +30,6 @@ redirect_from:
   - /the-big-picture.html/
   - /templates/the-big-picture.html/
   - /templates/the-big-picture/
+  - /templates/the-big-picture/index.html
   - /downloads/the-big-picture.zip/
 ---

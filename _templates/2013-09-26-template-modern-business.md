@@ -31,10 +31,23 @@ alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-modern-busin
 
 redirect_from:
   - /modern-business/
+  - /modern-business/blog-post.html
+  - /modern-business/portfolio-1-col.html
   - /modern-business.php/
   - /modern-business.html/
   - /templates/modern-business.html/
   - /templates/modern-business/
+  - /templates/modern-business/index.html
+  - /templates/modern-business/full-width.html
+  - /templates/modern-business/portfolio-1-col.html
+  - /templates/modern-business/portfolio-2-col.html
+  - /templates/modern-business/portfolio-3-col.html
+  - /templates/modern-business/portfolio-4-col.html
+  - /templates/modern-business/blog-home-1.html
+  - /templates/modern-business/blog-home-2.html
+  - /templates/modern-business/contact.html
+  - /templates/modern-business/pricing.html
+  - /templates/modern-business/sidebar
   - /templates/modern-business/contact.php/
   - /modern-business/about.html/
   - /downloads/modern-business.zip/

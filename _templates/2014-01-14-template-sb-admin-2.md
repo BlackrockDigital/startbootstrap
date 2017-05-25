@@ -37,6 +37,12 @@ redirect_from:
   - /sb-admin-v2/
   - /sb-admin-v2.php/
   - /templates/sb-admin-2/
+  - /templates/sb-admin-2/tables.html
+  - /templates/sb-admin-2/notifications.html
+  - /templates/sb-admin-2/index.html
+  - /templates/sb-admin-2/flot.html
+  - /templates/sb-admin-2/forms.html
+  - /templates/sb-admin-2/panels-wells.html
   - /templates/sb-admin-v2/
   - /templates/sb-admin-v2/tables.html/
   - /templates/sb-admin-v2/login.html/

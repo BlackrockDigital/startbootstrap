@@ -30,5 +30,6 @@ redirect_from:
   - /full-slider.php/
   - /templates/full-slider.html/
   - /templates/full-slider/
+  - /templates/full-slider/index.html
   - /downloads/full-slider.zip/
 ---

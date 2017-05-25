@@ -36,6 +36,11 @@ redirect_from:
   - /sb-admin.php/
   - /templates/sb-admin.html/
   - /templates/sb-admin/
+  - /templates/sb-admin/tables.html
+  - /templates/sb-admin/charts.html
+  - /templates/sb-admin/index.html
+  - /templates/sb-admin/bootstrap-grid.html
+  - /templates/sb-admin/blank-page.html
   - /templates/sb-admin/typography/
   - /templates/sb-admin/typography.html/
   - /downloads/sb-admin.zip/

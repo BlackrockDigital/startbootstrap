@@ -30,5 +30,6 @@ redirect_from:
   - /portfolio-item.php/
   - /templates/portfolio-item.html/
   - /templates/portfolio-item/
+  - /templates/portfolio-item/index.html
   - /downloads/portfolio-item.zip/
 ---
