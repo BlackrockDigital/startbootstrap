@@ -29,5 +29,6 @@ redirect_from:
   - /full.php/
   - /templates/full.html/
   - /templates/full/
+  - /templates/full/index.html
   - /downloads/full.zip/
 ---

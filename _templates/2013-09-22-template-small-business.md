@@ -31,5 +31,6 @@ redirect_from:
   - /small-business.php/
   - /templates/small-business.html/
   - /templates/small-business/
+  - /templates/small-business/index.html
   - /downloads/small-business.zip/
 ---

@@ -34,6 +34,8 @@ redirect_from:
   - /business-casual.php/
   - /templates/business-casual.html/
   - /templates/business-casual/
-  - /business-casual/about.html/
+  - /templates/business-casual/index.html
+  - /business-casual/about.html
+  - /business-casual/contact.html
   - /downloads/business-casual.zip/
 ---

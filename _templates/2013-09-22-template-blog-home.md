@@ -31,5 +31,6 @@ redirect_from:
   - /blog-home.php/
   - /templates/blog-home.html/
   - /templates/blog-home/
+  - /templates/blog-home/index.html
   - /downloads/blog-home.zip/
 ---

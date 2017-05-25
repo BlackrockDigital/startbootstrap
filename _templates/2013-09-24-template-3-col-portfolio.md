@@ -30,5 +30,6 @@ redirect_from:
   - /templates/3-col-portfolio.html/
   - /templates/3-col-portfolio.htm/
   - /templates/3-col-portfolio/
+  - /templates/3-col-portfolio/index.html
   - /downloads/3-col-portfolio.zip/
 ---

@@ -34,6 +34,7 @@ redirect_from:
   - /stylish-portfolio.html/
   - /templates/stylish-portfolio.html/
   - /templates/stylish-portfolio/
+  - /templates/stylish-portfolio/index.html
   - /templates/stylish-portfolio/l/
   - /stylish-projects/
   - /stylish-gallery/

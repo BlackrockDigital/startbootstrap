@@ -26,6 +26,7 @@ redirect_from:
   - /simple-sidebar/
   - /simple-sidebar.php/
   - /templates/simple-sidebar/
+  - /templates/simple-sidebar/index.html
   - /templates/simple-sidebar.html/
   - /downloads/simple-sidebar.zip/
 ---

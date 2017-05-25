@@ -29,5 +29,6 @@ redirect_from:
   - /heroic-features.php/
   - /templates/heroic-features.html/
   - /templates/heroic-features/
+  - /templates/heroic-features/index.html
   - /downloads/heroic-features.zip/
 ---
