@@ -5,7 +5,7 @@ src:			/template-overviews/2-col-portfolio
 categories:		template portfolios unstyled
 description:	"A basic, two column, portfolio page template perfect for showcasing a group of projects with some details."
 bump:			"A two column portfolio template."
-img-src:		/img/templates/2-col-portfolio.jpg
+img-src:		/assets/img/templates/2-col-portfolio.jpg
 img-desc:		"Free Bootstrap 4 Portfolio Theme"
 layout:			template-overview
 

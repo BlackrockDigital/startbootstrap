@@ -4,110 +4,106 @@ meta-title: Start Bootstrap
 meta-description: Free open source Bootstrap themes and templates up to date for Bootstrap 4! An even faster way to develop websites in Bootstrap!
 ---
 
-<header class="marquee">
-    <div class="container-fluid">
-        <div class="marquee-brand">Start Bootstrap</div>
-        <!-- Replace when guides go live! -->
-        <!-- <h1 class="marquee-heading">Free Bootstrap Themes, Templates, &amp; Guides</h1> -->
-        <h1 class="marquee-heading">Free Bootstrap Themes &amp; Templates</h1>
-        <ul class="list-inline">
-            <li><a href="/template-categories/all/" class="btn btn-secondary btn-lg">Browse All Themes &amp; Templates<!-- <div class="badge-new">New!</div> --></a></li>
-            <!-- <li><a href="#" class="btn btn-secondary btn-lg">Browse Guides &amp; Tutorials <span class="badge-new">New!</span></a></li> -->
-        </ul>
-        <a class="marquee-img" href="https://wrapbootstrap.com/?ref=StartBootstrap" onclick="ga('send','event','Referral','Referral WrapBootstrap Home')">
-            <img src="/img/wrapbootstrap.jpg" alt="Premium Bootstrap Themes">
-        </a>
-    </div>
+<header class="masthead">
+  <div class="container-fluid">
+    <div class="masthead-brand">Start Bootstrap</div>
+    <!-- Replace when guides go live! -->
+    <!-- <h1 class="marquee-heading">Free Bootstrap Themes, Templates, &amp; Guides</h1> -->
+    <h1 class="masthead-heading">Free Bootstrap Themes &amp; Templates</h1>
+    <ul class="list-inline">
+      <li>
+        <a href="/template-categories/all/" class="btn btn-secondary btn-lg">Browse All Themes &amp; Templates<!-- <div class="badge-new">New!</div> --></a>
+      </li>
+      <!-- <li><a href="#" class="btn btn-secondary btn-lg">Browse Guides &amp; Tutorials <span class="badge-new">New!</span></a></li> -->
+    </ul>
+    <a class="masthead-img" href="https://wrapbootstrap.com/?ref=StartBootstrap" onclick="ga('send','event','Referral','Referral WrapBootstrap Home')">
+      <img src="/assets/img/wrapbootstrap.jpg" alt="Premium Bootstrap Themes">
+    </a>
+  </div>
 </header>
 
 <section class="intro">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-                <h2>Forever free, open source, and easy to use.</h2>
-                <!-- Replace when guides go live! -->
-                <!-- <p class="lead">Start Bootstrap is a collection of <strong>free to download Bootstrap themes and templates</strong>, and <strong>Bootstrap tutorials and guides</strong>. Our themes are open source and you can use them for any purpose, even comercially!</p> -->
-                <p class="lead">Start Bootstrap is a collection of <strong>free to download Bootstrap themes and templates</strong>. Our themes are open source and you can use them for any purpose, even comercially!</p>
-            </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2>Forever free, open source, and easy to use.</h2>
+        <!-- Replace when guides go live! -->
+        <!-- <p class="lead">Start Bootstrap is a collection of <strong>free to download Bootstrap themes and templates</strong>, and <strong>Bootstrap tutorials and guides</strong>. Our themes are open source and you can use them for any purpose, even comercially!</p> -->
+        <p class="lead">Start Bootstrap is a collection of
+          <strong>free to download Bootstrap themes and templates</strong>. Our themes are open source and you can use them for any purpose, even comercially!</p>
+      </div>
     </div>
+  </div>
 </section>
 
 <hr class="hr-home">
 
 <section class="themes">
-    <div class="container">
-        <div class="row">
-
-            {% for template in site.templates reversed %}
-            {% if template.categories contains 'featured' %}
-            <div class="col-lg-4 col-md-6 sb-preview text-center">
-                <div class="card h-100">
-                    <a class="sb-preview-img" href="{{ template.src }}">
-                        <img class="card-img-top img-fluid" src="{{ template.img-src }}" alt="{{ template.img-desc }}">
-                    </a>
-                    <div class="card-block">
-                        <h4 class="card-title">{{ template.title }}</h4>
-                        <p class="card-text">{{ template.bump }}</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="{{ template.src }}" class="btn btn-secondary">Preview &amp; Download</a>
-                    </div>
-                    {% if template.categories contains 'new' %}
-                    <div class="badge-new">New!</div>
-                    {% endif %}
-                </div>
+  <div class="container">
+    <div class="row">
+      {% for template in site.templates reversed %}
+        {% if template.categories contains 'featured' %}
+          <div class="col-lg-4 col-md-6 sb-preview text-center">
+            <div class="card h-100">
+              <a class="sb-preview-img" href="{{ template.src }}">
+                <img class="card-img-top" src="{{ template.img-src }}" alt="{{ template.img-desc }}">
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">{{ template.title }}</h4>
+                <p class="card-text">{{ template.bump }}</p>
+              </div>
+              <div class="card-footer">
+                <a href="{{ template.src }}" class="btn btn-secondary">Preview &amp; Download</a>
+              </div>
+              {% if template.categories contains 'new' %}
+                <div class="badge-new">New!</div>
+              {% endif %}
             </div>
-            {% endif %}
-            {% endfor %}
-
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <a href="/template-categories/all/" class="btn btn-lg btn-primary">View All Themes &amp; Templates</a>
-            </div>
-        </div>
+          </div>
+        {% endif %}
+      {% endfor %}
     </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <a href="/template-categories/all/" class="btn btn-lg btn-primary">View All Themes &amp; Templates</a>
+      </div>
+    </div>
+  </div>
 </section>
 
 <hr class="hr-home">
 
 <section class="premium">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-                <h2>Looking for something more?</h2>
-                <p class="lead">Try these premium themes from WrapBootstrap!</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2>Looking for something more?</h2>
+        <p class="lead">Try these premium themes from WrapBootstrap!</p>
+      </div>
+    </row>
+    <div class="row">
+      {% for item in site.premium reversed %}
+        {% if item.categories contains 'featured' %}
+          <div class="col-lg-4 col-md-6 sb-preview text-center">
+            <div class="card h-100">
+              <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Referral','Referral WrapBootstrap Template Preview')">
+                <img class="card-img-top" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">{{ item.title }}</h4>
+                <p class="card-text">{{ item.bump }}</p>
+              </div>
+              <div class="card-footer">
+                <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Referral','Referral WrapBootstrap Template Preview')">Preview &amp; Download</a>
+              </div>
+              {% if template.categories contains 'new' %}
+                <div class="badge-new">New!</div>
+              {% endif %}
             </div>
-            {% for item in site.premium reversed %}
-            {% if item.categories contains 'featured' %}
-
-
-            <div class="col-lg-4 col-md-6 sb-preview text-center">
-                <div class="card h-100">
-                    <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Referral','Referral WrapBootstrap Template Preview')">
-                        <img class="card-img-top img-fluid" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
-                    </a>
-                    <div class="card-block">
-                        <h4 class="card-title">{{ item.title }}</h4>
-                        <p class="card-text">{{ item.bump }}</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Referral','Referral WrapBootstrap Template Preview')">Preview &amp; Download</a>
-                    </div>
-                    {% if template.categories contains 'new' %}
-                    <div class="badge-new">New!</div>
-                    {% endif %}
-                </div>
-            </div>
-
-            {% endif %}
-            {% endfor %}
-        </div>
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <a href="/buy-bootstrap-templates/" class="btn btn-lg btn-primary">View More Premium Themes</a>
-            </div>                
-        </div>
+          </div>
+        {% endif %}
+      {% endfor %}
     </div>
+    <a href="/buy-bootstrap-templates/" class="btn btn-lg btn-primary d-flex mx-auto">View More Premium Themes</a>
+  </div>
 </section>

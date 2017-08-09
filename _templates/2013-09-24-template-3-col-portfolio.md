@@ -5,7 +5,7 @@ src:			/template-overviews/3-col-portfolio
 categories:		template portfolios unstyled
 description:	"A simple, three column, portfolio page template perfect for showcasing a larger group of projects."
 bump:			"A three column portfolio template."
-img-src:		/img/templates/3-col-portfolio.jpg
+img-src:		/assets/img/templates/3-col-portfolio.jpg
 img-desc:		"Free Bootstrap 4 Portfolio Template"
 layout:			template-overview
 

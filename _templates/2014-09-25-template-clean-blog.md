@@ -5,7 +5,7 @@ src:			/template-overviews/clean-blog
 categories:		template landing-pages blogs full-websites featured popular
 description:	"A clean, Bootstrap blog theme ready to hook into your favorite CMS or blogging platform."
 bump:			"A clean blog theme."
-img-src:		/img/templates/clean-blog.jpg
+img-src:		/assets/img/templates/clean-blog.jpg
 img-desc:		"Free Bootstrap Blog Theme - Start Bootstrap"
 layout:			template-overview
 

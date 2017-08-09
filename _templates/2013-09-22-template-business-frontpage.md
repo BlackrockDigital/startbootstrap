@@ -5,7 +5,7 @@ src:			/template-overviews/business-frontpage
 categories:		template landing-pages unstyled
 description:	"A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header."
 bump:			"A business home page template."
-img-src:		/img/templates/business-frontpage.jpg
+img-src:		/assets/img/templates/business-frontpage.jpg
 img-desc:		"Free Bootstrap Business Website Template"
 layout:			template-overview
 

@@ -27,48 +27,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ " /css/main.css " | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ " /assets/css/main.css " | prepend: site.baseurl }}">
     <!-- Feed -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}">
     <!-- Fav Icon and Apple Touch Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="/img/favicons/favicon-128.png" sizes="128x128" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/img/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/img/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/img/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/img/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/assets/img/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/assets/img/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/assets/img/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/assets/img/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/assets/img/favicons/favicon-128.png" sizes="128x128" />
     <meta name="application-name" content="&nbsp;" />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="/img/favicons/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="/img/favicons/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="/img/favicons/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="/img/favicons/mstile-310x310.png" />
+    <meta name="msapplication-TileImage" content="/assets/img/favicons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/assets/img/favicons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/assets/img/favicons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/assets/img/favicons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/assets/img/favicons/mstile-310x310.png" />
     <!-- Open Graph -->
     <meta property="og:title" content="{% if page.meta-title == " Start Bootstrap " %}Free Bootstrap Themes and Templates{% else %}{{ page.meta-title }}{% endif %}">
     <meta property="og:site_name" content="Start Bootstrap">
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ page.meta-description }}">
-    <meta property="og:image" content="/assets/img/og/startbootstrap-logo.jpg">
+    <meta property="og:image" content="/assets/assets/img/og/startbootstrap-logo.jpg">
     <meta property="og:url" content="https://startbootstrap.com{{ page.url }}">
-    <style>
-    /* Ugly hacks to fix the container within navbar functionality - should be fixed in Bootstrap 4 beta */
-    
-    .navbar-toggler {
-        z-index: 1;
-    }
-    
-    @media (max-width: 576px) {
-        nav > .container {
-            width: 100%;
-        }
-    }
-    </style>
+
 </head>

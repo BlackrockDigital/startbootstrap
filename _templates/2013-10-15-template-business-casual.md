@@ -5,7 +5,7 @@ src:			/template-overviews/business-casual
 categories:		template full-websites landing-pages
 description:	"A Bootstrap 4 website template featuring full page background images and other easy to use Bootstrap elements."
 bump:			"A fully developed business website."
-img-src:		/img/templates/business-casual.jpg
+img-src:		/assets/img/templates/business-casual.jpg
 img-desc:		"Free Bootstrap 4 Website Themes"
 layout:			template-overview
 

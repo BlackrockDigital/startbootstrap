@@ -5,7 +5,7 @@ src:			/template-overviews/agency
 categories:		template landing-pages one-page portfolios featured popular
 description:	"A clean, stylish, one page Bootstrap portfolio theme perfect for your agency or small business."
 bump:			"A one page agency theme."
-img-src:		/img/templates/agency.jpg
+img-src:		/assets/img/templates/agency.jpg
 img-desc:		"Free Bootstrap Agency Theme - Start Bootstrap"
 layout:			template-overview
 

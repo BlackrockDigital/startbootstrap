@@ -5,7 +5,7 @@ src:			/template-overviews/half-slider
 categories:		template landing-pages one-page portfolios unstyled
 description:	"A half page background image slider for Bootstrap 4 using the built-in Bootstrap carousel plugin."
 bump:			"A half page image slider template."
-img-src:		/img/templates/half-slider.jpg
+img-src:		/assets/img/templates/half-slider.jpg
 img-desc:		"Half Page Bootstrap Image Carousel Slider"
 layout:			template-overview
 

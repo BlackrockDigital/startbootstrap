@@ -5,7 +5,7 @@ src:			/template-overviews/shop-homepage
 categories:		template ecommerce unstyled
 description:	"A simple, unstyled, shop home page template featuring Bootstrap snippets from Bootsnipp."
 bump:			"An online store homepage template."
-img-src:		/img/templates/shop-homepage.jpg
+img-src:		/assets/img/templates/shop-homepage.jpg
 img-desc:		"Free Bootstrap Ecommerce Template"
 layout:			template-overview
 

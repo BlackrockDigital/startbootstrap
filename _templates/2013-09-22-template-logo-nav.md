@@ -5,7 +5,7 @@ src:			/template-overviews/logo-nav
 categories:		template unstyled navigation-menus
 description:	"A Bootstrap navigation template featuring an image logo in place of the navbar header text."
 bump:			"A menu bar with a logo header."
-img-src:		/img/templates/logo-nav.jpg
+img-src:		/assets/img/templates/logo-nav.jpg
 img-desc:		"Bootstrap Image Navbar Template"
 layout:			template-overview
 

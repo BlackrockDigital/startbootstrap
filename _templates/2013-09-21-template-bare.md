@@ -5,7 +5,7 @@ src:			/template-overviews/bare
 categories:		template landing-pages unstyled navigation-menus
 description:	"An unstlyed starter template for Bootstrap 4 with predefined file paths for easy development."
 bump:			"A Bootstrap HTML starter template."
-img-src:		/img/templates/bare.jpg
+img-src:		/assets/img/templates/bare.jpg
 img-desc:		"Bare Bootstrap HTML Starter Template"
 layout:			template-overview
 
