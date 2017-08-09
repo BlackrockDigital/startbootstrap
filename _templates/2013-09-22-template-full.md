@@ -5,7 +5,7 @@ src:			/template-overviews/full
 categories:		template landing-pages portfolios unstyled
 description:	"An easy to use, full page image background template for Bootstrap 4 websites."
 bump:			"Full page image background template."
-img-src:		/img/templates/full.jpg
+img-src:		/assets/img/templates/full.jpg
 img-desc:		"Bootstrap Full Page Image Background"
 layout:			template-overview
 

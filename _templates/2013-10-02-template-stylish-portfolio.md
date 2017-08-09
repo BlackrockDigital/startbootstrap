@@ -5,7 +5,7 @@ src:			/template-overviews/stylish-portfolio
 categories:		template landing-pages one-page portfolios popular
 description:	"A stylish, one page, Bootstrap portfolio theme featuring off canvas navigation and smooth page scrolling."
 bump:			"A stylish Bootstrap portfolio theme."
-img-src:		/img/templates/stylish-portfolio.jpg
+img-src:		/assets/img/templates/stylish-portfolio.jpg
 img-desc:		"Free Bootstrap Portfolio Theme - Stylish Portfolio"
 layout:			template-overview
 

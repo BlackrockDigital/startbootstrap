@@ -43,7 +43,7 @@ layout: default
 						<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fstartbootstrap.com{{ page.url }}&layout=button&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 					</li>
 				</ul>
-				
+
 				<hr>
 
 				<div class="clearfix">
@@ -58,8 +58,8 @@ layout: default
 			</article>
 
 			<div class="card sb-card author-info">
-				<div class="card-block">
-					<img class="pull-left img-fluid rounded-circle" src="/img/authors/{{ page.author-slug }}.png" alt="">
+				<div class="card-body">
+					<img class="pull-left img-fluid rounded-circle" src="/assets/img/authors/{{ page.author-slug }}.png" alt="">
 					<div class="author-content">
 						<h3>{{ page.author }}</h3>
 						<p>{{ page.author-desc }}</p>
@@ -93,7 +93,7 @@ layout: default
 				{% include ad.html %}
 			</div>
 			<div class="card sb-card latest-posts">
-				<div class="card-block">
+				<div class="card-body">
 					<h3 class="mb-3">Latest Posts:</h3>
 					<ul class="list-unstyled">
 						{% for post in site.posts offset: 0 limit: 5  %}

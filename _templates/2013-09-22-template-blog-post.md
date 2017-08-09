@@ -5,7 +5,7 @@ src:			/template-overviews/blog-post
 categories:		template blogs unstyled
 description:	"A simple, unstyled, blog post starter template for creating Bootstrap 4 blog posts."
 bump:			"A blog post starter template."
-img-src:		/img/templates/blog-post.jpg
+img-src:		/assets/img/templates/blog-post.jpg
 img-desc:		"Free Bootstrap Blog Post Template"
 layout:			template-overview
 

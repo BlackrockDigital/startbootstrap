@@ -5,7 +5,7 @@ src:			/template-overviews/new-age
 categories:		template landing-pages one-page featured popular
 description:	"A bold and colorful Bootstrap landing page theme for web apps or other business use."
 bump:			"An app landing page theme."
-img-src:		/img/templates/new-age.jpg
+img-src:		/assets/img/templates/new-age.jpg
 img-desc:		"Free Bootstrap App Landing Page Theme - Start Bootstrap"
 layout:			template-overview
 

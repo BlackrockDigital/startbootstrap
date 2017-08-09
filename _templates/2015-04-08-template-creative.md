@@ -5,7 +5,7 @@ src:			/template-overviews/creative
 categories:		template landing-pages one-page portfolios featured popular
 description:	"A one page Bootstrap theme with flexible options for creative portfolios and businesses."
 bump:			"A one page creative theme."
-img-src:		/img/templates/creative.jpg
+img-src:		/assets/img/templates/creative.jpg
 img-desc:		"Free Bootstrap Creative Theme - Start Bootstrap"
 layout:			template-overview
 

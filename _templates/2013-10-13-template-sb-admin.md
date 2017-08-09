@@ -5,7 +5,7 @@ src:			/template-overviews/sb-admin
 categories:		template admin full-websites unstyled popular
 description:	"A Bootstrap 4 admin theme with powerful jQuery plugins to extend the functionality of the Bootstrap framework."
 bump:			"A free Bootstrap admin template."
-img-src:		/img/templates/sb-admin.jpg
+img-src:		/assets/img/templates/sb-admin.jpg
 img-desc:		"Free Bootstrap Admin Template - SB Admin"
 layout:			template-overview
 

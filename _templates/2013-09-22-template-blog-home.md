@@ -5,7 +5,7 @@ src:			/template-overviews/blog-home
 categories:		template blogs unstyled
 description:	"A simple, unstyled, blog homepage starter template for creating Bootstrap 4 blog websites."
 bump:			"A blog home page template."
-img-src:		/img/templates/blog-home.jpg
+img-src:		/assets/img/templates/blog-home.jpg
 img-desc:		"Free Bootstrap Blog Template"
 layout:			template-overview
 

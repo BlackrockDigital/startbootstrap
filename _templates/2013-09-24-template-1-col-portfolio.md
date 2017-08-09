@@ -5,7 +5,7 @@ src:			/template-overviews/1-col-portfolio
 categories:		template portfolios unstyled
 description:	"An unstyled, single column, portfolio page template perfect for showcasing a group of detailed projects."
 bump:			"A one column portfolio template."
-img-src:		/img/templates/1-col-portfolio.jpg
+img-src:		/assets/img/templates/1-col-portfolio.jpg
 img-desc:		"Free Bootstrap 4 Portfolio Template"
 layout:			template-overview
 

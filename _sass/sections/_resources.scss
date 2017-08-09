@@ -1,37 +1,41 @@
 // Resources Page
 
 .resources {
-    .page-header {
-        padding-top: 69px;
-    }
+  .page-header {
+    padding-top: 69px;
+  }
 }
 
 .resource-name {
-    width: 200px;
+  width: 200px;
 }
 
 .resource-link {
-    width: 116px;
+  width: 116px;
 }
 
 // Sidebar
 
 .sb-sidebar {
-    .sticky-top {
-        padding-top: 69px;
-        padding-bottom: 15px;
-        z-index: 1;
-        .nav-link {
-            margin: 0.25rem 0;
-            padding: 0 0.5rem;
-            font-size: 0.85rem;
-            color: $gray-dark;
-            border-left: 2px solid transparent;
-            &.active {
-                font-weight: bold;
-                color: $brand-primary;
-                border-left: 2px solid $brand-primary;
-            }
-        }
+  .sticky-top {
+    z-index: 1;
+
+    padding-top: 69px;
+    padding-bottom: 15px;
+    .nav-link {
+      margin: 0.25rem 0;
+      padding: 0 0.5rem;
+
+      color: $gray-800;
+      border-left: 2px solid transparent;
+
+      font-size: 0.85rem;
+      &.active {
+        color: theme-color("primary");
+        border-left: 2px solid theme-color("primary");
+
+        font-weight: bold;
+      }
     }
+  }
 }

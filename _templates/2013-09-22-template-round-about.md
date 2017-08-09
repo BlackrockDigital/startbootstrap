@@ -5,7 +5,7 @@ src:			/template-overviews/round-about
 categories:		template unstyled
 description:	"A simple about page template for Bootstrap 4 featuring an easy to use image grid with rounded images."
 bump:			"A Bootstrap about page template."
-img-src:		/img/templates/round-about.jpg
+img-src:		/assets/img/templates/round-about.jpg
 img-desc:		"Free Bootstrap About Page Template"
 layout:			template-overview
 

@@ -5,7 +5,7 @@ src:			/template-overviews/portfolio-item
 categories:		template portfolios unstyled
 description:	"An unstlyed, portfolio item template perfect for showcasing a project or work."
 bump:			"A portfolio item page template."
-img-src:		/img/templates/portfolio-item.jpg
+img-src:		/assets/img/templates/portfolio-item.jpg
 img-desc:		"Free Bootstrap 4 Portfolio Template"
 layout:			template-overview
 

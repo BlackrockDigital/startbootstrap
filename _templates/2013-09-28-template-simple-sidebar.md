@@ -5,7 +5,7 @@ src:			/template-overviews/simple-sidebar
 categories:		template unstyled navigation-menus popular
 description:	"A simple sidebar template for Bootstrap 4 featuring responsive off-canvas navigation at small screen sizes."
 bump:			"A Bootstrap sidebar template."
-img-src:		/img/templates/simple-sidebar.jpg
+img-src:		/assets/img/templates/simple-sidebar.jpg
 img-desc:		"Bootstrap Sidebar Navigation Template"
 layout:			template-overview
 
