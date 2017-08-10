@@ -16,8 +16,16 @@
 
 .btn-primary {
   border-bottom: 3px solid $btn-primary-border;
+  &:active,
+  &:hover {
+    border-bottom: 3px solid darken($btn-primary-border, 10%);
+  }
 }
 
 .btn-secondary {
   border-bottom: 3px solid $btn-secondary-border;
+  &:active,
+  &:hover {
+    border-bottom: 3px solid darken($btn-secondary-border, 10%);
+  }
 }
