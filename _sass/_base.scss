@@ -1,7 +1,16 @@
+// Normal body
+// body {
+//   margin-top: 57px;
+//   @include body-font;
+// }
+
+// Stream alert body
 body {
   margin-top: 57px;
-
   @include body-font;
+  @media (min-width: 992px) {
+    margin-top: 105px;
+  }
 }
 
 h1,
