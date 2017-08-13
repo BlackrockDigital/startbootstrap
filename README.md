@@ -8,8 +8,9 @@ For more information please visit the website at [http://startbootstrap.com](htt
 
 ## Current Templates and Themes
 
-There are currently 35 themes and templates available on Start Bootstrap:
+There are currently 36 themes and templates available on Start Bootstrap:
 
+- [**New Age**](http://startbootstrap.com/template-overviews/new-age/) - An app landing page theme.
 - [**Creative**](http://startbootstrap.com/template-overviews/creative/) - A one page creative theme.
 - [**Clean Blog**](http://startbootstrap.com/template-overviews/clean-blog/) - A clean blog theme.
 - [**Agency**](http://startbootstrap.com/template-overviews/agency/) - A one page agency theme.
