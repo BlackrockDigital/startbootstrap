@@ -1,15 +1,15 @@
 ---
-title:			"Freelancer"
-slug:			freelancer
-src:			/template-overviews/freelancer
-categories:		template landing-pages one-page portfolios featured popular
-description:	"A one page Bootstrap portfolio theme for freelancers featuring a custom portfolio grid."
-bump:			"A one page freelancer theme."
-img-src:		/assets/img/templates/freelancer.jpg
-img-desc:		"One Page Bootstrap Portfolio Theme"
-layout:			template-overview
+title:            "Freelancer"
+slug:             freelancer
+src:              /template-overviews/freelancer
+categories:       template landing-pages one-page portfolios featured popular
+description:      "A one page Bootstrap portfolio theme for freelancers featuring a custom portfolio grid."
+bump:             "A one page freelancer theme."
+img-src:          /assets/img/templates/freelancer.jpg
+img-desc:         "One Page Bootstrap Portfolio Theme"
+layout:           template-overview
 
-meta-title: "Freelancer - One Page Theme"
+meta-title:       "Freelancer - One Page Theme"
 meta-description: "A free one page Bootstrap portfolio theme for freelancers. All Start Bootstrap templates are free to download and open source."
 
 features:
@@ -27,13 +27,11 @@ features:
 
 long-description: "Freelancer is a one page Bootstrap portfolio theme for freelancers."
 
-alt-version:    "yes"
-alt-jekyll:     "https://github.com/BlackrockDigital/startbootstrap-freelancer-jekyll"
+alt-version:      "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-freelancer/tree/v3-legacy"
+alt-jekyll:       "https://github.com/BlackrockDigital/startbootstrap-freelancer-jekyll"
 
-user-version:   "no"
-
-v4-version:     "yes"
-alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-freelancer/archive/v4-dev.zip"
+user-version:     "no"
 
 redirect_from:
   - /freelancer/

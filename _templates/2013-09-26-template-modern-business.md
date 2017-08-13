@@ -1,15 +1,15 @@
 ---
-title:			"Modern Business"
-slug:			modern-business
-src:			/template-overviews/modern-business
-categories:		template full-websites portfolios unstyled popular
-description:	"A full website template framework for building Bootstrap 4 websites with 17 pages and a working contact form."
-bump:			"A multipurpose website template."
-img-src:		/assets/img/templates/modern-business.jpg
-img-desc:		"Free Full Website Bootstrap 4 Template"
-layout:			template-overview
+title:            "Modern Business"
+slug:             modern-business
+src:              /template-overviews/modern-business
+categories:       template full-websites portfolios unstyled popular
+description:      "A full website template framework for building Bootstrap 4 websites with 17 pages and a working contact form."
+bump:             "A multipurpose website template."
+img-src:          /assets/img/templates/modern-business.jpg
+img-desc:         "Free Full Website Bootstrap 4 Template"
+layout:           template-overview
 
-meta-title: "Modern Business - Full Website Template for Bootstrap 4"
+meta-title:       "Modern Business - Full Website Template for Bootstrap 4"
 meta-description: "A 17 page full website template for Bootstrap 4. Includes a working contact form, and many other features. All Start Bootstrap templates are free to download and open source."
 
 features:
@@ -23,11 +23,10 @@ features:
 
 long-description: "Modern Business is a fully loaded Bootstrap 4 website starter template. It includes 17 HTML pages along with a working PHP contact form. You can use this template to create larger, multipurpose websites using Bootstrap 4."
 
-alt-version:		"no"
-user-version:		"no"
+alt-version:		  "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-modern-business/tree/v3-legacy"
 
-v4-version:     "yes"
-alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-modern-business/archive/v4-dev.zip"
+user-version:     "no"
 
 redirect_from:
   - /modern-business/

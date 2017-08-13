@@ -1,15 +1,15 @@
 ---
-title:			"Business Frontpage"
-slug:			business-frontpage
-src:			/template-overviews/business-frontpage
-categories:		template landing-pages unstyled
-description:	"A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header."
-bump:			"A business home page template."
-img-src:		/assets/img/templates/business-frontpage.jpg
-img-desc:		"Free Bootstrap Business Website Template"
-layout:			template-overview
+title:            "Business Frontpage"
+slug:             business-frontpage
+src:              /template-overviews/business-frontpage
+categories:       template landing-pages unstyled
+description:      "A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header."
+bump:             "A business home page template."
+img-src:          /assets/img/templates/business-frontpage.jpg
+img-desc:         "Free Bootstrap Business Website Template"
+layout:           template-overview
 
-meta-title: "Business Frontpage - Bootstrap 4 Business Home Page Template"
+meta-title:       "Business Frontpage - Bootstrap 4 Business Home Page Template"
 meta-description: "A Bootstrap 4 home page template perfect for small business websites. All Start Bootstrap templates are free to use and open source."
 
 features:
@@ -20,11 +20,10 @@ features:
 
 long-description: "Business Frontpage is a basic HTML starter template for creating a Bootstrap based website for a small business or other organization."
 
-alt-version:		"no"
-user-version:		"no"
+alt-version:		  "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-business-frontpage/tree/v3-legacy"
 
-v4-version:			"yes"
-alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-business-frontpage/archive/v4-dev.zip"
+user-version:		  "no"
 
 redirect_from:
   - /business-frontpage/

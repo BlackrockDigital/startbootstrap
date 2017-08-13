@@ -1,15 +1,15 @@
 ---
-title:			"Creative"
-slug:			creative
-src:			/template-overviews/creative
-categories:		template landing-pages one-page portfolios featured popular
-description:	"A one page Bootstrap theme with flexible options for creative portfolios and businesses."
-bump:			"A one page creative theme."
-img-src:		/assets/img/templates/creative.jpg
-img-desc:		"Free Bootstrap Creative Theme - Start Bootstrap"
-layout:			template-overview
+title:            "Creative"
+slug:             creative
+src:              /template-overviews/creative
+categories:       template landing-pages one-page portfolios featured popular
+description:      "A one page Bootstrap theme with flexible options for creative portfolios and businesses."
+bump:             "A one page creative theme."
+img-src:          /assets/img/templates/creative.jpg
+img-desc:         "Free Bootstrap Creative Theme - Start Bootstrap"
+layout:           template-overview
 
-meta-title: "Creative - One Page Bootstrap Theme"
+meta-title:       "Creative - One Page Bootstrap Theme"
 meta-description: "A free one page Bootstrap theme for creatives, businesses, and other multipurpose uses. All Start Bootstrap templates are free to download and open source."
 
 features:
@@ -25,11 +25,10 @@ features:
 
 long-description: "Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses. The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Bootstrap based project!"
 
-alt-version:		"no"
-user-version:		"no"
+alt-version:      "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-creative/tree/v3-legacy"
 
-v4-version:     "yes"
-alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-creative/archive/v4-dev.zip"
+user-version:     "no"
 
 redirect_from:
   - /creative/

@@ -1,15 +1,15 @@
 ---
-title:			"Small Business"
-slug:			small-business
-src:			/template-overviews/small-business
-categories:		template landing-pages unstyled
-description:	"A free, easy to use, Bootstrap starter template perfect for building small business marketing websites."
-bump:			"A simple business Bootstrap template."
-img-src:		/assets/img/templates/small-business.jpg
-img-desc:		"Free Small Business Template for Bootstrap 4"
-layout:			template-overview
+title:            "Small Business"
+slug:             small-business
+src:              /template-overviews/small-business
+categories:       template landing-pages unstyled
+description:      "A free, easy to use, Bootstrap starter template perfect for building small business marketing websites."
+bump:             "A simple business Bootstrap template."
+img-src:          /assets/img/templates/small-business.jpg
+img-desc:         "Free Small Business Template for Bootstrap 4"
+layout:           template-overview
 
-meta-title: "Small Business - Bootstrap Marketing Website Template"
+meta-title:       "Small Business - Bootstrap Marketing Website Template"
 meta-description: "A free, easy to use, Bootstrap starter template perfect for building small business marketing websites. All Start Bootstrap templates are free to download and open source."
 
 features:
@@ -20,11 +20,10 @@ features:
 
 long-description: "Small Business is a landing page template for Bootstrap built small business websites."
 
-alt-version:		"no"
-user-version:		"no"
+alt-version:		  "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-small-business/tree/v3-legacy"
 
-v4-version:			"yes"
-alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-small-business/archive/v4-dev.zip"
+user-version:     "no"
 
 redirect_from:
   - /small-business/

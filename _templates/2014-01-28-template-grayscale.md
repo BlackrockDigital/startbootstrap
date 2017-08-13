@@ -1,15 +1,15 @@
 ---
-title:			"Grayscale"
-slug:			grayscale
-src:			/template-overviews/grayscale
-categories:		template landing-pages one-page portfolios popular
-description:	"A free, multipurpose, one page Bootstrap theme featuring a dark color scheme and smooth scrolling animations."
-bump:			"A multipurpose one page theme."
-img-src:		/assets/img/templates/grayscale.jpg
-img-desc:		"Grayscale ong page Bootstrap template"
-layout:			template-overview
+title:            "Grayscale"
+slug:             grayscale
+src:              /template-overviews/grayscale
+categories:       template landing-pages one-page portfolios popular
+description:      "A free, multipurpose, one page Bootstrap theme featuring a dark color scheme and smooth scrolling animations."
+bump:             "A multipurpose one page theme."
+img-src:          /assets/img/templates/grayscale.jpg
+img-desc:         "Grayscale ong page Bootstrap template"
+layout:           template-overview
 
-meta-title: "Grayscale - Free One Page Bootstrap Theme"
+meta-title:       "Grayscale - Free One Page Bootstrap Theme"
 meta-description: "Grayscale is a free Bootstrap theme with a dark color scheme, smooth scrolling page animations, and a collapsing top navigation bar. It works great for portfolios, businesses, and more!"
 
 features:
@@ -23,13 +23,11 @@ features:
 
 long-description: "Grayscale is a multipurpose, one page website theme featuring a dark layout along with smooth scrolling page animations."
 
-alt-version:		"no"
+alt-version:		  "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-grayscale/tree/v3-legacy"
 
-user-version:		"yes"
-user-jekyll:		"https://github.com/jeromelachaud/grayscale-theme"
-
-v4-version:     "yes"
-alt-v4:         "https://github.com/BlackrockDigital/startbootstrap-grayscale/archive/v4-dev.zip"
+user-version:     "yes"
+user-jekyll:      "https://github.com/jeromelachaud/grayscale-theme"
 
 redirect_from:
   - /grayscale/
