@@ -1,15 +1,15 @@
 ---
-title:			"Blog Home"
-slug:			blog-home
-src:			/template-overviews/blog-home
-categories:		template blogs unstyled
-description:	"A simple, unstyled, blog homepage starter template for creating Bootstrap 4 blog websites."
-bump:			"A blog home page template."
-img-src:		/assets/img/templates/blog-home.jpg
-img-desc:		"Free Bootstrap Blog Template"
-layout:			template-overview
+title:			      "Blog Home"
+slug:			        blog-home
+src:			        /template-overviews/blog-home
+categories:		    template blogs unstyled
+description:	    "A simple, unstyled, blog homepage starter template for creating Bootstrap 4 blog websites."
+bump:			        "A blog home page template."
+img-src:		      /assets/img/templates/blog-home.jpg
+img-desc:		      "Free Bootstrap Blog Template"
+layout:			      template-overview
 
-meta-title: "Blog Home - Free Bootstrap 4 Blog Template"
+meta-title:       "Blog Home - Free Bootstrap 4 Blog Template"
 meta-description: "A free to use Bootstrap 4 blog homepage template. All Start Bootstrap templates are free to use and open source."
 
 features:
@@ -20,11 +20,10 @@ features:
 
 long-description: "Blog Home is an unstyled Bootstrap template you can use to quickly create a home page for a Bootstrap based blog website."
 
-alt-version:		"no"
-user-version:		"no"
+alt-version:		  "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-blog-home/tree/v3-legacy"
 
-v4-version:			"yes"
-alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-blog-home/archive/v4-dev.zip"
+user-version:		  "no"
 
 redirect_from:
   - /blog-home/

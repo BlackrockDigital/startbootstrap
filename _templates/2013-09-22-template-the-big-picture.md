@@ -1,15 +1,15 @@
 ---
-title:			"The Big Picture"
-slug:			the-big-picture
-src:			/template-overviews/the-big-picture
-categories:		template landing-pages portfolios unstyled
-description:	"An artistic, full page image background Bootstrap template with a fixed bottom navigation bar."
-bump:			"A starter portfolio template."
-img-src:		/assets/img/templates/the-big-picture.jpg
-img-desc:		"Free Bootstrap Portfolio Template"
-layout:			template-overview
+title:            "The Big Picture"
+slug:             the-big-picture
+src:              /template-overviews/the-big-picture
+categories:       template landing-pages portfolios unstyled
+description:      "An artistic, full page image background Bootstrap template with a fixed bottom navigation bar."
+bump:             "A starter portfolio template."
+img-src:          /assets/img/templates/the-big-picture.jpg
+img-desc:         "Free Bootstrap Portfolio Template"
+layout:           template-overview
 
-meta-title: "The Big Picture - Full Page Image Bootstrap Template"
+meta-title:       "The Big Picture - Full Page Image Bootstrap Template"
 meta-description: "An artistic, full page image background Bootstrap template with a fixed bottom navigation bar. All Start Bootstrap templates are free to download and open source."
 
 features:
@@ -18,11 +18,10 @@ features:
 
 long-description: "The Big Picture is an artistic, full screen background image template with a fixed bottom footer."
 
-alt-version:		"no"
-user-version:		"no"
+alt-version:		  "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-the-big-picture/tree/v3-legacy"
 
-v4-version:			"yes"
-alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-the-big-picture/archive/v4-dev.zip"
+user-version:     "no"
 
 redirect_from:
   - /the-big-picture/

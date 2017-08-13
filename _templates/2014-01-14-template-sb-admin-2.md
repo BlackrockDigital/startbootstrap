@@ -1,15 +1,15 @@
 ---
-title:			"SB Admin 2"
-slug:			sb-admin-2
-src:			/template-overviews/sb-admin-2
-categories:		template admin full-websites unstyled featured popular
-description:	"A Bootstrap admin theme, dashboard, or web app UI featuring powerful jQuery plugins for extended functionality."
-bump:			"A free Bootstrap admin theme."
-img-src:		/assets/img/templates/sb-admin-2.jpg
-img-desc:		"Free Bootstrap Admin Theme - SB Admin 2"
-layout:			template-overview
+title:            "SB Admin 2"
+slug:             sb-admin-2
+src:              /template-overviews/sb-admin-2
+categories:       template admin full-websites unstyled featured popular
+description:      "A Bootstrap admin theme, dashboard, or web app UI featuring powerful jQuery plugins for extended functionality."
+bump:             "A free Bootstrap admin theme."
+img-src:          /assets/img/templates/sb-admin-2.jpg
+img-desc:         "Free Bootstrap Admin Theme - SB Admin 2"
+layout:           template-overview
 
-meta-title: "SB Admin 2 - Free Bootstrap Admin Theme"
+meta-title:       "SB Admin 2 - Free Bootstrap Admin Theme"
 meta-description: "A free Bootstrap admin theme, dashboard, or web application UI. All Start Bootstrap templates are free to download and open source."
 
 features:
@@ -27,11 +27,11 @@ features:
 
 long-description: "SB Admin 2 Bootstrap admin theme, dashboard template, or webapp UI starter. The theme features a variety of custom jQuery plugins to add extended functionality past the built in Bootstrap UI features."
 
-alt-version:    "no"
+alt-version:      "no"
 
-user-version:   "yes"
-user-rtl:       "https://github.com/poormonfared/sb-admin2"
-user-meteor:    "https://github.com/lmaccherone/sb-admin-2-meteor"
+user-version:     "yes"
+user-rtl:         "https://github.com/poormonfared/sb-admin2"
+user-meteor:      "https://github.com/lmaccherone/sb-admin-2-meteor"
 
 redirect_from:
   - /sb-admin-v2/

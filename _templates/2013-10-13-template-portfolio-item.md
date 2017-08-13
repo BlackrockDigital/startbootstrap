@@ -1,15 +1,15 @@
 ---
-title:			"Portfolio Item"
-slug:			portfolio-item
-src:			/template-overviews/portfolio-item
-categories:		template portfolios unstyled
-description:	"An unstlyed, portfolio item template perfect for showcasing a project or work."
-bump:			"A portfolio item page template."
-img-src:		/assets/img/templates/portfolio-item.jpg
-img-desc:		"Free Bootstrap 4 Portfolio Template"
-layout:			template-overview
+title:            "Portfolio Item"
+slug:             portfolio-item
+src:              /template-overviews/portfolio-item
+categories:       template portfolios unstyled
+description:      "An unstlyed, portfolio item template perfect for showcasing a project or work."
+bump:             "A portfolio item page template."
+img-src:          /assets/img/templates/portfolio-item.jpg
+img-desc:         "Free Bootstrap 4 Portfolio Template"
+layout:           template-overview
 
-meta-title: "Portfolio Item - Free Bootstrap Portfolio Template"
+meta-title:       "Portfolio Item - Free Bootstrap Portfolio Template"
 meta-description: "A free portfolio item template for Bootstrap 4 perfect for showcasing a single project. All Start Bootstrap templates are free to download and open source."
 
 features:
@@ -19,11 +19,10 @@ features:
 
 long-description: "Portfolio Item is a basic Bootstrap template used to create single portfolio item pages on a Bootstrap based website."
 
-alt-version:		"no"
-user-version:		"no"
+alt-version:		  "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-portfolio-item/tree/v3-legacy"
 
-v4-version:			"yes"
-alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-portfolio-item/archive/v4-dev.zip"
+user-version:     "no"
 
 redirect_from:
   - /portfolio-item/

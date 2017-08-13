@@ -1,15 +1,15 @@
 ---
-title:			"Logo Nav"
-slug:			logo-nav
-src:			/template-overviews/logo-nav
-categories:		template unstyled navigation-menus
-description:	"A Bootstrap navigation template featuring an image logo in place of the navbar header text."
-bump:			"A menu bar with a logo header."
-img-src:		/assets/img/templates/logo-nav.jpg
-img-desc:		"Bootstrap Image Navbar Template"
-layout:			template-overview
+title:            "Logo Nav"
+slug:             logo-nav
+src:              /template-overviews/logo-nav
+categories:       template unstyled navigation-menus
+description:      "A Bootstrap navigation template featuring an image logo in place of the navbar header text."
+bump:             "A menu bar with a logo header."
+img-src:          /assets/img/templates/logo-nav.jpg
+img-desc:         "Bootstrap Image Navbar Template"
+layout:           template-overview
 
-meta-title: "Logo Nav - Bootstrap Logo Navigation template"
+meta-title:       "Logo Nav - Bootstrap Logo Navigation template"
 meta-description: "A free Bootstrap logo navigation template with an image logo in place of the default navbar header text. All Start Bootstrap templates are free to download and open source."
 
 features:
@@ -18,11 +18,10 @@ features:
 
 long-description: "Logo Nav is a Bootstrap 4 navigation template that replaces the default text in the navbar header with an image."
 
-alt-version:		"no"
-user-version:		"no"
+alt-version:		  "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-logo-nav/tree/v3-legacy"
 
-v4-version:			"yes"
-alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-logo-nav/archive/v4-dev.zip"
+user-version:     "no"
 
 redirect_from:
   - /logo-nav/

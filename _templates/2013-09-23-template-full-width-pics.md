@@ -1,15 +1,15 @@
 ---
-title:			"Full Width Pics"
-slug:			full-width-pics
-src:			/template-overviews/full-width-pics
-categories:		template landing-pages one-page unstyled
-description:	"A Bootstrap 4 website template featuring content sections with full page width image backgrounds."
-bump:			"Full width picture backgrounds."
-img-src:		/assets/img/templates/full-width-pics.jpg
-img-desc:		"Bootstrap Full Width Picture Page Backgrounds"
-layout:			template-overview
+title:            "Full Width Pics"
+slug:             full-width-pics
+src:              /template-overviews/full-width-pics
+categories:       template landing-pages one-page unstyled
+description:      "A Bootstrap 4 website template featuring content sections with full page width image backgrounds."
+bump:             "Full width picture backgrounds."
+img-src:          /assets/img/templates/full-width-pics.jpg
+img-desc:         "Bootstrap Full Width Picture Page Backgrounds"
+layout:           template-overview
 
-meta-title: "Full Width Pics - Free Bootstrap Template"
+meta-title:       "Full Width Pics - Free Bootstrap Template"
 meta-description: "A Bootstrap 4 template featuring full page width image backgrounds. All Start Bootstrap templates are free to download and open source."
 
 features:
@@ -20,11 +20,10 @@ features:
 
 long-description: "Full Width Pics is a unique Bootstrap starter template for a landing page or a one page website. It features full width image sections with an option to include a logo in the header along with other custom design elements."
 
-alt-version:		"no"
-user-version:		"no"
+alt-version:		  "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-full-width-pics/tree/v3-legacy"
 
-v4-version:			"yes"
-alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-full-width-pics/archive/v4-dev.zip"
+user-version:     "no"
 
 redirect_from:
   - /full-width-pics/

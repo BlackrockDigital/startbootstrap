@@ -35,28 +35,18 @@ layout: default
 				</div>
 			</div>
 
-			{% if page.v4-version == "yes" %}
-			<div class="card sb-card download-links">
-				<div class="card-body">
-					<div class="badge-new">New!</div>
-			        <h4>Bootstrap 4 Alpha Version</h4>
-			        <ul class="list-inline">
-			        	{% if page.alt-v4 %}
-			            <li>
-			                <a href="{{ page.alt-v4 }}" class="btn btn-secondary" onclick="ga('send','event','Download','Download {{ page.title }} v4')"><i class="fa fa-download"></i> Download v4</a>
-			            </li>
-			            {% endif %}
-			        </ul>
-				</div>
-			</div>
-			{% endif %}
 			{% if page.alt-version == "yes" %}
 			<div class="card sb-card download-links">
 				<div class="card-body">
-			        <h4>Official Alternate Versions</h4>
+			        <h4>Alternate Versions</h4>
 			        <ul class="list-inline">
+                {% if page.alt-v3 %}
+                  <li class="list-inline-item">
+                      <a href="{{ page.alt-v3 }}" class="btn btn-secondary"><i class="fa fa-github"></i> Bootstrap 3</a>
+                  </li>
+                  {% endif %}
 			        	{% if page.alt-jekyll %}
-			            <li>
+			            <li class="list-inline-item">
 			                <a href="{{ page.alt-jekyll }}" class="btn btn-secondary"><img class="brand-logo" src="/assets/img/brand-logos/jekyll-logo.svg" alt="Jekyll Version of {{ page.title }}"> Jekyll</a>
 			            </li>
 			            {% endif %}

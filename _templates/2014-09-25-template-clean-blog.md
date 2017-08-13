@@ -1,15 +1,15 @@
 ---
-title:			"Clean Blog"
-slug:			clean-blog
-src:			/template-overviews/clean-blog
-categories:		template landing-pages blogs full-websites featured popular
-description:	"A clean, Bootstrap blog theme ready to hook into your favorite CMS or blogging platform."
-bump:			"A clean blog theme."
-img-src:		/assets/img/templates/clean-blog.jpg
-img-desc:		"Free Bootstrap Blog Theme - Start Bootstrap"
-layout:			template-overview
+title:            "Clean Blog"
+slug:			        clean-blog
+src:			        /template-overviews/clean-blog
+categories:		    template landing-pages blogs full-websites featured popular
+description:	    "A clean, Bootstrap blog theme ready to hook into your favorite CMS or blogging platform."
+bump:			        "A clean blog theme."
+img-src:		      /assets/img/templates/clean-blog.jpg
+img-desc:		      "Free Bootstrap Blog Theme - Start Bootstrap"
+layout:			      template-overview
 
-meta-title: "Clean Blog - Bootstrap Blog Theme"
+meta-title:       "Clean Blog - Bootstrap Blog Theme"
 meta-description: "A free Bootstrap blog theme perfect for personal blogs. All Start Bootstrap templates are free to download and open source."
 
 features:
@@ -22,17 +22,15 @@ features:
 
 long-description: "Clean blog is a carefully styled Bootstrap blog theme that is perfect for personal or company blogs. This theme features four HTML pages including a blog index, an about page, a sample post, and a contact page."
 
-alt-version:		"yes"
-alt-jekyll:			"https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll"
+alt-version:		  "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-clean-blog/tree/v3-legacy"
+alt-jekyll:			  "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll"
 
-user-version:		"yes"
-user-ghost:			"https://github.com/Devahoy/ghostahoy"
+user-version:		  "yes"
+user-ghost:			  "https://github.com/Devahoy/ghostahoy"
 user-wordpress:		"https://github.com/deviodigital/cleanblog"
-user-blogger:		"https://github.com/abhibagul/Clean-Blog-Bootstrap-template-Blogger-Version"
-user-anchor:		"https://github.com/Th3f/Basic"
-
-v4-version:			"yes"
-alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-clean-blog/archive/v4-dev.zip"
+user-blogger:		  "https://github.com/abhibagul/Clean-Blog-Bootstrap-template-Blogger-Version"
+user-anchor:		  "https://github.com/Th3f/Basic"
 
 redirect_from:
   - /clean-blog/

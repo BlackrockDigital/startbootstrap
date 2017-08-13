@@ -1,15 +1,15 @@
 ---
-title:			"Half Slider"
-slug:			half-slider
-src:			/template-overviews/half-slider
-categories:		template landing-pages one-page portfolios unstyled
-description:	"A half page background image slider for Bootstrap 4 using the built-in Bootstrap carousel plugin."
-bump:			"A half page image slider template."
-img-src:		/assets/img/templates/half-slider.jpg
-img-desc:		"Half Page Bootstrap Image Carousel Slider"
-layout:			template-overview
+title:            "Half Slider"
+slug:             half-slider
+src:              /template-overviews/half-slider
+categories:       template landing-pages one-page portfolios unstyled
+description:      "A half page background image slider for Bootstrap 4 using the built-in Bootstrap carousel plugin."
+bump:             "A half page image slider template."
+img-src:          /assets/img/templates/half-slider.jpg
+img-desc:         "Half Page Bootstrap Image Carousel Slider"
+layout:           template-overview
 
-meta-title: "Half Slider - Bootstrap 4 Background Image Slider"
+meta-title:       "Half Slider - Bootstrap 4 Background Image Slider"
 meta-description: "A half page background image slider template for Bootstrap 4 built with the default Bootstrap carousel. All Start Bootstrap templates are free to download and open source."
 
 features:
@@ -20,11 +20,10 @@ features:
 
 long-description: "Half Slider is a half page height, full width image slider template for Bootstrap 4. This theme is great for creating landing pages or one page websites."
 
-alt-version:		"no"
-user-version:		"no"
+alt-version:		  "yes"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-half-slider/tree/v3-legacy"
 
-v4-version:			"yes"
-alt-v4:				"https://github.com/BlackrockDigital/startbootstrap-half-slider/archive/v4-dev.zip"
+user-version:     "no"
 
 redirect_from:
   - /half-slider/
