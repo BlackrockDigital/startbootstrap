@@ -20,7 +20,7 @@ features:
 long-description: "Shop Item is a basic, unstyled ecommerce template for Bootstrap ecommerce websites. This template can be used to display a single shop item within an online store."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-shop-item/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-shop-item/archive/v3.3.7.zip"
 
 user-version:     "no"
 

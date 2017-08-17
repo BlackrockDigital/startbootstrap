@@ -19,7 +19,7 @@ features:
 long-description: "The Big Picture is an artistic, full screen background image template with a fixed bottom footer."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-the-big-picture/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-the-big-picture/archive/v3.3.7.zip"
 
 user-version:     "no"
 

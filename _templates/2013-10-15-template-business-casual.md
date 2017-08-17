@@ -24,7 +24,7 @@ features:
 long-description: "Business Casual is a full website template for Bootstrap 4. It features four different HTML pages and a number of custom style components."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-business-casual/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-business-casual/archive/v3.3.7.zip"
 
 user-version:     "no"
 

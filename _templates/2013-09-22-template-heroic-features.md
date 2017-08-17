@@ -19,7 +19,7 @@ features:
 long-description: "Heroic features is an unstyled template featuring a hero unit as a header and a grid of feature boxes."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-heroic-features/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-heroic-features/archive/v3.3.7.zip"
 
 user-version:     "no"
 

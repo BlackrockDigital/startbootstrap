@@ -24,8 +24,7 @@ features:
 
 long-description: "New Age is a Bootstrap app landing page theme to help you beautifully showcase your web app or anything else! This theme features a bold, colorful design with various content sections that will be an excellent boilerplate for your next Bootstrap based project!"
 
-alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-new-age/tree/v3-legacy"
+alt-version:		  "no"
 
 user-version:     "no"
 ---

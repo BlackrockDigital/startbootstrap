@@ -24,7 +24,7 @@ features:
 long-description: "Modern Business is a fully loaded Bootstrap 4 website starter template. It includes 17 HTML pages along with a working PHP contact form. You can use this template to create larger, multipurpose websites using Bootstrap 4."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-modern-business/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-modern-business/archive/v3.3.7.zip"
 
 user-version:     "no"
 

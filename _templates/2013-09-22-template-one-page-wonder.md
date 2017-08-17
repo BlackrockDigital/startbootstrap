@@ -21,7 +21,7 @@ features:
 long-description: "One Page Wonder is an unstyled Bootstrap 4 starter template for quickly creating one page websites in Bootstrap."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/archive/v3.3.7.zip"
 
 user-version:     "no"
 

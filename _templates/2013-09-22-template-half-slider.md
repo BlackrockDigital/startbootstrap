@@ -21,7 +21,7 @@ features:
 long-description: "Half Slider is a half page height, full width image slider template for Bootstrap 4. This theme is great for creating landing pages or one page websites."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-half-slider/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-half-slider/archive/v3.3.7.zip"
 
 user-version:     "no"
 

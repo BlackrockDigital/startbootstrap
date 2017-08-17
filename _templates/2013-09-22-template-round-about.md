@@ -19,7 +19,7 @@ features:
 long-description: "Round About is a Bootstrap about page template featuring round images."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-round-about/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-round-about/archive/v3.3.7.zip"
 
 user-version:     "no"
 

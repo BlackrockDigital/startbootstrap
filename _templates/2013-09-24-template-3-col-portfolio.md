@@ -19,7 +19,7 @@ features:
 long-description: "3 Col Portfolio is a simple, three column portfolio page grid that is ideal for showcasing a larger group of projects with minor details."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/archive/v3.3.7.zip"
 
 user-version:     "no"
 

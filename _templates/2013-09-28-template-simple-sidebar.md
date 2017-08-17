@@ -20,7 +20,7 @@ features:
 long-description: "Simple Sidebar is a basic sidebar menu page layout for Bootstrap websites with off canvas navigation on smaller screen sizes."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/archive/v3.3.7.zip"
 
 user-version:     "no"
 

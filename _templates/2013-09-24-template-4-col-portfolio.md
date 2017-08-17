@@ -19,7 +19,7 @@ features:
 long-description: "4 Col Portfolio is a basic, four column image grid ideal for featuring a large number of projects that do not require much detail."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/archive/v3.3.7.zip"
 
 user-version:     "no"
 

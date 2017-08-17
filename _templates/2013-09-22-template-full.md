@@ -19,7 +19,7 @@ features:
 long-description: "Full is a Bootstrap 4 HTML starter template for creating pages with a fixed, full page image background."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-full/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-full/archive/v3.3.7.zip"
 
 user-version:     "no"
 

@@ -20,7 +20,7 @@ features:
 long-description: "Scrolling Nav is a basic Bootstrap framework for creating smooth scrolling, one page websites."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/archive/v3.3.7.zip"
 
 user-version:     "no"
 

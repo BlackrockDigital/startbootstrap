@@ -23,7 +23,7 @@ features:
 long-description: "Landing Page is a responsive landing page theme for Bootstrap 4."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-landing-page/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-landing-page/archive/v3.3.7.zip"
 
 user-version:     "yes"
 user-jekyll:      "https://github.com/swcool/landing-page-theme"

@@ -19,7 +19,7 @@ features:
 long-description: "1 Col Portfolio is a single column portfolio page template. Each portfolio item includes an image, project title heading, a subheading, and a description block. This template is ideal for showcasing a smaller list of more detailed projects."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/archive/v3.3.7.zip"
 
 user-version:     "no"
 

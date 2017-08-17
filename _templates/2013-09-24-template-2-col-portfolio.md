@@ -19,7 +19,7 @@ features:
 long-description: "2 Col Portfolio is a basic, unstyled portfolio grid template with a responsive, two column layout. This template is ideal for pages featuring a smaller number of projects with some details."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/archive/v3.3.7.zip"
 
 user-version:     "no"
 
