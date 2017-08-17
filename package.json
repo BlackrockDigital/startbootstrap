@@ -8,11 +8,16 @@
     "type": "MIT",
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
   },
-  "devDependencies": {
-    "bootstrap": "^4.0.0-alpha.6"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/BlackrockDigital/startbootstrap.git"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }
