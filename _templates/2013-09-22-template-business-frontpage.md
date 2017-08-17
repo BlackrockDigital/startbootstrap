@@ -21,7 +21,7 @@ features:
 long-description: "Business Frontpage is a basic HTML starter template for creating a Bootstrap based website for a small business or other organization."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-business-frontpage/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-business-frontpage/archive/v3.3.7.zip"
 
 user-version:		  "no"
 

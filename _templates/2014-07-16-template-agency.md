@@ -26,7 +26,7 @@ features:
 long-description: "Agency is a stylish, one page Bootstrap theme for agencies and small businesses. The design of Agency is based off of the Golden PSD Theme by Mathavan Jaya. You can download the PSD verison of this theme at FreebiesXpress.com."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-agency/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-agency/archive/v3.3.7+1.zip"
 
 user-version:     "yes"
 user-jekyll:      "https://github.com/y7kim/agency-jekyll-theme"

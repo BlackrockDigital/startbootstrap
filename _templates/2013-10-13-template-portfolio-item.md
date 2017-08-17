@@ -20,7 +20,7 @@ features:
 long-description: "Portfolio Item is a basic Bootstrap template used to create single portfolio item pages on a Bootstrap based website."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-portfolio-item/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-portfolio-item/archive/v3.3.7.zip"
 
 user-version:     "no"
 

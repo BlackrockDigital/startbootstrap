@@ -26,7 +26,7 @@ features:
 long-description: "SB Admin is a free to download Bootstrap admin template. This template uses the defaul Bootstrap 4 styles along with a variety of powerful jQuery plugins to create a pwerful framework for creating admin panels, web apps, or back-end dashboards."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-sb-admin/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-sb-admin/archive/v3.3.7.zip"
 
 user-version:     "no"
 

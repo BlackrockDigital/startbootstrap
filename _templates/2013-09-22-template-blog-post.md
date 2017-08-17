@@ -20,7 +20,7 @@ features:
 long-description: "Blog Post is a simple Bootstrap starter template for creating blog posts within a Bootstrap built blog website."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-blog-post/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-blog-post/archive/v3.3.7.zip"
 
 user-version:		  "no"
 

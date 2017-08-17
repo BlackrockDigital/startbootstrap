@@ -20,7 +20,7 @@ features:
 long-description: "Shop Homepage is a starter template for a Bootstrap based online store or ecommerce website."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-shop-homepage/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-shop-homepage/archive/v3.3.7.zip"
 
 user-version:     "no"
 

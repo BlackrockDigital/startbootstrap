@@ -26,7 +26,7 @@ features:
 long-description: "Stylish Portfolio is a one page Bootstrap portfolio theme with off canvas navigation and smooth scrolling through content sections."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/archive/v3.3.7.zip"
 
 user-version:     "no"
 

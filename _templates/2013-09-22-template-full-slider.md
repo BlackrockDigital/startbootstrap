@@ -20,7 +20,7 @@ features:
 long-description: "Full Slider is a full page image background slider built using the Bootstrap carousel. You can use this template to create one page websites, portfolio sites, and much more."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-full-slider/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-full-slider/archive/v3.3.7.zip"
 
 user-version:     "no"
 

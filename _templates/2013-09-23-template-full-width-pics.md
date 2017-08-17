@@ -21,7 +21,7 @@ features:
 long-description: "Full Width Pics is a unique Bootstrap starter template for a landing page or a one page website. It features full width image sections with an option to include a logo in the header along with other custom design elements."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-full-width-pics/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-full-width-pics/archive/v3.3.7.zip"
 
 user-version:     "no"
 

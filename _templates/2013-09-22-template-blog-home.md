@@ -21,7 +21,7 @@ features:
 long-description: "Blog Home is an unstyled Bootstrap template you can use to quickly create a home page for a Bootstrap based blog website."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-blog-home/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-blog-home/archive/v3.3.7.zip"
 
 user-version:		  "no"
 

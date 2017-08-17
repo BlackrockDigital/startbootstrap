@@ -19,7 +19,7 @@ features:
 long-description: "Bare is a basic Bootstrap 4 starter template that you can download, unzip, and use out of the box without having to change any file paths."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-bare/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-bare/archive/v3.3.7.zip"
 
 user-version:		  "no"
 

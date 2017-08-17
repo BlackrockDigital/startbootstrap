@@ -21,7 +21,7 @@ features:
 long-description: "Small Business is a landing page template for Bootstrap built small business websites."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-small-business/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-small-business/archive/v3.3.7.zip"
 
 user-version:     "no"
 

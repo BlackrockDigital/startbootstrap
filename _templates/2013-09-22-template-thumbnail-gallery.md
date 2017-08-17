@@ -20,7 +20,7 @@ features:
 long-description: "Thumbnail Gallery is a simple image gallery template for Bootstrap built websites. It features a 3x4 image grid with thumbnails."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-thumbnail-gallery/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-thumbnail-gallery/archive/v3.3.7.zip"
 
 user-version:     "no"
 

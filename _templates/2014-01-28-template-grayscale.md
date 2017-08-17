@@ -24,7 +24,7 @@ features:
 long-description: "Grayscale is a multipurpose, one page website theme featuring a dark layout along with smooth scrolling page animations."
 
 alt-version:		  "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-grayscale/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-grayscale/archive/v3.3.7+1.zip"
 
 user-version:     "yes"
 user-jekyll:      "https://github.com/jeromelachaud/grayscale-theme"

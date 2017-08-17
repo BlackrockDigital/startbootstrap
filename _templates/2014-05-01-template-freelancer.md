@@ -28,7 +28,7 @@ features:
 long-description: "Freelancer is a one page Bootstrap portfolio theme for freelancers."
 
 alt-version:      "yes"
-alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-freelancer/tree/v3-legacy"
+alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-freelancer/archive/v3.3.7+1.zip"
 alt-jekyll:       "https://github.com/BlackrockDigital/startbootstrap-freelancer-jekyll"
 
 user-version:     "no"
