@@ -1,3 +1,4 @@
+// Scrollspy for Sidebar on Resources Page
 $('body').scrollspy({
   target: '.sb-sidebar>.sticky-top>ul'
 })
