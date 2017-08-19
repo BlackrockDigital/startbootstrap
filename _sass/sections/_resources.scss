@@ -4,14 +4,13 @@
   .page-header {
     padding-top: 69px;
   }
+  .table td > a {
+    font-weight: 600;
+  }
 }
 
 .resource-name {
   width: 200px;
-}
-
-.resource-link {
-  width: 116px;
 }
 
 // Sidebar
@@ -36,6 +35,12 @@
 
         font-weight: bold;
       }
+    }
+    > ul.nav > li.nav-item > .nav {
+      display: none;
+    }
+    > ul.nav > li.nav-item > a.nav-link.active ~ .nav {
+      display: flex;
     }
   }
 }
