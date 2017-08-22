@@ -31,8 +31,14 @@ footer {
       .input-group-btn {
         border-left: 2px solid $btn-secondary-border;
         .btn {
+          border: none;
+          border-bottom: 3px solid $btn-secondary-border;
           font-size: 12px;
           padding: 15px 26px;
+          &:active,
+          &:hover {
+            border-bottom: 3px solid darken($btn-secondary-border, 10%);
+          }
         }
       }
     }
