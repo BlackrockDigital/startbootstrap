@@ -24,6 +24,37 @@
     </div>
   </div>
 
+  <div class="bsa-ad">
+    <div class="container text-center py-5">
+      <div class="h4 mb-0">Our Partners</div>
+      <p class="lead">Check out their products!</p>
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="bsa-cpc"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="//m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+  <script>
+    (function () {
+      if (typeof _bsa !== 'undefined' && _bsa) {
+        _bsa.init('default', 'CKYD6KQU', 'placement:startbootstrapcom', {
+          target: '.bsa-cpc',
+          align: 'horizontal',
+          disable_css: 'true'
+        });
+      }
+    })();
+
+    // Function to check whether there are any ads are visible. If not ads are loaded, hide the container.
+    window.onload = function () {
+      if (document.getElementsByClassName("_default_").length > 0) {
+        document.getElementsByClassName("bsa-ad")[0].style.display = "flex";
+      }
+    }
+  </script>
+
   <div class="footer-social">
     <div class="container text-center">
       <ul class="list-inline">

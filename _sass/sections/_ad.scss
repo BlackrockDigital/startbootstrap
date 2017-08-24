@@ -134,3 +134,73 @@
   }
 
 }
+
+// For Footer Ads
+.bsa-ad {
+  display: none;
+  background-color: $white;
+  border-bottom: 1px solid $gray-200;
+}
+
+.bsa-cpc #_default_ {
+  position: relative;
+  display: flex;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.bsa-cpc .default-ad {
+  display: none;
+}
+
+.bsa-cpc ._default_ {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0 1em;
+  padding: 1em;
+  width: 50%;
+  border-radius: 3px;
+  background-color: $white;
+  border: 1px solid $gray-200;
+  line-height: 1.5;
+}
+
+.bsa-cpc a {
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+.bsa-cpc a:hover {
+  border-color: $gray-500;
+}
+
+.bsa-cpc .default-image img {
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  margin-right: 10px;
+  width: 36px;
+  border-radius: 7.5%;
+}
+
+.bsa-cpc .default-description,
+.bsa-cpc .default-title {
+  display: block;
+  margin-left: 46px;
+  max-width: calc(100% - 36px);
+}
+
+.bsa-cpc .default-title {
+  font-weight: 600;
+}
+@media only screen and (min-width: 320px) and (max-width: 759px) {
+  .bsa-cpc #_default_ {
+    flex-wrap: wrap;
+  }
+  .bsa-cpc ._default_ {
+    margin: 0.5em 0;
+    width: 100%;
+  }
+}
