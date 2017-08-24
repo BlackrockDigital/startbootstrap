@@ -14,6 +14,7 @@ author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
 ---
+
 As we stated in our last post, we have started rolling out some major structural changes to Start Bootstrap. We now have a templates section with a few different categories, which will allow us to scale up the project a bit better as we start adding more and more templates.
 
 In addition, each template now has its own home, which gives a larger image preview of the template, a live preview link, a download link (a complete .zip file with the template, its custom CSS, and Bootstrap 3 core components), and links to the raw HTML and CSS on GitHub. Each page also featured some design recommendations to help you get started, as well as links to similar templates to the one being viewed.

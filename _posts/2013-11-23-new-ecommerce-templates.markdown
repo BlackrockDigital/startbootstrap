@@ -14,9 +14,10 @@ author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
 ---
+
 We’ve launched two new online store templates as our newest additions to the Start Bootstrap template library. We’re proud to introduce ’Shop Homepage’ and ’Shop Item!’
 
-There is something special about these templates! Our friend Maks Surguy, creator of Bootsnipp, was kind enough to contribute these two templates to our free template library. If you’re not familiar with Bootsnipp, we highly recommend that you head over to http://www.bootsnipp.com to take a look at some of their free Bootstrap code snippets. They are a wonderful complement to many Start Bootstrap templates!
+There is something special about these templates! Our friend Maks Surguy, creator of Bootsnipp, was kind enough to contribute these two templates to our free template library. If you’re not familiar with Bootsnipp, we highly recommend that you head over to <http://www.bootsnipp.com> to take a look at some of their free Bootstrap code snippets. They are a wonderful complement to many Start Bootstrap templates!
 
 We wanted to share an additional feature that many of you would like to use along with these templates. Maks created these templates as part of a tutorial he wrote on how to create a review system for an online store. If you’re really looking to get the most out of these shop templates, then take a look at the tutorial.
 

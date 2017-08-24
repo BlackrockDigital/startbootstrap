@@ -14,6 +14,7 @@ author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
 ---
+
 We’ve just launched a new template to add to the Start Bootstrap mix. We are really excited about this one too. Announcing ‘Stylish Portfolio,’ the newest addition to the Start Bootstrap template library.
 
 This template is packed with some awesome features. For starters, we took our 'Simple Sidebar’ template which has been pretty popular and modified it a little bit to work as a responsive, right side menu bar for this site.
@@ -24,6 +25,6 @@ This template is born because of a suggestion sent to us at feedback@startbootst
 
 Other than that, things are pretty straight forward. Download it, customize it, read our design suggestions, and have at it!
 
-You can get our newest template - 'Stylish Portfolio’ on our website at http://startbootstrap.com! Enjoy!
+You can get our newest template - 'Stylish Portfolio’ on our website at <http://startbootstrap.com!> Enjoy!
 
 We’ve got more templates in the pipeline, so be sure to keep checking back for more!

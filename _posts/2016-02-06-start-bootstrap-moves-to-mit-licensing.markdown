@@ -14,6 +14,7 @@ author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
 ---
+
 All of the free templates and themes on Start Bootstrap are now licensed under the MIT license instead of Apache 2.0.
 
 The MIT license is simple, and it allows you to do just about anything you want with the templates.
