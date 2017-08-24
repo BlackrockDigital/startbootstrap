@@ -1,0 +1,23 @@
+- name:        WrapBootstrap
+  link:        https://wrapbootstrap.com/?ref=StartBootstrap
+  description: WrapBootstrap is a marketplace for premium themes and templates for Bootstrap. Buy and sell Bootstrap themes!
+
+- name:        ShapeBootstrap
+  link:        http://shapebootstrap.net/?ref=StartBootstrap
+  description: ShapeBootstrap is a marketplace where you can buy or sell premium Bootstrap templates and admin templates.
+
+- name:        BootstrapBay
+  link:        https://bootstrapbay.com/?ref=StartBootstrap
+  description: BootstrapBay is a marketplace for Bootstrap themes &amp; templates.
+
+- name:        ThemeForest
+  link:        https://themeforest.net/tags/bootstrap?ref=BlackrockDigital
+  description: ThemeForest is a popular marketplace for website templates, where you can browse through thousands of Bootstrap templates.
+
+- name:        Creative Market
+  link:        https://creativemarket.com/themes/bootstrap?u=StartBootstrap
+  description: A collection of over 1000 premium, hand picked Bootstrap templates and themes on Creative Market, a design content marketplace.
+
+- name:        Gridgum
+  link:        https://gridgum.com/themes/category/bootstrap-themes/?affiliates=360
+  description: Gridgum is a marketplace for responsive themes and templates.

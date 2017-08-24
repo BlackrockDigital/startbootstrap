@@ -1,0 +1,24 @@
+- name:        ng-bootstrap
+  link:        https://ng-bootstrap.github.io
+  description: Bootstrap 4 components, powered by Angular
+  supports:    bs4
+
+- name:        reactstrap
+  link:        https://reactstrap.github.io/
+  description: Easy to use React Bootstrap 4 components
+  supports:    bs4
+
+- name:        Bootstrap Vue
+  link:        https://bootstrap-vue.js.org/
+  description: Bootstrap 4 Components For Vue.js
+  supports:    bs4
+
+- name:        UI Bootstrap
+  link:        https://angular-ui.github.io/bootstrap/
+  description: Bootstrap components written in pure AngularJS by the AngularUI Team
+  supports:    bs3
+
+- name:        ngx-bootstrap
+  link:        http://valor-software.com/ngx-bootstrap/
+  description: Native Angular widgets for Bootstrap 3 and Bootstrap 4
+  supports:    bs3, bs4
