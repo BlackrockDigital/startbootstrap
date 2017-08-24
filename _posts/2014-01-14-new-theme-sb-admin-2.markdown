@@ -21,7 +21,7 @@ We’ve listed to a lot of suggestions that you’ve had, and we have taken thos
 
 'SB Admin 2’ is a new and improved, easily customizable, free Bootstrap based admin template that is great for building web apps.
 
-##SB Admin 2 - New and Improved
+## SB Admin 2 - New and Improved
 Download Here: <http://startbootstrap.com/sb-admin-v2>
 
 There have been a number of improvements over the previous version of SB Admin. Most notably, the menu bar in version 2 is greatly improved. On mobile devices, the side bar collapses into a nice, three-level dropdown that sits under the user interface links that behave as normal (and slightly modified) dropdowns.
