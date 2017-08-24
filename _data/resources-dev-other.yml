@@ -1,0 +1,9 @@
+- name:        Bootstrap CDN
+  link:        http://www.bootstrapcdn.com/
+  description: The recommended CDN for Bootstrap, Font Awesome, and Bootswatch
+  supports:    bs2, bs3, bs4
+
+- name:        Bootstrap Loader
+  link:        https://github.com/shakacode/bootstrap-loader
+  description: Load Bootstrap styles and scripts in your Webpack bundle
+  supports:    bs3, bs4

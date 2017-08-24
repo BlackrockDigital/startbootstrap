@@ -1,0 +1,15 @@
+- name:        Start Bootstrap
+  link:        https://startbootstrap.com/
+  description: Free to download, open source templates and themes for Bootstrap up to date for Bootstrap 4!
+
+- name:        Bootswatch
+  link:        http://bootswatch.com/
+  description: Free themes for Bootstrap, simply download a CSS file and replace the one in Bootstrap.
+
+- name:        BlackTie
+  link:        http://blacktie.co/
+  description: Free Handsome Bootstrap Themes
+
+- name:        BootstrapMade
+  link:        https://bootstrapmade.com/
+  description: Elegant, clean and beautiful free website templates using Bootstrap, the most popular HTML, CSS &amp; JS framework.

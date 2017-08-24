@@ -102,6 +102,15 @@ section.page {
   line-height: 28px;
 }
 
+.bg-purple {
+  background: $purple !important;
+}
+
+.badge-secondary {
+  background-color: $gray-600 !important;
+  color: white !important;
+}
+
 // Preview Panels
 .sb-preview {
   margin-bottom: 30px;

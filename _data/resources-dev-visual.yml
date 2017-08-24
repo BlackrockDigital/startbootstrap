@@ -1,0 +1,19 @@
+- name:        Bootply
+  link:        http://www.bootply.com/
+  description: A Bootstrap code editor and builder - the Bootstrap playground.
+  supports:    bs3, bs4
+
+- name:        Form Builder
+  link:        https://bootsnipp.com/forms
+  description: A drag-and-drop Bootstrap form builder by Bootsnipp.
+  supports:    bs2, bs3
+
+- name:        Button Builder
+  link:        http://www.bootply.com/
+  description: A simple Bootstrap button builder by Bootsnipp.
+  supports:    bs3
+
+- name:        Jetstrap
+  link:        https://jetstrap.com/
+  description: Not just a mock-up tool, Jetstrap is the premier interface-building tool for Bootstrap 3.
+  supports:    bs3

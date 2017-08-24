@@ -6,7 +6,6 @@ meta-title: "Bootstrap Resources and Plugins List"
 meta-description: "Bootstrap resources page meta description goes here."
 ---
 
-
 <div class="container">
 	<div class="row">
 
@@ -28,24 +27,24 @@ meta-description: "Bootstrap resources page meta description goes here."
 		                    <li class="nav-item">
 		                        <a class="nav-link" href="#free-themes">Free Templates &amp; Themes</a>
 		                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#showcases">Bootstrap Showcases</a>
+                        </li>
 		                </ul>
-		            </li>
-		            <li class="nav-item">
-		                <a class="nav-link" href="#showcases">Bootstrap Showcases</a>
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#dev-tools">Bootstrap Development Tools</a>
                     <ul class="nav flex-column ml-3">
 		                    <li class="nav-item">
-		                        <a class="nav-link" href="#integration">Framework Integration Tools</a>
+		                        <a class="nav-link" href="#integration">Framework Integrations</a>
 		                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#visual-builders">Visual Buildiers</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#other-dev">Other Tools</a>
                         </li>
 		                </ul>
-		            </li>
-		            <li class="nav-item">
-		                <a class="nav-link" href="#ui">Bootstrap UI Extensions</a>
 		            </li>
 		            <li class="nav-item">
 		                <a class="nav-link" href="#plugins">Bootstrap jQuery Plugins</a>
@@ -70,8 +69,11 @@ meta-description: "Bootstrap resources page meta description goes here."
 		                    </li>
 		                </ul>
 		            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#uncategorized">Uncategorized Resources</a>
+                </li>
 		        </ul>
-		        <a href="#submitResource" data-toggle="modal" class="ml-2 mt-4 btn btn-sm btn-primary">Submit a Resource</a>
+		        <a href="#submitResource" data-toggle="modal" class="ml-2 mt-4 btn btn-sm btn-primary border-0">Submit a Resource</a>
 		    </div>
 		</div>
 
@@ -82,88 +84,49 @@ meta-description: "Bootstrap resources page meta description goes here."
 			<!-- Official Bootstrap Resources -->
 			<h2 class="page-header" id="official">Official Bootstrap Resources</h2>
       <p class="lead">Projects created and maintained by the Bootstrap creators.</p>
-			<div class="table-responsive">
-				<table class="table table-bordered table-striped">
-					<thead>
-						<tr>
-							<th class="resource-name">Name</th>
-							<th>Description</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td><a href="http://getbootstrap.com/" rel="nofollow">Bootstrap</td>
-							<td>The most popular front-end framework for developing responsive, mobile first projects on the web.</td>
-						</tr>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
             <tr>
-              <td><a href="http://blog.getbootstrap.com/" rel="nofollow">Bootstrap Blog</a></td>
-              <td>The official bootstrap blog. Announcements, discussions, and more for Bootstrap.</td>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
             </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-official %}
             <tr>
-              <td><a href="https://jobs.getbootstrap.com/" rel="nofollow">Bootstrap Jobs</a></td>
-              <td>Find your next job - imagine what you could be working on.</td>
+              <td><a href="{{ resource.link }}" rel="nofollow">{{ resource.name }}</td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-dark bg-purple">BS4</span>{% endif %}</td>
             </tr>
-            <tr>
-              <td><a href="https://themes.getbootstrap.com/" rel="nofollow">Bootstrap Themes</a></td>
-              <td>Official Themes from Bootstrap's creators.</td>
-            </tr>
-						<tr>
-              <td><a href="http://expo.getbootstrap.com/" rel="nofollow">Bootstrap Expo</a></td>
-							<td>Beautiful and inspiring uses of Bootstrap, curated by @mdo.</td>
-						</tr>
-            <tr>
-              <td><a href="https://github.com/twbs/bootlint" rel="nofollow">Bootlint</a></td>
-              <td>An HTML linter for Bootstrap projects.</td>
-            </tr>
-						<tr>
-              <td><a href="http://goratchet.com/" rel="nofollow">Ratchet</a></td>
-							<td>Build mobile apps with simple HTML, CSS, and JS components.</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
 
       <h2 class="page-header" id="themes">Bootstrap Templates &amp; Themes</h2>
       <hr>
+
 			<!-- Premium Bootstrap Themes & Templates -->
 			<h3 class="pt-4" id="premium-marketplaces">Premium Marketplaces</h3>
       <p class="lead">Purchase Bootstrap themes, or sell your own custom designed Bootstrap themes on these third-party marketplace websites!</p>
-			<div class="table-responsive">
-				<table class="table table-bordered table-striped">
-					<thead>
-						<tr>
-							<th class="resource-name">Name</th>
-							<th>Description</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-              <td><a href="https://wrapbootstrap.com/?ref=StartBootstrap">WrapBootstrap</a></td>
-							<td>WrapBootstrap is a marketplace for premium themes and templates for Bootstrap. Buy and sell Bootstrap themes!</td>
-						</tr>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
             <tr>
-              <td><a href="http://shapebootstrap.net/?ref=StartBootstrap" rel="nofollow">ShapeBootstrap</a></td>
-              <td>ShapeBootstrap is a marketplace where you can buy or sell premium Bootstrap templates and admin templates.</td>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
             </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-templates-premium-marketplaces %}
             <tr>
-              <td><a href="https://bootstrapbay.com/?ref=StartBootstrap" rel="nofollow">BootstrapBay</a></td>
-              <td>BootstrapBay is a marketplace for Bootstrap themes &amp; templates.</td>
+              <td><a href="{{ resource.link }}" rel="nofollow">{{ resource.name }}</td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-dark bg-purple">BS4</span>{% endif %}</td>
             </tr>
-						<tr>
-              <td><a href="https://themeforest.net/tags/bootstrap?ref=BlackrockDigital" rel="nofollow">ThemeForest</a></td>
-							<td>ThemeForest is the #1 marketplace for website templates, where you can browse through thousands of Bootstrap templates.</td>
-						</tr>
-						<tr>
-              <td><a href="https://creativemarket.com/themes/bootstrap?u=StartBootstrap" rel="nofollow">Creative Market</a></td>
-							<td>A collection of over 1000 premium, hand picked Bootstrap templates and themes on Creative Market, a design content marketplace.</td>
-						</tr>
-            <tr>
-              <td><a href="https://gridgum.com/themes/category/bootstrap-themes/?affiliates=360" rel="nofollow">Gridgum</a></td>
-              <td>Gridgum is a marketplace for responsive themes and templates.</td>
-            </tr>
-					</tbody>
-				</table>
-			</div>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
 
       <!-- Premium Bootstrap UI Kits -->
       <h3 class="pt-4" id="premium-vendors">Premium Vendors</h3>
@@ -177,14 +140,12 @@ meta-description: "Bootstrap resources page meta description goes here."
             </tr>
           </thead>
           <tbody>
+            {% for resource in site.data.resources-templates-premium-vendors %}
             <tr>
-              <td><a href="http://designmodo.com/shop/?u=787" rel="nofollow">Designmodo</a></td>
-              <td>Designmodo has a collection of premium static website builders created using the Bootstrap framework.</td>
+              <td><a href="{{ resource.link }}" rel="nofollow">{{ resource.name }}</td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-dark bg-purple">BS4</span>{% endif %}</td>
             </tr>
-            <tr>
-              <td><a href="https://hoarrd.com/drunken-parrot-flat-ui-kit/" rel="nofollow">Hoarrd!</a></td>
-              <td>Hoarrd's Drunken Parrot UI Kit is a Bootstrap-based, retina-ready, flat UI kit!</td>
-            </tr>
+            {% endfor %}
           </tbody>
         </table>
       </div>
@@ -192,64 +153,6 @@ meta-description: "Bootstrap resources page meta description goes here."
 			<!-- Free Bootstrap Themes & Templates -->
 			<h3 class="pt-4" id="free-themes">Free Templates &amp; Themes</h3>
       <p class="lead">Download free Bootstrap templates and themes on the following websites.</p>
-			<div class="table-responsive">
-				<table class="table table-bordered table-striped">
-					<thead>
-						<tr>
-							<th class="resource-name">Name</th>
-							<th>Description</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-              <td><a href="https://startbootstrap.com/">Start Bootstrap</a></td>
-							<td>Free to download, open source templates and themes for Bootstrap up to date for Bootstrap 4!</td>
-						</tr>
-						<tr>
-              <td><a href="http://bootswatch.com/" rel="nofollow">Bootswatch</a></td>
-							<td>Free themes for Bootstrap, simply download a CSS file and replace the one in Bootstrap.</td>
-						</tr>
-            <tr>
-              <td><a href="http://blacktie.co/" rel="nofollow">BlackTie</a></td>
-              <td>Free Handsome Bootstrap Themes</td>
-            </tr>
-            <tr>
-              <td><a href="https://bootstrapmade.com/" rel="nofollow">BootstrapMade</a>*</td>
-              <td>Elegant, clean and beautiful free website templates using Bootstrap, the most popular HTML, CSS &amp; JS framework.</td>
-            </tr>
-					</tbody>
-				</table>
-        <p class="small">* premium offers are present alongside free templates</p>
-        <div class="alert alert-primary small" role="alert"><strong>Note:</strong> Template and theme creators may have varying licenses for their free templates and themes! Make sure to follow the licensing rules of a template or theme's respective creator!</div>
-			</div>
-
-			<!-- Bootstrap Showcases -->
-			<h2 class="page-header" id="showcases">Bootstrap Showcases</h2>
-      <p class="lead">Get inspired for your next Bootstrap project by browsing examples of websites built with Bootstrap!</p>
-			<div class="table-responsive">
-				<table class="table table-bordered table-striped">
-					<thead>
-						<tr>
-							<th class="resource-name">Name</th>
-							<th>Description</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-              <td><a href="http://builtwithbootstrap.com/" rel="nofollow">Built With Bootstrap</a></td>
-							<td>A showcase of sites and apps built with Bootstrap.</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-
-			<!-- Bootstrap Development Tools -->
-      <h2 class="page-header" id="dev-tools">Bootstrap Development Tools</h2>
-      <hr>
-
-      <!-- Bootstrap Integrations -->
-      <h3 class="pt-4" id="integration">Framework Integration Tools</h3>
-      <p class="lead">Bootstrap components rewritten to integrate with the most popular front-end frameworks.</p>
       <div class="table-responsive">
         <table class="table table-bordered table-striped">
           <thead>
@@ -259,198 +162,127 @@ meta-description: "Bootstrap resources page meta description goes here."
             </tr>
           </thead>
           <tbody>
+            {% for resource in site.data.resources-templates-free %}
             <tr>
-              <td><a href="https://ng-bootstrap.github.io" rel="nofollow">ng-bootstrap</a></td>
-              <td>Bootstrap 4 components, powered by Angular</td>
+              <td><a href="{{ resource.link }}" rel="nofollow">{{ resource.name }}</td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-dark bg-purple">BS4</span>{% endif %}</td>
             </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+			<!-- Bootstrap Showcases -->
+      <h3 class="pt-4" id="showcases">Bootstrap Showcases</h3>
+      <p class="lead">Get inspired for your next Bootstrap project by browsing examples of websites built with Bootstrap!</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
             <tr>
-              <td><a href="https://reactstrap.github.io/" rel="nofollow">reactstrap</a></td>
-              <td>Easy to use React Bootstrap 4 components</td>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
             </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-templates-showcases %}
             <tr>
-              <td><a href="https://bootstrap-vue.js.org/" rel="nofollow">Bootstrap Vue</a></td>
-              <td>Bootstrap 4 Components For Vue.js 2</td>
+              <td><a href="{{ resource.link }}" rel="nofollow">{{ resource.name }}</td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-dark bg-purple">BS4</span>{% endif %}</td>
             </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+			<!-- Bootstrap Development Tools -->
+      <h2 class="page-header" id="dev-tools">Bootstrap Development Tools</h2>
+      <hr>
+
+      <!-- Bootstrap Integrations -->
+      <h3 class="pt-4" id="integration">Framework Integrations</h3>
+      <p class="lead">Bootstrap components rewritten to integrate with the most popular development frameworks and CMS systems</p>
+
+      <h5 class="mt-4">JavaScript</h5>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-dev-framework-js %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow">{{ resource.name }}</td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-dark bg-purple">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <h5 class="mt-4">WordPress</h5>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-dev-framework-wordpress %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow">{{ resource.name }}</td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-dark bg-purple">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="pt-4" id="visual-builders">Visual Builders</h3>
+      <p class="lead">Visual builder applications for creating custom versions of Bootstrap and Bootstrap components.</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-dev-visual %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow">{{ resource.name }}</td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-dark bg-purple">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
           </tbody>
         </table>
       </div>
 
 			<h3 class="pt-4" id="other-dev">Other Development Tools</h3>
       <p class="lead">Helpful tools for developers to use while creating with Bootstrap.</p>
-			<div class="table-responsive">
-				<table class="table table-bordered table-striped">
-					<thead>
-						<tr>
-							<th class="resource-name">Name</th>
-							<th>Description</th>
-							<th class="resource-link">Link</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Bootstrap CDN</td>
-							<td>The recommended CDN for Bootstrap, Font Awesome, and Bootswatch.</td>
-							<td><a href="http://www.bootstrapcdn.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
             <tr>
-              <td>Bootstrap Loader</td>
-              <td>Load Bootstrap styles and scripts in your Webpack bundle</td>
-              <td><a href="https://github.com/shakacode/bootstrap-loader" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
             </tr>
-						<tr>
-							<td>Bootsnipp</td>
-							<td>Design elements, playground, and code snippets for the Bootstrap HTML/CSS/JS framework</td>
-							<td><a href="http://bootsnipp.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Bootstrap Accessibility Plugin</td>
-							<td>Accessibility Plugin for Bootstrap 3 and Bootstrap 3 as SubModule.</td>
-							<td><a href="https://github.com/paypal/bootstrap-accessibility-plugin" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Jetstrap</td>
-							<td>Not just a mock-up tool, Jetstrap is the premier interface-building tool for Bootstrap 3.</td>
-							<td><a href="http://Jetstrap.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Roots.io Sage</td>
-							<td>A Bootstrap driven WordPress starter theme with a modern front-end development workflow.</td>
-							<td><a href="https://roots.io/sage/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Understrap</td>
-							<td>UnderStrap combines the Underscores starter theme (by Automattic) and the mobil-first, responsive grid framework Bootstrap (by Twitter) into a perfect open source foundation for your next WordPress theme project.</td>
-							<td><a href="http://understrap.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>TwitterBootstrapMVC</td>
-							<td>Development for ASP.NET MVC with Bootstrap made simple.</td>
-							<td><a href="https://www.twitterbootstrapmvc.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Bootply</td>
-							<td>A Bootstrap code editor and builder - the Bootstrap playground.</td>
-							<td><a href="http://www.bootply.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Bootlint This Page</td>
-							<td>A Chrome extension to inject the Bootlint tool into a web page and automatically scan it for common Bootstrap related errors.</td>
-							<td><a href="https://github.com/rtpHarry/BootlintThisPage-Chrome" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Kickstrap</td>
-							<td>Kickstrap is a boilerplate of Bootstrap, JSPM, Angular.js and Roots that can copy itself into any directory you choose.</td>
-							<td><a href="http://getkickstrap.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Bootstrap 3 for IE7</td>
-							<td>Bootstrap 3 drops support for Internet Explorer 7, but you can add it back by simply adding this conditional CSS.</td>
-							<td><a href="https://github.com/coliff/bootstrap-ie7" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Tablestrap</td>
-							<td>A Bootstrap table generator.</td>
-							<td><a href="http://tablestrap.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>BootstrapDocs</td>
-							<td>A Bootstrap documentation archive.</td>
-							<td><a href="http://bootstrapdocs.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>BootSwatchr</td>
-							<td>A theme roller for Bootstrap 3.</td>
-							<td><a href="http://bootswatchr.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>UMyProto</td>
-							<td>A visual, online Bootstrap site builder.</td>
-							<td><a href="http://umyproto.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Paintstrap</td>
-							<td>Generate beautiful Bootstrap themes using the Adobe Kuler and COLOURlovers color scheme.</td>
-							<td><a href="http://paintstrap.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Lavish</td>
-							<td>Generate your own Bootstrap color scheme from an image and customize to your taste.</td>
-							<td><a href="http://www.lavishbootstrap.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>1pxdeep</td>
-							<td>Flat(ish) Bootstrap 3 theme generator.</td>
-							<td><a href="http://rriepe.github.io/1pxdeep/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Hexagon</td>
-							<td>A CSS hexagon generator for Bootstrap 3.</td>
-							<td><a href="http://db0company.github.io/css-hexagon/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Bootdey</td>
-							<td>A gallery of free snippets and resources for Bootstrap.</td>
-							<td><a href="http://bootdey.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>BThemer</td>
-							<td>A Bootstrap theme customizer with live previews.</td>
-							<td><a href="http://colorfullyme.github.io/BThemer/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Bootpress Themeroller</td>
-							<td>A custom theme generator for Bootstrap.</td>
-							<td><a href="https://www.bootpress.org/themeroller/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-
-			<!-- Bootstrap UI Extensions -->
-			<h2 class="page-header" id="ui">Bootstrap UI Extensions</h2>
-			<div class="table-responsive">
-				<table class="table table-bordered table-striped">
-					<thead>
-						<tr>
-							<th class="resource-name">Name</th>
-							<th>Description</th>
-							<th class="resource-link">Link</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Font Awesome</td>
-							<td>The iconic font and CSS framework.</td>
-							<td><a href="http://fontawesome.io/" class="btn btn-primary btn-sm">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Social Buttons for Bootstrap</td>
-							<td>Social Sign-In Buttons made in pure CSS based on Bootstrap and Font Awesome!</td>
-							<td><a href="http://lipis.github.io/bootstrap-social/" class="btn btn-primary btn-sm">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Bootsnipp Button Builder</td>
-							<td>A button builder for Bootstrap 3.</td>
-							<td><a href="http://bootsnipp.com/buttons" class="btn btn-primary btn-sm">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Bootsnipp Form Builder</td>
-							<td>A form builder for Bootstrap 3.</td>
-							<td><a href="http://bootsnipp.com/forms?version=3" class="btn btn-primary btn-sm">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Bootstrap Magic</td>
-							<td>A visual theme builder for Bootstrap 3.</td>
-							<td><a href="http://pikock.github.io/bootstrap-magic/app/index.html#!/editor" class="btn btn-primary btn-sm">View Resource</a></td>
-						</tr>
-						<tr>
-							<td>Bootstrap Stroke Icons</td>
-							<td>An alternative icon set for Bootstrap to replace the default Glyphicons with stroke icons.</td>
-							<td><a href="https://github.com/HighRobotics/Bootstrap-Stroke" class="btn btn-primary btn-sm">View Resource</a></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-dev-other %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow">{{ resource.name }}</td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-dark bg-purple">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
 
 			<h2 class="page-header" id="plugins">Bootstrap jQuery Plugins</h2>
       <hr>
@@ -926,6 +758,109 @@ meta-description: "Bootstrap resources page meta description goes here."
 				</table>
 			</div>
 
+      <!-- Uncategorized Resources -->
+      <h2 class="page-header" id="uncategorized">Uncategorized Resources</h2>
+      <p class="lead">Miscelleneous Bootstrap resources that don't quite fit into one of the categories above!</p>
+
+			<div class="table-responsive">
+				<table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<th class="resource-name">Name</th>
+							<th>Description</th>
+							<th class="resource-link">Link</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Bootsnipp</td>
+							<td>Design elements, playground, and code snippets for the Bootstrap HTML/CSS/JS framework</td>
+							<td><a href="http://bootsnipp.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>Bootstrap Accessibility Plugin</td>
+							<td>Accessibility Plugin for Bootstrap 3 and Bootstrap 3 as SubModule.</td>
+							<td><a href="https://github.com/paypal/bootstrap-accessibility-plugin" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>TwitterBootstrapMVC</td>
+							<td>Development for ASP.NET MVC with Bootstrap made simple.</td>
+							<td><a href="https://www.twitterbootstrapmvc.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>Bootlint This Page</td>
+							<td>A Chrome extension to inject the Bootlint tool into a web page and automatically scan it for common Bootstrap related errors.</td>
+							<td><a href="https://github.com/rtpHarry/BootlintThisPage-Chrome" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>Kickstrap</td>
+							<td>Kickstrap is a boilerplate of Bootstrap, JSPM, Angular.js and Roots that can copy itself into any directory you choose.</td>
+							<td><a href="http://getkickstrap.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>Bootstrap 3 for IE7</td>
+							<td>Bootstrap 3 drops support for Internet Explorer 7, but you can add it back by simply adding this conditional CSS.</td>
+							<td><a href="https://github.com/coliff/bootstrap-ie7" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>Tablestrap</td>
+							<td>A Bootstrap table generator.</td>
+							<td><a href="http://tablestrap.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>BootstrapDocs</td>
+							<td>A Bootstrap documentation archive.</td>
+							<td><a href="http://bootstrapdocs.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>BootSwatchr</td>
+							<td>A theme roller for Bootstrap 3.</td>
+							<td><a href="http://bootswatchr.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>UMyProto</td>
+							<td>A visual, online Bootstrap site builder.</td>
+							<td><a href="http://umyproto.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>Paintstrap</td>
+							<td>Generate beautiful Bootstrap themes using the Adobe Kuler and COLOURlovers color scheme.</td>
+							<td><a href="http://paintstrap.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>Lavish</td>
+							<td>Generate your own Bootstrap color scheme from an image and customize to your taste.</td>
+							<td><a href="http://www.lavishbootstrap.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>1pxdeep</td>
+							<td>Flat(ish) Bootstrap 3 theme generator.</td>
+							<td><a href="http://rriepe.github.io/1pxdeep/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>Hexagon</td>
+							<td>A CSS hexagon generator for Bootstrap 3.</td>
+							<td><a href="http://db0company.github.io/css-hexagon/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>Bootdey</td>
+							<td>A gallery of free snippets and resources for Bootstrap.</td>
+							<td><a href="http://bootdey.com/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>BThemer</td>
+							<td>A Bootstrap theme customizer with live previews.</td>
+							<td><a href="http://colorfullyme.github.io/BThemer/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+						<tr>
+							<td>Bootpress Themeroller</td>
+							<td>A custom theme generator for Bootstrap.</td>
+							<td><a href="https://www.bootpress.org/themeroller/" class="btn btn-primary btn-sm" rel="nofollow">View Resource</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
 			<div class="card sb-card text-center">
 				<div class="card-body">
 					<h3>Is something missing?</h3>
@@ -939,12 +874,14 @@ meta-description: "Bootstrap resources page meta description goes here."
 </div>
 
 <!-- Submit a Resource Modal -->
-<div class="modal fade" id="submitResource" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+<div class="modal fade" id="submitResource" tabindex="-1" role="dialog" aria-labelledby="submitResourceModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Submit a Resource</h4>
+                <h5 class="modal-title" id="myModalLabel">Submit a Resource</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body">
             	<p>To submit a resource for review, please send an email to <strong><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a></strong> with the following information:</p>
