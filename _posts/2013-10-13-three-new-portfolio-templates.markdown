@@ -14,15 +14,16 @@ author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
 ---
+
 We’ve fulfilled a promise we made a while back with the addition of our three newest templates. ‘3 Col Portfolio,’ '4 Col Portfolio,’ and 'Portfolio Item’ have been released to round out our portfolio template series.
 
 So, to recap, our lineup of portfolio templates are as follows:
 
-- 1 Col Portfolio
-- 2 Col Portfolio
-- 3 Col Portfolio
-- 4 Col Portfolio
-- Portfolio Item
+-   1 Col Portfolio
+-   2 Col Portfolio
+-   3 Col Portfolio
+-   4 Col Portfolio
+-   Portfolio Item
 
 We now have a portfolio column style to fit any sort of project, so take a look at our different column layouts and get to customizing! From a design standpoint, we recommend using some unique hover effects for the images on the templates. Make it stylish, make it unique, and make it your own!
 

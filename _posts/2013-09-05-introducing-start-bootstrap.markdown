@@ -14,6 +14,7 @@ author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
 ---
+
 Welcome! Thank you for visiting Start Bootstrap! My name is David Miller, owner and founder of Blackrock Digital, a digital goods company in Orlando, FL. Now that this blog is live, I’d like to take the opportunity to share a little bit about the origins of this resource for Bootstrap.
 
 Back in Bootstrap 2 days, I had a few HTML starter templates that I would use pretty often for my own personal projects at my company. When Bootstrap 3 came around, I decided to share some of my personal Bootstrap templates on my company’s blog after updating them for Bootstrap 3. The response was pretty huge by our standards, which lead me to believe that I had something of value to share with the world. One thing led to another, and Start Bootstrap was born!

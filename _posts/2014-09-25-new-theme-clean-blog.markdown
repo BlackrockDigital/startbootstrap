@@ -14,6 +14,7 @@ author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
 ---
+
 A new theme is up on Start Bootstrap! The ‘Clean Blog’ theme is a modern, four page blog theme optimized for legibility. The theme features a hint of color, an intuitive navigation bar, and a working contact form among other features.
 
 Medium and other popular blog sites served as inspiration for this theme. As always, this theme is 100% open source and free to download - no strings attached. Since the theme is raw HTML and CSS it is ready to be broken up and plugged into your favorite CMS or blogging platform. Moving forward, we intend to release a Jekyll version of Clean Blog, and perhaps a WordPress, Tumblr, and other variations down the road.

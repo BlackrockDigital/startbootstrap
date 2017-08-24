@@ -14,6 +14,7 @@ author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
 ---
+
 Well it’s been over a month since Start Bootstrap was founded, and the initial response has been pretty great. I want to personally thank everyone who has upvoted my posts on Reddit and, of course, all of the people who have visited my site. The word is out that Start Bootstrap is here, and there are definitely some improvements to be made when it comes to the organization and content featured on the site.
 
 As the project has progressed, it has been managed by me adding new templates to the site one by one. Now for only 15 templates, which is where we are at right now, featuring them all stacked up in three columns on the home page works fine, but my plan is to get a lot more templates out there.

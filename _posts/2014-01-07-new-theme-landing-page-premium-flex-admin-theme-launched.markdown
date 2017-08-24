@@ -14,15 +14,16 @@ author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
 ---
+
 Hi there Start Bootstrap users! We have some exciting updates to share with you today!
 
-###Free Landing Page Template
+## Free Landing Page Template
 
 First off, we would like to introduce you to the newest template in the Start Bootstrap line up, ‘Landing Page!’. This template is a bit different than some of our others. You might notice that it features some custom fonts and some custom, but subtle, colors. That being said, the motivation behind doing this was to make this template usable right out of the box, but simple enough to remain easily customizable.
 
-To download this template for free, visit the preview page here: http://startbootstrap.com/landing-page.
+To download this template for free, visit the preview page here: <http://startbootstrap.com/landing-page>.
 
-###Flex Admin - Premium Admin Theme
+## Flex Admin - Premium Admin Theme
 
 Our second announcement for today is the release of our first premium template, 'Flex Admin.’ The popularity of our free admin theme gave us the idea to put something up on the WrapBootstrap theme store, and 'Flex Admin’ is how we did it.
 
