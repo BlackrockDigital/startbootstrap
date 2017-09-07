@@ -62,16 +62,17 @@
   <meta property="og:site_name" content="Start Bootstrap">
   <meta property="og:type" content="website">
   <meta property="og:description" content="{{ page.meta-description }}">
-  <meta property="og:image" content="https://startbootstrap.com/assets/img/og/startbootstrap-logo.jpg">
+  <meta property="og:image" content="https://startbootstrap.com/assets/img/og/logo.jpg">
   <meta property="og:url" content="https://startbootstrap.com{{ page.url }}">
   <meta property="og:image:alt" content="{% if page.meta-title == " Start Bootstrap " %}{{ page.meta-title }} - Free Bootstrap Themes and Templates{% else %}{{ page.meta-title }}{% endif %}">
 
-
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@SBootstrap"/>
   {% if page.layout == 'template-overview' %}
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:site" content="@SBootstrap"/>
     <meta name="twitter:image" content="https://startbootstrap.com/assets/img/templates/{{ page.slug }}.jpg">
+  {% else %}
+    <meta name="twitter:image" content="https://startbootstrap.com/assets/img/og/logo.jpg">
   {% endif %}
 
 </head>
