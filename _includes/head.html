@@ -64,6 +64,8 @@
   <meta property="og:description" content="{{ page.meta-description }}">
   <meta property="og:image" content="https://startbootstrap.com/assets/img/og/startbootstrap-logo.jpg">
   <meta property="og:url" content="https://startbootstrap.com{{ page.url }}">
+  <meta property="og:image:alt" content="{% if page.meta-title == " Start Bootstrap " %}{{ page.meta-title }} - Free Bootstrap Themes and Templates{% else %}{{ page.meta-title }}{% endif %}">
+
 
   {% if page.layout == 'template-overview' %}
     <!-- Twitter -->
