@@ -58,11 +58,11 @@
   <meta name="msapplication-wide310x150logo" content="/assets/img/favicons/mstile-310x150.png"/>
   <meta name="msapplication-square310x310logo" content="/assets/img/favicons/mstile-310x310.png"/>
   <!-- Open Graph -->
-  <meta property="og:title" content="{% if page.meta-title == " Start Bootstrap " %}Free Bootstrap Themes and Templates{% else %}{{ page.meta-title }}{% endif %}">
+  <meta property="og:title" content="{% if page.meta-title == " Start Bootstrap " %}{{ page.meta-title }} - Free Bootstrap Themes and Templates{% else %}{{ page.meta-title }}{% endif %}">
   <meta property="og:site_name" content="Start Bootstrap">
   <meta property="og:type" content="website">
   <meta property="og:description" content="{{ page.meta-description }}">
-  <meta property="og:image" content="/assets/img/og/startbootstrap-logo.jpg">
+  <meta property="og:image" content="https://startbootstrap.com/assets/img/og/startbootstrap-logo.jpg">
   <meta property="og:url" content="https://startbootstrap.com{{ page.url }}">
 
   {% if page.layout == 'template-overview' %}
