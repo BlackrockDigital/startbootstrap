@@ -1,0 +1,14 @@
+- name:        Bootstrap Tree View
+  link:        http://jonmiles.github.io/bootstrap-treeview/
+  description: Tree View for Bootstrap
+  supports:    bs3
+
+- name:        Bootstrap Context Menu
+  link:        https://dgoguerra.github.io/bootstrap-menu/
+  description: A context menu plugin using Bootstrap's dropdown component.
+  supports:    bs3
+
+- name:        Bootpag
+  link:        http://botmonster.com/jquery-bootpag/
+  description: A dynamic pagination jQuery plugin that works well with Bootstrap.
+  supports:    bs3

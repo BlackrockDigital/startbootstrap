@@ -1,0 +1,29 @@
+- name:        SweetAlert for Bootstrap
+  link:        https://lipis.github.io/bootstrap-sweetalert/
+  description: A beautiful replacement for JavaScript's "alert".
+  supports:    bs3
+
+- name:        Bootstrap Confirmation
+  link:        http://bootstrap-confirmation.js.org/
+  description: Bootstrap plugin for on-place confirm boxes using Popover
+  supports:    bs3
+
+- name:        Bootstrap Tour
+  link:        http://bootstraptour.com/
+  description: The easiest way to show people how to use your website.
+  supports:    bs3
+
+- name:        PNotify
+  link:        http://sciactive.github.io/pnotify/
+  description: Beautiful JavaScript notifications.
+  supports:    bs3
+
+- name:        jQuery Growl
+  link:        http://projects.zoulcreations.com/jquery/jquery-growl/
+  description: A growl notifications plugin that works out of the box with the Bootstrap 3 framework.
+  supports:    bs3
+
+- name:        Bootstrap Growl
+  link:        https://github.com/ifightcrime/bootstrap-growl/
+  description: A pretty simple jQuery plugin that turns standard Bootstrap alerts into "growl-like" notifications.
+  supports:    bs3

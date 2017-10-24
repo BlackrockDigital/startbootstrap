@@ -1,0 +1,9 @@
+- name:        Social Buttons for Bootstrap
+  link:        https://lipis.github.io/bootstrap-social/
+  description: Social Sign-In Buttons made in pure CSS based on Bootstrap and Font Awesome!
+  supports:    bs3
+
+- name:        Ladda UI for Bootstrap 3
+  link:        http://msurguy.github.io/ladda-bootstrap/
+  description: Great effect that puts the spinner directly inside a button to give your users immediate feedback after a click or form submit.
+  supports:    bs3

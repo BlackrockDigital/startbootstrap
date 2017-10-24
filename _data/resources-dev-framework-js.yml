@@ -22,3 +22,8 @@
   link:        http://valor-software.com/ngx-bootstrap/
   description: Native Angular widgets for Bootstrap 3 and Bootstrap 4
   supports:    bs3, bs4
+
+- name:        Ember Bootstrap
+  link:        http://www.ember-bootstrap.com/
+  description: An ember-cli addon for using Bootstrap in Ember.js applications.
+  supports:    bs3

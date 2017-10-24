@@ -16,7 +16,7 @@ features:
   - Responsive sidebar menu with multi-level dropdowns and active classes
   - LESS files included for deeper customization
   - Responsive top navigation menu with dropdown menu items
-  - 3 custom panel styles: red, yellow, and green
+  - 3 custom panel styles - red, yellow, and green
   - Two Powerful jQuery charting plugins, Flot Charts and Morris.js
   - Sortable, searchable, multi-page Bootstrap tables using the DataTables jQuery plugin
   - Custom circle icon buttons from Bootsnipp

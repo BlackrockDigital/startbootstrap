@@ -1,0 +1,14 @@
+- name:        Bootstrap Table
+  link:        http://bootstrap-table.wenzhixin.net.cn/
+  description: An extended Bootstrap table with radio, checkbox, sort, pagination, and other added features.
+  supports:    bs2, bs3
+
+- name:        DataTables for Bootstrap
+  link:        https://datatables.net/examples/styling/bootstrap4.html
+  description: A extension of the DataTables jQuery plugin that integrates seamlessly with the Bootstrap 3 and 4 UI.
+  supports:    bs3, bs4
+
+- name:        WATable
+  link:        http://wootapa-watable.appspot.com/
+  description: Filter, format, paginate and sort your data with ease and lightning speed
+  supports:    bs3
