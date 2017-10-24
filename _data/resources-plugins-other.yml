@@ -1,0 +1,19 @@
+- name:        Summernote
+  link:        https://summernote.org/
+  description: Super Simple WYSIWYG Editor on Bootstrap.
+  supports:    bs3
+
+- name:        Bootstrap WYSIWYG
+  link:        http://mindmup.github.io/bootstrap-wysiwyg/
+  description: A tiny wysiwyg rich text editor for Bootstrap.
+  supports:    bs2
+
+- name:        Bootstrap Markdown
+  link:        http://www.codingdrama.com/bootstrap-markdown/
+  description: Markdown editing meet Bootstrap.
+  supports:    bs3
+
+- name:        Bootstrap Milestones
+  link:        http://jablon.me/bootstrap-milestones/
+  description: A Bootstrap plugin to create milestone lists.
+  supports:    bs3

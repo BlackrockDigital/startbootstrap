@@ -1,0 +1,129 @@
+- name:        Bootstrap Datepicker
+  link:        https://uxsolutions.github.io/bootstrap-datepicker/
+  description: A datepicker for Bootstrap.
+  supports:    bs2, bs3
+
+- name:        Angular Bootstrap Colorpicker
+  link:        https://codepen.io/buberdds/full/fBAsr
+  description: No jQuery dependendencies, just an AngularJS directive based on the bootstrap-colorpicker jQuery library.
+  supports:    bs3
+
+- name:        Bootstrap Colorpicker
+  link:        https://farbelous.github.io/bootstrap-colorpicker/
+  description: Simple and customizable colorpicker component for Bootstrap.
+  supports:    bs3
+
+- name:        React Bootstrap Datepicker
+  link:        http://pushtell.github.io/react-bootstrap-date-picker/
+  description: React-Bootstrap based date picker.
+  supports:    bs3
+
+- name:        jQuery File Upload
+  link:        https://blueimp.github.io/jQuery-File-Upload/
+  description: File upload widget with multiple file selection, drag &amp; drop support, progress bars, validation and preview images, audio and video for jQuery.
+  supports:    bs3
+
+- name:        Bootstrap 3 Datepicker
+  link:        http://eonasdan.github.io/bootstrap-datetimepicker/
+  description: Date/time picker widget based on Bootstrap.
+  supports:    bs3
+
+- name:        Bootstrap Select
+  link:        http://silviomoreto.github.io/bootstrap-select/
+  description: Bootstrap-select is a jQuery plugin that utilizes Bootstrap's dropdown.js to style and bring additional functionality to standard select elements.
+  supports:    bs3
+
+- name:        Bootstrap Date Range Picker
+  link:        http://www.daterangepicker.com/
+  description: Date range picker component for Bootstrap.
+  supports:    bs3
+
+- name:        jqBootstrapValidation
+  link:        http://reactiveraven.github.io/jqBootstrapValidation/
+  description: A jQuery validation plugin for bootstrap forms.
+  supports:    bs2, bs3
+
+- name:        FormValidation
+  link:        http://formvalidation.io/
+  description: Plugin to validate Bootstrap forms
+  supports:    bs3, bs4
+
+- name:        Bootstrap Combobox
+  link:        https://github.com/danielfarrell/bootstrap-combobox
+  description: A combobox plugin that works with Bootstrap.
+  supports:    bs2, bs3
+
+- name:        Bootstrap Floating Labels
+  link:        http://headdetect.github.io/bootstrap-floating-labels
+  description: UX friendly floating form labels for Bootstrap 3
+  supports:    bs3
+
+- name:        Bootstrap Show Password
+  link:        http://wenzhixin.net.cn/p/bootstrap-show-password
+  description: A simple, yet intuitive Bootstrap form plugin for giving users the option to see their password.
+  supports:    bs2, bs3
+
+- name:        Tokenfield for Bootstrap
+  link:        http://sliptree.github.io/bootstrap-tokenfield/
+  description: Advanced tagging/tokenizing plugin for jQuery and Bootstrap with a focus on keyboard and copy-paste support.
+  supports:    bs3
+
+- name:        Bootstrap Multiselect
+  link:        http://davidstutz.github.io/bootstrap-multiselect/
+  description: A jQuery multiselect plugin based on Bootstrap.
+  supports:    bs3
+
+- name:        Bootstrap Toggle
+  link:        http://www.bootstraptoggle.com/
+  description: Bootstrap Toggle is a highly flexible Bootstrap plugin that converts checkboxes into toggles
+  supports:    bs3
+
+- name:        Datepicker for Bootstrap
+  link:        http://www.eyecon.ro/bootstrap-datepicker/
+  description: A plugin to add a datepicker to field or to any other element in Bootstrap.
+  supports:    bs3
+
+- name:        Bootstrap MaxLength
+  link:        http://mimo84.github.io/bootstrap-maxlength/
+  description: A visual feedback indicator for the maxlength attribute.
+  supports:    bs3
+
+- name:        Bootstrap Iconpicker
+  link:        http://victor-valencia.github.io/bootstrap-iconpicker
+  description: A simple Bootstrap 3 based icon picker. Allows a user to pick an icon from a dropdown menu.
+  supports:    bs3
+
+- name:        Bootstrap Tags
+  link:        http://maxwells.github.io/bootstrap-tags.html
+  description: A jQuery plugin meant to extend Bootstrap to include tagging functionality.
+  supports:    bs3
+
+- name:        Bootstrap Tag Autocomplete
+  link:        http://sandglaz.github.io/bootstrap-tagautocomplete/
+  description: An @mention autocomplete plugin similar to the functionality seen on Facebook or Twitter.
+  supports:    bs2
+
+- name:        Bootcomplete.js
+  link:        http://getwebhelp.com/bootcomplete/
+  description: Lightweight AJAX autocomplete alternitive for Bootstrap 3
+  supports:    bs3
+
+- name:        jQuery MiniColors
+  link:        https://labs.abeautifulsite.net/jquery-minicolors/
+  description: A tiny color picker built on jQuery with Bootstrap 3 support.
+  supports:    bs3
+
+- name:        Color Palette for Bootstrap
+  link:        http://extremefe.github.io/bootstrap-colorpalette/
+  description: A color palette dropdown plugin for Bootstrap.
+  supports:    bs2, bs3
+
+- name:        Bootstrap Slider
+  link:        http://seiyria.com/bootstrap-slider/
+  description: A Bootstrap slider component.
+  supports:    bs3
+
+- name:        Bootstrap Year Calendar
+  link:        http://www.bootstrap-year-calendar.com/
+  description: A fully customizable year calendar widget for Bootstrap.
+  supports:    bs3

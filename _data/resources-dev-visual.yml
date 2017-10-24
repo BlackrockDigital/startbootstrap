@@ -1,3 +1,8 @@
+- name:        Pingendo
+  link:        http://pingendo.com/
+  description: A first class Bootstrap 4 builder for developers, designers, and their clients
+  supports:    bs4
+
 - name:        Bootply
   link:        http://www.bootply.com/
   description: A Bootstrap code editor and builder - the Bootstrap playground.
@@ -16,4 +21,19 @@
 - name:        Jetstrap
   link:        https://jetstrap.com/
   description: Not just a mock-up tool, Jetstrap is the premier interface-building tool for Bootstrap 3.
+  supports:    bs3
+
+- name:        BootSwatchr
+  link:        http://bootswatchr.com/
+  description: ThemeRoller for Bootstrap.
+  supports:    bs3
+
+- name:        PaintStrap
+  link:        http://paintstrap.com/
+  description: Generate beautiful Bootstrap themes using the Adobe kuler / COLOURlovers color scheme.
+  supports:    bs3
+
+- name:        1pxdeep
+  link:        http://rriepe.github.io/1pxdeep/
+  description: Flat(ish) Bootstrap 3 theme generator.
   supports:    bs3

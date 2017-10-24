@@ -1,0 +1,14 @@
+- name:        Bootbox.js
+  link:        http://bootboxjs.com/
+  description: Bootstrap modals made easy.
+  supports:    bs3
+
+- name:        Bootstrap Lightbox
+  link:        https://jbutz.github.io/bootstrap-lightbox/
+  description: A simple lightbox plugin based on the bootstrap modal plugin.
+  supports:    bs2
+
+- name:        Flippant.js
+  link:        http://labs.mintchaos.com/flippant.js/
+  description: A mini js+css library for flipping things over.
+  supports:    bs2

@@ -19,7 +19,7 @@
     color: $navbar-light-color;
     @include heading-font;
   }
-  .navbar-right li a:focus {
+  .nav-link:focus {
     outline: none;
   }
 }
