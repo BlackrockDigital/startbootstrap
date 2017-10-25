@@ -18,7 +18,7 @@ features:
   - Distraction free blog text optimized for legibility with a menu bar interface that conveniently appears when you scroll up!
   - Working PHP contact form with validation - just add your email address to the PHP file included
   - Footer with social links and copyright information
-  - LESS files included for deeper customization options
+  - SASS/SCSS files included for deeper customization options
 
 long-description: "Clean blog is a carefully styled Bootstrap blog theme that is perfect for personal or company blogs. This theme features four HTML pages including a blog index, an about page, a sample post, and a contact page."
 

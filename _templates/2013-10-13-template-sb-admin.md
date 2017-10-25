@@ -13,6 +13,7 @@ meta-title:       "SB Admin - Free Bootstrap Admin Template"
 meta-description: "A free to use Bootstrap 4 admin template with powerful jQuery plugins included. All Start Bootstrap templates are free to download and open source."
 
 features:
+  - SASS/SCSS files included for deeper customization options
   - Fixed and static navigation options
   - Side menu with a three-level dropdown
   - Toggleable side menu

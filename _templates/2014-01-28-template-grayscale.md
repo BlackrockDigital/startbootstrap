@@ -13,7 +13,7 @@ meta-title:       "Grayscale - Free One Page Bootstrap Theme"
 meta-description: "Grayscale is a free Bootstrap theme with a dark color scheme, smooth scrolling page animations, and a collapsing top navigation bar. It works great for portfolios, businesses, and more!"
 
 features:
-  - LESS files and compiled CSS included
+  - SCSS/SASS files and compiled CSS included
   - Fixed top navigation that collapses on scroll
   - Smooth scrolling animations
   - Scrollspy that highlights active page sections

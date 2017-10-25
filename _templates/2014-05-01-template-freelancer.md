@@ -14,7 +14,7 @@ meta-description: "A free one page Bootstrap portfolio theme for freelancers. Al
 
 features:
   - Flat icons by flaticons.com
-  - LESS files and compiled CSS included
+  - SCSS/SASS files and compiled CSS included
   - Fixed top navigation that collapses on scroll
   - Scrollspy on navigation items
   - Perfectly responsive portfolio grid with hover effects
