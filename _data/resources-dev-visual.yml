@@ -1,12 +1,22 @@
+- name:        Bootply
+  link:        http://www.bootply.com/
+  description: A Bootstrap code editor and builder - the Bootstrap playground.
+  supports:    bs3, bs4
+
+- name:        BuildBootstrap
+  link:        http://buildbootstrap.com/
+  description: BuildBootstrap is a free online tool helping with common task of creating responsive layout utilizing Bootstrap 3 or latest Bootstrap 4 grid system.
+  supports:    bs3, bs4
+
 - name:        Pingendo
   link:        http://pingendo.com/
   description: A first class Bootstrap 4 builder for developers, designers, and their clients
   supports:    bs4
 
-- name:        Bootply
-  link:        http://www.bootply.com/
-  description: A Bootstrap code editor and builder - the Bootstrap playground.
-  supports:    bs3, bs4
+- name:        Bootstrap Studio
+  link:        https://bootstrapstudio.io/
+  description: A powerful desktop app for creating responsive websites using the Bootstrap framework.
+  supports:    bs3
 
 - name:        Form Builder
   link:        https://bootsnipp.com/forms

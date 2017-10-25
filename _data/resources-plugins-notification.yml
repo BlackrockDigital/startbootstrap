@@ -27,3 +27,13 @@
   link:        https://github.com/ifightcrime/bootstrap-growl/
   description: A pretty simple jQuery plugin that turns standard Bootstrap alerts into "growl-like" notifications.
   supports:    bs3
+
+- name:        Bootstrap Notify
+  link:        http://bootstrap-notify.remabledesigns.com/
+  description: Turn standard Bootstrap alerts into "growl" like notifications.
+  supports:    bs3
+
+- name:        Bootstrap Notifications
+  link:        https://skywalkapps.github.io/bootstrap-notifications/
+  description: This component comes very handy when you want to quickly implement UI for notifications in your app.
+  supports:    bs3
