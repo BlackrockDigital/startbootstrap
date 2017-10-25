@@ -17,3 +17,13 @@
   link:        http://jablon.me/bootstrap-milestones/
   description: A Bootstrap plugin to create milestone lists.
   supports:    bs3
+
+- name:        Bootstrap Responsive Timeline
+  link:        http://sanex3339.github.io/bootstrap-responsive-timeline/
+  description: A CSS based Bootstrap timeline.
+  supports:    bs3
+
+- name:        Activity Feed for Bootstrap
+  link:        https://skywalkapps.github.io/bootstrap-activity-feed/
+  description: Activity Feed displays user posts in Facebook-like style.
+  supports:    bs3

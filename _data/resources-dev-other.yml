@@ -8,6 +8,11 @@
   description: Load Bootstrap styles and scripts in your Webpack bundle
   supports:    bs3, bs4
 
+- name:        Bootstrap 4 CheatSheet
+  link:        https://www.creative-tim.com/bootstrap-cheat-sheet/
+  description: A cheat sheet for Bootstrap 4 components
+  supports:    bs4
+
 - name:        Pug Bootstrap
   link:        http://rajasegar.github.io/PUG-Bootstrap/
   description: The power of Bootstrap combined with the speed of Pug for faster and easier web development.
@@ -17,6 +22,11 @@
   link:        http://bootsnipp.com
   description: Design elements, playground, and code snippets for the Bootstrap HTML/CSS/JS framework.
   supports:    bs3, bs4
+
+- name:        CodexUI
+  link:        https://codexui.com/
+  description: Vanilla Bootstrap 4 components that require no extra CSS or Javascript to use.
+  supports:    bs4
 
 - name:        Bootstrap Accessibility Plugin
   link:        https://github.com/paypal/bootstrap-accessibility-plugin
@@ -31,4 +41,9 @@
 - name:        Lavish
   link:        http://www.lavishbootstrap.com/
   description: Generate your own Bootstrap color scheme from an image and customize to your taste.
+  supports:    bs3
+
+- name:        Bootcoding
+  link:        http://www.bootcoding.com/
+  description: Create your own or modifiy existing bootstrap code snippets by playing with HTML, CSS and JS.
   supports:    bs3

@@ -7,3 +7,8 @@
   link:        http://msurguy.github.io/ladda-bootstrap/
   description: Great effect that puts the spinner directly inside a button to give your users immediate feedback after a click or form submit.
   supports:    bs3
+
+- name:        Bootstrap Checkbox
+  link:        https://vsn4ik.github.io/bootstrap-checkbox/
+  description: A checkbox component based on Bootstrap buttons.
+  supports:    bs3
