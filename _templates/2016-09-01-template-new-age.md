@@ -16,7 +16,7 @@ features:
   - Fully responsive
   - Easy to use HTML5/CSS Device mockups, just drop in content, no Photoshop or image editing necessary!
   - Custom fixed navigation menu with scrolling animations
-  - LESS files included for deeper customization options
+  - SASS/SCSS files included for deeper customization options
   - Semantic markup with nav, sections, and asides
   - Custom button style
   - CSS gradient with texture overlay in the header

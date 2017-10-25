@@ -13,7 +13,7 @@ meta-title:       "Business Casual - Free Bootstrap 4 Website Template"
 meta-description: "A free, full website template for Bootstrap 4 perfect for small businesses. All Start Bootstrap templates are free to use and open source."
 
 features:
-  - Four pre-built HTML pages:
+  - Four pre-built HTML pages
   - Home page image slider
   - Stock photography by Death to the Stock Photo
   - Google Maps enabled contact page

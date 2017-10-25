@@ -13,9 +13,8 @@ meta-title:       "Full Slider - Bootstrap 4 Background Image Slider"
 meta-description: "A full page background image slider template for Bootstrap 4 built with the default Bootstrap carousel. All Start Bootstrap templates are free to download and open source."
 
 features:
-  - Full page image slider
+  - A full page slider section with content underneath
   - Easy to edit background images using inline CSS
-  - 100% height slider section with content underneath
 
 long-description: "Full Slider is a full page image background slider built using the Bootstrap carousel. You can use this template to create one page websites, portfolio sites, and much more."
 

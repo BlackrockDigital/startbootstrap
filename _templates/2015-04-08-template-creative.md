@@ -15,7 +15,7 @@ meta-description: "A free one page Bootstrap theme for creatives, businesses, an
 features:
   - Fully responsive
   - Custom fixed navigation menu with scrolling animations
-  - LESS files included for deeper customization options
+  - SASS/SCSS files included for deeper customization options
   - Semantic markup with nav, sections, and asides
   - Custom button styles
   - Subtle on page scroll reveal animations
