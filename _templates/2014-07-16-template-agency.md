@@ -13,7 +13,6 @@ meta-title:       "Agency - One Page Bootstrap Theme"
 meta-description: "A free one page Bootstrap portfolio theme for agencies. All Start Bootstrap templates are free to download and open source."
 
 features:
-  - Fully responsive
   - Custom collapsing navigation with active classes, smooth page scrolling, and responsive fallback stylings
   - Services section with CSS only circle icons by Font Awesome
   - Portfolio grid with modal window popup previews for portfolio item details

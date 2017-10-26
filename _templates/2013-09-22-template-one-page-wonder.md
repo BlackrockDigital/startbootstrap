@@ -13,7 +13,6 @@ meta-title:       "One Page Wonder - Free Bootstrap Template"
 meta-description: "A one page website template for building one page websites using Bootstrap 4. All Start Bootstrap templates are free to download and open source."
 
 features:
-  - Fully responsive
   - Fixed top navigation menu
   - Header with repeating background image (editable in the CSS)
   - Responsive content sections with images and text

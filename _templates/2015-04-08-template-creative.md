@@ -13,7 +13,6 @@ meta-title:       "Creative - One Page Bootstrap Theme"
 meta-description: "A free one page Bootstrap theme for creatives, businesses, and other multipurpose uses. All Start Bootstrap templates are free to download and open source."
 
 features:
-  - Fully responsive
   - Custom fixed navigation menu with scrolling animations
   - SASS/SCSS files included for deeper customization options
   - Semantic markup with nav, sections, and asides

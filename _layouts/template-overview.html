@@ -122,12 +122,12 @@ layout: default
 			</ul>
 			<div class="card sb-card">
 				<div class="card-body">
-					<!-- <h3>Need Help?</h3> -->
-          <h3>Need Something More?</h3>
+					<!-- <h4>Need Help?</h4> -->
+          <h4>Need Something More?</h4>
 					<!-- <p>Feeling stuck? Have a look at some of the <strong><a href="/articles">guides and tutorials</a></strong> available on Start Bootstrap. Need something more? You can also <strong><a href="/bootstrap-design-services">hire a designer</a></strong> to help you with your project or to create a custom build of any theme!</p> -->
 
 
-					<p>Feeling stuck? Need something more? You can <strong><a href="/bootstrap-design-services">hire a designer</a></strong> to help you with your project or to create a custom build of any theme!</p>
+					<p class="mb-0">Feeling stuck? Need something more? You can <strong><a href="/bootstrap-design-services">hire a designer</a></strong> to help you with your project or to create a custom build of any theme!</p>
 
           <!-- Creative Tim Test -->
           <!-- <p>Looking for something more than just a free theme? Head over to <strong><a href="https://www.creative-tim.com?affiliate_id=101249" onclick="ga('send','event','Referral','Referral - Creative Tim - Template Overview Page')">Creative Tim</a></strong> and preview some of the best premium Bootstrap themes and templates on the web!</p>
@@ -143,14 +143,17 @@ layout: default
 			</div>
 			<div class="card sb-card">
 				<div class="card-body">
-					<h3>Description:</h3>
-					<p>{{page.long-description}}</p>
+					<h4>Description:</h4>
+					<p class="mb-0">{{page.long-description}}</p>
 				</div>
 			</div>
 			<div class="card sb-card">
 				<div class="card-body">
-					<h3>Features:</h3>
-					<ul>
+					<h4>Features:</h4>
+					<ul class="mb-0">
+            <li><i class="fa fa-balance-scale text-muted"></i> <strong><a href="https://github.com/BlackrockDigital/startbootstrap-{{page.slug}}/blob/master/LICENSE">MIT License</a></strong></li>
+            <li>Built to support the <strong>latest, stable releases</strong> of all major browsers and platforms.</li>
+            <li>Fully responsive HTML template created with Bootstrap 4</li>
 						{% for feature in page.features %}
 						<li>{{ feature }}</li>
 						{% endfor %}
