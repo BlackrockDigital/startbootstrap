@@ -13,7 +13,6 @@ meta-title:       "Clean Blog - Bootstrap Blog Theme"
 meta-description: "A free Bootstrap blog theme perfect for personal blogs. All Start Bootstrap templates are free to download and open source."
 
 features:
-  - Fully responsive
   - Modern design with a subtle splash of color (which is easy to customize, especially with LESS!)
   - Distraction free blog text optimized for legibility with a menu bar interface that conveniently appears when you scroll up!
   - Working PHP contact form with validation - just add your email address to the PHP file included

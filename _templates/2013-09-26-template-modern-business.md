@@ -18,7 +18,7 @@ features:
   - Easy to edit, working PHP contact form (just edit your email address in the included PHP file!)
   - Homepage with full width image slider and captions
   - 4 portfolio page options with portfolio items
-  - Bonus pages: pricing table, sidebar page, FAQ page, 404 page, and a blank full width page
+  - Bonus pages - pricing table, sidebar page, FAQ page, 404 page, and a blank full width page
   - Various custom styled elments, call to actions, and more
 
 long-description: "Modern Business is a fully loaded Bootstrap 4 website starter template. It includes 17 HTML pages along with a working PHP contact form. You can use this template to create larger, multipurpose websites using Bootstrap 4."

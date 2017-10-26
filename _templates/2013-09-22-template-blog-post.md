@@ -13,7 +13,6 @@ meta-title:       "Blog Post - Free Bootstrap 4 Blog Starter Template"
 meta-description: "A free to use Bootstrap 4 blog post template. All Start Bootstrap templates are free to use and open source."
 
 features:
-  - Fully responsive HTML template created with Bootstrap 4
   - Sidebar widgets that are easy to customize
   - Comments section ready to be integrated with a CMS of your choice
   - Development environment included built with npm, Gulp.js, and Browsersync

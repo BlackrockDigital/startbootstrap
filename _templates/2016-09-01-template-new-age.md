@@ -13,7 +13,6 @@ meta-title:       "New Age - One Page Bootstrap Theme"
 meta-description: "A free Bootstrap landing page theme for apps, businesses, and other multipurpose uses. All Start Bootstrap templates are free to download and open source."
 
 features:
-  - Fully responsive
   - Easy to use HTML5/CSS Device mockups, just drop in content, no Photoshop or image editing necessary!
   - Custom fixed navigation menu with scrolling animations
   - SASS/SCSS files included for deeper customization options

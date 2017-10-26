@@ -13,7 +13,6 @@ meta-title:       "Blog Home - Free Bootstrap 4 Blog Template"
 meta-description: "A free to use Bootstrap 4 blog homepage template. All Start Bootstrap templates are free to use and open source."
 
 features:
-  - Fully responsive HTML template created with Bootstrap 4
   - Sidebar widgets that are easy to customize
   - Separated blog post preview sections
   - Development environment included built with npm, Gulp.js, and Browsersync

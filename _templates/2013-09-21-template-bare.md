@@ -13,7 +13,6 @@ meta-title:        "Bare - Bootstrap Starter Template"
 meta-description:  "A basic Bootstrap 4 starter template with predefined file paths for rapid development. All Start Bootstrap templates are free to download and open source."
 
 features:
-  - Fully responsive HTML template created with Bootstrap 4
   - Preset file paths for core Bootstrap components and dependencies
   - Development environment included built with npm, Gulp.js, and Browsersync
 
