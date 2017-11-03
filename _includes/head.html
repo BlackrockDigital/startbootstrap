@@ -48,7 +48,11 @@
   <meta property="og:site_name" content="Start Bootstrap">
   <meta property="og:type" content="website">
   <meta property="og:description" content="{{ page.meta-description }}">
+  {% if page.layout == 'template-overview' %}
+  <meta property="og:image" content="https://startbootstrap.com/assets/templates/{{ page.slug }}.jpg">
+  {% else %}
   <meta property="og:image" content="https://startbootstrap.com/assets/img/og/logo.jpg">
+  {% endif %}
   <meta property="og:url" content="https://startbootstrap.com{{ page.url }}">
   <meta property="og:image:alt" content="{% if page.meta-title == " Start Bootstrap " %}{{ page.meta-title }} - Free Bootstrap Themes and Templates{% else %}{{ page.meta-title }}{% endif %}">
 
