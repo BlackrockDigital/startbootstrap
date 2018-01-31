@@ -10,8 +10,7 @@ footer {
       margin: 30px auto 0;
       input {
         border: 0;
-        border-bottom: $btn-secondary-border 3px solid;
-        box-shadow: none;
+        box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
         &:focus {
           box-shadow: none;
         }
@@ -29,15 +28,15 @@ footer {
         }
       }
       .input-group-btn {
-        border-left: 2px solid $btn-secondary-border;
+        border-left: 1px solid $btn-secondary-border;
         .btn {
-          border: none;
-          border-bottom: 3px solid $btn-secondary-border;
+          box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
           font-size: 12px;
           padding: 15px 26px;
-          &:active,
           &:hover {
-            border-bottom: 3px solid darken($btn-secondary-border, 10%);
+            transform: none;
           }
         }
       }

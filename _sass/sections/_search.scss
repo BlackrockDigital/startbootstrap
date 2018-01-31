@@ -43,7 +43,7 @@
                 @include body-font;
               }
               @media (min-width: 768px) {
-                padding: 30px 10px;
+                padding: 10px;
                 font-size: 2.5rem;
               }
             }
@@ -51,13 +51,16 @@
               .btn {
                 border: none;
                 background: transparent;
+                box-shadow: none;
                 color: $gray-800;
                 font-size: 1.5rem;
+                margin-top: 10px;
                 &:focus {
                   outline: none;
                 }
                 &:hover {
                   opacity: 0.5;
+                  transform: none;
                 }
                 @media (min-width: 768px) {
                   font-size: 2.5rem;

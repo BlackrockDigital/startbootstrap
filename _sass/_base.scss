@@ -12,6 +12,12 @@ h6 {
   @include heading-font;
 }
 
+p.lead {
+  strong {
+    font-weight: 500;
+  }
+}
+
 // Custom Page Headings
 .page-heading {
   position: relative;
@@ -22,7 +28,7 @@ h6 {
   text-align: center;
 
   color: fade-out($white, 0.5);
-  background-color: theme-color("primary");
+  background-color: $primary;
 
   font-size: 1.25rem;
 
@@ -116,7 +122,8 @@ section.page {
   margin-bottom: 30px;
   .card {
     border: 1px solid darken($white, 7%);
-    border-bottom: 3px solid darken($white, 7%);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    // border-bottom: 3px solid darken($white, 7%);
     background: darken($white, 4%);
     .sb-preview-img {
       @include transition;
@@ -147,17 +154,15 @@ section.page {
 // Overrides
 .breadcrumb {
   margin-bottom: 30px;
-
-  border-bottom: 3px solid darken($white, 7%);
   background: darken($white, 4%);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
 }
 
 .sb-card {
   margin-bottom: 30px;
-
   border: 1px solid darken($white, 7%);
-  border-bottom: 3px solid darken($white, 7%);
   background: darken($white, 4%);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
   .sb-img {
     @include transition;
     &:hover {

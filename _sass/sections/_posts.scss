@@ -21,6 +21,23 @@
   }
 }
 
+.post-preview {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+  border: 1px solid darken($white, 7%);
+  margin-bottom: 2rem;
+  .post-preview-img {
+    padding: 1.25rem;
+    img {
+      max-height: 110px;
+      max-width: 110px;
+    }
+  }
+  .post-preview-text {
+    padding: 1.25rem;
+    border-left: 1px solid $gray-200;
+  }
+}
+
 .pagination {
   margin: 30px 0;
 }

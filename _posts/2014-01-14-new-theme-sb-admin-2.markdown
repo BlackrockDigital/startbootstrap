@@ -9,7 +9,7 @@ meta-title:		"New Theme - SB Admin 2"
 
 author:			"David Miller"
 author-slug:	david-miller
-author-desc:	"David Miller is the creator of Start Bootstrap and owner of Blackrock Digital. He is a front end web designer and developer working out of sunny Orlando, Florida."
+author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end web designer and developer working out of sunny Orlando, Florida."
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller

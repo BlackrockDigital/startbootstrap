@@ -4,29 +4,27 @@ header.masthead {
   text-align: center;
 
   color: $white;
-  background-color: $brand-primary;
+  background-color: theme-color("primary");
   @include background-texture;
   .masthead-brand {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
     @include heading-font;
+    margin: 0;
   }
   .masthead-heading {
-    margin: 10px 0 0;
+    margin: 0;
 
     font-size: 1.25rem;
   }
   ul.list-inline {
-    margin-top: 25px;
-    margin-bottom: 0;
+    margin: 0;
     li a {
       position: relative;
     }
   }
   a.masthead-img {
     display: inline-block;
-
-    margin: 35px auto 0;
     img {
       border: 1px solid rgba(0, 0, 0, .4);
       border-radius: 4px;
@@ -37,11 +35,10 @@ header.masthead {
     padding: 100px 0;
     .masthead-brand {
       font-size: 5rem;
-      line-height: 6rem;
+      line-height: 5rem;
     }
     .masthead-heading {
       margin: 0;
-
       font-size: 1.5rem;
     }
   }
@@ -49,11 +46,10 @@ header.masthead {
     padding: 125px 0;
     .masthead-brand {
       font-size: 6rem;
-      line-height: 7rem;
+      line-height: 6rem;
     }
     .masthead-heading {
       margin: 0;
-
       font-size: 2rem;
     }
   }
