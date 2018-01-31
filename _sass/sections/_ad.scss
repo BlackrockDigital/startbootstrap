@@ -93,8 +93,8 @@
     text-align: left;
     font-size: 13px!important;
     line-height: 16px!important;
-    background: $brand-primary!important;
-    border-bottom: 3px solid darken($brand-primary, 5%);
+    background: $primary!important;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
 
     .carbon-wrap,
     .sfnql_5-wrap {

@@ -2,14 +2,14 @@
 layout:			post
 title:			"Looking Ahead: Three Years of Start Bootstrap!"
 date:			2016-08-10
-category:		News
+category:		[News]
 description:	"Start Bootstrap has a new design, and will be offering new themes, code tutorials, and design guides in the coming months!"
 tags:			update
 meta-title:		"Three Years of Start Bootstrap!"
 
 author:			"David Miller"
 author-slug:	david-miller
-author-desc:	"David Miller is the creator of Start Bootstrap and owner of Blackrock Digital. He is a front end web designer and developer working out of sunny Orlando, Florida."
+author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end web designer and developer working out of sunny Orlando, Florida."
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller

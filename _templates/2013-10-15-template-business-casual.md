@@ -2,7 +2,7 @@
 title:            "Business Casual"
 slug:             business-casual
 src:              /template-overviews/business-casual
-categories:       template full-websites landing-pages new
+categories:       template full-websites landing-pages
 description:      "A Bootstrap 4 website template featuring full page background images and other easy to use Bootstrap elements."
 bump:             "A fully developed business website."
 img-src:          /assets/img/templates/business-casual.jpg

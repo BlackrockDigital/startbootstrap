@@ -7,76 +7,114 @@ meta-description: "Start Bootstrap's official blog and article database. A great
 ---
 <!-- Page Content -->
 <div class="container">
-	<ol class="breadcrumb breadcrumb-post">
-		<li class="breadcrumb-item"><a href="/">Start Bootstrap</a></li>
-		<li class="breadcrumb-item active">{{ page.title }}</li>
-	</ol>
+  <ol class="breadcrumb breadcrumb-post">
+    <li class="breadcrumb-item">
+      <a href="/">Start Bootstrap</a>
+    </li>
+    <li class="breadcrumb-item active">{{ page.title }}</li>
+  </ol>
 </div>
 
 <div class="container">
 
-	<div class="row">
+  <div class="row">
 
-		<div class="col-lg-8">
+    <div class="col-lg-8">
 
-			<div class="post-previews">
-				{% for post in paginator.posts %}
-				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-				<div class="author text-muted">by {{ post.author }}</div>
-				<div class="category text-muted"><i class="icon-tag"></i> {{ post.category }}</div>
-				<div class="date text-muted"><i class="icon-clock"></i> {{ post.date | date: "%b %-d, %Y" }}</div>		
-				{% endfor %}
-			</div>
+      <!-- <div class="post-previews"> {% for post in paginator.posts %} <h3><a href="{{ post.url }}">{{ post.title }}</a></h3> <div class="author text-muted">by {{ post.author }}</div> <div class="category text-muted"><i class="icon-tag"></i> {{ post.category }}</div> <div class="date text-muted"><i class="icon-clock"></i> {{ post.date | date: "%b %-d, %Y" }}</div> {% endfor %} </div> -->
 
-			{% if paginator.total_pages > 1 %}
-			<ul class="pagination">
-				{% if paginator.previous_page %}
-				<li class="page-item">
-					<a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-				</li>
-				{% else %}
-				<li class="page-item disabled">
-					<a class="page-link" href="#" disabled>&laquo; Prev</a>
-				</li>
-				{% endif %}
+      {% for post in paginator.posts %}
+        <div class="card post-preview mb-4">
+          <div class="card-body p-0">
+            <div class="row no-gutters">
+              <div class="col-3 d-none d-md-flex my-auto post-preview-img">
 
-				{% for page in (1..paginator.total_pages) %}
-				{% if page == paginator.page %}
-				<li class="page-item disabled">
-					<a class="page-link" href="#">{{ page }}</a>
-				</li>
-				{% elsif page == 1 %}
-				<li class="page-item">
-					<a class="page-link" href="/articles/">{{ page }}</a>
-				</li>
-				{% else %}
-				<li class="page-item">
-					<a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-				</li>
-				{% endif %}
-				{% endfor %}
+                {% if post.image %}
+                  <img class="rounded-circle img-fluid d-block mx-auto" src="{{ post.image }}">
+                {% else %}
+                  <img class="rounded-circle img-fluid d-block mx-auto" src="/assets/img/articles/sb-default.jpg">
+                {% endif %}
 
-				{% if paginator.next_page %}
-				<li class="page-item">
-					<a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-				</li>
-				{% else %}
-				<li class="page-item disabled">
-					<a class="page-link" href="#">Next &raquo;</a>
-				</li>
-				{% endif %}
+              </div>
+              <div class="col-12 col-md-9 post-preview-text">
+                <div class="clearfix mb-3">
+                  <ul class="list-inline float-md-left mb-md-0">
+                    {% if post %}
+                      {% assign categories = post.categories %}
+                    {% else %}
+                      {% assign categories = page.categories %}
+                    {% endif %}
+                    {% for category in categories %}
+                      <li class="list-inline-item text-uppercase text-primary">
+                        <small>{{category}}</small>
+                      </li>
+                      {% unless forloop.last %}&nbsp;{% endunless %}
+                    {% endfor %}
+                  </ul>
+                  <div class="float-md-right small text-muted">{{ post.date | date: "%b %-d, %Y" }}</div>
+                </div>
+                <h3 class="card-title mb-3">
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </h3>
+                <!-- <div class="author text-muted mb-3">by
+                  {{ post.author }}</div> -->
+                <p class="mb-4">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                <a href="{{ post.url }}" class="btn btn-primary">Read Post →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
 
-				{% endif %}
-			</ul>
+      {% if paginator.total_pages > 1 %}
+        <ul class="pagination">
+          {% if paginator.previous_page %}
+            <li class="page-item">
+              <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+            </li>
+          {% else %}
+            <li class="page-item disabled">
+              <a class="page-link" href="#" disabled="disabled">&laquo; Prev</a>
+            </li>
+          {% endif %}
 
-		</div>
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <li class="page-item disabled">
+                <a class="page-link" href="#">{{ page }}</a>
+              </li>
+              {% elsif page == 1 %}
+              <li class="page-item">
+                <a class="page-link" href="/articles/">{{ page }}</a>
+              </li>
+            {% else %}
+              <li class="page-item">
+                <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
 
-		<div class="col-lg-4">
-			<div class="carbon-post">
-				{% include ad.html %}
-			</div>
-		</div>
+          {% if paginator.next_page %}
+            <li class="page-item">
+              <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+            </li>
+          {% else %}
+            <li class="page-item disabled">
+              <a class="page-link" href="#">Next &raquo;</a>
+            </li>
+          {% endif %}
 
-	</div>
+        {% endif %}
+      </ul>
+
+    </div>
+
+    <div class="col-lg-4">
+      <div class="carbon-post">
+        {% include ad.html %}
+      </div>
+    </div>
+
+  </div>
 
 </div>
