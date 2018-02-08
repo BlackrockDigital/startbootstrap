@@ -2,7 +2,7 @@
 title:            "Modern Business"
 slug:             modern-business
 src:              /template-overviews/modern-business
-categories:       template full-websites portfolios unstyled popular
+categories:       all template full-websites portfolios unstyled popular
 description:      "A full website template framework for building Bootstrap 4 websites with 17 pages and a working contact form."
 bump:             "A multipurpose website template."
 img-src:          /assets/img/templates/modern-business.jpg

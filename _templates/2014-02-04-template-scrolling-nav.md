@@ -2,7 +2,7 @@
 title:            "Scrolling Nav"
 slug:             scrolling-nav
 src:              /template-overviews/scrolling-nav
-categories:       template unstyled navigation-menus
+categories:       all template unstyled navigation-menus
 description:      "A basic, unstyled Bootstrap page layout for creating smooth scrolling, one page websites."
 bump:             "A scrolling navigation template."
 img-src:          /assets/img/templates/scrolling-nav.jpg

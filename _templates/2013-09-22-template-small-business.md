@@ -2,7 +2,7 @@
 title:            "Small Business"
 slug:             small-business
 src:              /template-overviews/small-business
-categories:       template landing-pages unstyled
+categories:       all template landing-pages unstyled
 description:      "A free, easy to use, Bootstrap starter template perfect for building small business marketing websites."
 bump:             "A simple business Bootstrap template."
 img-src:          /assets/img/templates/small-business.jpg

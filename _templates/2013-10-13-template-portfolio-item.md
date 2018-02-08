@@ -2,7 +2,7 @@
 title:            "Portfolio Item"
 slug:             portfolio-item
 src:              /template-overviews/portfolio-item
-categories:       template portfolios unstyled
+categories:       all template portfolios unstyled
 description:      "An unstlyed, portfolio item template perfect for showcasing a project or work."
 bump:             "A portfolio item page template."
 img-src:          /assets/img/templates/portfolio-item.jpg

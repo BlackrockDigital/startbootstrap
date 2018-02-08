@@ -2,7 +2,7 @@
 title:            "Grayscale"
 slug:             grayscale
 src:              /template-overviews/grayscale
-categories:       template landing-pages one-page portfolios popular
+categories:       all theme landing-pages one-page portfolios popular
 description:      "A free, multipurpose, one page Bootstrap theme featuring a dark color scheme and smooth scrolling animations."
 bump:             "A multipurpose one page theme."
 img-src:          /assets/img/templates/grayscale.jpg

@@ -2,7 +2,7 @@
 title:            "Full"
 slug:             full
 src:              /template-overviews/full
-categories:       template landing-pages portfolios unstyled
+categories:       all template landing-pages portfolios unstyled
 description:      "An easy to use, full page image background template for Bootstrap 4 websites."
 bump:             "Full page image background template."
 img-src:          /assets/img/templates/full.jpg

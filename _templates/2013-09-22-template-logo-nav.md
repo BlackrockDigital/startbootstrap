@@ -2,7 +2,7 @@
 title:            "Logo Nav"
 slug:             logo-nav
 src:              /template-overviews/logo-nav
-categories:       template unstyled navigation-menus
+categories:       all template unstyled navigation-menus
 description:      "A Bootstrap navigation template featuring an image logo in place of the navbar header text."
 bump:             "A menu bar with a logo header."
 img-src:          /assets/img/templates/logo-nav.jpg

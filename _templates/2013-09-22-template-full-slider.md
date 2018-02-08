@@ -2,7 +2,7 @@
 title:            "Full Slider"
 slug:             full-slider
 src:              /template-overviews/full-slider
-categories:       template landing-pages one-page portfolios unstyled popular
+categories:       all template landing-pages one-page portfolios unstyled popular
 description:      "A full page background image slider for Bootstrap 4 using the built-in Bootstrap carousel plugin."
 bump:             "A full page image slider template."
 img-src:          /assets/img/templates/full-slider.jpg

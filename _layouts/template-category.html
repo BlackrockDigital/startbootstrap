@@ -7,9 +7,56 @@ layout: default
 <div class="container">
 
   <div class="row">
+
+    {% if page.slug == 'all' %}
+    <div class="col-12">
+      <div class="mt-4 text-center">
+        <h2 class="mb-0">Bootstrap Themes</h2>
+        <p class="lead mb-0">Fully designed Bootstrap 4 themes that are ready to customize and publish!</p>
+        <hr class="hr-home mt-4 mb-5">
+      </div>
+    </div>
+    {% endif %}
+
     {% for template in site.templates reversed %}
 
-      {% if template.categories contains page.slug %}
+      {% if template.categories contains page.slug and template.categories contains 'theme' %}
+
+        <div class="col-lg-4 col-md-6 sb-preview text-center">
+          <div class="card h-100">
+            <a class="sb-preview-img" href="{{ template.src }}">
+              <img class="card-img-top" src="{{ template.img-src }}" alt="{{ template.img-desc }}">
+            </a>
+            <div class="card-body">
+              <h4 class="card-title">{{ template.title }}</h4>
+              <p class="card-text">{{ template.bump }}</p>
+            </div>
+            <div class="card-footer">
+              <a href="{{ template.src }}" class="btn btn-secondary">Preview &amp; Download</a>
+            </div>
+            {% if template.categories contains 'new' %}
+              <div class="badge-new">New!</div>
+            {% endif %}
+          </div>
+        </div>
+
+      {% endif %}
+
+    {% endfor %}
+
+    {% if page.slug == 'all' %}
+    <div class="col-12">
+      <div class="mt-4 text-center">
+        <h2 class="mb-0">Bootstrap Templates</h2>
+        <p class="lead mb-0">Bootstrap 4 layouts that are a perfect starting point for projects or custom pages.</p>
+        <hr class="hr-home mt-4 mb-5">
+      </div>
+    </div>
+    {% endif %}
+
+    {% for template in site.templates reversed %}
+
+      {% if template.categories contains page.slug and template.categories contains 'template' %}
 
         <div class="col-lg-4 col-md-6 sb-preview text-center">
           <div class="card h-100">

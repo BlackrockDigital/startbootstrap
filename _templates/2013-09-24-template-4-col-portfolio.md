@@ -2,7 +2,7 @@
 title:            "4 Col Portfolio"
 slug:             4-col-portfolio
 src:              /template-overviews/4-col-portfolio
-categories:       template portfolios unstyled
+categories:       all template portfolios unstyled
 description:      "An unstlyed, four column, portfolio page grid perfect for showcasing a large group of projects or works."
 bump:             "A four column portfolio template."
 img-src:          /assets/img/templates/4-col-portfolio.jpg

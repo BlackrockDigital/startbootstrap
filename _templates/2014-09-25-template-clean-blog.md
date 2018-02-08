@@ -2,7 +2,7 @@
 title:            "Clean Blog"
 slug:			        clean-blog
 src:			        /template-overviews/clean-blog
-categories:		    template landing-pages blogs full-websites popular
+categories:		    all theme landing-pages blogs full-websites popular
 description:	    "A clean, Bootstrap blog theme ready to hook into your favorite CMS or blogging platform."
 bump:			        "A clean blog theme."
 img-src:		      /assets/img/templates/clean-blog.jpg

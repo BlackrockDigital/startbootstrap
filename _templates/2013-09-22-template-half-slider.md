@@ -2,7 +2,7 @@
 title:            "Half Slider"
 slug:             half-slider
 src:              /template-overviews/half-slider
-categories:       template landing-pages one-page portfolios unstyled
+categories:       all template landing-pages one-page portfolios unstyled
 description:      "A half page background image slider for Bootstrap 4 using the built-in Bootstrap carousel plugin."
 bump:             "A half page image slider template."
 img-src:          /assets/img/templates/half-slider.jpg

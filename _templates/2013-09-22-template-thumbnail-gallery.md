@@ -2,7 +2,7 @@
 title:            "Thumbnail Gallery"
 slug:             thumbnail-gallery
 src:              /template-overviews/thumbnail-gallery
-categories:       template unstyled
+categories:       all template unstyled
 description:      "A thumbnail grid perfect for creating photo galleries quickly and easily with Bootstrap 4."
 bump:             "A simple image gallery template."
 img-src:          /assets/img/templates/thumbnail-gallery.jpg

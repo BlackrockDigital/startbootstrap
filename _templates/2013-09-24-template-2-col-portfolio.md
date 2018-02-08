@@ -2,7 +2,7 @@
 title:            "2 Col Portfolio"
 slug:             2-col-portfolio
 src:              /template-overviews/2-col-portfolio
-categories:       template portfolios unstyled
+categories:       all template portfolios unstyled
 description:      "A basic, two column, portfolio page template perfect for showcasing a group of projects with some details."
 bump:             "A two column portfolio template."
 img-src:          /assets/img/templates/2-col-portfolio.jpg

@@ -2,7 +2,7 @@
 title:            "Heroic Features"
 slug:             heroic-features
 src:              /template-overviews/heroic-features
-categories:       template landing-pages ecommerce unstyled
+categories:       all template landing-pages ecommerce unstyled
 description:      "A Bootstrap home page template featuring a hero unit and a grid of thumbnail features."
 bump:             "A basic Bootstrap home page template."
 img-src:          /assets/img/templates/heroic-features.jpg

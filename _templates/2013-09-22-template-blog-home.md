@@ -2,7 +2,7 @@
 title:			      "Blog Home"
 slug:			        blog-home
 src:			        /template-overviews/blog-home
-categories:		    template blogs unstyled
+categories:		    all template blogs unstyled
 description:	    "An unstyled Bootstrap 4 starter template for creating blog homepages."
 bump:			        "A blog home page template."
 img-src:		      /assets/img/templates/blog-home.jpg
