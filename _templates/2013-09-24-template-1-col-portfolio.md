@@ -2,7 +2,7 @@
 title:            "1 Col Portfolio"
 slug:             1-col-portfolio
 src:              /template-overviews/1-col-portfolio
-categories:       template portfolios unstyled
+categories:       all template portfolios unstyled
 description:      "An unstyled, single column, portfolio page template perfect for showcasing a group of detailed projects."
 bump:             "A one column portfolio template."
 img-src:          /assets/img/templates/1-col-portfolio.jpg

@@ -2,7 +2,7 @@
 title:            "Full Width Pics"
 slug:             full-width-pics
 src:              /template-overviews/full-width-pics
-categories:       template landing-pages one-page unstyled
+categories:       all template landing-pages one-page unstyled
 description:      "A Bootstrap 4 website template featuring content sections with full page width image backgrounds."
 bump:             "Full width picture backgrounds."
 img-src:          /assets/img/templates/full-width-pics.jpg

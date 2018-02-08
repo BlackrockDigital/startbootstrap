@@ -2,7 +2,7 @@
 title:            "Business Frontpage"
 slug:             business-frontpage
 src:              /template-overviews/business-frontpage
-categories:       template landing-pages unstyled
+categories:       all template landing-pages unstyled
 description:      "A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header."
 bump:             "A business home page template."
 img-src:          /assets/img/templates/business-frontpage.jpg

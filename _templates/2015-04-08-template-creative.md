@@ -2,7 +2,7 @@
 title:            "Creative"
 slug:             creative
 src:              /template-overviews/creative
-categories:       template landing-pages one-page portfolios featured popular
+categories:       all theme landing-pages one-page portfolios featured popular
 description:      "A one page Bootstrap theme with flexible options for creative portfolios and businesses."
 bump:             "A one page creative theme."
 img-src:          /assets/img/templates/creative.jpg

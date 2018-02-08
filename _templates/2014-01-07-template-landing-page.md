@@ -2,7 +2,7 @@
 title:            "Landing Page"
 slug:             landing-page
 src:              /template-overviews/landing-page
-categories:       template landing-pages one-page portfolios popular
+categories:       all theme landing-pages one-page portfolios popular
 description:      "A simple, elegant, and beautifully responsive landing page theme for Bootstrap 4 websites."
 bump:             "A clean, functional landing page theme."
 img-src:          /assets/img/templates/landing-page.jpg

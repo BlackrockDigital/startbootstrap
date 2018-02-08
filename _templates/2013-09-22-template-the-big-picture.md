@@ -2,7 +2,7 @@
 title:            "The Big Picture"
 slug:             the-big-picture
 src:              /template-overviews/the-big-picture
-categories:       template landing-pages portfolios unstyled
+categories:       all template landing-pages portfolios unstyled
 description:      "An artistic, full page image background Bootstrap template with a fixed bottom navigation bar."
 bump:             "A starter portfolio template."
 img-src:          /assets/img/templates/the-big-picture.jpg

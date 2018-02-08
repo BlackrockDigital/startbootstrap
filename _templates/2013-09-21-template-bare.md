@@ -2,7 +2,7 @@
 title:             "Bare"
 slug:              bare
 src:               /template-overviews/bare
-categories:		    template landing-pages unstyled navigation-menus
+categories:		    all template landing-pages unstyled navigation-menus
 description:	    "An unstlyed starter template for Bootstrap 4 with predefined file paths for easy development."
 bump:			        "A Bootstrap HTML starter template."
 img-src:	    	  /assets/img/templates/bare.jpg

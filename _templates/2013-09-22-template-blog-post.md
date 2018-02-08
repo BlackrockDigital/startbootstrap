@@ -2,7 +2,7 @@
 title:            "Blog Post"
 slug:             blog-post
 src:              /template-overviews/blog-post
-categories:       template blogs unstyled
+categories:       all template blogs unstyled
 description:      "A simple, unstyled, blog post starter template for creating Bootstrap 4 blog posts."
 bump:             "A blog post starter template."
 img-src:          /assets/img/templates/blog-post.jpg

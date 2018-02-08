@@ -2,7 +2,7 @@
 title:            "Coming Soon"
 slug:             coming-soon
 src:              /template-overviews/coming-soon
-categories:       template landing-pages one-page featured popular
+categories:       all theme landing-pages one-page featured popular
 description:      "A coming soon theme for Bootstrap 4 with a video background, social icons, and a newsletter signup."
 bump:             "A coming soon landing page."
 img-src:          /assets/img/templates/coming-soon.jpg

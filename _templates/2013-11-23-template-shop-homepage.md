@@ -2,7 +2,7 @@
 title:            "Shop Homepage"
 slug:             shop-homepage
 src:              /template-overviews/shop-homepage
-categories:       template ecommerce unstyled
+categories:       all template ecommerce unstyled
 description:      "A simple, unstyled, shop home page template featuring Bootstrap snippets from Bootsnipp."
 bump:             "An online store homepage template."
 img-src:          /assets/img/templates/shop-homepage.jpg

@@ -2,7 +2,7 @@
 title:            "Shop Item"
 slug:             shop-item
 src:              /template-overviews/shop-item
-categories:       template ecommerce unstyled
+categories:       all template ecommerce unstyled
 description:      "A simple, unstyled, shop item page template featuring Bootstrap snippets from Bootsnipp."
 bump:             "An online store item template."
 img-src:          /assets/img/templates/shop-item.jpg
