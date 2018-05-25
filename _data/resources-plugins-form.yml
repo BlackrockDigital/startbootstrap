@@ -78,6 +78,11 @@
   description: A jQuery multiselect plugin based on Bootstrap.
   supports:    bs3
 
+- name:        Bootstrap Select Dropdown
+  link:        https://thompsonsj.com/bootstrap-select-dropdown/
+  description: A jQuery plugin for Bootstrap 4 that converts select and multiselect elements to dropdowns.
+  supports:    bs4
+
 - name:        Bootstrap Toggle
   link:        http://www.bootstraptoggle.com/
   description: Bootstrap Toggle is a highly flexible Bootstrap plugin that converts checkboxes into toggles
