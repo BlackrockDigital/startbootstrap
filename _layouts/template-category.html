@@ -80,6 +80,52 @@ layout: default
 
     {% endfor %}
 
+    <!-- Featured Premium Themes ONLY for All Templates Category -->
+    {% if page.slug == 'all' %}
+      <div class="col-12">
+        <div class="mt-4 text-center">
+          <h2 class="mb-0">Premium Bootstrap Themes</h2>
+          <p class="lead mb-0">Looking for something more? Try these hand picked premium themes!</p>
+          <hr class="hr-home mt-4 mb-5">
+        </div>
+      </div>
+      <!-- Creative Tim Ads -->
+      {% for item in site.premium reversed %}
+        {% if item.categories contains 'featured' %}
+          <div class="col-lg-4 col-md-6 sb-preview text-center">
+            <div class="card h-100">
+              <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Referral','Referral - {{ item.title }}')">
+                <img class="card-img-top" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">{{ item.title }}</h4>
+                <p class="card-text">{{ item.bump }}</p>
+              </div>
+              <div class="card-footer">
+                <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Referral','Referral - {{ item.title }}')">Preview &amp; Download</a>
+              </div>
+              {% if template.categories contains 'new' %}
+                <div class="badge-new">New!</div>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+      <div class="col-12 text-center mb-5">
+        <a href="/buy-bootstrap-templates/" class="btn btn-lg btn-primary mx-auto">View More Premium Themes</a>
+      </div>
+    {% endif %}
+
+    {% if page.slug == 'premium' %}
+      <div class="col-12">
+        <div class="mt-0 text-center">
+          <a href="https://www.creative-tim.com/product/buy/bundle/2018-summer-bundle/?affiliate_id=101249" class="d-block mb-5">
+            <img class="img-fluid" src="/assets/img/creative-tim/ct-summer-bundle.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    {% endif %}
+
     {% for item in site.premium reversed %}
 
       {% if item.categories contains page.slug %}
