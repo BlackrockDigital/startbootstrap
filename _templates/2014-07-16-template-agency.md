@@ -28,7 +28,7 @@ alt-version:		  "yes"
 alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-agency/archive/v3.3.7+1.zip"
 
 user-version:     "yes"
-user-jekyll:      "https://github.com/y7kim/agency-jekyll-theme"
+user-jekyll:      "https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency"
 user-grav:        "https://github.com/getgrav/grav-theme-agency"
 
 redirect_from:
