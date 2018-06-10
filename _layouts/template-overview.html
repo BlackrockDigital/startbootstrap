@@ -23,7 +23,7 @@ layout: default
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://github.com/BlackrockDigital/startbootstrap-{{ page.slug }}/archive/gh-pages.zip" class="btn btn-secondary" onclick="ga('send','event','Download','Download {{ page.title }}')">
+              <a href="https://github.com/BlackrockDigital/startbootstrap-{{ page.slug }}/archive/gh-pages.zip" class="btn btn-secondary" onclick="ga('send','event','Download','Download {{ page.title }}')" id="download">
                 <i class="fa fa-download"></i>
                 Download
               </a>
@@ -191,6 +191,39 @@ layout: default
             {% endfor %}
           </ul>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-light">
+        <h5 class="modal-title" id="downloadModalLabel">Thanks for downloading!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>{{ page.title }} is 100% free to download and <a href="https://github.com/BlackrockDigital/startbootstrap-{{page.slug}}/blob/master/LICENSE">MIT Licensed</a> which means you can use it for <em>any purpose, even commercially</em>! No strings attached!</p>
+        <hr>
+        <h6>Get your new site online!</h6>
+        <div>
+          <a href="https://www.bluehost.com/track/startbootstrap/" target="_blank">
+            <img class="img-fluid" border="0" src="https://bluehost-cdn.com/media/partner/images/startbootstrap/620x203/620x203BW.png">
+          </a>
+        </div>
+        <hr>
+        <h6>Support Start Bootstrap</h6>
+        <p class="small">You can help support the creation and maintenance of themes on Start Bootstrap by donating. It's certainly not required, but very much appreciated!</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="7QVVJ5LJWP56Y">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
       </div>
     </div>
   </div>
