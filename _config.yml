@@ -41,3 +41,6 @@ collections:
 # Pagination
 paginate: 5
 paginate_path: "/articles/page:num/"
+
+# Other
+excerpt_separator: "<!--more-->"
