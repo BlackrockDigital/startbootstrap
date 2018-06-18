@@ -24,10 +24,10 @@ layout: default
 					</div>
 					<hr>
 					<div class="date">
-						<i class="icon-clock"></i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+						<i class="fal fa-calendar"></i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
 					</div>
 					<div class="tag">
-						<i class="icon-tag"></i> {{ page.category }}
+						<i class="fal fa-tag"></i> {{ page.category }}
 					</div>
 				</header>
 
@@ -66,17 +66,17 @@ layout: default
 						<ul class="list-inline">
 							{% if page.author-url %}
 							<li class="list-inline-item">
-								<i class="icon-globe"></i> <a href="{{ page.author-url }}">{{ page.author-url }}</a>
+								<i class="fal fa-globe"></i> <a href="{{ page.author-url }}">{{ page.author-url }}</a>
 							</li>
 							{% endif %}
 							{% if page.author-github %}
 							<li class="list-inline-item">
-								<i class="icon-social-github"></i> <a href="https://github.com/{{ page.author-github }}">{{ page.author-github }}</a>
+								<i class="fab fa-github"></i> <a href="https://github.com/{{ page.author-github }}">{{ page.author-github }}</a>
 							</li>
 							{% endif %}
 							{% if page.author-twitter %}
 							<li class="list-inline-item">
-								<i class="icon-social-twitter"></i> <a href="https://twitter.com/{{ page.author-twitter }}">@{{ page.author-twitter }}</a>
+								<i class="fab fa-twitter"></i> <a href="https://twitter.com/{{ page.author-twitter }}">@{{ page.author-twitter }}</a>
 							</li>
 							{% endif %}
 						</ul>

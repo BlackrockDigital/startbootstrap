@@ -81,33 +81,6 @@ section.page {
   }
 }
 
-// New Badge - Make sure parent element is relative position
-.badge-new {
-  position: absolute;
-  top: -6px;
-  right: -10px;
-
-  width: 32px;
-  height: 32px;
-  /* IE 9 */
-
-  -webkit-transform: rotate(-12deg);
-  -ms-transform: rotate(-12deg);
-  /* Chrome, Safari, Opera */
-  transform: rotate(-12deg);
-  text-align: center !important;
-  text-transform: none;
-
-  color: black;
-  border-bottom: 2px solid darken(#FCD670, 15%);
-  border-radius: 100%;
-  background: #FCD670;
-
-  font-family: 'Patrick Hand SC';
-  font-size: 14px;
-  line-height: 28px;
-}
-
 .bg-purple {
   background: $purple !important;
 }

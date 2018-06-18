@@ -34,9 +34,6 @@ layout: default
             <div class="card-footer">
               <a href="{{ template.src }}" class="btn btn-secondary">Preview &amp; Download</a>
             </div>
-            {% if template.categories contains 'new' %}
-              <div class="badge-new">New!</div>
-            {% endif %}
           </div>
         </div>
 
@@ -70,9 +67,6 @@ layout: default
             <div class="card-footer">
               <a href="{{ template.src }}" class="btn btn-secondary">Preview &amp; Download</a>
             </div>
-            {% if template.categories contains 'new' %}
-              <div class="badge-new">New!</div>
-            {% endif %}
           </div>
         </div>
 
@@ -104,9 +98,6 @@ layout: default
               <div class="card-footer">
                 <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Referral','Referral - {{ item.title }}')">Preview &amp; Download</a>
               </div>
-              {% if template.categories contains 'new' %}
-                <div class="badge-new">New!</div>
-              {% endif %}
             </div>
           </div>
         {% endif %}
@@ -142,9 +133,6 @@ layout: default
             <div class="card-footer">
               <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Referral','Referral - {{ item.title }}')">Preview &amp; Purchase</a>
             </div>
-            {% if item.categories contains 'new' %}
-              <div class="badge-new">New!</div>
-            {% endif %}
           </div>
         </div>
 
