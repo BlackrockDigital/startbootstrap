@@ -4,18 +4,19 @@ $('body').scrollspy({
 })
 
 // Modal Customiaztion for Search Modal
+// Disabled for now...
 
-$(".modal-search").on('show.bs.modal', function() {
-  setTimeout(function() {
-    $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
-  }, 0);
-});
-$(".modal-search").on('hidden.bs.modal', function() {
-  $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
-});
-$('#searchModal').on('shown.bs.modal', function() {
-  $('#search_box').focus();
-})
+// $(".modal-search").on('show.bs.modal', function() {
+//   setTimeout(function() {
+//     $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
+//   }, 0);
+// });
+// $(".modal-search").on('hidden.bs.modal', function() {
+//   $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
+// });
+// $('#searchModal').on('shown.bs.modal', function() {
+//   $('#search_box').focus();
+// })
 
 // Configure the Search Plugin
 $(function() {
