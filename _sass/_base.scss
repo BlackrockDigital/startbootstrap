@@ -45,6 +45,7 @@ p.lead {
   }
   .container {
     position: relative;
+    min-height: 136px;
   }
 }
 @media(min-width:768px) {
@@ -56,7 +57,7 @@ p.lead {
 
     font-size: 1.5rem;
     h1 {
-      font-size: 4rem;
+      font-size: 2rem;
       line-height: 1;
     }
   }
@@ -66,6 +67,9 @@ p.lead {
     h1,
     p {
       margin-right: 380px;
+    }
+    h1 {
+      font-size: 3.5rem;
     }
   }
 }
@@ -116,6 +120,33 @@ section.page {
         font-size: 11px;
       }
     }
+  }
+}
+
+// Card for Snippets
+.card-snippet {
+  border: 1px solid darken($white, 7%);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+  text-decoration: none !important;
+  color: $gray-900;
+  .card-img-top {
+    @include transition;
+  }
+  &:hover {
+    color: $gray-900;
+    .card-img-top {
+      opacity: 0.7;
+    }
+  }
+}
+
+.card-snippet-overview {
+  border: 1px solid darken($white, 7%);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+  border-radius: 0.25rem;
+  overflow: hidden;
+  iframe {
+    margin-bottom: -7px;
   }
 }
 

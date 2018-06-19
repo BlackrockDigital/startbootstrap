@@ -20,7 +20,7 @@ permalink:        pretty
 url:              https://startbootstrap.com
 enforce_ssl:      startbootstrap.com
 encoding:         UTF-8
-host:             0.0.0.0
+host:             localhost
 port:             9000
 
 # Plugins
@@ -37,10 +37,13 @@ collections:
   templates:
     output: true
     permalink: /template-overviews/:title/
+  snippets:
+    output: true
+    permalink: /snippets/:title/
 
 # Pagination
 paginate: 5
 paginate_path: "/articles/page:num/"
 
-# Other
+# Blog Excerpt Separator
 excerpt_separator: "<!--more-->"

@@ -1,0 +1,40 @@
+---
+layout: page
+title: Bootstrap Code Snippets
+description: "A curated library of Bootstrap 4 code snippets, perfect for dropping into your project without downloading an entire theme!"
+meta-title: "Free Bootstrap Code Snippets"
+meta-description: "Start Bootstrap's official blog and article database. A great place to find Bootstrap tips, guides, and tutorials and the latest updates to Start Bootstrap!"
+---
+<!-- Page Content -->
+<div class="container">
+
+  <div class="row">
+
+    {% for snippet in site.snippets reversed %}
+
+      <div class="col-lg-3 col-md-6 mb-4 text-center">
+        <a href="{{ snippet.src }}" class="card card-snippet h-100">
+          <img class="card-img-top" src="{{ snippet.img-src }}" alt="{{ snippet.img-desc }}">
+          <div class="card-footer d-flex py-2 px-3 h-100">
+            <div class="m-auto small">
+              {{ snippet.bump }}
+            </div>
+          </div>
+        </a>
+      </div>
+
+    {% endfor %}
+
+    <!-- Remove once there are enough snippets -->
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card card-snippet h-100 bg-light d-flex align-items-center">
+        <div class="m-auto p-5 text-center text-muted font-italic">
+          <img src="/assets/img/og/logo.jpg" class="rounded-circle d-block mx-auto mb-3" style="height: 3rem; width: 3rem;" alt="">
+          More snippets are coming soon!
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
