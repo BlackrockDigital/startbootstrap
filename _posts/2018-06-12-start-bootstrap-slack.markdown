@@ -15,7 +15,7 @@ author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
 ---
-<img src="/assets/img/articles/slack-bg.jpg" class="img-fluid">
+<img src="/assets/img/articles/slack-bg.jpg" class="img-fluid rounded">
 
 Have some questions? Need help customizing the theme you just downloaded? Want to collaborate with some fellow developers? Start Bootstrap's new public workspace on Slack is the perfect spot to discuss your projects!
 <!--more-->
