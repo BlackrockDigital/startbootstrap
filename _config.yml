@@ -14,7 +14,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Permalinks
-permalink:        pretty
+permalink:        /articles/:year/:month/:day/:title/
 
 # Server
 url:              https://startbootstrap.com

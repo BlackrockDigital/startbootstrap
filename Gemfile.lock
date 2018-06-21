@@ -54,8 +54,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-redirect-from
   jekyll-sitemap
-  rb-fsevent (<= 0.9.4)
   rouge
 
 BUNDLED WITH
-   1.15.3
+   1.16.2
