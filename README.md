@@ -6,6 +6,10 @@ All of the templates and themes featured on Start Bootstrap are up to date for B
 
 For more information please visit the website at <http://startbootstrap.com>.
 
+## Snippets
+
+Start Bootstrap now features a library of [**Bootstrap Snippets**](https://startbootstrap.com/snippets/) ready to copy/paste into your projects!
+
 ## Current Templates and Themes
 
 There are currently 38 themes and templates available on Start Bootstrap:
