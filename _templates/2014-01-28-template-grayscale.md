@@ -17,9 +17,7 @@ features:
   - Fixed top navigation that collapses on scroll
   - Smooth scrolling animations
   - Scrollspy that highlights active page sections
-  - Custom outline button style
-  - Google Maps API integration with a custom Google Maps skin by Snazzy Maps
-  - Easy to edit custom PNG map marker
+  - Custom button styles
 
 long-description: "Grayscale is a multipurpose, one page website theme featuring a dark layout along with smooth scrolling page animations."
 
