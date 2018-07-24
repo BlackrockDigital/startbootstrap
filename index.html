@@ -13,9 +13,14 @@ meta-description: Free open source Bootstrap themes and templates up to date for
       </li>
     </ul>
     <!-- Creative Tim Ad -->
-    <a class="masthead-img mt-5 mx-auto" href="https://www.creative-tim.com?affiliate_id=101249" onclick="ga('send','event','Referral','Referral - Home Box')">
+    <a class="masthead-img mt-5 mx-auto" href="https://www.creative-tim.com?affiliate_id=101249">
       <img src="/assets/img/creative-tim/creative-tim.jpg" alt="Premium Bootstrap Themes">
     </a>
+    <script>
+      $(".masthead-img").click(function () {
+        ga('send','event','Referral','click','Referral - Home Box');
+      });
+    </script>
   </div>
 </header>
 <section class="intro">
