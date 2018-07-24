@@ -83,3 +83,8 @@ $('#download').click(function() {
 
 ga('create', 'UA-38417733-17', 'startbootstrap.com');
 ga('send', 'pageview');
+
+// Test script to track home box event
+  $(".masthead-img").click(function () {
+    ga('send','event','Referral','click','Referral - Home Box');
+  });
