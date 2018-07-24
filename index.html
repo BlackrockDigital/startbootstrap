@@ -69,12 +69,12 @@ meta-description: Free open source Bootstrap themes and templates up to date for
       </div>
     </div>
     <div class="row">
-      <!-- Creative Tim Ads -->
+      <!-- Creative Tim -->
       {% for item in site.premium reversed %}
         {% if item.categories contains 'featured' %}
           <div class="col-lg-4 col-md-6 sb-preview text-center">
             <div class="card h-100">
-              <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Referral','Referral - {{ item.title }}')">
+              <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Product','click',{{ item.title }}')">
                 <img class="card-img-top" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
               </a>
               <div class="card-body">
@@ -82,7 +82,7 @@ meta-description: Free open source Bootstrap themes and templates up to date for
                 <p class="card-text">{{ item.bump }}</p>
               </div>
               <div class="card-footer">
-                <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Referral','Referral - {{ item.title }}')">Preview &amp; Download</a>
+                <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Product','click',{{ item.title }}')">Preview &amp; Download</a>
               </div>
             </div>
           </div>
