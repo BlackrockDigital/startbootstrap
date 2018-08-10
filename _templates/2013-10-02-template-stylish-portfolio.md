@@ -28,7 +28,9 @@ long-description: "Stylish Portfolio is a one page Bootstrap portfolio theme wit
 alt-version:		  "yes"
 alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/archive/v3.3.7.zip"
 
-user-version:     "no"
+user-version:     "yes"
+user-react:       "https://github.com/cincinnaticodes/react-stylish-portfolio"
+
 
 redirect_from:
   - /stylish-portfolio/
