@@ -23,7 +23,7 @@ features:
   - Interactive tables by dataTables
   - Login, Registration, Forgot Password, and Blank starter HTML pages
 
-long-description: "SB Admin is a free to download Bootstrap admin template. This template uses the defaul Bootstrap 4 styles along with a variety of powerful plugins to create a pwerful framework for creating admin panels, web apps, or back-end dashboards."
+long-description: "SB Admin is a free to download Bootstrap admin template. This template uses the default Bootstrap 4 styles along with a variety of powerful plugins to create a powerful framework for creating admin panels, web apps, or back-end dashboards."
 
 alt-version:		  "yes"
 alt-v3:		        "https://github.com/BlackrockDigital/startbootstrap-sb-admin/archive/v3.3.7.zip"
