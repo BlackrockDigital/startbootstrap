@@ -2,7 +2,7 @@
 title:            "Resume"
 slug:             resume
 src:              /template-overviews/resume
-categories:       all theme landing-pages one-page featured popular
+categories:       all theme landing-pages one-page popular
 description:      "A clean, simple, yet elegant free resume/CV template for Bootstrap 4."
 bump:             "A simple CV/resume theme."
 img-src:          /assets/img/templates/resume.jpg
