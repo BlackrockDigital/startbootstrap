@@ -2,7 +2,7 @@
 title:            "Stylish Portfolio"
 slug:             stylish-portfolio
 src:              /template-overviews/stylish-portfolio
-categories:       all theme landing-pages one-page portfolios popular
+categories:       all theme landing-pages one-page portfolios featured popular
 description:      "A stylish, one page, Bootstrap portfolio theme featuring off canvas navigation and smooth page scrolling."
 bump:             "A stylish Bootstrap portfolio theme."
 img-src:          /assets/img/templates/stylish-portfolio.jpg
