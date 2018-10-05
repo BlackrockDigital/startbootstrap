@@ -58,7 +58,7 @@
         </li>
       </ul>
       <ul class="navbar-nav">
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdownPremium" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fal fa-star"></i>
             Premium</a>
@@ -70,6 +70,14 @@
               <i class="fal fa-shopping-basket fa-fw"></i>
               <span>Premium Themes by Creative Tim</span></a>
           </div>
+        </li> -->
+        <li class="nav-item mr-3">
+          <a class="nav-link" style="position: relative;" href="https://shop.startbootstrap.com/" onclick="ga('send','event','Product', 'click', 'SB Shop Navbar Link')">
+            <i class="fal fa-shopping-cart"></i>
+            <span>Shop</span>
+            <span class="badge badge-primary" style="position: absolute; top: -2px;
+            right: -5px; font-size: 0.5rem">New!</span>
+          </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" data-toggle="modal" data-target="#searchModal" onclick="ga('send','event','Action','Open Search Modal')">
