@@ -87,6 +87,10 @@ layout: default
       {% for item in site.premium reversed %}
         {% if item.categories contains 'featured' %}
           <div class="col-lg-4 col-md-6 sb-preview text-center">
+            {% if item.categories contains 'new' %}
+              <!-- New Item Badge -->
+              <span class="badge badge-warning sb-new-badge">New!</span>
+            {% endif %}
             <div class="card h-100">
               <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Product','click','{{ item.title }}')">
                 <img class="card-img-top" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
@@ -108,11 +112,10 @@ layout: default
     {% endif %}
 
     {% if page.slug == 'premium' %}
-      <div class="col-12">
+      <!-- <div class="col-12">
         <div class="mt-0 text-center">
           <a href="https://www.creative-tim.com/?affiliate_id=101249" class="d-block mb-5 border rounded" onclick="ga('send','event','Product','click','Creative Tim Summer Discount')" style="text-decoration: none !important; position: relative;">
             <img class="img-fluid rounded" src="/assets/img/creative-tim/ct-summer-discount.jpg" alt="">
-            <!-- Badge -->
             <div class="bg-warning text-white rounded-circle text-uppercase font-weight-bold d-none d-md-flex" style="height: 8rem; width: 8rem; font-size: .8rem; position: absolute; top: -1.5rem; right: -1.5rem; transform: rotate(20deg); border: .5rem solid white;">
               <div class="m-auto d-block">
                 <div class="p-3">
@@ -122,7 +125,7 @@ layout: default
             </div>
           </a>
         </div>
-      </div>
+      </div> -->
     {% endif %}
 
     {% for item in site.premium reversed %}
@@ -130,6 +133,10 @@ layout: default
       {% if item.categories contains page.slug %}
 
         <div class="col-lg-4 col-md-6 sb-preview text-center">
+          {% if item.categories contains 'new' %}
+            <!-- New Item Badge -->
+            <span class="badge badge-warning sb-new-badge">New!</span>
+          {% endif %}
           <div class="card h-100">
             <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Product','click','{{ item.title }}')">
               <img class="card-img-top" src="{{ item.img-src }}" alt="{{ item.img-desc }}">

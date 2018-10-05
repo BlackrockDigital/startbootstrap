@@ -97,6 +97,7 @@ section.page {
 // Preview Panels
 .sb-preview {
   margin-bottom: 30px;
+  position: relative;
   .card {
     border: 1px solid darken($white, 7%);
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
@@ -120,6 +121,12 @@ section.page {
         font-size: 11px;
       }
     }
+  }
+  .sb-new-badge {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    z-index: 1;
   }
 }
 
