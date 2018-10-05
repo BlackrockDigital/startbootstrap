@@ -73,6 +73,10 @@ meta-description: Free open source Bootstrap themes and templates up to date for
       {% for item in site.premium reversed %}
         {% if item.categories contains 'featured' %}
           <div class="col-lg-4 col-md-6 sb-preview text-center">
+            {% if item.categories contains 'new' %}
+              <!-- New Item Badge -->
+              <span class="badge badge-warning sb-new-badge">New!</span>
+            {% endif %}
             <div class="card h-100">
               <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Product','click','{{ item.title }}')">
                 <img class="card-img-top" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
