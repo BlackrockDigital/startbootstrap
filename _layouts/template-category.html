@@ -92,7 +92,7 @@ layout: default
               <span class="badge badge-warning sb-new-badge">New!</span>
             {% endif %}
             <div class="card h-100">
-              <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Product','click','{{ item.title }}')">
+              <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Product','click','{{ item.title }}')" rel="nofollow">
                 <img class="card-img-top" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
               </a>
               <div class="card-body">
@@ -100,7 +100,7 @@ layout: default
                 <p class="card-text">{{ item.bump }}</p>
               </div>
               <div class="card-footer">
-                <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Product','click','{{ item.title }}')">Preview &amp; Download</a>
+                <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Product','click','{{ item.title }}')" rel="nofollow">Preview &amp; Download</a>
               </div>
             </div>
           </div>
@@ -138,7 +138,7 @@ layout: default
             <span class="badge badge-warning sb-new-badge">New!</span>
           {% endif %}
           <div class="card h-100">
-            <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Product','click','{{ item.title }}')">
+            <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Product','click','{{ item.title }}')" rel="nofollow">
               <img class="card-img-top" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
             </a>
             <div class="card-body">
@@ -146,7 +146,7 @@ layout: default
               <p class="card-text">{{ item.bump }}</p>
             </div>
             <div class="card-footer">
-              <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Product','click','{{ item.title }}')">Preview &amp; Purchase</a>
+              <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Product','click','{{ item.title }}')" rel="nofollow">Preview &amp; Purchase</a>
             </div>
           </div>
         </div>
