@@ -59,6 +59,8 @@
   <meta name="twitter:site" content="@SBootstrap"/>
   {% if page.layout == 'template-overview' %}
     <meta name="twitter:image" content="https://startbootstrap.com/assets/img/templates/{{ page.slug }}.jpg">
+  {% elsif page.layout == 'snippet-overview' %}
+  <meta name="twitter:image" content="https://startbootstrap.com/assets/img/snippets/{{ page.slug }}.jpg">
   {% else %}
     <meta name="twitter:image" content="https://startbootstrap.com/assets/img/og/logo.jpg">
   {% endif %}
