@@ -8,7 +8,7 @@ img-src:	    	  /assets/img/snippets/video-header.jpg
 img-desc:		      "CSS Only HTML5 Video Background Snippet for Bootstrap 4"
 layout:		    	  snippet-overview
 dependencies:     
-  - Bootstrap 4.1.1
+  - Bootstrap 4.2.1
 jsfiddle-id: "enajc82d"
 
 meta-title:        "Bootstrap 4 Video Background Snippet"
