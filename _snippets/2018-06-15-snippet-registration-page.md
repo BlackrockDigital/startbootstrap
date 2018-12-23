@@ -8,8 +8,8 @@ img-src:	    	  /assets/img/snippets/registration-page.jpg
 img-desc:		      "Bootstrap 4 Login Screen with CSS Only Floating Form Labels and Social Logins"
 layout:		    	  snippet-overview
 dependencies:     
-  - Bootstrap 4.1.1
-  - Font Awesome 5.0.13
+  - Bootstrap 4.2.1
+  - Font Awesome 5.6.3
 jsfiddle-id: "1nu8g6e5"
 
 meta-title:        "Bootstrap 4 Login Page Snippet"
