@@ -8,7 +8,7 @@ img-src:	    	  /assets/img/snippets/full-image-header.jpg
 img-desc:		      "A Bootstrap 4 starter layout with a full page image header and vertically centered content"
 layout:		    	  snippet-overview
 dependencies:     
-  - Bootstrap 4.1.3
+  - Bootstrap 4.2.1
 jsfiddle-id: "q4khv018"
 
 meta-title:        "Bootstrap 4 Full Page Image Header with Vertically Centered Content"
