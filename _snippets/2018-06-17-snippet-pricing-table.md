@@ -8,8 +8,8 @@ img-src:	    	  /assets/img/snippets/pricing-table.jpg
 img-desc:		      "Bootstrap 4 Pricing Table with Custom Hover Effects and Buttons"
 layout:		    	  snippet-overview
 dependencies:     
-  - Bootstrap 4.1.1
-  - Font Awesome 5.0.13
+  - Bootstrap 4.2.1
+  - Font Awesome 5.6.3
 jsfiddle-id: "rgp3qdye"
 
 meta-title:        "Bootstrap 4 Pricing Table Snippet"
