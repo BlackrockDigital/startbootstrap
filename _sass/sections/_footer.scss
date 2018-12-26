@@ -106,3 +106,31 @@ footer {
     text-align: center;
   }
 }
+
+.btn-twitter {
+  color: $white;
+  font-weight: 400;
+  padding: 0;
+  overflow: hidden;
+  span.brand {
+    display: inline-block;
+    padding: 1rem;
+    background-color: darken($brand-twitter, 10%);
+    transition: background-color 0.2s ease;
+  }
+  span.text {
+    display: inline-block;
+    padding: 1rem;
+    background-color: $brand-twitter;
+    transition: background-color 0.2s ease;
+  }
+  &:hover {
+    color: $white;
+    span.text {
+      background-color: darken($brand-twitter, 5%);
+    }
+    span.brand {
+      background-color: darken($brand-twitter, 12.5%);
+    }
+  }
+}
