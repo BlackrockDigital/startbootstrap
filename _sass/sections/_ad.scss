@@ -2,7 +2,8 @@
 
 // For Page Headings
 
-.page-heading {
+.page-heading,
+.home-carbon {
 
   #carbonads,
   #sfnql_5 {
@@ -80,6 +81,15 @@
 
   }
 
+}
+
+.home-carbon {
+  #carbonads,
+  #sfnql_5 {
+    position: relative !important;
+    margin: 3rem auto 0 !important;
+    right: auto !important;
+  }
 }
 
 .carbon-post {

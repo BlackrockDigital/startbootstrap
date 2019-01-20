@@ -12,10 +12,10 @@ meta-description: Free open source Bootstrap themes and templates up to date for
         <a href="/template-categories/all/" class="btn btn-secondary btn-xl">Browse All Themes &amp; Templates</a>
       </li>
     </ul>
-    <!-- Creative Tim -->
-    <a class="masthead-img mt-5 mx-auto" href="https://shop.startbootstrap.com" onclick="ga('send','event','Product','click','SB Shop Homepage Image')">
-      <img src="/assets/img/sb-shop.png" alt="Premium Bootstrap Themes">
-    </a>
+    <!-- Carbon -->
+    <div class="home-carbon">
+      {% include ad.html %}
+    </div>
   </div>
 </header>
 <section class="intro">
@@ -34,22 +34,22 @@ meta-description: Free open source Bootstrap themes and templates up to date for
   <div class="container">
     <div class="row">
       {% for template in site.templates reversed %}
-        {% if template.categories contains 'featured' %}
-          <div class="col-lg-4 col-md-6 sb-preview text-center">
-            <div class="card h-100">
-              <a class="sb-preview-img" href="{{ template.src }}">
-                <img class="card-img-top" src="{{ template.img-src }}" alt="{{ template.img-desc }}">
-              </a>
-              <div class="card-body">
-                <h4 class="card-title">{{ template.title }}</h4>
-                <p class="card-text">{{ template.bump }}</p>
-              </div>
-              <div class="card-footer">
-                <a href="{{ template.src }}" class="btn btn-secondary">Preview &amp; Download</a>
-              </div>
-            </div>
+      {% if template.categories contains 'featured' %}
+      <div class="col-lg-4 col-md-6 sb-preview text-center">
+        <div class="card h-100">
+          <a class="sb-preview-img" href="{{ template.src }}">
+            <img class="card-img-top" src="{{ template.img-src }}" alt="{{ template.img-desc }}">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">{{ template.title }}</h4>
+            <p class="card-text">{{ template.bump }}</p>
           </div>
-        {% endif %}
+          <div class="card-footer">
+            <a href="{{ template.src }}" class="btn btn-secondary">Preview &amp; Download</a>
+          </div>
+        </div>
+      </div>
+      {% endif %}
       {% endfor %}
     </div>
     <div class="row">
@@ -71,26 +71,26 @@ meta-description: Free open source Bootstrap themes and templates up to date for
     <div class="row">
       <!-- Creative Tim -->
       {% for item in site.premium reversed %}
-        {% if item.categories contains 'featured' %}
-          <div class="col-lg-4 col-md-6 sb-preview text-center">
-            {% if item.categories contains 'new' %}
-              <!-- New Item Badge -->
-              <span class="badge badge-warning sb-new-badge">New!</span>
-            {% endif %}
-            <div class="card h-100">
-              <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Product','click','{{ item.title }}')" rel="nofollow">
-                <img class="card-img-top" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
-              </a>
-              <div class="card-body">
-                <h4 class="card-title">{{ item.title }}</h4>
-                <p class="card-text">{{ item.bump }}</p>
-              </div>
-              <div class="card-footer">
-                <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Product','click','{{ item.title }}')">Preview &amp; Download</a>
-              </div>
-            </div>
-          </div>
+      {% if item.categories contains 'featured' %}
+      <div class="col-lg-4 col-md-6 sb-preview text-center">
+        {% if item.categories contains 'new' %}
+        <!-- New Item Badge -->
+        <span class="badge badge-warning sb-new-badge">New!</span>
         {% endif %}
+        <div class="card h-100">
+          <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Product','click','{{ item.title }}')" rel="nofollow">
+            <img class="card-img-top" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">{{ item.title }}</h4>
+            <p class="card-text">{{ item.bump }}</p>
+          </div>
+          <div class="card-footer">
+            <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Product','click','{{ item.title }}')">Preview &amp; Download</a>
+          </div>
+        </div>
+      </div>
+      {% endif %}
       {% endfor %}
     </div>
     <a href="/buy-bootstrap-templates" class="btn btn-lg btn-primary mx-auto">View More Premium Themes</a>
