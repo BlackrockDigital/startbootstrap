@@ -13,19 +13,16 @@ meta-title:       "SB Admin 2 - Free Bootstrap Admin Theme"
 meta-description: "A free Bootstrap admin theme, dashboard, or web application UI. All Start Bootstrap templates are free to download and open source."
 
 features:
-  - Responsive sidebar menu with multi-level dropdowns and active classes
-  - LESS files included for deeper customization
-  - Responsive top navigation menu with dropdown menu items
-  - 3 custom panel styles - red, yellow, and green
-  - Two Powerful jQuery charting plugins, Flot Charts and Morris.js
-  - Sortable, searchable, multi-page Bootstrap tables using the DataTables jQuery plugin
-  - Custom circle icon buttons from Bootsnipp
-  - Built-in library of Bootstrap social buttons from Bootstrap Social
-  - Responsive Bootstrap timeline from Bootsnipp
-  - Bootstrap chat widget from Bootsnipp
-  - Login page by Bootsnipp
+  - Modern, material inspired design with a custom color system and fonts
+  - Responsive, toggleable sidebar menu with flexbox layout
+  - SCSS development environment with Gulp tasks
+  - Dependency support using npm
+  - Custom UI components and utility classes
+  - Chart demos from Chart.js
+  - Sortable, searchable, multi-page Bootstrap tables using the DataTables plugin
+  - Custom pages including 404, and user pages (login, register, forgot password)
 
-long-description: "SB Admin 2 Bootstrap admin theme, dashboard template, or webapp UI starter. The theme features a variety of custom jQuery plugins to add extended functionality past the built in Bootstrap UI features."
+long-description: "SB Admin 2 Bootstrap admin theme, dashboard template, or webapp UI starter. The theme features a variety of custom features to extend the functionality of Bootstrap."
 
 alt-version:      "no"
 
