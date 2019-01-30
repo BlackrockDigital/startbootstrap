@@ -14,11 +14,11 @@
   <meta name="google-site-verification" content="37Tru9bxB3NrqXCt6JT5Vx8wz2AJQ0G4TkC-j8WL3kw">
   <title>
     {% if page.meta-title == "Start Bootstrap" %}
-      {{ page.meta-title }}
-      - Free Bootstrap Themes and Templates
+    {{ page.meta-title }}
+    - Free Bootstrap Themes and Templates
     {% else %}
-      {{ page.meta-title }}
-      - Start Bootstrap
+    {{ page.meta-title }}
+    - Start Bootstrap
     {% endif %}
   </title>
   <!-- Google+ Authorship -->
@@ -32,9 +32,9 @@
   <!-- Font Awesome Pro -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-87DrmpqHRiY8hPLIr7ByqhPIywuSsjuQAfMXAE0sMUpY3BM7nXjf+mLIUSvhDArs" crossorigin="anonymous">
   <!-- Styles -->
-  <link rel="stylesheet" href="{{ " /assets/css/main.css " | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
   <!-- Feed -->
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <!-- Fav Icon and Apple Touch Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
@@ -56,14 +56,14 @@
   <meta property="og:image:alt" content="{% if page.meta-title == " Start Bootstrap " %}{{ page.meta-title }} - Free Bootstrap Themes and Templates{% else %}{{ page.meta-title }}{% endif %}">
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:site" content="@SBootstrap"/>
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@SBootstrap" />
   {% if page.layout == 'template-overview' %}
-    <meta name="twitter:image" content="https://startbootstrap.com/assets/img/templates/{{ page.slug }}.jpg">
+  <meta name="twitter:image" content="https://startbootstrap.com/assets/img/templates/{{ page.slug }}.jpg">
   {% elsif page.layout == 'snippet-overview' %}
   <meta name="twitter:image" content="https://startbootstrap.com/assets/img/snippets/{{ page.slug }}.jpg">
   {% else %}
-    <meta name="twitter:image" content="https://startbootstrap.com/assets/img/og/logo.jpg">
+  <meta name="twitter:image" content="https://startbootstrap.com/assets/img/og/logo.jpg">
   {% endif %}
 
 </head>
