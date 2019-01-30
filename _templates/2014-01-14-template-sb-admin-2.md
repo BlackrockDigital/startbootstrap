@@ -50,4 +50,6 @@ redirect_from:
   - /templates/sb-admin-v2/forms.html/
   - /templates/sb-admin-v2/flot.html/
   - /downloads/sb-admin-2.zip/
+
+og-image: "https://startbootstrap.com/assets/img/og/sb-admin-2.png"
 ---
