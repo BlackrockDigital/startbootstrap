@@ -73,7 +73,7 @@ $grid-gutter-width: $spacer * 1.5;
 $tooltip-bg: $gray-900 !default;
 $tooltip-opacity: 1 !default;
 
-@import "../assets/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 @import "global";
 @import "carbon";
