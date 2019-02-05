@@ -1,0 +1,122 @@
+---
+layout: page
+title: Blog
+description: "News and updates related to Start Bootstrap and articles showcasing content and ideas related to the Bootstrap framework"
+permalink: /blog
+
+pagination:
+  enabled: true
+  sort_reverse: true
+  per_page: 5
+
+meta-title: "Blog"
+meta-description: "Start Bootstrap's official blog and article library. A great place to find Bootstrap tips and the latest updates to Start Bootstrap!"
+
+redirect_from:
+  - /articles
+  - /articles/page2
+  - /articles/page3
+  - /articles/page4
+---
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-lg-8">
+
+      {% for post in paginator.posts %}
+      <div class="card border-0 shadow mb-5">
+        <div class="card-body p-5 pl-md-0 pr-md-5 py-md-5">
+          <div class="row no-gutters">
+            <!-- Post Image -->
+            <div class="col-4 d-none d-md-flex align-items-center justify-content-center">
+              {% if post.preview-image %}
+              <img class="rounded-circle img-fluid" style="width: 7.5rem; height: 7.5rem;" src="{{ post.preview-image }}">
+              {% else %}
+              <img class="img-fluid" style="width: 7.5rem; height: 7.5rem;" src="/assets/img/sb-logo.svg">
+              {% endif %}
+            </div>
+            <!-- Post Content Preview -->
+            <div class="col-12 col-md-8">
+              <h4 class="card-title mb-1">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h4>
+              <div class="small text-muted mb-3">{{ post.date | date: "%b %-d, %Y" }}</div>
+              <!-- <div class="author text-muted mb-3">by
+                  {{ post.author }}
+              </div> -->
+              <p class="mb-4">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+              <a href="{{ post.url }}" class="btn btn-sm btn-primary">Read Post →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+      <!-- Show paginator for the specificed collection -->
+      {% if paginator.total_pages > 1 %}
+      <div class="col-12">
+        <nav class="d-flex justify-content-center">
+          <ul class="pagination d-inline-flex mb-5">
+            <!-- {% if paginator.first_page %}
+                <li class="page-item">
+                  <a class="page-link" href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                    <i class="fal fa-angle-double-left"></i>
+                  </a>
+                </li>
+                {% endif %} -->
+
+            {% if paginator.previous_page %}
+            <li class="page-item">
+              <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                <i class="fal fa-angle-left"></i>
+              </a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+              <a class="page-link" href="#">
+                <i class="fal fa-angle-left"></i>
+              </a>
+            </li>
+            {% endif %}
+
+            {% if paginator.page_trail %}
+            {% for trail in paginator.page_trail %}
+            <li {% if page.url==trail.path %}class="page-item active" {% else %}class="page-item" {% endif %}>
+              <a class="page-link" href="{{ trail.path | prepend: site.baseurl | replace: 'index.html', '' }}">{{ trail.num }}</a>
+            </li>
+            {% endfor %}
+            {% endif %}
+
+            {% if paginator.next_page %}
+            <li class="page-item">
+              <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                <i class="fal fa-angle-right"></i>
+              </a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+              <a class="page-link" href="#">
+                <i class="fal fa-angle-right"></i>
+              </a>
+            </li>
+            {% endif %}
+
+            <!-- {% if paginator.last_page %}
+                <li class="page-item">
+                  <a class="page-link" href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                    <i class="fal fa-angle-double-right"></i>
+                  </a>
+                </li>
+                {% endif %} -->
+          </ul>
+        </nav>
+      </div>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+</div>

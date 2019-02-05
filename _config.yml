@@ -1,49 +1,65 @@
 # Site Information
-license:          "MIT"
-license-url:      "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-author:           "Blackrock Digital"
+license:           "MIT"
+license-url:       "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+author:            "Blackrock Digital"
 
 # Site Settings
-baseurl:          ""
+baseurl:           ""
 
 # Build settings
-exclude:          [node_modules]
-
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+markdown:          kramdown
+exclude:           [node_modules]
 
 # Permalinks
-permalink:        /articles/:year/:month/:day/:title/
+permalink:        /blog/:year/:month/:day/:title/
 
 # Server
-url:              https://startbootstrap.com
-enforce_ssl:      startbootstrap.com
-encoding:         UTF-8
-host:             localhost
-port:             9000
+url:               https://startbootstrap.com
+enforce_ssl:       startbootstrap.com
+encoding:          UTF-8
+host:              localhost
+port:              9000
 
 # Plugins
 plugins:
-  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate-v2
   - jekyll-redirect-from
-  - jekyll-paginate
-  - rouge
+  - jekyll-sitemap
+  - jekyll-tidy
 
 # Collections
 collections:
-  premium:
-    output: false
+  themes:
+    output:        true
+    permalink:     /:collection/:title/
   templates:
-    output: true
-    permalink: /template-overviews/:title/
+    output:        true
+    permalink:     /:collection/:title/
   snippets:
-    output: true
-    permalink: /snippets/:title/
+    output:        true
+    permalink:     /:collection/:title/
+  guides:
+    output:        true
+    permalink:     /:collection/:title/
+  previews:
+    output:        true
+    permalink:     /:collection/:title/
+  premium:
+    output:        false
 
 # Pagination
-paginate: 5
-paginate_path: "/articles/page:num/"
+pagination:
+  enabled:         true
+  per_page:        9
+  permalink:       '/page:num/'
+  title:           ':title'
+  limit:           0
+  sort_field:      'date'
+  sort_reverse:    true
+  trail:
+    before:        2
+    after:         2
 
 # Blog Excerpt Separator
 excerpt_separator: "<!--more-->"

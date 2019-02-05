@@ -13,6 +13,9 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
+
+redirect_from:
+  - /articles/2014/01/14/new-theme-sb-admin-2/
 ---
 
 The original ‘SB Admin’ has gotten a lot of attention over the past few months, but this time it’s better!

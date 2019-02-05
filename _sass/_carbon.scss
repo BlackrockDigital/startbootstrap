@@ -1,0 +1,54 @@
+// Carbon Ads
+
+// For Page Headings
+
+#carbonads {
+
+  padding: 1rem;
+  border-radius: $border-radius-lg;
+  overflow: hidden;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  background-color: fade-out($gray-100, 0.85);
+  box-shadow: 0 0 1rem 0.5rem fade-out($gray-900, 0.9);
+
+  .carbon-wrap {
+
+    .carbon-img {
+      margin: 0;
+      display: block;
+      float: left;
+
+      img {
+        display: block;
+        border-radius: 0.5rem;
+      }
+
+    }
+
+    .carbon-text {
+      display: block;
+      margin-left: 145px;
+      color: fade-out($white, 0.2);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+  }
+
+  .carbon-poweredby {
+    display: block;
+    margin-left: 145px;
+    margin-top: 0.5rem;
+    color: fade-out($white, 0.4);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+}
+
+.carbon-inverse {
+  #carbonads {
+    background-color: $primary;
+  }
+}

@@ -1,7 +1,7 @@
 ---
 layout:			post
 title:			"New Theme - Clean Blog"
-date:			2013-10-24
+date:			2014-09-25
 category:		News
 description:	"A new theme is up on Start Bootstrap!"
 tags:			update
@@ -13,6 +13,9 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
+
+redirect_from:
+  - /articles/2013/10/24/new-theme-clean-blog/
 ---
 
 A new theme is up on Start Bootstrap! The ‘Clean Blog’ theme is a modern, four page blog theme optimized for legibility. The theme features a hint of color, an intuitive navigation bar, and a working contact form among other features.

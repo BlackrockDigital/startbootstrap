@@ -1,0 +1,50 @@
+// Resources Page
+
+.resources {
+  .page-header {
+    padding-top: 69px;
+  }
+  .table td > a {
+    font-weight: 600;
+  }
+  .badge {
+    vertical-align: middle;
+    font-size: 65%;
+  }
+}
+
+.resource-name {
+  width: 200px;
+}
+
+// Sidebar
+
+.resources-sidebar {
+  .sticky-top {
+    z-index: 1;
+
+    padding-top: 69px;
+    padding-bottom: 15px;
+    .nav-link {
+      margin: 0.25rem 0;
+      padding: 0 0.5rem;
+
+      color: $gray-800;
+      border-left: 2px solid transparent;
+
+      font-size: 0.85rem;
+      &.active {
+        color: theme-color("primary");
+        border-left: 2px solid theme-color("primary");
+
+        font-weight: bold;
+      }
+    }
+    > ul.nav > li.nav-item > .nav {
+      display: none;
+    }
+    > ul.nav > li.nav-item > a.nav-link.active ~ .nav {
+      display: flex;
+    }
+  }
+}
