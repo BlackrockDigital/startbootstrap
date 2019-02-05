@@ -1,0 +1,27 @@
+.mailchimp {
+  background-color: $primary;
+  background-size: cover;
+  background-image: url('/assets/img/overlay.svg'), linear-gradient(45deg, $primary 0%, #{darken($primary, 5%)} 100%);
+  color: $white;
+  padding: 5rem 0;
+  h3 {
+    font-weight: 700;
+  }
+  p {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  #mc_embed_signup {
+    .input-group {
+      .form-control {
+        font-size: 1rem;
+      }
+    }
+    .input-group-append {
+      .btn {
+        font-size: 0.8rem;
+        font-weight: 800;
+      }
+    }
+  }
+}

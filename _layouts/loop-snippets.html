@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% include masthead/masthead-page.html %}
+
+<div class="container">
+
+  <!-- Show paginated posts for the specificed collection -->
+  <div class="row">
+    {% for snippet in site.snippets %}
+
+    <div class="col-md-4">
+      <div class="item-preview mb-5">
+        <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ snippet.src }}">
+          <img class="img-fluid" src="{{ snippet.img-src }}" alt="{{ snippet.img-desc }}">
+        </a>
+        <div class="item-preview-title">{{ snippet.title }}</div>
+        <div class="item-preview-description">{{ snippet.bump }}</div>
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+{{ content }}

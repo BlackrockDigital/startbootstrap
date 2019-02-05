@@ -13,6 +13,9 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
+
+redirect_from:
+  - /articles/2013/10/02/new-theme-stylish-portfolio/
 ---
 
 We’ve just launched a new template to add to the Start Bootstrap mix. We are really excited about this one too. Announcing ‘Stylish Portfolio,’ the newest addition to the Start Bootstrap template library.

@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 {% include head.html %}
 
-	<body>
+<body>
 
-		{% include nav.html %}
+  {% include navigation.html %}
 
-		{{ content }}
+  {% include twitch.html %}
 
-		{% include footer.html %}
+  <main>
+    {{ content }}
+  </main>
 
-		{% include search.html %}
+  {% include marketing.html %}
 
-		{% include javascript.html %}
+  {% include mailchimp.html %}
 
-	</body>
+  {% include footer.html %}
+
+  {% include scripts.html %}
+
+</body>
 
 </html>

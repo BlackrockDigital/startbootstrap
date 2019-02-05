@@ -1,0 +1,17 @@
+#twitch-widget {
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  color: fade-out($white, 0.25);
+  .badge {
+    background-color: fade-out($black, 0.5);
+  }
+  .bg-twitch {
+    transition: background-color 0.15s ease;
+  }
+  &:hover {
+    .bg-twitch {
+      background-color: darken($twitch, 10%) !important;
+    }
+  }
+}

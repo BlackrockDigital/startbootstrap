@@ -6,7 +6,7 @@ category:		[News]
 description:	"Start Bootstrap now has a public Slack workspace! Get your invite and join to discuss your projects, troubleshoot problems with the community, and network with other Bootstrap developers!"
 tags:			update
 meta-title:		"Start Bootstrap Slack Channel"
-image: "/assets/img/articles/slack-app-icon.png"
+preview-image: "/assets/img/blog/posts/start-bootstrap-slack/slack-app-icon.png"
 
 author:			"David Miller"
 author-slug:	david-miller
@@ -14,10 +14,15 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
+
+redirect_from:
+  - /articles/2018/06/12/start-bootstrap-slack/
 ---
-<img src="/assets/img/articles/slack-bg.jpg" class="img-fluid rounded">
+
+<img src="/assets/img/blog/posts/start-bootstrap-slack/slack-bg.jpg" class="img-fluid rounded">
 
 Have some questions? Need help customizing the theme you just downloaded? Want to collaborate with some fellow developers? Start Bootstrap's new public workspace on Slack is the perfect spot to discuss your projects!
+
 <!--more-->
 
 Making this public organization was super simple thanks to [Slackin](https://github.com/rauchg/slackin), so a big thanks to the folks who created that open source tool!

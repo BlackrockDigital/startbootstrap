@@ -1,0 +1,92 @@
+// Color System Overrides
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$yellow: #ffc107 !default;
+$red: #dd3d31 !default;
+$green: #28a745 !default;
+$blue: #2092ed !default;
+$purple: #8c43dd !default;
+$gray-100: #f9f9fc !default;
+// $gray-900: #2b2a35 !default;
+
+$primary: $red !default;
+$info: $purple !default;
+
+$twitter: #1da1f2 !default;
+$github: #333333 !default;
+$facebook: #3b5998 !default;
+$twitch: #6441A4 !default;
+
+$theme-colors: (
+  "theme": $red,
+  "template": $blue,
+  "snippet": $yellow,
+  "guide": $green,
+  "twitter": $twitter,
+  "github": $github,
+  "facebook": $facebook,
+  "twitch": $twitch,
+  "white": $white
+);
+
+// Font Size
+$small-font-size: 85%;
+
+// Set Contrast Threshold
+$yiq-contrasted-threshold: 195 !default;
+
+// Border Radius Overrides
+$border-radius: 0.25rem !default;
+$border-radius-lg: 0.5rem !default;
+$card-border-radius: $border-radius-lg;
+$btn-border-radius-lg: $border-radius;
+
+// Box Shadow Overrides
+$box-shadow-sm: 0 0.125rem 0.25rem 0 fade-out($gray-900, .8) !default;
+$box-shadow: 0 0.15rem 1.75rem 0 fade-out($gray-900, .85) !default;
+$box-shadow-lg: 0 2rem 1.5rem -1.5rem fade-out($gray-900, 0.85), 0 0 1.5rem 0.5rem fade-out($gray-900, 0.95) !default;
+
+// Custom Vox Shadow Variables
+$box-shadow-lg-hover: 0 2.25rem 1.5rem -1.5rem fade-out($gray-900, 0.7), 0 0 1.5rem 0.5rem fade-out($gray-900, 0.95);
+
+// Font System Overrides
+$font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+$headings-font-weight: 600 !default;
+$text-muted: fade-out($gray-900, 0.65);
+$dark: $gray-900;
+
+// Adjust column spacing for symmetry
+$spacer: 1rem;
+$grid-gutter-width: $spacer * 1.5;
+
+// Tooltip Overrides
+$tooltip-bg: $gray-900 !default;
+$tooltip-opacity: 1 !default;
+
+@import "../assets/bootstrap/scss/bootstrap.scss";
+
+@import "global";
+@import "carbon";
+@import "navigation";
+@import "masthead";
+@import "cards";
+@import "animations";
+@import "preview";
+@import "mailchimp";
+@import "footer";
+@import "resources";
+@import "snippets";
+@import "post";
+@import "guides";
+@import "affiliate";
+@import "twitch";

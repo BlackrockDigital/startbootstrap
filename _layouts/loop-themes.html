@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% include masthead/masthead-page.html %}
+
+<div class="container">
+
+  <!-- Show paginated posts for the specificed collection -->
+  <div class="row">
+    {% assign sorted = site.themes | sort: "rank" %}
+    {% for theme in sorted %}
+
+    <div class="col-md-4">
+      <div class="item-preview mb-5">
+        <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ theme.src }}">
+          <img class="img-fluid" src="{{ theme.img-src }}" alt="{{ theme.img-desc }}">
+        </a>
+        <div class="item-preview-title">{{ theme.title }}</div>
+        <div class="item-preview-description">{{ theme.bump }}</div>
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+{{ content }}

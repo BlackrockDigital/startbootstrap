@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+{% include masthead/masthead-page.html %}
+
+<div class="container">
+
+  <!-- Snippet Information -->
+  <div class="d-flex align-items-center justify-content-between">
+
+    <!-- Snippet Dependencies -->
+    <div class="mb-3">
+      <span class="small d-inline-block mr-1">Built with</span>
+      <ul class="d-inline-block list-inline m-0">
+        {% for item in page.dependencies %}
+        <li class="list-inline-item">
+          <span class="badge badge-primary">
+            {{ item }}
+          </span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    {% if page.updated %}
+    <!-- Snippet Updated Date -->
+    <div class="small font-italic mb-3">Updated {{ page.updated | date: "%b %-d, %Y" }}</div>
+    {% endif %}
+
+  </div>
+
+  <!-- Snippet - jsFiddle Embed -->
+  <div class="mb-5 rounded shadow snippet">
+    <iframe width="100%" height="700" src="//jsfiddle.net/StartBootstrap/{{ page.jsfiddle-id }}/embedded/result,html,css,js,resources" allowfullscreen="allowfullscreen" allowpaymentrequest="allowpaymentrequest" frameborder="0"></iframe>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <!-- Disqus Comments -->
+      <div class="card border-0 shadow mb-4">
+        <div class="card-body">
+          {% include disqus.html %}
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <!-- Affiliate -->
+      <div class="card border-0 shadow mb-4">
+        <div class="card-body">
+          <h5 class="mb-0">Need more components?</h5>
+          <p class="small mb-4">Try a premium Bootstrap UI kit!</p>
+          <div class="row">
+            {% for item in site.premium reversed %}
+            {% if item.categories contains 'ui' %}
+            <!-- UI Based Affiliate Links -->
+            <div class="col-6 mb-4">
+              <div class="item-preview">
+                <a class="item-preview-img box-shadow-lg d-block" href="{{ item.src }}" onclick="ga('send','event','Affiliate Link','click','{{ item.affiliate }} - {{ item.title }}')" rel="nofollow">
+                  <img class="img-fluid" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
+                </a>
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+          <a href="/buy-bootstrap-themes" class="btn btn-outline-primary btn-block">View More Premium Content</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ content }}
