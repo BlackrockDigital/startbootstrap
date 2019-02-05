@@ -13,9 +13,6 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
-
-redirect_from:
-  - /articles/2013/09/26/new-template-modern-business/
 ---
 
 I’ve finally gotten around to adding a full website template to the mix. This first full website template by Start Bootstrap features 17 different pages of content that is ready to customize.

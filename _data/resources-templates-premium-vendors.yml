@@ -1,15 +1,19 @@
 - name:        Creative Tim
   link:        https://www.creative-tim.com?affiliate_id=101249
-  description: A selection of premium Bootstrap themes, templates, UI kits and more - developed by Creative Tim.
+  description: Premium Bootstrap themes, templates, UI Kits and more developed by Creative Tim.
 
 - name:        Designmodo
-  link:        https://designmodo.com/startup/?u=787
-  description: Designmodo's Startup Framework is a Bootstrap based website generator, which is a high quality solution for those who want a beautiful startup website quickly.
+  link:        http://designmodo.com/shop/?u=787
+  description: Designmodo has a collection of premium static website builders created using the Bootstrap framework.
 
-- name:        MDBootstrap
-  link:        https://mdbootstrap.com/products/?utm_ref_id=28366
-  description: Material Design based dashboard and UI kit products for Bootstrap 4.
+- name:        Material Design for Bootstrap 4
+  link:        https://mdbootstrap.com/material-design-for-bootstrap/?utm_ref_id=28366
+  description: Powerful and free Material Design UI KIT for Bootstrap 4 with a premium version available for purchase.
 
 - name:        Themefisher
   link:        https://themefisher.com/premium-templates/
-  description: A selection of Bootstrap based themes built by the design team at Themefisher.
+  description: Incredible website templates with fresh elegant designs for your next project!
+
+- name:        Flatlogic
+  link:        https://flatlogic.com/admin-dashboards
+  description: Bootstrap admin dashboard templates built with React, Angular and Vue.js

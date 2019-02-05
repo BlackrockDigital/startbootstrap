@@ -1,5 +1,98 @@
 ---
-layout: home
-meta-title: Free Bootstrap Themes, Templates, Snippets, and Guides
-meta-description: Start Bootstrap develops free to donwload, open source Bootstrap 4 themes, templates, and snippets and creates guides and tutorials to help you learn more about designing and developing with Bootstrap.
+layout: default
+meta-title: Start Bootstrap
+meta-description: Free open source Bootstrap themes and templates up to date for Bootstrap 4! An even faster way to develop websites in Bootstrap!
 ---
+<header class="masthead">
+  <div class="container-fluid">
+    <div class="masthead-brand">Start Bootstrap</div>
+    <h1 class="masthead-heading">Free Bootstrap Themes &amp; Templates</h1>
+    <ul class="list-inline mt-4">
+      <li>
+        <a href="/template-categories/all/" class="btn btn-secondary btn-xl">Browse All Themes &amp; Templates</a>
+      </li>
+    </ul>
+    <!-- Carbon -->
+    <div class="home-carbon">
+      {% include ad.html %}
+    </div>
+  </div>
+</header>
+<section class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2>Forever free, open source, and easy to use.</h2>
+        <p class="lead">Start Bootstrap is a collection of
+          <strong>free to download Bootstrap themes and templates</strong>. Our themes, built with <strong>HTML5, CSS3, and Bootstrap 4</strong>, are open source and you can use them for <em>any purpose, even commercially</em>!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="hr-home">
+<section class="themes">
+  <div class="container">
+    <div class="row">
+      {% for template in site.templates reversed %}
+      {% if template.categories contains 'featured' %}
+      <div class="col-lg-4 col-md-6 sb-preview text-center">
+        <div class="card h-100">
+          <a class="sb-preview-img" href="{{ template.src }}">
+            <img class="card-img-top" src="{{ template.img-src }}" alt="{{ template.img-desc }}">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">{{ template.title }}</h4>
+            <p class="card-text">{{ template.bump }}</p>
+          </div>
+          <div class="card-footer">
+            <a href="{{ template.src }}" class="btn btn-secondary">Preview &amp; Download</a>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <a href="/template-categories/all/" class="btn btn-lg btn-primary">View More Themes &amp; Templates</a>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="hr-home">
+<section class="premium">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2>Looking for something more?</h2>
+        <p class="lead">Try these hand picked premium themes!</p>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Creative Tim -->
+      {% for item in site.premium reversed %}
+      {% if item.categories contains 'featured' %}
+      <div class="col-lg-4 col-md-6 sb-preview text-center">
+        {% if item.categories contains 'new' %}
+        <!-- New Item Badge -->
+        <span class="badge badge-warning sb-new-badge">New!</span>
+        {% endif %}
+        <div class="card h-100">
+          <a class="sb-preview-img" href="{{ item.src }}" onclick="ga('send','event','Product','click','{{ item.title }}')" rel="nofollow">
+            <img class="card-img-top" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">{{ item.title }}</h4>
+            <p class="card-text">{{ item.bump }}</p>
+          </div>
+          <div class="card-footer">
+            <a href="{{ item.src }}" class="btn btn-secondary" onclick="ga('send','event','Product','click','{{ item.title }}')">Preview &amp; Download</a>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <a href="/buy-bootstrap-templates" class="btn btn-lg btn-primary mx-auto">View More Premium Themes</a>
+  </div>
+</section>

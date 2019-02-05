@@ -13,9 +13,6 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
-
-redirect_from:
-  - /articles/2013/09/05/introducing-start-bootstrap/
 ---
 
 Welcome! Thank you for visiting Start Bootstrap! My name is David Miller, owner and founder of Blackrock Digital, a digital goods company in Orlando, FL. Now that this blog is live, I’d like to take the opportunity to share a little bit about the origins of this resource for Bootstrap.

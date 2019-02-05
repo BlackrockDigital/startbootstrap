@@ -1,0 +1,87 @@
+header.masthead {
+  padding: 75px 0;
+
+  text-align: center;
+
+  color: $white;
+  background-color: theme-color("primary");
+  @include background-texture;
+  .masthead-brand {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    @include heading-font;
+    margin: 0;
+  }
+  .masthead-heading {
+    margin: 0;
+
+    font-size: 1.25rem;
+  }
+  ul.list-inline {
+    margin: 0;
+    li a {
+      position: relative;
+    }
+  }
+  a.masthead-img {
+    display: inline-block;
+    img {
+      border: 1px solid rgba(0, 0, 0, .4);
+      border-radius: 4px;
+      box-shadow: 0 0 10px 5px rgba(0, 0, 0, .2);
+      max-width: 240px;
+    }
+  }
+  @media(min-width: 768px) {
+    padding: 100px 0;
+    .masthead-brand {
+      font-size: 5rem;
+      line-height: 5rem;
+    }
+    .masthead-heading {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+  }
+  @media(min-width: 992px) {
+    padding: 125px 0;
+    .masthead-brand {
+      font-size: 6rem;
+      line-height: 6rem;
+    }
+    .masthead-heading {
+      margin: 0;
+      font-size: 2rem;
+    }
+  }
+}
+
+section.intro {
+  padding: 50px 0 25px;
+
+  text-align: center;
+  p.lead {
+    margin-bottom: 10px;
+  }
+}
+
+section.themes {
+  padding: 50px 0;
+}
+
+section.premium {
+  padding: 30px 0;
+
+  text-align: center;
+  h2 {
+    margin-top: 5px;
+  }
+  p.lead {
+    margin-bottom: 30px;
+  }
+}
+
+hr.hr-home {
+  max-width: 125px;
+  margin: 0 auto;
+}

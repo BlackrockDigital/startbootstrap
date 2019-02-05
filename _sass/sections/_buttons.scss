@@ -1,0 +1,44 @@
+// Button Styles
+.btn {
+  font-size: 14px;
+  border: 0;
+  // text-transform: uppercase;
+  @include heading-font;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+  transition: all 0.15s ease-in-out;
+}
+
+.btn-xl {
+  padding: 1.5rem 2rem;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.btn-lg {
+  padding: 15px 26px;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.btn-sm {
+  font-size: 10px;
+}
+
+// Old Button Style
+// .btn-primary {
+//   border-bottom: 3px solid $btn-primary-border;
+//   &:active,
+//   &:hover {
+//     border-bottom: 3px solid darken($btn-primary-border, 10%);
+//   }
+// }
+//
+// .btn-secondary {
+//   border-bottom: 3px solid $btn-secondary-border;
+//   &:active,
+//   &:hover {
+//     border-bottom: 3px solid darken($btn-secondary-border, 10%);
+//   }
+// }

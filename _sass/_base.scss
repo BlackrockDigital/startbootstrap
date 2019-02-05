@@ -1,0 +1,186 @@
+// Normal body
+body {
+  @include body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include heading-font;
+}
+
+p.lead {
+  strong {
+    font-weight: 500;
+  }
+}
+
+// Custom Page Headings
+.page-heading {
+  position: relative;
+
+  margin-bottom: 30px;
+  padding: 30px 15px;
+
+  text-align: center;
+
+  color: fade-out($white, 0.5);
+  background-color: $primary;
+
+  font-size: 1.25rem;
+
+  @include background-texture;
+  h1 {
+    margin-top: 0;
+
+    color: $white;
+  }
+  p {
+    margin-bottom: 0;
+
+    line-height: 1.4;
+  }
+  .container {
+    position: relative;
+    min-height: 136px;
+  }
+}
+@media(min-width:768px) {
+  .page-heading {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    text-align: left;
+
+    font-size: 1.5rem;
+    h1 {
+      font-size: 2rem;
+      line-height: 1;
+    }
+  }
+}
+@media(min-width:992px) {
+  .page-heading {
+    h1,
+    p {
+      margin-right: 380px;
+    }
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}
+
+// Page Sections
+section.page {
+  margin-bottom: 30px;
+  h2:first-child {
+    margin-top: 0;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.bg-purple {
+  background: $purple !important;
+}
+
+.badge-secondary {
+  background-color: $gray-600 !important;
+  color: white !important;
+}
+
+// Preview Panels
+.sb-preview {
+  margin-bottom: 30px;
+  position: relative;
+  .card {
+    border: 1px solid darken($white, 7%);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    // border-bottom: 3px solid darken($white, 7%);
+    background: darken($white, 4%);
+    .sb-preview-img {
+      @include transition;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+    .card-body {
+      padding: 1.5rem 1.5rem 0;
+    }
+    .card-footer {
+      padding: 0.75rem 1.5rem 1.5rem;
+
+      border: 0;
+      background: transparent;
+      .btn {
+        font-size: 11px;
+      }
+    }
+  }
+  .sb-new-badge {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    z-index: 1;
+  }
+}
+
+// Card for Snippets
+.card-snippet {
+  border: 1px solid darken($white, 7%);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+  text-decoration: none !important;
+  color: $gray-900;
+  .card-img-top {
+    @include transition;
+  }
+  &:hover {
+    color: $gray-900;
+    .card-img-top {
+      opacity: 0.7;
+    }
+  }
+}
+
+.card-snippet-overview {
+  border: 1px solid darken($white, 7%);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+  border-radius: 0.25rem;
+  overflow: hidden;
+  iframe {
+    margin-bottom: -7px;
+  }
+}
+
+// Disqus Comments
+.disqus-comments {
+  margin-bottom: 30px;
+}
+
+// Overrides
+.breadcrumb {
+  margin-bottom: 30px;
+  background: darken($white, 4%);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+}
+
+.sb-card {
+  margin-bottom: 30px;
+  border: 1px solid darken($white, 7%);
+  background: darken($white, 4%);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+  .sb-img {
+    @include transition;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  .btn {
+    font-size: 11px;
+  }
+}
