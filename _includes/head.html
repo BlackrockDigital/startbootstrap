@@ -55,12 +55,13 @@
   <meta property="og:image:alt" content="{% if page.meta-title == " Start Bootstrap " %}{{ page.meta-title }} - Free Bootstrap Themes and Templates{% else %}{{ page.meta-title }}{% endif %}">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@SBootstrap">
   {% if page.twitter-image %}
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="{{ page.twitter-image }}">
   {% else %}
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:image" content="https://startbootstrap.com/assets/img/branding/start-bootstrap-logo-500x500.png">
   {% endif %}
+  <meta name="twitter:site" content="@SBootstrap">
 
 </head>
