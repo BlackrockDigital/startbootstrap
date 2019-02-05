@@ -1,29 +1,51 @@
+// Scrollspy for Sidebar on Resources Page
+$('body').scrollspy({
+  target: '.sb-sidebar>.sticky-top>ul'
+})
+
+// Modal Customiaztion for Search Modal
+// Disabled for now...
+
+// $(".modal-search").on('show.bs.modal', function() {
+//   setTimeout(function() {
+//     $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
+//   }, 0);
+// });
+// $(".modal-search").on('hidden.bs.modal', function() {
+//   $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
+// });
+// $('#searchModal').on('shown.bs.modal', function() {
+//   $('#search_box').focus();
+// })
+
+// Configure the Search Plugin
 $(function() {
-  $('[data-toggle="tooltip"]').tooltip()
-
-  // Play initial animations on page load.
-  $(window).on('load', function() {
-    window.setTimeout(function() {
-      $('body').removeClass('is-preload');
-    }, 100);
+  $('#search-query').lunrSearch({
+    indexUrl: '/js/index.json', // url for the .json file containing search index data
+    results: '#search-results', // selector for containing search results element
+    template: '#search-results-template', // selector for Mustache.js template
+    titleMsg: '<h2>Search results<h2>', // message attached in front of results (can be empty)
+    emptyMsg: '<p>Nothing found.</p>' // shown message if search returns no results
   });
-
 });
 
-$('body').scrollspy({
-    target: '.resources-sidebar>.sticky-top>ul'
-  })
+// Open modal when download click occurs
+$('#download').click(function() {
+  setTimeout(function() {
+    $('#downloadModal').modal('show');
+  }, 2000);
+});
 
-  // Twitter Widget
-  ! function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (!d.getElementById(id)) {
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "https://platform.twitter.com/widgets.js";
-      fjs.parentNode.insertBefore(js, fjs);
-    }
-  }(document, "script", "twitter-wjs");
+// Twitter Widget
+! function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (!d.getElementById(id)) {
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }
+}(document, "script", "twitter-wjs");
 
 // Twitch Widget
 (function() {
@@ -38,10 +60,31 @@ $('body').scrollspy({
 
   $.getJSON('https://api.twitch.tv/kraken/streams/' + user_name + '?client_id=' + api_key + '&callback=?', function(data) {
     if (data.stream) {
-      twitch_widget.html('<div class="py-3 bg-twitch shadow-sm"><div class="container d-flex align-items-center justify-content-center"><span class="badge text-uppercase mr-3 text-white"><i class="fas fa-circle fa-sm text-danger"></i> Live</span> Start Bootstrap is live on Twitch.tv! Click here to watch and to chat with the developer!</div></div>');
+      twitch_widget.html('<div class="container"><span class="pulse"></span> Start Bootstrap is streaming! Click here to watch live and to chat with the developer!' + '<img src="/assets/img/brand-logos/twitch-logo.svg"></div>');
     } else {
       twitch_widget.html('');
     }
   });
 
 })();
+
+// Google Analytics Tracking Script
+(function(i, s, o, g, r, a, m) {
+  i['GoogleAnalyticsObject'] = r;
+  i[r] = i[r] || function() {
+    (i[r].q = i[r].q || []).push(arguments)
+  }, i[r].l = 1 * new Date();
+  a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0];
+  a.async = 1;
+  a.src = g;
+  m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+ga('create', 'UA-38417733-17', 'startbootstrap.com');
+ga('send', 'pageview');
+
+// Test script to track home box event
+  $(".masthead-img").click(function () {
+    ga('send','event','Referral','click','Referral - Home Box');
+  });

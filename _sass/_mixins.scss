@@ -1,0 +1,10 @@
+@mixin body-font {
+  font-family: 'Libre Franklin', Helvetica, Arial, sans-serif;
+}
+@mixin heading-font {
+  font-family: 'PT Sans Caption', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+@mixin background-texture {
+  background-image: url('/assets/img/bg.png');
+}

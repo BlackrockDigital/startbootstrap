@@ -13,9 +13,6 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
-
-redirect_from:
-  - /articles/2013/10/24/new-ecommerce-templates/
 ---
 
 We’ve launched two new online store templates as our newest additions to the Start Bootstrap template library. We’re proud to introduce ’Shop Homepage’ and ’Shop Item!’

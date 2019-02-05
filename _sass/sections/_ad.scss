@@ -1,0 +1,216 @@
+// Carbon Ads
+
+// For Page Headings
+
+.page-heading,
+.home-carbon {
+
+  #carbonads,
+  #sfnql_5 {
+
+    width: auto!important;
+    height: auto!important;
+    margin: 30px -30px -31px !important;
+    padding: 20px !important;
+    border: solid rgba(255, 255, 255, .5)!important;
+    border-width: 1px 0!important;
+    overflow: hidden;
+    text-align: left;
+    font-size: 13px!important;
+    line-height: 16px!important;
+    background: transparent!important;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, .4);
+    @media (min-width:480px) {
+      width: 330px!important;
+      margin: 20px auto !important;
+      border-width: 1px!important;
+      border-radius: 4px;
+    }
+    @media (min-width:768px) {
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+    }
+    @media (min-width:992px) {
+      position: absolute;
+      top: 0;
+      right: 15px;
+      width: 330px!important;
+      margin: 0 !important;
+      padding: 15px !important;
+    }
+
+    .carbon-wrap,
+    .sfnql_5-wrap {
+
+      .carbon-img,
+      .sfnql_5-img {
+        margin: 0 !important;
+        display: block;
+        float: left;
+
+        img {
+          display: block;
+        }
+
+      }
+
+      .carbon-text,
+      .sfnql_5-text {
+        display: block!important;
+        float: none!important;
+        width: auto!important;
+        height: auto!important;
+        margin-left: 145px !important;
+        padding-top: 0 !important;
+        color: rgba(255, 255, 255, .8);
+      }
+
+    }
+
+    .carbon-poweredby,
+    .sfnql_5-poweredby {
+      color: white!important;
+      display: block!important;
+      float: none!important;
+      width: auto!important;
+      height: auto!important;
+      margin-left: 145px !important;
+      text-align: left!important;
+      margin-top: 10px !important;
+    }
+
+  }
+
+}
+
+.home-carbon {
+  #carbonads,
+  #sfnql_5 {
+    position: relative !important;
+    margin: 3rem auto 0 !important;
+    right: auto !important;
+  }
+}
+
+.carbon-post {
+
+  #carbonads,
+  #sfnql_5 {
+    margin: 0 0 30px !important;
+    padding: 20px !important;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 13px!important;
+    line-height: 16px!important;
+    background: $primary!important;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+
+    .carbon-wrap,
+    .sfnql_5-wrap {
+
+      .carbon-img,
+      .sfnql_5-img {
+        margin: 0 !important;
+        display: block;
+        float: left;
+      }
+
+      .carbon-text,
+      .sfnql_5-text {
+        display: block!important;
+        float: none!important;
+        width: auto!important;
+        height: auto!important;
+        margin-left: 145px !important;
+        padding-top: 0 !important;
+        color: rgba(255, 255, 255, .8);
+      }
+
+    }
+
+    .carbon-poweredby,
+    .sfnql_5-poweredby {
+      display: block!important;
+      float: none!important;
+      width: auto!important;
+      height: auto!important;
+      margin-left: 145px !important;
+      color: white!important;
+      text-align: left!important;
+      margin-top: 10px !important;
+    }
+
+  }
+
+}
+
+// For Footer Ads
+.bsa-ad {
+  display: none;
+  background-color: $white;
+  border-bottom: 1px solid $gray-200;
+}
+
+.bsa-cpc #_default_ {
+  position: relative;
+  display: flex;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.bsa-cpc .default-ad {
+  display: none;
+}
+
+.bsa-cpc ._default_ {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0 1em;
+  padding: 1em;
+  width: 50%;
+  border-radius: 3px;
+  background-color: $white;
+  border: 1px solid $gray-200;
+  line-height: 1.5;
+}
+
+.bsa-cpc a {
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+.bsa-cpc a:hover {
+  border-color: $gray-500;
+}
+
+.bsa-cpc .default-image img {
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  margin-right: 10px;
+  width: 36px;
+  border-radius: 7.5%;
+}
+
+.bsa-cpc .default-description,
+.bsa-cpc .default-title {
+  display: block;
+  margin-left: 46px;
+  max-width: calc(100% - 36px);
+}
+
+.bsa-cpc .default-title {
+  font-weight: 600;
+}
+@media only screen and (min-width: 320px) and (max-width: 759px) {
+  .bsa-cpc #_default_ {
+    flex-wrap: wrap;
+  }
+  .bsa-cpc ._default_ {
+    margin: 0.5em 0;
+    width: 100%;
+  }
+}

@@ -3,135 +3,107 @@ layout: default
 ---
 
 <!-- Page Content -->
-<hr class="custom mt-0 mb-5">
 <div class="container">
-  <div class="row">
-    <div class="col-lg-8">
+	<ol class="breadcrumb breadcrumb-post">
+		<li class="breadcrumb-item"><a href="/">Start Bootstrap</a></li>
+		<li class="breadcrumb-item"><a href="/articles">Articles</a></li>
+		<li class="breadcrumb-item active">{{ page.title }}</li>
+	</ol>
+</div>
 
-      <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8">
 
-        <header>
-          <h1 itemprop="name headline">{{ page.title }}</h1>
-          <div>
-            <i class="fal fa-tag"></i> {{ page.category }}
-          </div>
-          <hr class="custom">
-          <div class="mb-3">
-            Posted <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> by <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-          </div>
-        </header>
+			<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
 
-        <div itemprop="articleBody">
-          {{ content }}
-        </div>
+				<header>
+					<h1 itemprop="name headline">{{ page.title }}</h1>
+					<div class="author">
+						By <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+					</div>
+					<hr>
+					<div class="date">
+						<i class="fal fa-calendar"></i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+					</div>
+					<div class="tag">
+						<i class="fal fa-tag"></i> {{ page.category }}
+					</div>
+				</header>
 
-        <span class="mr-2">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://startbootstrap.com{{ page.url }}" data-via="SBootstrap" data-lang="en">Tweet</a>
-        </span>
-        <span>
-          <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fstartbootstrap.com{{ page.url }}&layout=button&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </span>
+				<div itemprop="articleBody">
+					{{ content }}
+				</div>
 
-        <hr class="custom my-4">
+				<ul class="list-inline">
+					<li class="list-inline-item">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://startbootstrap.com{{ page.url }}" data-via="SBootstrap" data-lang="en">Tweet</a>
+					</li>
+					<li class="list-inline-item">
+						<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fstartbootstrap.com{{ page.url }}&layout=button&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					</li>
+				</ul>
 
-        <div class="d-flex align-items-stretch justify-content-between">
-          {% if page.previous.url %}
-          <a class="btn btn-white border-0 rounded shadow post-pager-link p-0 prev" href="{{ page.previous.url }}">
-            <span class="d-flex h-100">
-              <span class="bg-primary p-2 d-flex align-items-center text-white">
-                <i class="fal fa-arrow-circle-left"></i>
-              </span>
-              <span class="p-3 d-flex flex-column justify-content-center w-100">
-                <div class="indicator mb-1 text-uppercase">Previous Post</div>
-                {{ page.previous.title }}
-              </span>
-            </span>
-          </a>
-          {% endif %}
-          {% if page.next.url %}
-          <a class="btn btn-white border-0 rounded shadow post-pager-link p-0 next" href="{{ page.next.url }}">
-            <span class="d-flex h-100">
-              <span class="p-3 d-flex flex-column justify-content-center w-100">
-                <div class="indicator mb-1 text-uppercase">Next Post</div>
-                {{ page.next.title }}
-              </span>
-              <span class="bg-primary p-2 d-flex align-items-center text-white">
-                <i class="fal fa-arrow-circle-right"></i>
-              </span>
-            </span>
-          </a>
-          {% endif %}
-        </div>
+				<hr>
 
-        <hr class="custom my-4">
+				<div class="clearfix">
+					{% if page.previous.url %}
+					<a class="sb-pager-link float-left" href="{{ page.previous.url }}">&laquo; {{page.previous.title}}</a>
+					{% endif %}
+					{% if page.next.url %}
+					<a class="sb-pager-link float-right" href="{{ page.next.url }}">{{page.next.title}} &raquo;</a>
+					{% endif %}
+				</div>
 
-      </article>
+			</article>
 
-      <div class="card border-0 shadow mb-5">
-        <div class="card-body d-flex align-items-center">
-          <div class="d-none d-md-block mr-4">
-            <img class="img-fluid rounded-circle" src="/assets/img/blog/authors/{{ page.author-slug }}.jpg" alt="{{ page.author }}">
-          </div>
-          <div>
-            <h4>{{ page.author }}</h4>
-            <p>{{ page.author-desc }}</p>
+			<div class="card sb-card author-info">
+				<div class="card-body">
+					<img class="pull-left img-fluid rounded-circle" src="/assets/img/authors/{{ page.author-slug }}.jpg" alt="">
+					<div class="author-content">
+						<h3>{{ page.author }}</h3>
+						<p>{{ page.author-desc }}</p>
+						<ul class="list-inline">
+							{% if page.author-url %}
+							<li class="list-inline-item">
+								<i class="fal fa-globe"></i> <a href="{{ page.author-url }}">{{ page.author-url }}</a>
+							</li>
+							{% endif %}
+							{% if page.author-github %}
+							<li class="list-inline-item">
+								<i class="fab fa-github"></i> <a href="https://github.com/{{ page.author-github }}">{{ page.author-github }}</a>
+							</li>
+							{% endif %}
+							{% if page.author-twitter %}
+							<li class="list-inline-item">
+								<i class="fab fa-twitter"></i> <a href="https://twitter.com/{{ page.author-twitter }}">@{{ page.author-twitter }}</a>
+							</li>
+							{% endif %}
+						</ul>
+					</div>
+				</div>
+			</div>
 
-            <div class="d-flex flex-column flex-md-row">
+			{% include disqus.html %}
 
-              {% if page.author-url %}
-              <div class="mb-3 mb-md-0 mr-0 mr-md-3 small">
-                <a href="{{ page.author-url }}">{{ page.author-url }}</a>
-              </div>
-              {% endif %}
+		</div>
 
-              {% if page.author-github %}
-              <div class="mb-3 mb-md-0 mr-0 mr-md-3 small">
-                <i class="fab fa-github text-github"></i> <a href="https://github.com/{{ page.author-github }}">{{ page.author-github }}</a>
-              </div>
-              {% endif %}
+		<div class="col-lg-4">
+			<div class="carbon-post">
+				{% include ad.html %}
+			</div>
+			<div class="card sb-card latest-posts">
+				<div class="card-body">
+					<h3 class="mb-3">Latest Posts:</h3>
+					<ul class="list-unstyled">
+						{% for post in site.posts offset: 0 limit: 5  %}
+						<li class="mb-3"><a href="{{ post.url }}">{{ post.title }}</a></li>
+						{% endfor %}
+					</ul>
+					<small><a href="/articles">&laquo; All Posts</a></small>
+				</div>
+			</div>
+		</div>
 
-              {% if page.author-twitter %}
-              <div class="mb-3 mb-md-0 mr-0 mr-md-3 small">
-                <i class="fab fa-twitter text-twitter"></i> <a href="https://twitter.com/{{ page.author-twitter }}">@{{ page.author-twitter }}</a>
-              </div>
-              {% endif %}
-
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-
-      {% include disqus.html %}
-
-    </div>
-
-    <div class="col-lg-4">
-      <!-- Carbon -->
-      <div class="carbon-inverse mb-5 mt-5 mt-lg-0">
-        {% include carbon.html %}
-      </div>
-      <!-- Latests Posts -->
-      <div class="card border-0 shadow mb-5 latest-posts">
-        <div class="card-header border-0 bg-primary text-white py-3">
-          <span class="font-weight-bold small">Latest Posts</span>
-        </div>
-        <div class="list-group list-group-flush">
-          {% for post in site.posts offset: 0 limit: 5 %}
-          <a class="list-group-item list-group-item-action" href="{{ post.url }}">
-            <h6 class="latest-posts-title mb-1">{{ post.title }}</h6>
-            <div class="latest-posts-date">
-              {{ page.date | date: "%b %-d, %Y" }}
-            </div>
-          </a>
-          {% endfor %}
-        </div>
-        <div class="card-body">
-          <a class="btn-all btn btn-block btn-primary" href="/articles">View all posts</a>
-        </div>
-      </div>
-    </div>
-
-  </div>
+	</div>
 </div>

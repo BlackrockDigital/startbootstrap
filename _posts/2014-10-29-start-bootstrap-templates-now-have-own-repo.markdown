@@ -13,9 +13,6 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
-
-redirect_from:
-  - /articles/2014/10/29/start-bootstrap-templates-now-have-own-repo/
 ---
 
 By popular demand I have finally pulled all of the templates on Start Bootstrap into their own personal GitHub repository! What this means is that you can easily fork a template to start a new project directly in GitHub.

@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$grays: () !default;
+$grays: map-merge((
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+), $grays);
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #b84d45 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$colors: () !default;
+$colors: map-merge((
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+), $colors);
+
+$primary:       $red !default;
+$secondary:     $white !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+), $theme-colors);
+
+// Import bootstrap-sass
+@import "../assets/vendor/bootstrap/scss/bootstrap.scss";
+
+// Custom Border Colors
+$btn-primary-border:		    darken(theme-color("primary"), 10%);
+$btn-secondary-border:      darken(theme-color("secondary"), 15%);
+
+// Brand Colors for Social Links
+$brand-github:				     #333333;
+$brand-twitter:				     #1da1f2;
+$brand-facebook:			     #3b5998;
+$brand-google-plus:		     #dd4b39;
+$brand-twitch:             #6441A4;
+
+// Import partials.
+@import
+  "mixins",
+  "base",
+  "syntax-highlighting",
+  "sections/nav",
+  "sections/ad",
+  "sections/buttons",
+  "sections/template-overviews",
+  "sections/index",
+  "sections/search",
+  "sections/resources",
+  "sections/posts",
+  "sections/footer"
+;

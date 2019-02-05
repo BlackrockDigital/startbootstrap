@@ -13,9 +13,6 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
-
-redirect_from:
-  - /articles/2013/10/15/new-theme-business-casual/
 ---
 
 Please welcome the newest addition to the Start Bootstrap library, ‘Business Casual!’ This template, once again, features some great photography by Death to the Stock Photo, and we did a few things that aren’t typical of your standard Start Bootstrap Template.

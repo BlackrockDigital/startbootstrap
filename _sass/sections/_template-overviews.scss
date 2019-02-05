@@ -1,0 +1,52 @@
+// Template Overview
+
+.download-links {
+  position: relative;
+  ul.list-inline {
+    margin-bottom: 0;
+    li {
+      display: block;
+
+      margin-bottom: 15px;
+
+      text-align: center;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  @media(min-width:463px) {
+    text-align: left;
+    ul.list-inline {
+      li {
+        display: inline-block;
+
+        margin-bottom: 0;
+      }
+    }
+  }
+  .btn {
+    border-color: $gray-200;
+
+    font-size: 11px;
+    &:hover {
+      border-color: darken($gray-200, 10%);
+    }
+    .brand-logo {
+      width: 10px;
+      height: 10px;
+      margin-top: -2px;
+    }
+  }
+  p.small {
+    margin-top: 10px;
+
+    font-size: 10px;
+  }
+}
+
+.social-links {
+  li {
+    margin-bottom: 15px;
+  }
+}

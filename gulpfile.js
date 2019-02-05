@@ -1,16 +1,19 @@
-// Load plugins
-const gulp = require("gulp");
+// Assigning modules to local variables
+var gulp = require('gulp');
 
-gulp.task('vendor', function(cb) {
+// Copy Bootstrap core files from node_modules to vendor directory
+gulp.task('default', function() {
 
-  // Bootstrap SCSS
-  gulp.src([
-      './node_modules/bootstrap/scss/**/*',
-    ])
-    .pipe(gulp.dest('./assets/bootstrap/scss'))
+  gulp.src(['node_modules/bootstrap/dist/js/*.js'])
+    .pipe(gulp.dest('assets/vendor/bootstrap/js'))
 
-  cb();
+  gulp.src(['node_modules/bootstrap/scss/**/*'])
+    .pipe(gulp.dest('assets/vendor/bootstrap/scss'))
 
-});
+  gulp.src(['node_modules/jquery/dist/jquery.min.js'])
+    .pipe(gulp.dest('assets/vendor/jquery'))
 
-gulp.task("default", gulp.parallel('vendor'));
+  gulp.src(['node_modules/popper.js/dist/umd/popper.min.js', 'node_modules/popper.js/dist/umd/popper.min.js.map'])
+    .pipe(gulp.dest('assets/vendor/popper'))
+
+})

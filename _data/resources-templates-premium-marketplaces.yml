@@ -1,19 +1,19 @@
-- name:        Bootstrap Themes
-  link:        https://themes.getbootstrap.com/
-  description: Bootstrap Themes sells themes built by or reviewed by Bootstrap's creators. The Boostrap team reviews every new theme and update against a set of guidelines they wrote.
-
-- name:        WrapBootstrap
-  link:        https://wrapbootstrap.com/?ref=StartBootstrap
-  description: WrapBootstrap was one of the first third-party marketplaces dedicated to selling premium Bootstrap templates and themes.
-
 - name:        BootstrapBay
-  link:        https://bootstrapbay.sjv.io/N0yAv
-  description: BootstrapBay is a third-party marketplace for Bootstrap themes &amp; templates, operating since 2014.
+  link:        https://bootstrapbay.com/?ref=StartBootstrap
+  description: BootstrapBay is a marketplace for Bootstrap themes &amp; templates.
 
 - name:        ThemeForest
-  link:        https://1.envato.market/4m9dG
-  description: ThemeForest is a very popular marketplace for website themes. There are thousands of Bootstrap based products on ThemeForest to choose from.
+  link:        https://themeforest.net/tags/bootstrap?ref=BlackrockDigital
+  description: ThemeForest is a popular marketplace for website templates, where you can browse through thousands of Bootstrap templates.
 
 - name:        Creative Market
   link:        https://creativemarket.com/themes/bootstrap?u=StartBootstrap
-  description: Creative Market is another third-party vendor marketplace that offers a variety of general design assets. Creative Market has many Bootstrap built themes to choose from.
+  description: A collection of over 1000 premium, hand picked Bootstrap templates and themes on Creative Market, a design content marketplace.
+
+- name:        ThemeHunt
+  link:        https://themehunt.com/?ref=StartBootstrap
+  description: A marketplace of responsive HTML templates from a huge community of professional authors to create your amazing online presence.
+
+- name:        Gridgum
+  link:        https://gridgum.com/themes/category/bootstrap-themes/?affiliates=360
+  description: Gridgum is a marketplace for responsive themes and templates.

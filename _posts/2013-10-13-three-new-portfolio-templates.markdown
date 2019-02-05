@@ -13,9 +13,6 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
-
-redirect_from:
-  - /articles/2013/10/13/three-new-portfolio-templates/
 ---
 
 We’ve fulfilled a promise we made a while back with the addition of our three newest templates. ‘3 Col Portfolio,’ '4 Col Portfolio,’ and 'Portfolio Item’ have been released to round out our portfolio template series.
