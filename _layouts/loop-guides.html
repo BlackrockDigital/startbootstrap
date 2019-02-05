@@ -1,0 +1,188 @@
+---
+layout: default
+---
+
+{% include masthead/masthead-page.html %}
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-lg-8">
+
+      <!-- Show paginated posts for the specificed collection -->
+      {% for guide in site.guides %}
+
+      {% assign timeframe = 1209600 %}
+      {% assign post_in_seconds = guide.date | date: "%s" | plus: 0 %}
+      {% assign recent_posts = "now" | date: "%s" | minus: timeframe %}
+
+      {% if guide.categories contains 'beginner' %}
+      <div class="card border-0 shadow mb-5 d-block guide-preview">
+        <div class="card-body d-flex p-0 align-items-stretch">
+          <div class="p-4 bg-guide text-white d-flex align-items-center justify-content-center guide-preview-category">
+            <div class="text-center">
+              <i class="fal fa-smile-wink fa-3x"></i>
+              <div class="mt-2 small">
+                Beginner Friendly
+              </div>
+            </div>
+          </div>
+          <div class="p-4 d-flex align-items-center w-100">
+            <div class="w-100">
+              {% if post_in_seconds > recent_posts %}
+              <div class="badge badge-pill badge-warning mb-1">New!</div>
+              {% endif %}
+              <a href="{{ guide.src }}" class="d-block text-guide guide-preview-title">{{ guide.title }}</a>
+              <div class="mb-4">{{ guide.description }}</div>
+              <a href="{{ guide.src }}" class="btn btn-sm btn-guide">Learn More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if guide.categories contains 'development' %}
+      <div class="card border-0 shadow mb-5 d-block guide-preview">
+        <div class="card-body d-flex p-0 align-items-stretch">
+          <div class="p-4 bg-template text-white d-flex align-items-center justify-content-center guide-preview-category">
+            <div class="text-center">
+              <i class="fal fa-code fa-3x"></i>
+              <div class="mt-2 small">
+                Development &amp; Code
+              </div>
+            </div>
+          </div>
+          <div class="p-4 d-flex align-items-center w-100">
+            <div class="w-100">
+              {% if post_in_seconds > recent_posts %}
+              <div class="badge badge-pill badge-warning mb-1">New!</div>
+              {% endif %}
+              <a href="{{ guide.src }}" class="d-block text-template guide-preview-title">{{ guide.title }}</a>
+              <div class="mb-4">{{ guide.description }}</div>
+              <a href="{{ guide.src }}" class="btn btn-sm btn-template">Learn More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if guide.categories contains 'design' %}
+      <div class="card border-0 shadow mb-5 d-block guide-preview">
+        <div class="card-body d-flex p-0 align-items-stretch">
+          <div class="p-4 bg-theme text-white d-flex align-items-center justify-content-center guide-preview-category">
+            <div class="text-center">
+              <i class="fal fa-paint-brush-alt fa-3x"></i>
+              <div class="mt-2 small">
+                Design
+              </div>
+            </div>
+          </div>
+          <div class="p-4 d-flex align-items-center w-100">
+            <div class="w-100">
+              {% if post_in_seconds > recent_posts %}
+              <div class="badge badge-pill badge-warning mb-1">New!</div>
+              {% endif %}
+              <a href="{{ guide.src }}" class="d-block text-theme guide-preview-title">{{ guide.title }}</a>
+              <div class="mb-4">{{ guide.description }}</div>
+              <a href="{{ guide.src }}" class="btn btn-sm btn-theme">Learn More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% endfor %}
+
+      <div class="card border-0 shadow">
+        <div class="card-body">
+          <h5>Is there something you want to learn?</h5>
+          <p>
+            More guides are being written! In the meantime, if you have a question or topic you would like to see covered, please share the idea with Start Bootstrap on Twitter!
+          </p>
+          <a href="https://twitter.com/SBootstrap" class="btn btn-sm btn-twitter"><i class="fab fa-twitter"></i> Tweet @SBootstrap</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4">
+
+      <div class="card border-0 shadow mb-5">
+        <div class="card-body">
+          <h4 class="mb-1"><i class="fal fa-graduation-cap text-guide"></i> Learn to Code!</h4>
+          <p class="mb-0 small">Courses for beginners, experts, and everyone in-between from the best learning platforms on the web!</p>
+        </div>
+      </div>
+
+      <!-- Pluralsight Courses -->
+      <!-- Pending Approval -->
+      <!-- <div class="card-affiliate bg-pluralsight card border-0 shadow mb-5">
+        <div class="bg-dark card-affiliate-logo rounded shadow p-3">
+          <img src="/assets/img/affiliates/pluralsight-logo.png" alt="">
+        </div>
+        <div class="card-body">
+          <div class="card-affiliate-heading">Recommended Paths:</div>
+        </div>
+        <div class="list-group list-group-flush">
+          <a target="_blank" rel="nofollow" href="#" class="list-group-item"><i class="fab fa-fw mr-2 fa-html5"></i> <span>HTML</span></a>
+          <a target="_blank" rel="nofollow" href="#" class="list-group-item"><i class="fab fa-fw mr-2 fa-css3-alt"></i> <span>CSS</span></a>
+          <a target="_blank" rel="nofollow" href="#" class="list-group-item"><i class="fab fa-fw mr-2 fa-js"></i> <span>JavaScript</span></a>
+          <a target="_blank" rel="nofollow" href="#" class="list-group-item"><i class="fab fa-fw mr-2 fa-angular"></i> <span>Angular</span></a>
+          <a target="_blank" rel="nofollow" href="#" class="list-group-item"><i class="fab fa-fw mr-2 fa-react"></i> <span>React</span></a>
+          <a target="_blank" rel="nofollow" href="#" class="list-group-item"><i class="fab fa-fw mr-2 fa-node"></i> <span>Node.js</span></a>
+        </div>
+      </div> -->
+
+      <!-- Treehouse Courses -->
+      <!-- Pending Approval -->
+      <!-- <div class="card-affiliate card border-0 shadow mb-5">
+        <div class="bg-treehouse card-affiliate-logo rounded shadow p-3">
+          <img src="/assets/img/affiliates/treehouse-logo.png" alt="">
+        </div>
+        <div class="card-body">
+          <div class="card-affiliate-heading text-black-50">Recommended Programs:</div>
+        </div>
+        <div class="list-group list-group-flush">
+          <a target="_blank" rel="nofollow" href="#" class="list-group-item list-group-item-action">
+            <div class="treehouse-title">Front End Web Development</div>
+            <div class="treehouse-description mb-2">Learn how to build basic websites and user experiences with HTML, CSS, and JavaScript.</div>
+            <span class="badge bg-treehouse text-white badge-pill">Free Trial!</span>
+          </a>
+          <a target="_blank" rel="nofollow" href="#" class="list-group-item list-group-item-action">
+            <div class="treehouse-title">Full Stack JavaScript</div>
+            <div class="treehouse-description mb-2">Learn how to build interactive websites and powerful web applications with JavaScript, Development Tools, Databases, HTML, and more.</div>
+            <span class="badge bg-treehouse text-white badge-pill">Free Trial!</span>
+          </a>
+        </div>
+      </div> -->
+
+      <!-- Codeacademy Courses -->
+      <div class="card-affiliate card border-0 shadow mb-5">
+        <div class="bg-white card-affiliate-logo rounded shadow p-3">
+          <img src="/assets/img/affiliates/codeacademy-logo.svg" alt="Codeacademy Logo">
+        </div>
+        <div class="card-body">
+          <div class="card-affiliate-heading text-black-50">Recommended Courses:</div>
+        </div>
+        <div class="list-group list-group-flush">
+          <a target="_blank" rel="nofollow" href="https://www.codecademy.com/catalog/language/html-css" class="list-group-item list-group-item-action">
+            <div class="treehouse-title">HTML &amp; CSS</div>
+            <div class="treehouse-description mb-2">HTML is the foundation behind all web pages. It's used to add structure and form to text, images, and more. CSS is the language used to style HTML content.</div>
+          </a>
+          <a target="_blank" rel="nofollow" href="https://www.codecademy.com/catalog/language/javascript" class="list-group-item list-group-item-action">
+            <div class="treehouse-title">JavaScript</div>
+            <div class="treehouse-description mb-2">JavaScript is the programming language of the web. You can use it to add dynamic behavior, store information, and handle requests and responses on a website.</div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+{{ content }}

@@ -1,10 +1,10 @@
 # Start Bootstrap
 
-A library of open source, free to download, HTML starter templates for [Bootstrap](https://getbootstrap.com/)
+A library of open source, free to download, HTML starter templates for [Bootstrap](http://getbootstrap.com/)
 
 All of the templates and themes featured on Start Bootstrap are up to date for Bootstrap 4!
 
-For more information please visit the website at <https://startbootstrap.com>.
+For more information please visit the website at <http://startbootstrap.com>.
 
 ## Snippets
 

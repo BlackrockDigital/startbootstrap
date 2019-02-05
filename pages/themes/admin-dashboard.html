@@ -1,0 +1,74 @@
+---
+layout: default
+type: theme
+title: Bootstrap Admin Themes
+description: Free Bootstrap 4 admin themes that are ready to customize and publish - a perfect starting point for your next web application or admin dashboard
+permalink: /themes/admin-dashboard
+
+meta-title: Free Bootstrap 4 Admin Dashboard Themes
+meta-description: Free Bootstrap 4 admin themes that are open source, MIT licensed, and free to download and modify - a perfect starting point for web application projects and dashboards
+
+redirect_from:
+  - /template-categories/admin-dashboard/
+---
+
+{% include masthead/masthead-page.html %}
+
+<div class="container">
+
+  <!-- Show paginated posts for the specificed collection -->
+  <div class="row">
+    {% assign sorted = site.themes | sort: "rank" %}
+    {% for theme in sorted %}
+    {% if theme.categories contains 'admin' %}
+    <div class="col-md-4">
+      <div class="item-preview mb-5">
+        <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ theme.src }}">
+          <img class="img-fluid" src="{{ theme.img-src }}" alt="{{ theme.img-desc }}">
+        </a>
+        <div class="item-preview-title">{{ theme.title }}</div>
+        <div class="item-preview-description">{{ theme.bump }}</div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+<section class="after-loop">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-8 mb-5 mb-lg-0 mx-auto">
+        <a href="/templates/" class="after-loop-item card border-0 card-templates shadow-lg">
+          <div class="card-body d-flex align-items-end flex-column text-right">
+            <h4>Templates</h4>
+            <p class="w-75">Unstyled layouts to help you get started!</p>
+            <i class="fal fa-pencil-ruler"></i>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-8 mb-5 mb-lg-0 mx-auto">
+        <a href="/snippets/" class="after-loop-item card border-0 card-snippets shadow-lg">
+          <div class="card-body d-flex align-items-end flex-column text-right">
+            <h4>Snippets</h4>
+            <p class="w-75">Code snippets ready to copy and paste!</p>
+            <i class="fal fa-code"></i>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-8 mx-auto">
+        <a href="/guides/" class="after-loop-item card border-0 card-guides shadow-lg">
+          <div class="card-body d-flex align-items-end flex-column text-right">
+            <h4>Guides</h4>
+            <p class="w-75">Guides and tutorials to help you learn Bootstrap!</p>
+            <i class="fal fa-books"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

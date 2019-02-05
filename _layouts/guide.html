@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% include masthead/masthead-page.html %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-xl-8 col-lg-7">
+      <div class="guide">
+        {{ content }}
+      </div>
+      <div class="my-5">
+        {% include disqus.html %}
+      </div>
+    </div>
+  </div>
+</div>

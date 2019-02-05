@@ -13,6 +13,9 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
+
+redirect_from:
+  - /articles/2014/08/25/one-year-of-start-bootstrap/
 ---
 
 Hello Start Bootstrap users! It’s been a whole year since Start Bootstrap has launched, and it’s been a great one thanks to you. Over the course of the year, Start Bootstrap has become one of the most popular Bootstrap related websites on the web!
