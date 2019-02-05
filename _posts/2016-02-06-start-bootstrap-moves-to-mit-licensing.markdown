@@ -13,6 +13,9 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
+
+redirect_from:
+  - /articles/2016/02/06/start-bootstrap-moves-to-mit-licensing/
 ---
 
 All of the free templates and themes on Start Bootstrap are now licensed under the MIT license instead of Apache 2.0.

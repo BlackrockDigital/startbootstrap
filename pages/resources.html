@@ -1,0 +1,461 @@
+---
+layout: page
+title: Bootstrap Resources
+description: "A curated list of quality Bootstrap resources and Bootstrap plugins maintained by Start Bootstrap."
+meta-title: "Bootstrap Resources and Plugins List"
+meta-description: "A comprehensive list of the best Bootstrap resources and third party plugins from around the web - curated by Start Bootstrap"
+permalink: /bootstrap-resources/
+---
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-lg-3 resources-sidebar">
+      <div class="sticky-top">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#official">Official Bootstrap Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="resourcesThemes" href="#themes">Bootstrap Templates &amp; Themes</a>
+            <ul class="nav flex-column ml-3" id="resourcesThemesExpand">
+              <li class="nav-item">
+                <a class="nav-link" href="#premium-marketplaces">Premium Marketplaces</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#premium-vendors">Premium Vendors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#free-themes">Free Templates &amp; Themes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#showcases">Bootstrap Showcases</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#dev-tools">Bootstrap Development Tools</a>
+            <ul class="nav flex-column ml-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#integration">Framework Integrations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#visual-builders">Visual Builders</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#other-dev">Other Tools</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#plugins">Bootstrap Plugins</a>
+            <ul class="nav flex-column ml-3">
+              <li class="nav-item">
+                <a class="nav-link" href="#plugins-form">Form Plugins</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#plugins-table">Table Plugins</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#plugins-menu">Menu &amp; Navigation Plugins</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#plugins-notification">Notification Plugins</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#plugins-modal">Modal Plugins</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#plugins-buttons">Button Plugins</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#plugins-other">Other Plugins</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <a href="#submitResource" data-toggle="modal" class="ml-2 mt-4 btn btn-sm btn-primary border-0">Submit a Resource</a>
+      </div>
+    </div>
+
+    <div class="col-lg-9 resources">
+
+      <!-- Official Bootstrap Resources -->
+      <h2 class="page-header" id="official">Official Bootstrap Resources</h2>
+      <p class="lead">Projects created and maintained by the Bootstrap creators.</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-official %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="page-header" id="themes">Bootstrap Templates &amp; Themes</h2>
+      <hr>
+
+      <!-- Premium Bootstrap Themes & Templates -->
+      <h3 class="pt-4" id="premium-marketplaces">Premium Marketplaces</h3>
+      <p class="lead">Purchase Bootstrap themes, or sell your own custom designed Bootstrap themes on these third-party marketplace websites!</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-templates-premium-marketplaces %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Premium Bootstrap UI Kits -->
+      <h3 class="pt-4" id="premium-vendors">Premium Vendors</h3>
+      <p class="lead">Premium vendors only sell their own in-house created content, as opposed to marketplace websites that sell themes submitted by a variety of third-party users.</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-templates-premium-vendors %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Free Bootstrap Themes & Templates -->
+      <h3 class="pt-4" id="free-themes">Free Templates &amp; Themes</h3>
+      <p class="lead">Download free Bootstrap templates and themes on the following websites.</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-templates-free %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Bootstrap Showcases -->
+      <h3 class="pt-4" id="showcases">Bootstrap Showcases</h3>
+      <p class="lead">Get inspired for your next Bootstrap project by browsing examples of websites built with Bootstrap!</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-templates-showcases %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Bootstrap Development Tools -->
+      <h2 class="page-header" id="dev-tools">Bootstrap Development Tools</h2>
+      <hr>
+
+      <!-- Bootstrap Integrations -->
+      <h3 class="pt-4" id="integration">Framework Integrations</h3>
+      <p class="lead">Bootstrap components rewritten to integrate with the most popular development frameworks and CMS systems</p>
+
+      <h5 class="mt-4">JavaScript</h5>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-dev-framework-js %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <h5 class="mt-4">WordPress</h5>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-dev-framework-wordpress %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="pt-4" id="visual-builders">Visual Builders</h3>
+      <p class="lead">Visual builder applications for creating custom versions of Bootstrap and Bootstrap components.</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-dev-visual %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="pt-4" id="other-dev">Other Development Tools</h3>
+      <p class="lead">Helpful tools for developers to use while creating with Bootstrap.</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-dev-other %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="page-header" id="plugins">Bootstrap Plugins</h2>
+      <hr>
+
+      <!-- Form Plugins -->
+      <h3 class="pt-4" id="plugins-form">Form Plugins</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-plugins-form %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Table Plugins -->
+      <h3 class="pt-4" id="plugins-table">Table Plugins</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-plugins-table %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Navigation Plugins -->
+      <h3 class="pt-4" id="plugins-menu">Menu &amp; Navigation Plugins</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-plugins-nav %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Notification Plugins -->
+      <h3 class="pt-4" id="plugins-notification">Notification Plugins</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-plugins-notification %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Modal Plugins -->
+      <h3 class="pt-4" id="plugins-modal">Modal Plugins</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-plugins-modal %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Button Plugins -->
+      <h3 class="pt-4" id="plugins-buttons">Button Plugins</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-plugins-button %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Other Plugins -->
+      <h3 class="pt-4" id="plugins-other">Other Plugins</h3>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th class="resource-name">Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for resource in site.data.resources-plugins-other %}
+            <tr>
+              <td><a href="{{ resource.link }}" rel="nofollow" target="_blank">{{ resource.name }}</a></td>
+              <td>{{ resource.description }} {% if resource.supports contains 'bs2' %}<span class="badge badge-secondary">BS2</span>{% endif %} {% if resource.supports contains 'bs3' %}<span class="badge badge-secondary">BS3</span>{% endif %} {% if resource.supports contains 'bs4' %}<span class="badge badge-info">BS4</span>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Submit a Resource Modal -->
+<div class="modal fade" id="submitResource" tabindex="-1" role="dialog" aria-labelledby="submitResourceModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="myModalLabel">Submit a Resource</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>To submit a resource for review, please send an email to <strong><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a></strong> with the following information:</p>
+        <ul>
+          <li>The name/title of the resource</li>
+          <li>A URL for the resource</li>
+          <li>A brief description of the resource</li>
+        </ul>
+        <p>Each submission is reviewed for quality and relevance. If you have a quality resource that is relevant to Bootstrap then it will most likely be added to the resources page!</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -13,6 +13,9 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
+
+redirect_from:
+  - /articles/2013/09/22/structural-updates/
 ---
 
 As we stated in our last post, we have started rolling out some major structural changes to Start Bootstrap. We now have a templates section with a few different categories, which will allow us to scale up the project a bit better as we start adding more and more templates.

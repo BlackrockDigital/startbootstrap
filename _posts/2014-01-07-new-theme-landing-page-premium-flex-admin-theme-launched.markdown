@@ -13,6 +13,9 @@ author-desc:	"David Miller is the creator of Start Bootstrap. He is a front end 
 author-url:		http://davidmiller.io
 author-twitter:	davidmillerskt
 author-github:	davidtmiller
+
+redirect_from:
+  - /articles/2013/10/24/new-theme-landing-page-premium-flex-admin-theme-launched/
 ---
 
 Hi there Start Bootstrap users! We have some exciting updates to share with you today!

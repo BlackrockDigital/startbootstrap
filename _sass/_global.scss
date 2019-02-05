@@ -1,0 +1,180 @@
+body {
+  background: $gray-100;
+}
+
+hr.custom {
+  border-top: 0.25rem solid darken($gray-100, 3%);
+}
+
+p.large {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+  line-height: 1.55;
+}
+
+// Hide Overflow Utility
+.o-hidden {
+  overflow: hidden !important;
+}
+
+// Override Bootstrap's .rounded helper class
+.rounded {
+  border-radius: $border-radius-lg !important;
+}
+
+// XL Button
+.btn-xl {
+  font-size: 0.7rem;
+  padding: 1.25rem 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+// Nav Tabs
+.sb-nav-tabs-wrapper {
+  border-bottom: 0.25rem solid darken($gray-100, 3%);
+  .sb-nav-tabs {
+    .nav-item {
+      margin-bottom: -0.25rem;
+      .nav-link {
+        color: $gray-900;
+        border: none;
+        border-bottom: 0.25rem solid transparent;
+        &.active {
+          font-weight: 700;
+          background-color: transparent;
+          border: none;
+          &.nav-link-theme {
+            border-bottom: 0.25rem solid $red;
+          }
+          &.nav-link-template {
+            border-bottom: 0.25rem solid $blue;
+          }
+          &.nav-link-snippet {
+            border-bottom: 0.25rem solid $yellow;
+          }
+          &:hover {
+            color: $gray-900;
+          }
+        }
+        &:hover {
+          color: fade-out($gray-900, 0.4);
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+// Loop Sidebar
+.sidebar-image {
+  position: -webkit-sticky;
+  top: 0;
+  color: lighten($gray-900, 20%);
+  .blob {
+    position: absolute;
+    height: calc(100% - 6rem);
+    width: calc(100% - 1rem);
+    background-color: darken($gray-100, 3%);
+    top: 3.5rem;
+    left: 0.5rem;
+    z-index: -2;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  .title {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1;
+    .upper {
+      font-size: 1.5rem;
+      margin-bottom: 0.25rem;
+    }
+    .lower {
+      font-size: 1.1rem;
+      color: lighten($gray-900, 50%);
+    }
+  }
+}
+
+// Pagination
+
+.pagination {
+  .page-item {
+    margin: 0 0.5rem;
+    .page-link {
+      height: 3rem;
+      width: 3rem;
+      padding: 0;
+      border-radius: 100%;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @extend .shadow-sm;
+    }
+  }
+}
+
+// Loop Footer
+.after-loop {
+  padding: 3rem 0 5rem;
+  a.after-loop-item {
+    color: $white;
+    position: relative;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: 0.15s box-shadow ease, 0.15s transform ease;
+    -moz-transition: 0.15s box-shadow ease, 0.15s transform ease;
+    .card-body {
+      i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 4rem;
+        left: 1rem;
+        color: fade-out($white, 0.8);
+        transition: 0.15s all ease;
+      }
+      h4 {
+        font-weight: 700;
+      }
+      p {
+        color: fade-out($white, 0.3);
+        font-weight: 600;
+      }
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .card-themes {
+    background-color: $red;
+  }
+  .card-templates {
+    background-color: $blue;
+  }
+  .card-snippets {
+    background-color: $yellow;
+  }
+  .card-guides {
+    background-color: $green;
+  }
+  @include media-breakpoint-up(lg) {
+    a.after-loop-item:hover {
+      transform: translateY(-0.25rem);
+      box-shadow: $box-shadow-lg-hover !important;
+      .card-body {
+        i {
+          left: 1.5rem;
+          font-size: 3rem;
+        }
+      }
+    }
+    a.after-loop-item:active {
+      transform: none;
+      box-shadow: $box-shadow-lg !important;
+    }
+  }
+}

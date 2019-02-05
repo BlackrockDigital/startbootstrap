@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+{% include masthead/masthead-page.html %}
+
+<div class="container">
+
+  <!-- Show paginated posts for the specificed collection -->
+  <div class="row">
+    {% for post in paginator.posts %}
+
+    <div class="col-md-4">
+      <div class="item-preview mb-5">
+        <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ post.src }}">
+          <img class="img-fluid" src="{{ post.img-src }}" alt="{{ post.img-desc }}">
+        </a>
+        <div class="item-preview-title">{{ post.title }}</div>
+        <div class="item-preview-description">{{ post.bump }}</div>
+      </div>
+    </div>
+
+    {% endfor %}
+
+    <!-- Show paginator for the specificed collection -->
+    {% if paginator.total_pages > 1 %}
+    <div class="col-12">
+      <nav class="d-flex justify-content-center">
+        <ul class="pagination d-inline-flex mb-5">
+          <!-- {% if paginator.first_page %}
+              <li class="page-item">
+                <a class="page-link" href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                  <i class="fal fa-angle-double-left"></i>
+                </a>
+              </li>
+              {% endif %} -->
+
+          {% if paginator.previous_page %}
+          <li class="page-item">
+            <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+              <i class="fal fa-angle-left"></i>
+            </a>
+          </li>
+          {% else %}
+          <li class="page-item disabled">
+            <a class="page-link" href="#">
+              <i class="fal fa-angle-left"></i>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if paginator.page_trail %}
+          {% for trail in paginator.page_trail %}
+          <li {% if page.url==trail.path %}class="page-item active" {% else %}class="page-item" {% endif %}>
+            <a class="page-link" href="{{ trail.path | prepend: site.baseurl | replace: 'index.html', '' }}">{{ trail.num }}</a>
+          </li>
+          {% endfor %}
+          {% endif %}
+
+          {% if paginator.next_page %}
+          <li class="page-item">
+            <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+              <i class="fal fa-angle-right"></i>
+            </a>
+          </li>
+          {% else %}
+          <li class="page-item disabled">
+            <a class="page-link" href="#">
+              <i class="fal fa-angle-right"></i>
+            </a>
+          </li>
+          {% endif %}
+
+          <!-- {% if paginator.last_page %}
+              <li class="page-item">
+                <a class="page-link" href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                  <i class="fal fa-angle-double-right"></i>
+                </a>
+              </li>
+              {% endif %} -->
+        </ul>
+      </nav>
+    </div>
+    {% endif %}
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+{{ content }}

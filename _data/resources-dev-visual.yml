@@ -16,7 +16,7 @@
 - name:        Bootstrap Studio
   link:        https://bootstrapstudio.io/
   description: A powerful desktop app for creating responsive websites using the Bootstrap framework.
-  supports:    bs3
+  supports:    bs4
 
 - name:        Form Builder
   link:        https://bootsnipp.com/forms
