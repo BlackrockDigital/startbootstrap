@@ -18,7 +18,7 @@ features:
   - SCSS development environment with Gulp tasks
   - Dependency support using npm
   - Custom UI components and utility classes
-  - Chart demos from Chart.js
+  - Styled charts from Chart.js
   - Sortable, searchable, multi-page Bootstrap tables using the DataTables plugin
   - Custom pages including 404, and user pages (login, register, forgot password)
 
