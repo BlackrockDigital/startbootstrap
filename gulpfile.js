@@ -1,12 +1,16 @@
-const {
-  src,
-  dest
-} = require('gulp');
+// Load plugins
+const gulp = require("gulp");
 
-function defaultTask(cb) {
-  // return src('node_modules/bootstrap/**/*')
-  //   .pipe(dest('vendor'));
+gulp.task('vendor', function(cb) {
+
+  // Bootstrap SCSS
+  gulp.src([
+      './node_modules/bootstrap/scss/**/*',
+    ])
+    .pipe(gulp.dest('./assets/bootstrap/scss'))
+
   cb();
-}
 
-exports.default = defaultTask
+});
+
+gulp.task("default", gulp.parallel('vendor'));
