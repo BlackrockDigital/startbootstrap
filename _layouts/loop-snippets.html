@@ -8,7 +8,8 @@ layout: default
 
   <!-- Show paginated posts for the specificed collection -->
   <div class="row">
-    {% for snippet in site.snippets %}
+    {% assign snippets_sorted = site.snippets | sort: 'rank' %}
+    {% for snippet in snippets_sorted %}
 
     <div class="col-md-4">
       <div class="item-preview mb-5">
