@@ -39,11 +39,7 @@
   <!-- XML Feed -->
   {% feed_meta %}
 
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-
   {% include google-analytics.html %}
-
-  {% endif %}
 
   <!-- Facebook Open Graph Protocol -->
   <meta property="og:title" content="{{ page.meta-title }}">
