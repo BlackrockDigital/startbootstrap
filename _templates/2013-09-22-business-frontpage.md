@@ -33,5 +33,5 @@ redirect_from:
   - /templates/business-frontpage/
   - /templates/business-frontpage/index.html
   - /downloads/business-frontpage.zip/
-  - /template-overviews/business-frontpage
+  - /template-overviews/business-frontpage/
 ---

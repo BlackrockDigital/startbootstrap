@@ -31,5 +31,5 @@ redirect_from:
   - /templates/heroic-features/
   - /templates/heroic-features/index.html
   - /downloads/heroic-features.zip/
-  - /template-overviews/heroic-features
+  - /template-overviews/heroic-features/
 ---

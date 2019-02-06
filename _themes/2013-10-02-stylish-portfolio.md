@@ -42,7 +42,7 @@ redirect_from:
   - /stylish-projects/
   - /stylish-gallery/
   - /downloads/stylish-portfolio.zip/
-  - /template-overviews/stylish-portfolio
+  - /template-overviews/stylish-portfolio/
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/stylish-portfolio.png
 og-image: https://startbootstrap.com/assets/img/screenshots/themes/stylish-portfolio.png

@@ -30,5 +30,5 @@ redirect_from:
   - /scrolling-nav.php/
   - /templates/scrolling-nav/
   - /downloads/scrolling-nav.zip/
-  - /template-overviews/scrolling-nav
+  - /template-overviews/scrolling-nav/
 ---

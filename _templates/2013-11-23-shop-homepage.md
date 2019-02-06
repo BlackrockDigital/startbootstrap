@@ -31,5 +31,5 @@ redirect_from:
   - /templates/shop-homepage.html/
   - /templates/shop-homepage/
   - /downloads/shop-homepage.zip/
-  - /template-overviews/shop-homepage
+  - /template-overviews/shop-homepage/
 ---

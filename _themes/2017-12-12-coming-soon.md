@@ -25,7 +25,7 @@ features:
 long-description: "Coming Soon is a Bootstrap 4 coming soon theme perfect to act as your landing page for a project that is under construction! It features a video background image with a newsletter signup form!"
 
 redirect_from:
-  - /template-overviews/coming-soon
+  - /template-overviews/coming-soon/
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/coming-soon.png
 og-image: https://startbootstrap.com/assets/img/screenshots/themes/coming-soon.png

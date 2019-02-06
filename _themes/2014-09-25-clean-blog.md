@@ -31,7 +31,7 @@ redirect_from:
   - /clean-blog/
   - /downloads/clean-blog.zip/
   - /templates/clean-blog/
-  - /template-overviews/clean-blog
+  - /template-overviews/clean-blog/
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/clean-blog.png
 og-image: https://startbootstrap.com/assets/img/screenshots/themes/clean-blog.png

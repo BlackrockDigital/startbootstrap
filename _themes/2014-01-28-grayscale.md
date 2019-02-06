@@ -33,7 +33,7 @@ redirect_from:
   - /templates/grayscale.html/
   - /templates/grayscale/
   - /downloads/grayscale.zip/
-  - /template-overviews/grayscale
+  - /template-overviews/grayscale/
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/grayscale.png
 og-image: https://startbootstrap.com/assets/img/screenshots/themes/grayscale.png

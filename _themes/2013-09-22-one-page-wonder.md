@@ -33,7 +33,7 @@ redirect_from:
   - /templates/one-page-wonder/
   - /templates/one-page-wonder/index.html
   - /downloads/one-page-wonder.zip/
-  - /template-overviews/one-page-wonder
+  - /template-overviews/one-page-wonder/
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/one-page-wonder.png
 og-image: https://startbootstrap.com/assets/img/screenshots/themes/one-page-wonder.png

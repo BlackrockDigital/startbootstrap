@@ -33,5 +33,5 @@ redirect_from:
   - /templates/full-width-pics/
   - /templates/full-width-pics/index.html
   - /downloads/full-width-pics.zip/
-  - /template-overviews/full-width-pics
+  - /template-overviews/full-width-pics/
 ---
