@@ -33,5 +33,5 @@ redirect_from:
   - /templates/simple-sidebar/index.html
   - /templates/simple-sidebar.html/
   - /downloads/simple-sidebar.zip/
-  - /template-overviews/simple-sidebar
+  - /template-overviews/simple-sidebar/
 ---

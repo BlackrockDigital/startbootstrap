@@ -51,7 +51,7 @@ redirect_from:
   - /templates/modern-business/contact.php/
   - /modern-business/about.html/
   - /downloads/modern-business.zip/
-  - /template-overviews/modern-business
+  - /template-overviews/modern-business/
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/modern-business.png
 ---

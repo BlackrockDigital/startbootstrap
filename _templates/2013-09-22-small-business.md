@@ -33,5 +33,5 @@ redirect_from:
   - /templates/small-business/
   - /templates/small-business/index.html
   - /downloads/small-business.zip/
-  - /template-overviews/small-business
+  - /template-overviews/small-business/
 ---

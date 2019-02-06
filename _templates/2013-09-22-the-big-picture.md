@@ -32,5 +32,5 @@ redirect_from:
   - /templates/the-big-picture/
   - /templates/the-big-picture/index.html
   - /downloads/the-big-picture.zip/
-  - /template-overviews/the-big-picture
+  - /template-overviews/the-big-picture/
 ---

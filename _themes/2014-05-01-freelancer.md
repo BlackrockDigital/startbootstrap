@@ -40,7 +40,7 @@ redirect_from:
   - /templates/freelancer/
   - /templates/freelance/
   - /downloads/freelancer.zip/
-  - /template-overviews/freelancer
+  - /template-overviews/freelancer/
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/freelancer.png
 og-image: https://startbootstrap.com/assets/img/screenshots/themes/freelancer.png
