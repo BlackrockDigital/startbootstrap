@@ -45,4 +45,5 @@ redirect_from:
   - /template-overviews/stylish-portfolio
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/stylish-portfolio.png
+og-image: https://startbootstrap.com/assets/img/screenshots/themes/stylish-portfolio.png
 ---

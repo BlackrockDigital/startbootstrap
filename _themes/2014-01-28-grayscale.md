@@ -36,4 +36,5 @@ redirect_from:
   - /template-overviews/grayscale
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/grayscale.png
+og-image: https://startbootstrap.com/assets/img/screenshots/themes/grayscale.png
 ---
