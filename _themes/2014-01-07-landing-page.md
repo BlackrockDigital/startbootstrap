@@ -34,4 +34,5 @@ redirect_from:
   - /template-overviews/landing-page
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/landing-page.png
+og-image: https://startbootstrap.com/assets/img/screenshots/themes/landing-page.png
 ---

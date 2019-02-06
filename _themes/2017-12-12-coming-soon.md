@@ -28,4 +28,5 @@ redirect_from:
   - /template-overviews/coming-soon
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/coming-soon.png
+og-image: https://startbootstrap.com/assets/img/screenshots/themes/coming-soon.png
 ---

@@ -34,4 +34,5 @@ redirect_from:
   - /template-overviews/clean-blog
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/clean-blog.png
+og-image: https://startbootstrap.com/assets/img/screenshots/themes/clean-blog.png
 ---

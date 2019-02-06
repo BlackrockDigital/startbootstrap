@@ -36,4 +36,5 @@ redirect_from:
   - /template-overviews/one-page-wonder
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/one-page-wonder.png
+og-image: https://startbootstrap.com/assets/img/screenshots/themes/one-page-wonder.png
 ---

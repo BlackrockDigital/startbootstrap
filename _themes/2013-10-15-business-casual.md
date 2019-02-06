@@ -37,4 +37,5 @@ redirect_from:
   - /template-overviews/business-casual
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/business-casual.png
+og-image: https://startbootstrap.com/assets/img/screenshots/themes/business-casual.png
 ---
