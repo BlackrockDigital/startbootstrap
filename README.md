@@ -9,7 +9,7 @@ For more information please visit the website at <https://startbootstrap.com>.
 -   [**Agency**](http://startbootstrap.com/themes/agency/) - A one page agency theme.
 -   [**Business Casual**](http://startbootstrap.com/themes/business-casual/) - A fully developed business website.
 -   [**Clean Blog**](http://startbootstrap.com/themes/clean-blog/) - A clean blog theme.
--   [**Clean Blog - Jekyll**](http://startbootstrap.com/themes/clean-blog/) - A clean blog theme.
+-   [**Clean Blog - Jekyll**](http://startbootstrap.com/themes/clean-blog-jekyll/) - A clean blog theme.
 -   [**Coming Soon**](http://startbootstrap.com/themes/coming-soon/) - A coming soon theme.
 -   [**Creative**](http://startbootstrap.com/themes/creative/) - A one page creative theme.
 -   [**Freelancer**](http://startbootstrap.com/themes/freelancer/) - A one page freelancer theme.
