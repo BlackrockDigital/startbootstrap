@@ -1,57 +1,42 @@
 # Start Bootstrap
 
-A library of open source, free to download, HTML starter templates for [Bootstrap](http://getbootstrap.com/)
+A library of open source, free to download, MIT licensed website themes and template based on [Bootstrap](http://getbootstrap.com/). All of the templates and themes featured on Start Bootstrap are up to date for Bootstrap 4!
 
-All of the templates and themes featured on Start Bootstrap are up to date for Bootstrap 4!
+For more information please visit the website at <https://startbootstrap.com>.
 
-For more information please visit the website at <http://startbootstrap.com>.
+## Themes
 
-## Snippets
+-   [**Agency**](http://startbootstrap.com/themes/agency/) - A one page agency theme.
+-   [**Business Casual**](http://startbootstrap.com/themes/business-casual/) - A fully developed business website.
+-   [**Clean Blog**](http://startbootstrap.com/themes/clean-blog/) - A clean blog theme.
+-   [**Clean Blog - Jekyll**](http://startbootstrap.com/themes/clean-blog/) - A clean blog theme.
+-   [**Coming Soon**](http://startbootstrap.com/themes/coming-soon/) - A coming soon theme.
+-   [**Creative**](http://startbootstrap.com/themes/creative/) - A one page creative theme.
+-   [**Freelancer**](http://startbootstrap.com/themes/freelancer/) - A one page freelancer theme.
+-   [**Grayscale**](http://startbootstrap.com/themes/grayscale/) - A multipurpose one page theme.
+-   [**Landing Page**](http://startbootstrap.com/themes/landing-page/) - A clean, functional landing page theme.
+-   [**New Age**](http://startbootstrap.com/themes/new-age/) - An app landing page theme.
+-   [**One Page Wonder**](http://startbootstrap.com/themes/one-page-wonder/) - A simple one page website template.
+-   [**Resume**](http://startbootstrap.com/themes/resume/) - A Bootstrap resume theme.
+-   [**SB Admin 2**](http://startbootstrap.com/themes/sb-admin-2/) - A free Bootstrap admin theme.
+-   [**Stylish Portfolio**](http://startbootstrap.com/themes/stylish-portfolio/) - A stylish Bootstrap portfolio theme.
 
-Start Bootstrap now features a library of [**Bootstrap Snippets**](https://startbootstrap.com/snippets/) ready to copy/paste into your projects!
+## Templates
 
-## Current Templates and Themes
-
-There are currently 38 themes and templates available on Start Bootstrap:
-
--   [**Coming Soon**](http://startbootstrap.com/template-overviews/coming-soon/) - A coming soon theme.
--   [**Resume**](http://startbootstrap.com/template-overviews/resume/) - A Bootstrap resume theme.
--   [**New Age**](http://startbootstrap.com/template-overviews/new-age/) - An app landing page theme.
--   [**Creative**](http://startbootstrap.com/template-overviews/creative/) - A one page creative theme.
--   [**Clean Blog**](http://startbootstrap.com/template-overviews/clean-blog/) - A clean blog theme.
--   [**Agency**](http://startbootstrap.com/template-overviews/agency/) - A one page agency theme.
--   [**Freelancer**](http://startbootstrap.com/template-overviews/freelancer/) - A one page freelancer theme.
--   [**Scrolling Nav**](http://startbootstrap.com/template-overviews/scrolling-nav/) - A scrolling navigation template.
--   [**Grayscale**](http://startbootstrap.com/template-overviews/grayscale/) - A multipurpose one page theme.
--   [**SB Admin 2**](http://startbootstrap.com/template-overviews/sb-admin-2/) - A free Bootstrap admin theme.
--   [**Landing Page**](http://startbootstrap.com/template-overviews/landing-page/) - A clean, functional landing page theme.
--   [**Shop Item**](http://startbootstrap.com/template-overviews/shop-item/) - An online store item template.
--   [**Shop Homepage**](http://startbootstrap.com/template-overviews/shop-homepage/) - An online store homepage template.
--   [**Business Casual**](http://startbootstrap.com/template-overviews/business-casual/) - A fully developed business website.
--   [**SB Admin**](http://startbootstrap.com/template-overviews/sb-admin/) - A free Bootstrap admin template.
--   [**Portfolio Item**](http://startbootstrap.com/template-overviews/portfolio-item/) - A portfolio item page template.
--   [**Stylish Portfolio**](http://startbootstrap.com/template-overviews/stylish-portfolio/) - A stylish Bootstrap portfolio theme.
--   [**Simple Sidebar**](http://startbootstrap.com/template-overviews/simple-sidebar/) - A Bootstrap sidebar template.
--   [**Modern Business**](http://startbootstrap.com/template-overviews/modern-business/) - A multipurpose website template.
--   [**4 Col Portfolio**](http://startbootstrap.com/template-overviews/4-col-portfolio/) - A four column portfolio template.
--   [**3 Col Portfolio**](http://startbootstrap.com/template-overviews/3-col-portfolio/) - A three column portfolio template.
--   [**2 Col Portfolio**](http://startbootstrap.com/template-overviews/2-col-portfolio/) - A two column portfolio template.
--   [**1 Col Portfolio**](http://startbootstrap.com/template-overviews/1-col-portfolio/) - A one column portfolio template.
--   [**Full Width Pics**](http://startbootstrap.com/template-overviews/full-width-pics/) - Full width picture backgrounds.
--   [**Thumbnail Gallery**](http://startbootstrap.com/template-overviews/thumbnail-gallery/) - A simple image gallery template.
--   [**The Big Picture**](http://startbootstrap.com/template-overviews/the-big-picture/) - A starter portfolio template.
--   [**Small Business**](http://startbootstrap.com/template-overviews/small-business/) - A simple business Bootstrap template.
--   [**Round About**](http://startbootstrap.com/template-overviews/round-about/) - A Bootstrap about page template.
--   [**One Page Wonder**](http://startbootstrap.com/template-overviews/one-page-wonder/) - A simple one page website template.
--   [**Logo Nav**](http://startbootstrap.com/template-overviews/logo-nav/) - A menu bar with a logo header.
--   [**Heroic Features**](http://startbootstrap.com/template-overviews/heroic-features/) - A basic Bootstrap home page template.
--   [**Half Slider**](http://startbootstrap.com/template-overviews/half-slider/) - A half page image slider template.
--   [**Full Slider**](http://startbootstrap.com/template-overviews/full-slider/) - A full page image slider template.
--   [**Full**](http://startbootstrap.com/template-overviews/full/) - Full page image background template.
--   [**Business Frontpage**](http://startbootstrap.com/template-overviews/business-frontpage/) - A business home page template.
--   [**Blog Post**](http://startbootstrap.com/template-overviews/blog-post/) - A blog post starter template.
--   [**Blog Home**](http://startbootstrap.com/template-overviews/blog-home/) - A blog home page template.
--   [**Bare**](http://startbootstrap.com/template-overviews/bare/) - A Bootstrap HTML starter template.
+-   [**Bare**](http://startbootstrap.com/templates/bare/) - A Bootstrap HTML starter template.
+-   [**Blog Home**](http://startbootstrap.com/templates/blog-home/) - A blog home page template.
+-   [**Blog Post**](http://startbootstrap.com/templates/blog-post/) - A blog post starter template.
+-   [**Business Frontpage**](http://startbootstrap.com/templates/business-frontpage/) - A business home page template.
+-   [**Full Width Pics**](http://startbootstrap.com/templates/full-width-pics/) - Full width picture backgrounds.
+-   [**Heroic Features**](http://startbootstrap.com/templates/heroic-features/) - A basic Bootstrap home page template.
+-   [**Modern Business**](http://startbootstrap.com/templates/modern-business/) - A multipurpose website template.
+-   [**SB Admin**](http://startbootstrap.com/templates/sb-admin/) - A free Bootstrap admin template.
+-   [**Scrolling Nav**](http://startbootstrap.com/templates/scrolling-nav/) - A scrolling navigation template.
+-   [**Shop Homepage**](http://startbootstrap.com/templates/shop-homepage/) - An online store homepage template.
+-   [**Shop Item**](http://startbootstrap.com/templates/shop-item/) - An online store item template.
+-   [**Simple Sidebar**](http://startbootstrap.com/templates/simple-sidebar/) - A Bootstrap sidebar template.
+-   [**Small Business**](http://startbootstrap.com/templates/small-business/) - A simple business Bootstrap template.
+-   [**The Big Picture**](http://startbootstrap.com/templates/the-big-picture/) - A starter portfolio template.
 
 ## Copyright and License
 
