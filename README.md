@@ -40,4 +40,4 @@ For more information please visit the website at <https://startbootstrap.com>.
 
 ## Copyright and License
 
-Code and documentation copyright [Blackrock Digital LLC](http://blackrockdigital.io/). Code released under the MIT license. Docs released under Creative Commons.
+Start Bootstrap website licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Free themes and templates on Start Bootstrap released under MIT license.
