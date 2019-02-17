@@ -11,9 +11,9 @@ layout:           overview-theme
 type:             theme
 rank: 13
 
-version:          5.0.2
-bootstrap:        4.2.1
-updated:          2019-01-31
+version:          5.0.3
+bootstrap:        4.3.1
+updated:          2019-02-17
 
 meta-title:       "Landing Page - Free Bootstrap 4 Landing Page Theme"
 meta-description: "A responsive Bootstrap 4 landing page theme by Start Bootstrap. All Start Bootstrap templates are free to download and open source."
