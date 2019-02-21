@@ -5,7 +5,10 @@ date:			2018-06-12
 category:		[News]
 description:	"Start Bootstrap now has a public Slack workspace! Get your invite and join to discuss your projects, troubleshoot problems with the community, and network with other Bootstrap developers!"
 tags:			update
+
 meta-title:		"Start Bootstrap Slack Channel"
+meta-description:	"Start Bootstrap now has a public Slack workspace! Get your invite and join to discuss your projects, troubleshoot problems with the community, and network with other Bootstrap developers!"
+
 preview-image: "/assets/img/blog/posts/start-bootstrap-slack/slack-app-icon.png"
 
 author:			"David Miller"

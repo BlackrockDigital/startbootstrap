@@ -5,7 +5,9 @@ date:			2019-02-21
 category:		[News]
 description:	"Our free Bootstrap themes lineup for 2019. Our 13 best Bootstrap themes that are being updated for 2019!"
 tags:			update
+
 meta-title:		"Free Bootstrap Themes - 2019 Lineup and Updates"
+meta-description:	"Our free Bootstrap themes lineup for 2019. Our 13 best Bootstrap themes that are being updated for 2019!"
 
 author:			"David Miller"
 author-slug:	david-miller

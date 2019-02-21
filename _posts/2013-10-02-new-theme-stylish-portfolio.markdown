@@ -4,8 +4,10 @@ title:			"New Theme - Stylish Portfolio"
 date:			2013-10-02
 category:		News
 description:	"We’ve just launched a new template to add to the Start Bootstrap mix..."
-tags:			jekyll update
+tags:		 update
+
 meta-title:		"New Theme - Stylish Portfolio"
+meta-description:	"We’ve just launched a new template to add to the Start Bootstrap mix..."
 
 author:			"David Miller"
 author-slug:	david-miller

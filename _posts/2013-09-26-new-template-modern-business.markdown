@@ -5,7 +5,9 @@ date:			2013-09-26
 category:		News
 description:	"I’ve finally gotten around to adding a full website template to the mix..."
 tags:			update
+
 meta-title:		"New Template - Modern Business"
+meta-description:	"I’ve finally gotten around to adding a full website template to the mix..."
 
 author:			"David Miller"
 author-slug:	david-miller

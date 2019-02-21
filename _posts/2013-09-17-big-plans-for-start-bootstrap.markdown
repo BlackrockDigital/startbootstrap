@@ -5,7 +5,9 @@ date:			2013-09-17
 category:		News
 description:	"Well it’s been over a month since Start Bootstrap was founded..."
 tags:			update
+
 meta-title:		"Big Plans for Start Bootstrap"
+meta-description:	"Well it’s been over a month since Start Bootstrap was founded..."
 
 author:			"David Miller"
 author-slug:	david-miller

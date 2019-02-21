@@ -5,7 +5,9 @@ date:			2013-09-22
 category:		News
 description:	"As we stated in our last post, we have started rolling out some major structural changes..."
 tags:			update
+
 meta-title:		"Structural Updates"
+meta-description:	"As we stated in our last post, we have started rolling out some major structural changes..."
 
 author:			"David Miller"
 author-slug:	david-miller

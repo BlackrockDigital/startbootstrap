@@ -5,7 +5,9 @@ date:			2016-02-06
 category:		News
 description:	"All of the free templates and themes on Start Bootstrap are now licensed under the MIT license..."
 tags:			update
+
 meta-title:		"Start Bootstrap Moves to MIT Licensing"
+meta-description:	"All of the free templates and themes on Start Bootstrap are now licensed under the MIT license..."
 
 author:			"David Miller"
 author-slug:	david-miller

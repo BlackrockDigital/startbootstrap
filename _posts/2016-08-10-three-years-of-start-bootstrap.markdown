@@ -5,7 +5,9 @@ date:			2016-08-10
 category:		[News]
 description:	"Start Bootstrap has a new design, and will be offering new themes, code tutorials, and design guides in the coming months!"
 tags:			update
+
 meta-title:		"Three Years of Start Bootstrap!"
+meta-description:	"Start Bootstrap has a new design, and will be offering new themes, code tutorials, and design guides in the coming months!"
 
 author:			"David Miller"
 author-slug:	david-miller

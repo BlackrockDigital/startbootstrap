@@ -5,7 +5,9 @@ date:			2013-10-13
 category:		News
 description:	"We’ve fulfilled a promise we made a while back..."
 tags:			update
+
 meta-title:		"Three New Portfolio Templates"
+meta-description:	"We’ve fulfilled a promise we made a while back..."
 
 author:			"David Miller"
 author-slug:	david-miller

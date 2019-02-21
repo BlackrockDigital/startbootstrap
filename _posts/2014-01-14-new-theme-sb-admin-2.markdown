@@ -5,7 +5,9 @@ date:			2014-01-14
 category:		News
 description:	"The original ‘SB Admin’ has gotten a lot of attention..."
 tags:			update
+
 meta-title:		"New Theme - SB Admin 2"
+meta-description:	"The original ‘SB Admin’ has gotten a lot of attention..."
 
 author:			"David Miller"
 author-slug:	david-miller
