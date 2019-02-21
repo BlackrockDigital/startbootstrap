@@ -5,7 +5,9 @@ date:			2013-10-24
 category:		News
 description:	"We’ve launched two new online store templates as our newest additions..."
 tags:			update
+
 meta-title:		"New eCommerce Templates"
+meta-description:	"We’ve launched two new online store templates as our newest additions..."
 
 author:			"David Miller"
 author-slug:	david-miller

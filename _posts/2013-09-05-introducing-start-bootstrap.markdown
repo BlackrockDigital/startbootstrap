@@ -5,7 +5,9 @@ date:			2013-09-05
 category:		News
 description:	"Welcome! Thank you for visiting Start Bootstrap!"
 tags:			update
+
 meta-title:		"Introducing Start Bootstrap"
+meta-description:	"Welcome! Thank you for visiting Start Bootstrap!"
 
 author:			"David Miller"
 author-slug:	david-miller

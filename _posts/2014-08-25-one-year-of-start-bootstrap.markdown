@@ -3,9 +3,11 @@ layout:			post
 title:			"One Year of Start Bootstrap!"
 date:			2014-08-25
 category:		News
-description:	"ello Start Bootstrap users! It’s been a whole year since Start Bootstrap has launched..."
+description:	"Hello Start Bootstrap users! It’s been a whole year since Start Bootstrap has launched..."
 tags:			update
+
 meta-title:		"One Year of Start Bootstrap!"
+meta-description:	"Hello Start Bootstrap users! It’s been a whole year since Start Bootstrap has launched..."
 
 author:			"David Miller"
 author-slug:	david-miller

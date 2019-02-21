@@ -5,7 +5,9 @@ date:			2013-10-24
 category:		News
 description:	"First off, we would like to introduce you to the newest template..."
 tags:			update
+
 meta-title:		"New Theme - Landing Page and Premium Flex Admin Theme Launched!"
+meta-description:	"First off, we would like to introduce you to the newest template..."
 
 author:			"David Miller"
 author-slug:	david-miller

@@ -5,7 +5,9 @@ date:			2014-10-29
 category:		News
 description:	"By popular demand I have finally pulled all of the templates on Start Bootstrap into their own personal GitHub repository..."
 tags:			update
+
 meta-title:		"Start Bootstrap Templates Now Have Their Own Repos"
+meta-description:	"By popular demand I have finally pulled all of the templates on Start Bootstrap into their own personal GitHub repository..."
 
 author:			"David Miller"
 author-slug:	david-miller

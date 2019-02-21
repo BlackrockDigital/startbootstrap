@@ -5,7 +5,9 @@ date:			2014-09-25
 category:		News
 description:	"A new theme is up on Start Bootstrap!"
 tags:			update
+
 meta-title:		"New Theme - Clean Blog"
+meta-description:	"A new theme is up on Start Bootstrap!"
 
 author:			"David Miller"
 author-slug:	david-miller

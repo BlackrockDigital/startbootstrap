@@ -5,7 +5,9 @@ date:			2013-09-06
 category:		News
 description:	"Hi Start Bootstrap users! I just added two new templates to the mix..."
 tags:			update
+
 meta-title:		"Two New Templates - Small Business and Half Slider"
+meta-description:	"Hi Start Bootstrap users! I just added two new templates to the mix..."
 
 author:			"David Miller"
 author-slug:	david-miller

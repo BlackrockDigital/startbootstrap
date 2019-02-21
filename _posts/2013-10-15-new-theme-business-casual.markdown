@@ -5,7 +5,9 @@ date:			2013-10-15
 category:		News
 description:	"Please welcome the newest addition to the Start Bootstrap library..."
 tags:			update
+
 meta-title:		"New Theme - Business Casual"
+meta-description:	"Please welcome the newest addition to the Start Bootstrap library..."
 
 author:			"David Miller"
 author-slug:	david-miller

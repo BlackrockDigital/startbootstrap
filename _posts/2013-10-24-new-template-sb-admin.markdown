@@ -5,7 +5,9 @@ date:			2013-10-24
 category:		News
 description:	"It’s here! SB Admin has officially launched..."
 tags:			update
+
 meta-title:		"New Template - SB Admin"
+meta-description:	"It’s here! SB Admin has officially launched..."
 
 author:			"David Miller"
 author-slug:	david-miller
