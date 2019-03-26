@@ -11,9 +11,9 @@ layout:           overview-theme
 type:             theme
 rank: 10
 
-version:          5.0.3
+version:          5.0.4
 bootstrap:        4.3.1
-updated:          2019-02-17
+updated:          2019-03-26
 
 meta-title:       "Coming Soon - Free Coming Soon Bootstrap Template"
 meta-description: "A free coming soon page template for Bootstrap with a newsletter signup and a video background."
