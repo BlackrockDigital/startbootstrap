@@ -4,7 +4,7 @@ slug:              half-slider
 src:               /snippets/half-slider
 description:	    "A Bootstrap 4 header with a half page height image slider, navigation, and page content"
 bump:			        "Bootstrap 4 Half Page Height Image Slider Header"
-img-src:	    	  /assets/img/screenshots/snippets/half-slider.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/half-slider.jpg
 img-desc:		      "A Bootstrap 4 header with a half page height image slider"
 layout:		    	  overview-snippet
 type:             snippet

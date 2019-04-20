@@ -4,7 +4,7 @@ slug:              portfolio-three-column
 src:               /snippets/portfolio-three-column
 description:	    "A basic portfolio page layout snippet with three content columns and equal card heights built with Bootstrap 4"
 bump:			        "Three Column Portfolio Layout Example"
-img-src:	    	  /assets/img/screenshots/snippets/portfolio-three-column.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/portfolio-three-column.jpg
 img-desc:		      "A basic portfolio page layout snippet with three content columns and equal card heights built with Bootstrap 4"
 layout:		    	  overview-snippet
 type:             snippet

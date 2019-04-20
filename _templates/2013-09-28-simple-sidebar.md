@@ -5,7 +5,8 @@ src:              /templates/simple-sidebar
 categories:       navigation
 description:      "A toggleable, simple sidebar template for Bootstrap 4 featuring a responsive sidebar navigation menu and a top navigation bar"
 bump:             "A Bootstrap sidebar template"
-img-src:          /assets/img/screenshots/templates/simple-sidebar.png
+img-thumbnail:    /assets/img/screenshots/templates/simple-sidebar.jpg
+img-full:         /assets/img/screenshots/templates/simple-sidebar.png
 img-desc:         "Bootstrap Sidebar Navigation Template"
 layout:		    	  overview-theme
 type:             template

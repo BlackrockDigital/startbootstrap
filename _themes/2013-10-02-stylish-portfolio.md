@@ -5,7 +5,8 @@ src:              /themes/stylish-portfolio
 categories:       portfolio landing-page
 description:      "A stylish, one page, Bootstrap portfolio theme featuring off canvas navigation and smooth page scrolling"
 bump:             "A stylish Bootstrap portfolio theme"
-img-src:          /assets/img/screenshots/themes/stylish-portfolio.png
+img-thumbnail:    /assets/img/screenshots/themes/stylish-portfolio.jpg
+img-full:         /assets/img/screenshots/themes/stylish-portfolio.png
 img-desc:         "Free Bootstrap Portfolio Theme - Stylish Portfolio"
 layout:           overview-theme
 type:             theme

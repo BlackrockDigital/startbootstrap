@@ -5,7 +5,8 @@ src:              /themes/grayscale
 categories:       landing-page portfolio
 description:      "A free, multipurpose, one page Bootstrap theme featuring a dark color scheme and smooth scrolling animations"
 bump:             "A multipurpose one page theme"
-img-src:          /assets/img/screenshots/themes/grayscale.png
+img-thumbnail:    /assets/img/screenshots/themes/grayscale.jpg
+img-full:         /assets/img/screenshots/themes/grayscale.png
 img-desc:         "Grayscale ong page Bootstrap template"
 layout:           overview-theme
 type:             theme

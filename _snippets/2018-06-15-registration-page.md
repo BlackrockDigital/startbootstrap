@@ -4,7 +4,7 @@ slug:              registration-page
 src:               /snippets/registration-page
 description:	    "A responsive Bootstrap 4 registration page with floating form labels and social sign up buttons"
 bump:			        "Registration Page with Floating Form Labels and Splash Image"
-img-src:	    	  /assets/img/screenshots/snippets/registration-page.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/registration-page.jpg
 img-desc:		      "Bootstrap 4 Login Screen with CSS Only Floating Form Labels and Social Logins"
 layout:		    	  overview-snippet
 type:             snippet

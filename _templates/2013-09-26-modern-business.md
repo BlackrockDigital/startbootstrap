@@ -5,7 +5,8 @@ src:              /templates/modern-business
 categories:       general
 description:      "A full website template framework for building Bootstrap 4 websites with 17 pages and a working contact form"
 bump:             "A multipurpose website template"
-img-src:          /assets/img/screenshots/templates/modern-business.png
+img-thumbnail:    /assets/img/screenshots/templates/modern-business.jpg
+img-full:         /assets/img/screenshots/templates/modern-business.png
 img-desc:         "Free Full Website Bootstrap 4 Template"
 layout:           overview-theme
 type:             template

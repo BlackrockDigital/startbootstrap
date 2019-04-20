@@ -4,7 +4,7 @@ slug:              about-team
 src:               /snippets/about-team
 description:	    "A Bootstrap 4 example layout with an about section and team members"
 bump:			        "About and Team Member Example Section Layout"
-img-src:	    	  /assets/img/screenshots/snippets/about-team.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/about-team.jpg
 img-desc:		      "A Bootstrap 4 example layout with an about section and team members"
 layout:		    	  overview-snippet
 type:             snippet

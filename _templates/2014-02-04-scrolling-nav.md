@@ -5,7 +5,8 @@ src:              /templates/scrolling-nav
 categories:       landing-page navigation general
 description:      "A basic, unstyled Bootstrap page layout for creating smooth scrolling, one page websites"
 bump:             "A scrolling navigation template"
-img-src:          /assets/img/screenshots/templates/scrolling-nav.png
+img-thumbnail:    /assets/img/screenshots/templates/scrolling-nav.jpg
+img-full:         /assets/img/screenshots/templates/scrolling-nav.png
 img-desc:         "Bootstrap Smooth Scrolling Navigation jQuery"
 layout:		    	  overview-theme
 type:             template

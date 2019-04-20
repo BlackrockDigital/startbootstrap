@@ -5,7 +5,8 @@ src:              /themes/one-page-wonder
 categories:       landing-page
 description:      "A simple, one page website template for quickly building one page websites using Bootstrap 4"
 bump:             "A simple one page website template"
-img-src:          /assets/img/screenshots/themes/one-page-wonder.png
+img-thumbnail:    /assets/img/screenshots/themes/one-page-wonder.jpg
+img-full:         /assets/img/screenshots/themes/one-page-wonder.png
 img-desc:         "Free Bootstrap One Page Website Template"
 layout:           overview-theme
 type:             theme
