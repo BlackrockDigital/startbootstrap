@@ -31,7 +31,7 @@ layout: default
               <div class="col-md-6">
                 <div class="item-preview mb-5">
                   <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ theme.src }}">
-                    <img class="img-fluid" src="{{ theme.img-thumbnail }}" alt="{{ theme.img-desc }}">
+                    <img class="lazy img-fluid" data-src="{{ theme.img-thumbnail }}" alt="{{ theme.img-desc }}">
                   </a>
                   <div class="item-preview-title">{{ theme.title }}</div>
                   <div class="item-preview-description">{{ theme.bump }}</div>
@@ -50,7 +50,7 @@ layout: default
               <div class="col-md-6">
                 <div class="item-preview mb-5">
                   <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ template.src }}">
-                    <img class="img-fluid" src="{{ template.img-thumbnail }}" alt="{{ template.img-desc }}">
+                    <img class="lazy img-fluid" data-src="{{ template.img-thumbnail }}" alt="{{ template.img-desc }}">
                   </a>
                   <div class="item-preview-title">{{ template.title }}</div>
                   <div class="item-preview-description">{{ template.bump }}</div>
@@ -69,7 +69,7 @@ layout: default
               <div class="col-md-4">
                 <div class="item-preview mb-5">
                   <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ snippet.src }}">
-                    <img class="img-fluid" src="{{ snippet.img-thumbnail }}" alt="{{ snippet.img-desc }}">
+                    <img class="lazy img-fluid" data-src="{{ snippet.img-thumbnail }}" alt="{{ snippet.img-desc }}">
                   </a>
                   <div class="item-preview-title">{{ snippet.title }}</div>
                   <div class="item-preview-description">{{ snippet.bump }}</div>
