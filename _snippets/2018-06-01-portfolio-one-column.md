@@ -4,7 +4,7 @@ slug:              portfolio-one-column
 src:               /snippets/portfolio-one-column
 description:	    "A basic portfolio page layout snippet with one content column built with Bootstrap 4"
 bump:			        "One Column Portfolio Layout Example"
-img-src:	    	  /assets/img/screenshots/snippets/portfolio-one-column.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/portfolio-one-column.jpg
 img-desc:		      "A basic portfolio page layout snippet with one content column built with Bootstrap 4"
 layout:		    	  overview-snippet
 type:             snippet

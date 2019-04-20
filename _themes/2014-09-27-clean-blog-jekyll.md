@@ -5,7 +5,8 @@ src:			        /themes/clean-blog-jekyll
 categories:		    blog
 description:	    "A fully functional version of Start Bootstrap's Clean Blog theme adapted for Jekyll - a static site generator"
 bump:			        "Clean Blog for Jekyll"
-img-src:		      /assets/img/screenshots/themes/clean-blog-jekyll.png
+img-thumbnail:    /assets/img/screenshots/themes/clean-blog-jekyll.jpg
+img-full:         /assets/img/screenshots/themes/clean-blog-jekyll.png
 img-desc:		      "Free Jekyll Blog Theme - Start Bootstrap"
 layout:			      overview-theme
 type:             theme

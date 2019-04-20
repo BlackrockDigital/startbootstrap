@@ -5,7 +5,8 @@ src:			        /themes/clean-blog
 categories:		    blog
 description:	    "A clean, Bootstrap blog theme ready to hook into your favorite CMS or blogging platform"
 bump:			        "A clean blog theme"
-img-src:		      /assets/img/screenshots/themes/clean-blog.png
+img-thumbnail:    /assets/img/screenshots/themes/clean-blog.jpg
+img-full:         /assets/img/screenshots/themes/clean-blog.png
 img-desc:		      "Free Bootstrap Blog Theme - Start Bootstrap"
 layout:			      overview-theme
 type:             theme

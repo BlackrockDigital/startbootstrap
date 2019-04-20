@@ -5,7 +5,8 @@ src:              /templates/shop-homepage
 categories:       ecommerce
 description:      "A simple, unstyled, shop home page template with star icons and a header carousel"
 bump:             "An online store homepage template"
-img-src:          /assets/img/screenshots/templates/shop-homepage.png
+img-thumbnail:    /assets/img/screenshots/templates/shop-homepage.jpg
+img-full:         /assets/img/screenshots/templates/shop-homepage.png
 img-desc:         "Free Bootstrap Ecommerce Template"
 layout:		    	  overview-theme
 type:             template

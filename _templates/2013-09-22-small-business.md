@@ -5,7 +5,8 @@ src:              /templates/small-business
 categories:       landing-page general
 description:      "A free, easy to use, Bootstrap starter template perfect for building small business marketing websites"
 bump:             "A simple business Bootstrap template"
-img-src:          /assets/img/screenshots/templates/small-business.png
+img-thumbnail:    /assets/img/screenshots/templates/small-business.jpg
+img-full:         /assets/img/screenshots/templates/small-business.png
 img-desc:         "Free Small Business Template for Bootstrap 4"
 layout:		    	  overview-theme
 type:             template

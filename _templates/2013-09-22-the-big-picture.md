@@ -5,7 +5,8 @@ src:              /templates/the-big-picture
 categories:       landing-page
 description:      "An artistic, full page image background Bootstrap template with a fixed bottom navigation bar"
 bump:             "A starter portfolio template"
-img-src:          /assets/img/screenshots/templates/the-big-picture.png
+img-thumbnail:    /assets/img/screenshots/templates/the-big-picture.jpg
+img-full:         /assets/img/screenshots/templates/the-big-picture.png
 img-desc:         "Free Bootstrap Portfolio Template"
 layout:		    	  overview-theme
 type:             template

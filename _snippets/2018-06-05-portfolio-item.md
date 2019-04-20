@@ -4,7 +4,7 @@ slug:              portfolio-item
 src:               /snippets/portfolio-item
 description:	    "A simple portfolio item details page example built with Bootstrap 4"
 bump:			        "Portfolio Item Details Layout Example"
-img-src:	    	  /assets/img/screenshots/snippets/portfolio-item.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/portfolio-item.jpg
 img-desc:		      "A simple portfolio item details page example built with Bootstrap 4"
 layout:		    	  overview-snippet
 type:             snippet

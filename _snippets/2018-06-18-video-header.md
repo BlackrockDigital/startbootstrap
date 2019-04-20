@@ -4,7 +4,7 @@ slug:              video-header
 src:               /snippets/video-header
 description:	    "A HTML5 video used as a background video for a basic Bootstrap header with a mobile image fallback - CSS Only, no JavaScript!"
 bump:			        "HTML5 Video Background Header with Mobile Fallback"
-img-src:	    	  /assets/img/screenshots/snippets/video-header.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/video-header.jpg
 img-desc:		      "CSS Only HTML5 Video Background Snippet for Bootstrap 4"
 layout:		    	  overview-snippet
 type:             snippet

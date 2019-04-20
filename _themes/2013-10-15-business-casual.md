@@ -5,7 +5,8 @@ src:              /themes/business-casual
 categories:       business
 description:      "A Bootstrap 4 website template featuring full page background images and other easy to use Bootstrap elements"
 bump:             "A fully developed business website"
-img-src:          /assets/img/screenshots/themes/business-casual.png
+img-thumbnail:    /assets/img/screenshots/themes/business-casual.jpg
+img-full:         /assets/img/screenshots/themes/business-casual.png
 img-desc:         "Free Bootstrap 4 Website Themes"
 layout:           overview-theme
 type:             theme

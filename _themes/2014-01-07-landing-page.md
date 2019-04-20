@@ -5,7 +5,8 @@ src:              /themes/landing-page
 categories:       landing-page business
 description:      "A simple, elegant, and beautifully responsive landing page theme for Bootstrap 4 websites"
 bump:             "A clean, functional landing page theme"
-img-src:          /assets/img/screenshots/themes/landing-page.png
+img-thumbnail:    /assets/img/screenshots/themes/landing-page.jpg
+img-full:         /assets/img/screenshots/themes/landing-page.png
 img-desc:         "Free Bootstrap Landing Page Theme"
 layout:           overview-theme
 type:             theme

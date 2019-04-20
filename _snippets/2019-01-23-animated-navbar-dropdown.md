@@ -4,7 +4,7 @@ slug:              animated-navbar-dropdown
 src:               /snippets/animated-navbar-dropdown
 description:	    "CSS Only, simple and attractive animated dropdown menu for Bootstrap 4 navbars"
 bump:			        "CSS Only Animations for Bootstrap 4 Navbar Dropdowns"
-img-src:	    	  /assets/img/screenshots/snippets/animated-navbar-dropdowns.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/animated-navbar-dropdowns.jpg
 img-desc:		      "Bootstrap 4 Navbar Dropdown Menu Animation"
 layout:		    	  overview-snippet
 type:             snippet

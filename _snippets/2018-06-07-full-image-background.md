@@ -4,7 +4,7 @@ slug:              full-image-background
 src:               /snippets/full-image-background
 description:	    "A Bootstrap 4 starter layout with a full page fixed background image and content cards"
 bump:			        "Fixed on Scroll Full Page Image Background"
-img-src:	    	  /assets/img/screenshots/snippets/full-image-background.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/full-image-background.jpg
 img-desc:		      "A Bootstrap 4 starter layout with a full page fixed background image and content cards"
 layout:		    	  overview-snippet
 type:             snippet

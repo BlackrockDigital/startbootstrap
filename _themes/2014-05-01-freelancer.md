@@ -5,7 +5,8 @@ src:              /themes/freelancer
 categories:       portfolio landing-page
 description:      "A one page Bootstrap portfolio theme for freelancers featuring a custom portfolio grid"
 bump:             "A one page freelancer theme"
-img-src:          /assets/img/screenshots/themes/freelancer.png
+img-thumbnail:    /assets/img/screenshots/themes/freelancer.jpg
+img-full:         /assets/img/screenshots/themes/freelancer.png
 img-desc:         "One Page Bootstrap Portfolio Theme"
 layout:           overview-theme
 type:             theme

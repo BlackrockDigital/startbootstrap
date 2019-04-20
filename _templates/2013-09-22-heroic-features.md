@@ -5,7 +5,8 @@ src:              /templates/heroic-features
 categories:       landing-page general
 description:      "A Bootstrap home page template featuring a hero unit and a grid of thumbnail features"
 bump:             "A basic Bootstrap home page template"
-img-src:          /assets/img/screenshots/templates/heroic-features.png
+img-thumbnail:    /assets/img/screenshots/templates/heroic-features.jpg
+img-full:         /assets/img/screenshots/templates/heroic-features.png
 img-desc:         "Basic Bootstrap Home Page Template"
 layout:		    	  overview-theme
 type:             template

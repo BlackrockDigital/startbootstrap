@@ -4,7 +4,7 @@ slug:              full-image-header
 src:               /snippets/full-image-header
 description:	    "A Bootstrap 4 header with a full page background image and vertically centered content"
 bump:			        "Full Page Image Header with Vertically Centered Content"
-img-src:	    	  /assets/img/screenshots/snippets/full-image-header.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/full-image-header.jpg
 img-desc:		      "A Bootstrap 4 starter layout with a full page image header and vertically centered content"
 layout:		    	  overview-snippet
 type:             snippet

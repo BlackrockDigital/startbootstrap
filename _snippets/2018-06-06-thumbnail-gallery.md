@@ -4,7 +4,7 @@ slug:              thumbnail-gallery
 src:               /snippets/thumbnail-gallery
 description:	    "A basic Bootstrap gallery layout with image thumbnails built with Bootstrap 4"
 bump:			        "Basic Gallery Layout with Image Thumbnails"
-img-src:	    	  /assets/img/screenshots/snippets/thumbnail-gallery.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/thumbnail-gallery.jpg
 img-desc:		      "A basic gallery layout with image thumbnails built with Bootstrap 4"
 layout:		    	  overview-snippet
 type:             snippet

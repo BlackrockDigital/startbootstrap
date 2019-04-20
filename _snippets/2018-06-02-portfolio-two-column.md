@@ -4,7 +4,7 @@ slug:              portfolio-two-column
 src:               /snippets/portfolio-two-column
 description:	    "A basic portfolio page layout snippet with two content columns built with Bootstrap 4"
 bump:			        "Two Column Portfolio Layout Example"
-img-src:	    	  /assets/img/screenshots/snippets/portfolio-two-column.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/portfolio-two-column.jpg
 img-desc:		      "A basic portfolio page layout snippet with two content columns built with Bootstrap 4"
 layout:		    	  overview-snippet
 type:             snippet

@@ -4,7 +4,7 @@ slug:              navbar-logo
 src:               /snippets/navbar-logo
 description:	    "A Bootstrap 4 example navbar with a logo as the navbar brand"
 bump:			        "Bootstrap 4 Navbar Example with Logo Image"
-img-src:	    	  /assets/img/screenshots/snippets/navbar-logo.jpg
+img-thumbnail:	    	  /assets/img/screenshots/snippets/navbar-logo.jpg
 img-desc:		      "A Bootstrap 4 example navbar with a logo as the navbar brand"
 layout:		    	  overview-snippet
 type:             snippet

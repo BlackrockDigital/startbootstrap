@@ -5,7 +5,8 @@ src:              /themes/coming-soon
 categories:       landing-page business
 description:      "A coming soon theme for Bootstrap 4 with a video background, social icons, and a newsletter signup"
 bump:             "A coming soon landing page"
-img-src:          /assets/img/screenshots/themes/coming-soon.png
+img-thumbnail:    /assets/img/screenshots/themes/coming-soon.jpg
+img-full:         /assets/img/screenshots/themes/coming-soon.png
 img-desc:         "Free Bootstrap Coming Soon Template - Start Bootstrap"
 layout:           overview-theme
 type:             theme

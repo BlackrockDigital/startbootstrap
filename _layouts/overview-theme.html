@@ -9,7 +9,7 @@ layout: default
     <div class="col-lg-8">
       <!-- Preview Image -->
       <a class="img-preview d-block shadow-lg rounded mb-4" target="_blank" href="/previews/{{ page.slug }}/">
-        <img class="img-fluid rounded" src="{{ page.img-src }}" alt="{{ page.img-desc }}">
+        <img class="img-fluid rounded" src="{{ page.img-full }}" alt="{{ page.img-desc }}">
         <div class="overlay d-flex align-items-center justify-content-center rounded">
           <div class="btn btn-light">View Live Preview</div>
         </div>
@@ -113,7 +113,7 @@ layout: default
             <div class="col-6 mb-4">
               <div class="item-preview">
                 <a class="item-preview-img box-shadow-lg d-block" href="{{ item.src }}" onclick="ga('send','event','Affiliate Link','click','{{ item.affiliate }} - {{ item.title }}')" rel="nofollow">
-                  <img class="img-fluid" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
+                  <img class="img-fluid" src="{{ item.img-thumbnail }}" alt="{{ item.img-desc }}">
                 </a>
               </div>
             </div>
@@ -126,7 +126,7 @@ layout: default
             <div class="col-6 mb-4">
               <div class="item-preview">
                 <a class="item-preview-img box-shadow-lg d-block" href="{{ item.src }}" onclick="ga('send','event','Affiliate Link','click','{{ item.affiliate }} - {{ item.title }}')" rel="nofollow">
-                  <img class="img-fluid" src="{{ item.img-src }}" alt="{{ item.img-desc }}">
+                  <img class="img-fluid" src="{{ item.img-thumbnail }}" alt="{{ item.img-desc }}">
                 </a>
               </div>
             </div>
