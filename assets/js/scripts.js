@@ -10,6 +10,10 @@ $(function() {
 
 });
 
+$(function() {
+  $('.lazy').Lazy();
+});
+
 $('body').scrollspy({
     target: '.resources-sidebar>.sticky-top>ul'
   })
