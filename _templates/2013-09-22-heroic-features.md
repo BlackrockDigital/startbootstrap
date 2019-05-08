@@ -12,9 +12,9 @@ layout:		    	  overview-theme
 type:             template
 rank: 9
 
-version:          4.1.2
-bootstrap:        4.2.1
-updated:          2019-01-31
+version:          4.2.0
+bootstrap:        4.3.1
+updated:          2019-05-08
 
 meta-title:       "Heroic Features - Free Bootstrap Template"
 meta-description: "A free bootstrap template featuring a intro box and a grid of features. All Start Bootstrap templates are free to download and open source."
