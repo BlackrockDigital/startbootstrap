@@ -12,9 +12,9 @@ layout:		    	  overview-theme
 type:             template
 rank: 8
 
-version:          4.1.2
-bootstrap:        4.2.1
-updated:          2019-01-31
+version:          4.2.0
+bootstrap:        4.3.1
+updated:          2019-05-08
 
 meta-title:       "Full Width Pics - Free Bootstrap Template"
 meta-description: "A Bootstrap 4 template featuring full page width image backgrounds. All Start Bootstrap templates are free to download and open source."
