@@ -12,10 +12,10 @@ type:             snippet
 rank:             9
 
 dependencies:     
-  - Bootstrap 4.2.1
-  - Font Awesome 5.6.3
+  - Bootstrap 4.3.1
+  - Font Awesome 5.8.2
 
-updated: 2019-01-24
+updated: 2019-05-08
 
 jsfiddle-id: "1nu8g6e5"
 

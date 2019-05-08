@@ -12,9 +12,9 @@ type:             snippet
 rank:             14
 
 dependencies:     
-  - Bootstrap 4.2.1
+  - Bootstrap 4.3.1
 
-updated: 2019-01-24
+updated: 2019-05-08
 
 jsfiddle-id: "t7suLowj"
 
