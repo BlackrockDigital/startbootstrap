@@ -12,7 +12,7 @@ type:             snippet
 rank:             2
 
 dependencies:     
-  - Bootstrap 4.2.1
+  - Bootstrap 4.3.1
 
 jsfiddle-id: "out2g1mq"
 

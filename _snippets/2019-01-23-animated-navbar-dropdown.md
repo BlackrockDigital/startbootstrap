@@ -12,7 +12,7 @@ type:             snippet
 rank:             1
 
 dependencies:     
-  - Bootstrap 4.2.1
+  - Bootstrap 4.3.1
 
 jsfiddle-id: "o7ev9czn"
 
