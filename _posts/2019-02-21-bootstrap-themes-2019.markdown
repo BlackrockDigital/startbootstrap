@@ -58,10 +58,6 @@ Grayscale was one of our first one page Bootstrap themes, and was is desperate n
 
 <a href="/themes/grayscale" class="btn btn-primary btn-xl shadow py-3 mb-4">Free Download &rarr;</a>
 
-## Themes with Major Updates Pending in 2019
-
-<hr class="mb-4">
-
 #### [Freelancer - Free Bootstrap Portfolio Theme](/themes/freelancer "Freelancer - A Free Bootstrap Portfolio Theme by Start Bootstrap")
 
 <figure>
@@ -69,9 +65,14 @@ Grayscale was one of our first one page Bootstrap themes, and was is desperate n
   <figcaption class="font-italic text-muted text-center">Freelancer - a free Bootstrap portfolio theme</figcaption>
 </figure>
 
-Freelancer’s fun feel, flat design, and bright colors have been a mainstay on Start Bootstrap since the themes release in 2014. Since then, Freelancer’s flat, illustration focused design has held up! Moving forward, we’ll keep with the original feel and functionality from a design and UX standpoint, but we’ll be adding new features and updating the code quality.
+Freelancer’s fun feel, flat design, and bright colors have been a mainstay on Start Bootstrap since the themes release in 2014. Since then, Freelancer’s flat, illustration focused design has held up! We have updated the theme with the original feel and functionality from a design and UX standpoint in mind, but the code quality has been greatly improved!
 
 <a href="/themes/freelancer" class="btn btn-primary btn-xl shadow py-3 mb-4">Free Download &rarr;</a>
+
+
+## Themes with Major Updates Pending in 2019
+
+<hr class="mb-4">
 
 #### [Coming Soon - Free Bootstrap Coming Soon Page Theme](/themes/coming-soon "Coming Soon - A Free Bootstrap Coming Soon Page Theme by Start Bootstrap")
 
