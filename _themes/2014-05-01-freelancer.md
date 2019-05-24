@@ -41,6 +41,6 @@ redirect_from:
   - /downloads/freelancer.zip/
   - /template-overviews/freelancer/
 
-twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/freelancer.png
+twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/freelancer.png
 og-image: https://startbootstrap.com/assets/img/screenshots/themes/freelancer.png
 ---
