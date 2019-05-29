@@ -12,9 +12,9 @@ layout:			      overview-theme
 type:             theme
 rank: 7
 
-version:          5.0.5
+version:          5.0.6
 bootstrap:        4.3.1
-updated:          2019-03-26
+updated:          2019-05-29
 
 meta-title:       "Clean Blog - Bootstrap Blog Theme"
 meta-description: "A free Bootstrap blog theme perfect for personal blogs. All Start Bootstrap templates are free to download and open source."
