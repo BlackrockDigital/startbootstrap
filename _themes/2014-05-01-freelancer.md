@@ -12,9 +12,9 @@ layout:           overview-theme
 type:             theme
 rank: 4
 
-version:          5.1.0
+version:          5.1.1
 bootstrap:        4.3.1
-updated:          2019-05-23
+updated:          2019-05-29
 
 meta-title:       "Freelancer - One Page Theme"
 meta-description: "A free one page Bootstrap portfolio theme for freelancers. All Start Bootstrap templates are free to download and open source."
