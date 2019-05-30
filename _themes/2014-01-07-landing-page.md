@@ -34,6 +34,6 @@ redirect_from:
   - /downloads/landing-page.zip/
   - /template-overviews/landing-page/
 
-twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/landing-page.png
-og-image: https://startbootstrap.com/assets/img/screenshots/themes/landing-page.png
+twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/twitter-landing-page.png
+og-image: https://startbootstrap.com/assets/img/screenshots/themes/og/og-landing-page.png
 ---
