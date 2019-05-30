@@ -37,6 +37,6 @@ redirect_from:
   - /downloads/business-casual.zip/
   - /template-overviews/business-casual/
 
-twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/business-casual.png
-og-image: https://startbootstrap.com/assets/img/screenshots/themes/business-casual.png
+twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/twitter-business-casual.png
+og-image: https://startbootstrap.com/assets/img/screenshots/themes/og/og-business-casual.png
 ---

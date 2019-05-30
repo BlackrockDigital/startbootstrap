@@ -36,6 +36,6 @@ redirect_from:
   - /downloads/grayscale.zip/
   - /template-overviews/grayscale/
 
-twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/grayscale.png
-og-image: https://startbootstrap.com/assets/img/screenshots/themes/grayscale.png
+twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/twitter-grayscale.png
+og-image: https://startbootstrap.com/assets/img/screenshots/themes/og/og-grayscale.png
 ---

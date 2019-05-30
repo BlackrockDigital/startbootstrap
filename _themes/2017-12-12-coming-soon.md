@@ -28,6 +28,6 @@ long-description: "Coming Soon is a Bootstrap 4 coming soon theme perfect to act
 redirect_from:
   - /template-overviews/coming-soon/
 
-twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/coming-soon.png
-og-image: https://startbootstrap.com/assets/img/screenshots/themes/coming-soon.png
+twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/twitter-coming-soon.png
+og-image: https://startbootstrap.com/assets/img/screenshots/themes/og/og-coming-soon.png
 ---
