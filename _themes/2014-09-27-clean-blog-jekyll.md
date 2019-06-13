@@ -12,9 +12,9 @@ layout:			      overview-theme
 type:             theme
 rank: 7
 
-version:          4.0.3
-bootstrap:        4.2.1
-updated:          2019-02-01
+version:          4.0.8
+bootstrap:        4.3.1
+updated:          2019-06-13
 
 meta-title:       "Clean Blog Jekyll - Free Jekyll Theme"
 meta-description: "A free Jekyll theme based on Start Bootstrap's Clean Blog theme perfect for personal blogs."
