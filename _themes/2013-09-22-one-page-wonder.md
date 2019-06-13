@@ -12,9 +12,9 @@ layout:           overview-theme
 type:             theme
 rank:             14
 
-version:          5.0.5
+version:          5.0.6
 bootstrap:        4.3.1
-updated:          2019-05-29
+updated:          2019-06-13
 
 meta-title:       "One Page Wonder - Free Bootstrap Template"
 meta-description: "A one page website template for building one page websites using Bootstrap 4. All Start Bootstrap templates are free to download and open source."

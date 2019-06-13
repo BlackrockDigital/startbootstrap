@@ -12,9 +12,9 @@ layout:           overview-theme
 type:             theme
 rank: 11
 
-version:          5.0.7
+version:          5.0.8
 bootstrap:        4.3.1
-updated:          2019-05-29
+updated:          2019-06-13
 
 meta-title:       "Business Casual - Free Bootstrap 4 Website Template"
 meta-description: "A free, full website template for Bootstrap 4 perfect for small businesses. All Start Bootstrap templates are free to use and open source."
