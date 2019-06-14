@@ -12,9 +12,9 @@ layout:		    	  overview-theme
 type:             template
 rank: 19
 
-version:          4.2.0
+version:          4.2.1
 bootstrap:        4.3.1
-updated:          2019-05-08
+updated:          2019-06-14
 
 meta-title:       "The Big Picture - Full Page Image Bootstrap Template"
 meta-description: "An artistic, full page image background Bootstrap template with a fixed bottom navigation bar. All Start Bootstrap templates are free to download and open source."
