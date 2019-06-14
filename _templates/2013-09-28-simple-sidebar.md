@@ -12,9 +12,9 @@ layout:		    	  overview-theme
 type:             template
 rank: 2
 
-version:          5.1.0
+version:          5.1.1
 bootstrap:        4.3.1
-updated:          2019-05-08
+updated:          2019-06-14
 
 meta-title:       "Simple Sidebar - Bootstrap Sidebar Template"
 meta-description: "A simple sidebar template for Bootstrap 4 featuring responsive sidebar navigation. All Start Bootstrap templates are free to download and open source."

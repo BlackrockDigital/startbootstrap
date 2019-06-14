@@ -12,9 +12,9 @@ layout:		    	  overview-theme
 type:             template
 rank: 4
 
-version:          4.2.0
+version:          4.2.1
 bootstrap:        4.3.1
-updated:          2019-05-08
+updated:          2019-06-14
 
 meta-title:       "Scrolling Nav - One Page Scrolling Bootstrap Template"
 meta-description: "Scrolling Nav is a one page Bootstrap template with smooth scrolling animations and a collapsing fixed top navigation bar. It's the perfect start to a one page Bootstrap website."

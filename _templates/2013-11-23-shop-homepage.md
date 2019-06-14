@@ -12,9 +12,9 @@ layout:		    	  overview-theme
 type:             template
 rank: 5
 
-version:          4.2.0
+version:          4.2.1
 bootstrap:        4.3.1
-updated:          2019-05-08
+updated:          2019-06-14
 
 meta-title:       "Shop Homepage - Bootstrap Ecommerce Store Template"
 meta-description: "A Bootstrap 4 ecommerce homepage template for shop or store items. All Start Bootstrap templates are free to download and open source."
