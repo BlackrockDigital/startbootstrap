@@ -10,9 +10,37 @@ layout: default
       <div class="guide">
         {{ content }}
       </div>
+      <!-- Carbon Native Test -->
+      <div class="native-standard"></div>
       <div class="my-5">
         {% include disqus.html %}
       </div>
     </div>
   </div>
 </div>
+
+<!-- Script for Carbon Native Test -->
+<script>
+(function(){
+  if(typeof _bsa !== 'undefined' && _bsa) {
+      _bsa.init('custom', 'CE7DV2JN', 'placement:startbootstrapcom',
+        {
+          target: '.native-standard',
+          template: `
+<a href="##link##" class="native-banner" style="background: linear-gradient(-30deg, ##backgroundColor##E5, ##backgroundColor##E5 45%, ##backgroundColor## 45%) #fff;">
+    <div class="native-main">
+      <img class="native-img" src="##logo##">
+      <div class="native-details" style="color: ##textColor##">
+        <span class="native-company">Sponsored by ##company##</span>
+        <span class="native-desc">##description##</span>
+      </div>
+      <span class="native-cta" style="color: ##ctaTextColor##; background-color: ##ctaBackgroundColor##;">##callToAction##</span>
+    </div>
+  </a>
+  <a class="native-via" href="##adViaLink##">Ads via BuySellAds</a>
+`,
+        }
+      );
+    }
+})();
+</script>
