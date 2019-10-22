@@ -52,3 +52,127 @@
     background-color: $primary;
   }
 }
+
+// Carbon Native Test
+
+.native-standard {
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.native-standard .native-banner {
+  border-radius: 4px;
+  box-shadow: inset 0 0 2px hsla(0, 0%, 0%, .15);
+  display: flex;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-decoration: none;
+
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.native-standard .native-banner .native-img {
+  margin-right: 20px;
+  max-height: 50px;
+  line-height: 0;
+}
+
+.native-standard .native-banner .native-main {
+  display: flex;
+  margin: 0 auto;
+
+  justify-content: center;
+  flex-grow: 1;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.native-standard .native-banner .native-details {
+  display: flex;
+  margin-right: 20px;
+
+  flex-flow: column nowrap;
+}
+
+.native-standard .native-banner .native-company {
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px;
+  line-height: 1;
+}
+
+.native-standard .native-banner .native-desc {
+  max-width: 600px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.native-standard .native-banner .native-cta {
+  padding: 10px 16px;
+  border-radius: 3px;
+  box-shadow: 0 6px 13px 0 hsla(0, 0%, 0%, .15);
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-1px);
+}
+
+.native-standard .native-banner .native-cta:hover {
+  box-shadow: none;
+  transform: translateY(1px);
+}
+
+.native-standard .native-via {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 5px 10px;
+  border-top: 0;
+  border-top-left-radius: 3px;
+  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4);
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 1;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 759px) {
+
+  .native-standard,
+  .native-standard .native-main {
+    flex-flow: column nowrap;
+  }
+
+  .native-standard .native-details,
+  .native-standard .native-img {
+    margin: 0;
+  }
+
+  .native-standard .native-img {
+    display: none;
+  }
+
+  .native-standard .native-company {
+    letter-spacing: 1px;
+  }
+
+  .native-standard .native-details {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .native-standard .native-cta {
+    display: none;
+  }
+}
