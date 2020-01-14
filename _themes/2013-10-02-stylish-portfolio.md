@@ -10,7 +10,7 @@ img-full:         /assets/img/screenshots/themes/stylish-portfolio.png
 img-desc:         "Free Bootstrap Portfolio Theme - Stylish Portfolio"
 layout:           overview-theme
 type:             theme
-rank: 8
+rank: 9
 
 version:          5.0.7
 bootstrap:        4.3.1

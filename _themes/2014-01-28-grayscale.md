@@ -10,7 +10,7 @@ img-full:         /assets/img/screenshots/themes/grayscale.png
 img-desc:         "Grayscale ong page Bootstrap template"
 layout:           overview-theme
 type:             theme
-rank: 5
+rank: 6
 
 version:          5.0.9
 bootstrap:        4.3.1

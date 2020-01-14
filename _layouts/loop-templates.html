@@ -16,7 +16,14 @@ layout: default
         <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ template.src }}">
           <img class="lazy img-fluid" data-src="{{ template.img-thumbnail }}" alt="{{ template.img-desc }}">
         </a>
-        <div class="item-preview-title">{{ template.title }}</div>
+        <div class="item-preview-title d-flex align-items-center">
+            {{ template.title }}
+            {% if template.pro %}
+            <span class='badge badge-warning ml-auto small badge-pill'>Pro</span>
+            {% else %}
+            <span class='badge badge-success ml-auto small badge-pill'>Free</span>
+            {% endif %}
+        </div>
         <div class="item-preview-description">{{ template.bump }}</div>
       </div>
     </div>

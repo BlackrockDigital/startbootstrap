@@ -12,6 +12,36 @@ redirect_from:
 ---
 
 <div class="container">
+    <img class="img-fluid mb-3" src="/assets/img/branding/sbpro-logo.svg" alt="Start Bootstrap Pro Logo" style="height: 1.5rem;">
+    <div class="row align-items-center mb-5">
+      <div class="col-md-8">
+        <p class="mb-5 mb-md-0 font-weight-light">Start Bootstrap now crafts some of the highest quality Bootstrap based products on the web! Our products are developed and maintained by the Start Bootstrap team, and are aimed at saving developers weeks to months of lead-time when creating new web based applications.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <a href="https://shop.startbootstrap.com" class="btn btn-primary btn-xl shadow" onclick="ga('send','event','Product Link','click','Start Bootstrap Shop - General')" rel="nofollow" target="_blank">Shop Start Bootstrap</a>
+      </div>
+    </div>
+    <div class="row">
+        {% for item in site.themes %}
+        {% if item.pro %}
+        <div class="col-md-6">
+          <div class="item-preview mb-5">
+            <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ item.src }}" onclick="ga('send','event','Premium Link','click','{{ item.title }}')" rel="nofollow">
+              <img class="img-fluid" src="{{ item.img-thumbnail }}" alt="{{ item.img-desc }}">
+            </a>
+            <div class="item-preview-title">{{ item.title }}</div>
+            <div class="item-preview-description">{{ item.bump }}</div>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<hr class="custom my-5">
+
+
+<div class="container">
 
   <img class="img-fluid mb-3" src="/assets/img/affiliates/ct-logo.png" alt="Creative Tim Logo" style="height: 3.5rem;">
   <div class="row align-items-center mb-5">

@@ -8,6 +8,7 @@ layout: default
 
   <!-- Show paginated posts for the specificed collection -->
   <div class="row">
+
     {% assign sorted = site.themes | sort: "rank" %}
     {% for theme in sorted %}
 
@@ -16,7 +17,14 @@ layout: default
         <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ theme.src }}">
           <img class="lazy img-fluid" data-src="{{ theme.img-thumbnail }}" alt="{{ theme.img-desc }}">
         </a>
-        <div class="item-preview-title">{{ theme.title }}</div>
+        <div class="item-preview-title d-flex align-items-center">
+            {{ theme.title }}
+            {% if theme.pro %}
+            <span class='badge badge-warning ml-auto small badge-pill'>Pro</span>
+            {% else %}
+            <span class='badge badge-success ml-auto small badge-pill'>Free</span>
+            {% endif %}
+        </div>
         <div class="item-preview-description">{{ theme.bump }}</div>
       </div>
     </div>

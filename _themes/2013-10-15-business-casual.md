@@ -10,7 +10,7 @@ img-full:         /assets/img/screenshots/themes/business-casual.png
 img-desc:         "Free Bootstrap 4 Website Themes"
 layout:           overview-theme
 type:             theme
-rank: 11
+rank: 12
 
 version:          5.0.9
 bootstrap:        4.3.1
