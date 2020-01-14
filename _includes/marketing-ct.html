@@ -1,0 +1,22 @@
+{% if page.layout contains 'overview' or page.title == "Premium Bootstrap Themes" %}
+{% else %}
+<hr class="mb-5 custom">
+<div class="container text-center">
+  <h4 class="mt-0 mb-1">Premium Bootstrap Themes</h4>
+  <p class="mb-4 font-weight-light">Looking for something more? Try these hand picked premium themes!</p>
+  <div class="row">
+    {% for item in site.premium reversed %}
+    {% if item.categories contains 'mix' %}
+    <div class="col-6 col-lg-3 mb-4">
+      <div class="item-preview">
+        <a class="item-preview-img box-shadow-lg d-block" href="{{ item.src }}" onclick="ga('send','event','Affiliate Link','click','{{ item.affiliate }} - {{ item.title }}')" rel="nofollow">
+          <img class="lazy img-fluid" data-src="{{ item.img-thumbnail }}" alt="{{ item.img-desc }}">
+        </a>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  <a href="/buy-bootstrap-themes" class="btn btn-primary btn-xl shadow">View More Premium Themes</a>
+</div>
+{% endif %}

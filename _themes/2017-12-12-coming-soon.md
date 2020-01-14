@@ -10,7 +10,7 @@ img-full:         /assets/img/screenshots/themes/coming-soon.png
 img-desc:         "Free Bootstrap Coming Soon Template - Start Bootstrap"
 layout:           overview-theme
 type:             theme
-rank: 10
+rank: 11
 
 version:          5.0.7
 bootstrap:        4.3.1

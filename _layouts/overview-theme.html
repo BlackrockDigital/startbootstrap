@@ -108,32 +108,31 @@ layout: default
           <h5 class="mb-0">Need something more?</h5>
           <p class="small mb-4">Try one of these premium Bootstrap themes!</p>
           <div class="row">
+
+            <!-- For Admin Pages ONLY -->
             {% if page.categories contains 'admin' %}
-            {% for item in site.premium reversed %}
-            {% if item.categories contains 'admin' %}
-            <!-- Admin Affiliate Links -->
-            <div class="col-6 mb-4">
+
+            {% for item in site.themes %}
+            {% if item.pro %}
+            <div class="col-12">
               <div class="item-preview">
-                <a class="item-preview-img box-shadow-lg d-block" href="{{ item.src }}" onclick="ga('send','event','Affiliate Link','click','{{ item.affiliate }} - {{ item.title }}')" rel="nofollow">
+                <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ item.src }}" onclick="ga('send','event','Premium Link','click','{{ item.title }}')" rel="nofollow">
                   <img class="img-fluid" src="{{ item.img-thumbnail }}" alt="{{ item.img-desc }}">
                 </a>
+                <div class="item-preview-title d-flex align-items-center">
+                    {{ item.title }}
+                    {% if item.pro %}
+                    <span class='badge badge-warning ml-auto small badge-pill'>Pro</span>
+                    {% else %}
+                    <span class='badge badge-success ml-auto small badge-pill'>Free</span>
+                    {% endif %}
+                </div>
               </div>
+              <hr class="mb-4">
             </div>
             {% endif %}
             {% endfor %}
-            {% else %}
-            {% for item in site.premium reversed %}
-            {% if item.categories contains 'ui' %}
-            <!-- UI Based Affiliate Links -->
-            <div class="col-6 mb-4">
-              <div class="item-preview">
-                <a class="item-preview-img box-shadow-lg d-block" href="{{ item.src }}" onclick="ga('send','event','Affiliate Link','click','{{ item.affiliate }} - {{ item.title }}')" rel="nofollow">
-                  <img class="img-fluid" src="{{ item.img-thumbnail }}" alt="{{ item.img-desc }}">
-                </a>
-              </div>
-            </div>
-            {% endif %}
-            {% endfor %}
+
             {% endif %}
           </div>
           <a href="/buy-bootstrap-themes" class="btn btn-outline-primary btn-block">View More Premium Content</a>

@@ -10,7 +10,7 @@ img-full:         /assets/img/screenshots/themes/clean-blog-jekyll.png
 img-desc:		      "Free Jekyll Blog Theme - Start Bootstrap"
 layout:			      overview-theme
 type:             theme
-rank: 7
+rank: 8
 
 version:          4.0.9
 bootstrap:        4.3.1
