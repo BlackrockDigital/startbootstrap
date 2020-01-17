@@ -1,7 +1,7 @@
 ---
 title:            "SB Admin Pro Angular"
 slug:             sb-admin-pro-angular
-src:              https://shop.startbootstrap.com/product/sb-admin-pro-angular/
+src:              https://themes.startbootstrap.com/sb-admin-pro-angular/
 categories:       admin
 bump:             "A premium Angular 9 version of SB Admin Pro"
 img-thumbnail:    /assets/img/screenshots/premium/sb-admin-pro-angular.jpg
