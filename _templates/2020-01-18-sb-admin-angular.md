@@ -5,8 +5,8 @@ src:              /templates/sb-admin-angular
 categories:       admin
 description:      "A Bootstrap 4 admin template with minimal custom styling and an advanced development environment - a perfect starter template for building web apps, dashboards, and admin panels"
 bump:             "An Angular version of SB Admin"
-img-thumbnail:    /assets/img/screenshots/templates/sb-admin.jpg
-img-full:         /assets/img/screenshots/templates/sb-admin.png
+img-thumbnail:    /assets/img/screenshots/templates/sb-admin-angular.jpg
+img-full:         /assets/img/screenshots/templates/sb-admin-angular.png
 img-desc:         "Free Bootstrap Admin Template - SB Admin Angular"
 layout:		      overview-theme
 type:             template
