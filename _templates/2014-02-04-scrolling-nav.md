@@ -29,7 +29,6 @@ long-description: "Scrolling Nav is a basic Bootstrap framework for creating smo
 redirect_from:
   - /scrolling-nav/
   - /scrolling-nav.php/
-  - /templates/scrolling-nav/
   - /downloads/scrolling-nav.zip/
   - /template-overviews/scrolling-nav/
 ---

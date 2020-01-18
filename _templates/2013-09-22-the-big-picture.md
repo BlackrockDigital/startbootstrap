@@ -29,9 +29,6 @@ redirect_from:
   - /the-big-picture/
   - /the-big-picture.php/
   - /the-big-picture.html/
-  - /templates/the-big-picture.html/
-  - /templates/the-big-picture/
-  - /templates/the-big-picture/index.html
   - /downloads/the-big-picture.zip/
   - /template-overviews/the-big-picture/
 ---

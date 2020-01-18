@@ -31,7 +31,6 @@ long-description: "Clean blog is a carefully styled Bootstrap blog theme that is
 redirect_from:
   - /clean-blog/
   - /downloads/clean-blog.zip/
-  - /templates/clean-blog/
   - /template-overviews/clean-blog/
 
 twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/twitter-clean-blog.png

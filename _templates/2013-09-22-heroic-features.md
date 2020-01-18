@@ -28,9 +28,6 @@ long-description: "Heroic features is an unstyled template featuring a hero unit
 redirect_from:
   - /heroic-features/
   - /heroic-features.php/
-  - /templates/heroic-features.html/
-  - /templates/heroic-features/
-  - /templates/heroic-features/index.html
   - /downloads/heroic-features.zip/
   - /template-overviews/heroic-features/
 ---

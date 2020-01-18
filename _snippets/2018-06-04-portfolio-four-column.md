@@ -24,9 +24,6 @@ meta-description:  "A CSS only, responsive Bootstrap 4 portfolio page layout exa
 redirect_from:
   - /4-col-portfolio/
   - /4-col-portfolio.php/
-  - /templates/4-col-portfolio.html/
-  - /templates/4-col-portfolio/
-  - /templates/4-col-portfolio/index.html
   - /downloads/4-col-portfolio.zip/
   - /template-overviews/4-col-portfolio
 ---

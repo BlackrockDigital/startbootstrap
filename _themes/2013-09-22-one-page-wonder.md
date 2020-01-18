@@ -30,9 +30,6 @@ redirect_from:
   - /one-page-wonder/
   - /one-page-wonder.php/
   - /one-page-wonder.html/
-  - /templates/one-page-wonder.html/
-  - /templates/one-page-wonder/
-  - /templates/one-page-wonder/index.html
   - /downloads/one-page-wonder.zip/
   - /template-overviews/one-page-wonder/
 

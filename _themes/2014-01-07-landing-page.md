@@ -30,7 +30,6 @@ long-description: "Landing Page is a responsive landing page theme for Bootstrap
 redirect_from:
   - /landing-page/
   - /landing-page.php/
-  - templates/landing-page/
   - /downloads/landing-page.zip/
   - /template-overviews/landing-page/
 

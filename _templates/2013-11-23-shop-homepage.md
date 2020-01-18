@@ -29,8 +29,6 @@ long-description: "Shop Homepage is a starter template for a Bootstrap based onl
 redirect_from:
   - /shop-homepage/
   - /shop-homepage.php/
-  - /templates/shop-homepage.html/
-  - /templates/shop-homepage/
   - /downloads/shop-homepage.zip/
   - /template-overviews/shop-homepage/
 ---

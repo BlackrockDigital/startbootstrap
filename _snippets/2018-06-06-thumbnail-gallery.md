@@ -25,9 +25,6 @@ redirect_from:
   - /thumbnail-gallery/
   - /thumbnail-gallery.php/
   - /thumbnail-gallery.html/
-  - /templates/thumbnail-gallery.html/
-  - /templates/thumbnail-gallery/
-  - /templates/thumbnail-gallery/index.html
   - /downloads/thumbnail-gallery.zip/
   - /template-overviews/thumbnail-gallery
 ---

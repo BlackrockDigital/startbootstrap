@@ -35,9 +35,6 @@ long-description: "Freelancer is a flat design, one page Bootstrap portfolio the
 redirect_from:
   - /freelancer/
   - /freelancer.php/
-  - /templates/freelancer.html/
-  - /templates/freelancer/
-  - /templates/freelance/
   - /downloads/freelancer.zip/
   - /template-overviews/freelancer/
 
