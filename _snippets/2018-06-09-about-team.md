@@ -24,9 +24,6 @@ meta-description:  "A Bootstrap 4 example layout with an about section and team 
 redirect_from:
   - /round-about/
   - /round-about.php/
-  - /templates/round-about.html/
-  - /templates/round-about/
-  - /templates/round-about/index.html
   - /downloads/round-about.zip/
   - /template-overviews/round-about
 ---

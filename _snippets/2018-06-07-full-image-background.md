@@ -24,9 +24,6 @@ meta-description:  "A Bootstrap 4 starter layout with a full page fixed on scrol
 redirect_from:
   - /full/
   - /full.php/
-  - /templates/full.html/
-  - /templates/full/
-  - /templates/full/index.html
   - /downloads/full.zip/
   - /template-overviews/full
 ---

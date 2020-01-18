@@ -31,8 +31,6 @@ long-description: "Grayscale is a multipurpose, one page website theme featuring
 redirect_from:
   - /grayscale/
   - /grayscale.php/
-  - /templates/grayscale.html/
-  - /templates/grayscale/
   - /downloads/grayscale.zip/
   - /template-overviews/grayscale/
 

@@ -30,9 +30,6 @@ long-description: "Business Frontpage is a basic HTML starter template for creat
 redirect_from:
   - /business-frontpage/
   - /business-frontpage.php/
-  - /templates/business-frontpage.html/
-  - /templates/business-frontpage/
-  - /templates/business-frontpage/index.html
   - /downloads/business-frontpage.zip/
   - /template-overviews/business-frontpage/
 ---

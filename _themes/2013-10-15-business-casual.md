@@ -29,9 +29,6 @@ long-description: "Business Casual is a full website template for Bootstrap 4. I
 redirect_from:
   - /business-casual/
   - /business-casual.php/
-  - /templates/business-casual.html/
-  - /templates/business-casual/
-  - /templates/business-casual/index.html
   - /business-casual/about.html
   - /business-casual/contact.html
   - /downloads/business-casual.zip/

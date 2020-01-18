@@ -30,9 +30,6 @@ long-description: "Full Width Pics is a unique Bootstrap starter template for a 
 redirect_from:
   - /full-width-pics/
   - /full-width-pics.php/
-  - /templates/full-width-pics.html/
-  - /templates/full-width-pics/
-  - /templates/full-width-pics/index.html
   - /downloads/full-width-pics.zip/
   - /template-overviews/full-width-pics/
 ---

@@ -24,9 +24,6 @@ meta-description:  "A Bootstrap 4 header with a full page height image slider - 
 redirect_from:
   - /full-slider/
   - /full-slider.php/
-  - /templates/full-slider.html/
-  - /templates/full-slider/
-  - /templates/full-slider/index.html
   - /downloads/full-slider.zip/
   - /template-overviews/full-slider
 ---

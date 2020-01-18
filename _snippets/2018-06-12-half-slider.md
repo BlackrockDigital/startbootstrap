@@ -24,9 +24,6 @@ meta-description:  "A Bootstrap 4 header with a half page height image slider - 
 redirect_from:
   - /half-slider/
   - /half-slider.php/
-  - /templates/half-slider.html/
-  - /templates/half-slider/
-  - /templates/half-slider/index.html
   - /downloads/half-slider.zip/
   - /template-overviews/half-slider
 ---

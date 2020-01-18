@@ -24,9 +24,6 @@ meta-description:  "A basic, responsive Bootstrap 4 portfolio item details page 
 redirect_from:
   - /portfolio-item/
   - /portfolio-item.php/
-  - /templates/portfolio-item.html/
-  - /templates/portfolio-item/
-  - /templates/portfolio-item/index.html
   - /downloads/portfolio-item.zip/
   - /template-overviews/portfolio-item
 ---

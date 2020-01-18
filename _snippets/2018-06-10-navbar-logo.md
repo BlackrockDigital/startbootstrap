@@ -24,9 +24,6 @@ meta-description:  "A Bootstrap 4 example navbar with a logo as the navbar brand
 redirect_from:
   - /logo-nav/
   - /logo-nav.php/
-  - /templates/logo-nav.html/
-  - /templates/logo-nav/
-  - /templates/logo-nav/index.html
   - /downloads/logo-nav.zip/
   - /template-overviews/logo-nav
 ---
