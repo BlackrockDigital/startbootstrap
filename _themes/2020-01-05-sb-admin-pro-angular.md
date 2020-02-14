@@ -11,5 +11,5 @@ layout:           redirect
 type:             theme
 pro:              true
 new:              true
-rank: 1
+rank: 3
 ---
