@@ -5,7 +5,7 @@
   <h4 class="mt-0 mb-1">Premium Bootstrap Themes</h4>
   <p class="mb-4 font-weight-light">Looking for something more? Try one of Start Bootstrap's premium themes!</p>
   <div class="row justify-content-center">
-      {% for item in site.themes %}
+      {% for item in site.themes reversed %}
       {% if item.pro %}
       <div class="col-md-4 mb-4">
         <div class="item-preview">

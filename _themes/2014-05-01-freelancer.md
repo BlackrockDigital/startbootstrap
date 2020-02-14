@@ -10,7 +10,7 @@ img-full:         /assets/img/screenshots/themes/freelancer.png
 img-desc:         "One Page Bootstrap Portfolio Theme"
 layout:           overview-theme
 type:             theme
-rank: 5
+rank: 7
 
 version:          5.1.3
 bootstrap:        4.3.1
