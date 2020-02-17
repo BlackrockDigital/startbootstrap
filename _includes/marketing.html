@@ -1,22 +1,58 @@
 {% if page.layout contains 'overview' or page.title == "Premium Bootstrap Themes" %}
 {% else %}
 <hr class="mb-5 custom">
-<div class="container text-center">
-  <h4 class="mt-0 mb-1">Premium Bootstrap Themes</h4>
-  <p class="mb-4 font-weight-light">Looking for something more? Try one of Start Bootstrap's premium themes!</p>
+<div class="container">
+  <div class="text-center">
+    <h4 class="mt-0 mb-1">Premium Bootstrap Themes</h4>
+    <p class="mb-4 font-weight-light">Looking for something more? Try one of Start Bootstrap's premium themes!</p>
+  </div>
   <div class="row justify-content-center">
-      {% for item in site.themes reversed %}
+      {% assign sorted = site.themes | sort: "rank" %}
+      {% for item in sorted %}
       {% if item.pro %}
-      <div class="col-md-4 mb-4">
+      <div class="col-md-6 col-lg-3 mb-4">
         <div class="item-preview">
           <a class="item-preview-img box-shadow-lg d-block" href="{{ item.src }}" onclick="ga('send','event','Premium Link','click','{{ item.title }}')" rel="nofollow">
             <img class="lazy img-fluid" data-src="{{ item.img-thumbnail }}" alt="{{ item.img-desc }}">
           </a>
+          <h6 class="mt-3 mb-0">{{ item.title }}</h6>
+          <div class="small">{{ item.bump }}</div>
         </div>
       </div>
       {% endif %}
       {% endfor %}
   </div>
-  <a href="/buy-bootstrap-themes" class="btn btn-primary btn-xl shadow">View More Premium Themes</a>
+  <div class="text-center">
+    <h4 class="mt-5 mb-1"><span class="badge badge-primary badge-pill">New!</span> Premium Bundles!</h4>
+    <p class="mb-4 font-weight-light">Bundle our pro HTML products or our pro Angular 9 products together and save!</p>
+  </div>
+  <div class="row">
+
+    <!-- HTML Bundle -->
+    <div class="col-md-6 mb-4">
+      <div class="item-preview">
+        <a class="item-preview-img box-shadow-lg d-block" href="https://shop.startbootstrap.com/product/pro-html-bundle/" onclick="ga('send','event','Premium Link','click','Pro HTML Bundle')" rel="nofollow">
+          <img class="lazy img-fluid" data-src="/assets/img/screenshots/premium/html-bundle.jpg" alt="Start Bootstrap Pro HTML Bundle">
+        </a>
+        <h6 class="mt-3 mb-0">Pro HTML Bundle</h6>
+        <div class="small">Includes SB Admin Pro and SB UI Kit Pro</div>
+      </div>
+    </div>
+
+    <!-- Angular 9 Bundle -->
+    <div class="col-md-6 mb-4">
+      <div class="item-preview">
+        <a class="item-preview-img box-shadow-lg d-block" href="https://shop.startbootstrap.com/product/pro-angular-bundle/" onclick="ga('send','event','Premium Link','click','Pro Angular Bundle')" rel="nofollow">
+          <img class="lazy img-fluid" data-src="/assets/img/screenshots/premium/angular-bundle.jpg" alt="Start Bootstrap Pro Angular 9 Bundle">
+        </a>
+        <h6 class="mt-3 mb-0">Pro Angular Bundle</h6>
+        <div class="small">Includes SB Admin Pro Angular and SB UI Kit Pro Angular</div>
+      </div>
+    </div>
+
+  </div>
+  <div class="text-center">
+    <a href="/buy-bootstrap-themes" class="btn btn-primary btn-xl shadow">View More Premium Themes</a>
+  </div>
 </div>
 {% endif %}

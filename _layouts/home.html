@@ -27,7 +27,7 @@ layout: default
           <div class="tab-pane fade show active" id="theme" role="tabpanel" aria-labelledby="theme-tab">
             <div class="row">
               {% assign themes_sorted = site.themes | sort: 'rank' %}
-              {% for theme in themes_sorted limit: 6 %}
+              {% for theme in themes_sorted limit: 8 %}
               <div class="col-md-6">
                 <div class="item-preview mb-5">
                   <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ theme.src }}">
@@ -53,7 +53,7 @@ layout: default
           <div class="tab-pane fade" id="template" role="tabpanel" aria-labelledby="template-tab">
             <div class="row">
               {% assign templates_sorted = site.templates | sort: 'rank' %}
-              {% for template in templates_sorted limit: 6 %}
+              {% for template in templates_sorted limit: 8 %}
               <div class="col-md-6">
                 <div class="item-preview mb-5">
                   <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ template.src }}">

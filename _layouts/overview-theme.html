@@ -148,7 +148,7 @@ layout: default
                         <!-- For Admin Pages ONLY -->
                         {% if page.categories contains 'admin' %}
 
-                        {% for item in site.themes %}
+                        {% for item in site.themes reversed %}
                         {% if item.pro and item.categories contains 'admin' %}
                         <div class="col-12">
                             <div class="item-preview">
