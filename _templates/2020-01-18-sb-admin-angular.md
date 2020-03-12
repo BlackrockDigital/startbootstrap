@@ -3,12 +3,12 @@ title:            "SB Admin Angular"
 slug:             sb-admin-angular
 src:              /templates/sb-admin-angular
 categories:       admin
-description:      "A Bootstrap 4 admin template with minimal custom styling and an advanced development environment - a perfect starter template for building web apps, dashboards, and admin panels"
+description:      "A free, open source, Angular admin dashboard template built with Angular 9 and Bootstrap 4"
 bump:             "An Angular version of SB Admin"
 img-thumbnail:    /assets/img/screenshots/templates/sb-admin-angular.jpg
 img-full:         /assets/img/screenshots/templates/sb-admin-angular.png
-img-desc:         "Free Bootstrap Admin Template - SB Admin Angular"
-layout:		      overview-theme
+img-desc:         "Free Angular Admin Dashboard Template - SB Admin Angular"
+layout:		        overview-theme
 type:             template
 rank:             0
 
@@ -18,17 +18,21 @@ version:          1.0.0
 bootstrap:        4.4.1
 updated:          2020-01-18
 
-meta-title:       "SB Admin Angular - Free Bootstrap Angular Admin Template"
-meta-description: "A free to use Bootstrap 4 admin template with an npm based workflow environment included. A perfect boilerplate template for creating web apps and dashboard UI's."
+meta-title:       "SB Admin Angular - Free Angular Admin Dashboard Template"
+meta-description: "A free, open source, Angular 9 admin dashboard template complete with a workflow environment and dynamic components. A perfect starting point for creating web apps and dashboard UI's."
 
 features:
-  - SCSS based theme with built in scripts for compiling Pug and CSS
-  - A flexbox based layout with fixed and static navigation options
-  - Toggleable sidebar menu with intuitive toggled states
-  - Custom panel styling
-  - Interactive charts by Chart.js plugin
-  - Interactive tables by dataTables plugin
-  - Login, Registration, Forgot Password, 404, and Blank starter HTML pages
+  - Uses Angular 9
+  - Powerful development workflow environment included
+  - SCSS based styling with built in scripts for compiling CSS
+  - Pug based markup with built in scripts for compiling HTML
+  - Flexbox based layout with fixed and static side navigation layout options
+  - Toggleable side navigation
+  - Interactive charts using Chart.js plugin
+  - Interactive tables using ng-bootstrap plugin
+  - Login, register, and forgot password pre-built page examples
+  - 401, 404, and 500 error pages pre-built
+  - Light and dark side navigation options
 
-long-description: "SB Admin is a free, open source, MIT licensed Bootstrap admin template. This template uses the default Bootstrap 4 styles along with a variety of plugins to create a powerful framework for creating admin panels, web apps, or dashboard UI's for your next project."
+long-description: "SB Admin Angular is a free, open source, Angular 9 admin dashboard template. This Angular version of SB Admin takes the layout styling from SB Admin and includes a powerful, Angular 9 based development environment and workflow that is a perfect starting point for any Angular 9 based web application or admin dashboard."
 ---
