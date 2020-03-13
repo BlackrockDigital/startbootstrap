@@ -1,0 +1,238 @@
+---
+layout: default
+---
+
+{% include masthead/masthead-page.html %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Preview Image -->
+            <a class="img-preview d-block shadow-lg rounded mb-4" target="_blank" href="{{ page.demo-link }}">
+                <img class="img-fluid rounded" src="{{ page.img-full }}" alt="{{ page.img-desc }}">
+                <div class="overlay d-flex align-items-center justify-content-center rounded">
+                    <div class="btn btn-light">View Live Demo</div>
+                </div>
+            </a>
+            <!-- Download and Preview Buttons - Small Screens Only -->
+            <div class="card border-0 shadow mb-4 d-lg-none">
+                <div class="card-body">
+
+                    <div class="text-center">
+                        <i class="fab fa-angular fa-2x text-primary"></i>
+                        <h5 class="mb-3">Angular Frontend</h5>
+                    </div>
+
+                    <a target="_blank" href="{{ page.github-link-angular }}" class="btn btn-block btn-primary mb-3 py-3">
+                        <i class="fab fa-github fa-fw"></i> <span>View on GitHub</span>
+                    </a>
+
+                    <hr>
+
+                    <div class="text-center">
+                        <i class="fab fa-node fa-2x text-success"></i>
+                        <h5 class="mb-3">Node.js Backend</h5>
+                    </div>
+
+                    <a target="_blank" href="{{ page.github-link-node }}" class="btn btn-block btn-primary mb-3 py-3">
+                        <i class="fab fa-github fa-fw"></i> <span>View on GitHub</span>
+                    </a>
+
+                    <hr>
+
+                    <a target="_blank" href="{{ page.demo-link }}" class="btn btn-block btn-outline-primary mb-3"><i class="far fa-browser fa-fw"></i> View Live Demo</a>
+                    <!-- <a target="_blank" href="/previews/{{ page.slug }}/" class="btn btn-block btn-outline-dark"><i class="far fa-book fa-fw"></i> View Documentation</a> -->
+
+                </div>
+            </div>
+            <!-- Item Description -->
+            <div class="card border-0 shadow mb-4">
+                <div class="card-body">
+                    <h5 class="m-0">Description</h5>
+                    <hr>
+                    {{ page.long-description }}
+                </div>
+            </div>
+            <!-- Carbon Native Test -->
+            <div class="native-standard"></div>
+            <!-- Item Features -->
+            <div class="card border-0 shadow mb-4">
+                <div class="card-body">
+                    <h5 class="m-0">Features</h5>
+                    <hr>
+                    <ul class="mb-0">
+                        {% for feature in page.features %}
+                        <li>{{ feature }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <!-- Disqus Comments -->
+            <div class="card border-0 shadow mb-4">
+                <div class="card-body">
+                    {% include disqus.html %}
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <!-- Download and Preview Buttons - Large Screens Only -->
+            <div class="card border-0 shadow mb-4 d-none d-lg-block">
+                <div class="card-body">
+
+                    <div class="text-center">
+                        <i class="fab fa-angular fa-2x text-primary"></i>
+                        <h5 class="mb-3">Angular Frontend</h5>
+                    </div>
+
+                    <a target="_blank" href="{{ page.github-link-angular }}" class="btn btn-block btn-primary mb-3 py-3">
+                        <i class="fab fa-github fa-fw"></i> <span>View on GitHub</span>
+                    </a>
+
+                    <hr>
+
+                    <div class="text-center">
+                        <i class="fab fa-node fa-2x text-success"></i>
+                        <h5 class="mb-3">Node.js Backend</h5>
+                    </div>
+
+                    <a target="_blank" href="{{ page.github-link-node }}" class="btn btn-block btn-primary mb-3 py-3">
+                        <i class="fab fa-github fa-fw"></i> <span>View on GitHub</span>
+                    </a>
+
+                    <hr>
+
+                    <a target="_blank" href="{{ page.demo-link }}" class="btn btn-block btn-outline-primary mb-3"><i class="far fa-browser fa-fw"></i> View Live Demo</a>
+                    <!-- <a target="_blank" href="/previews/{{ page.slug }}/" class="btn btn-block btn-outline-dark"><i class="far fa-book fa-fw"></i> View Documentation</a> -->
+
+                </div>
+            </div>
+            <!-- Twitter Card -->
+            <div class="card border-0 shadow mb-4 text-center">
+                <div class="card-body">
+                    <div class="small mb-2 font-weight-bold">Get updates when {{ page.title }} is improved!</div>
+                    <a target="_blank" href="javascript:void(0)" onclick="window.open('https://twitter.com/intent/user?original_referer=&amp;region=screen_name&amp;screen_name=SBootstrap&amp;source=followbutton&amp;variant=1.1', 'twitter', 'toolbar=no, width=450, height=600'); return false;" class="btn btn-twitter btn-sm btn-block"><i class="fab fa-twitter"></i> Follow @SBootstrap</a>
+                </div>
+            </div>
+            <!-- Item Features -->
+            <div class="card border-0 shadow mb-4">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between small">
+                        <span class="font-weight-bold">License</span>
+
+                        {% if page.migrated %}
+                        <span><i class="fal fa-balance-scale"></i> <a class="font-weight-bold" href="https://github.com/StartBootstrap/{{page.slug}}/blob/master/LICENSE">MIT License</a></span>
+                        {% else %}
+                        <span><i class="fal fa-balance-scale"></i> <a class="font-weight-bold" href="https://github.com/BlackrockDigital/startbootstrap-{{page.slug}}/blob/master/LICENSE">MIT License</a></span>
+                        {% endif %}
+
+                    </div>
+                    <hr class="my-2">
+                    <div class="d-flex justify-content-between small">
+                        <span class="font-weight-bold">Released</span>
+                        <span>{{ page.date | date: "%b %-d, %Y" }}</span>
+                    </div>
+                    <hr class="my-2">
+                    <div class="d-flex justify-content-between small">
+                        <span class="font-weight-bold">Bootstrap Version</span>
+                        <span>{{ page.bootstrap }}</span>
+                    </div>
+                    <hr class="my-2">
+                    <div class="d-flex justify-content-between small">
+                        <span class="font-weight-bold">Last Updated</span>
+                        <span>{{ page.updated | date: "%b %-d, %Y" }}</span>
+                    </div>
+                    <hr class="my-2">
+                    <div class="d-flex justify-content-between small">
+                        <span class="font-weight-bold">{{ page.type | capitalize }} Version</span>
+                        <span>{{ page.version }}</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Affiliate Content -->
+            <div class="card border-0 shadow mb-4">
+                <div class="card-body">
+                    <h5 class="mb-0">Need something more?</h5>
+                    <p class="small mb-4">Try a premium Bootstrap theme!</p>
+                    <div class="row">
+
+                        <!-- For Admin Pages ONLY -->
+                        {% if page.categories contains 'admin' %}
+
+                        {% for item in site.themes reversed %}
+                        {% if item.pro and item.categories contains 'admin' %}
+                        <div class="col-12">
+                            <div class="item-preview">
+                                <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ item.src }}" onclick="ga('send','event','Premium Link','click','{{ item.title }}')" rel="nofollow">
+                                    <img class="img-fluid" src="{{ item.img-thumbnail }}" alt="{{ item.img-desc }}">
+                                </a>
+                                <div class="item-preview-title d-flex align-items-center">
+                                    {{ item.title }}
+                                    {% if item.pro %}
+                                    <span class='badge badge-warning ml-auto small badge-pill'>Pro</span>
+                                    {% else %}
+                                    <span class='badge badge-success ml-auto small badge-pill'>Free</span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <hr class="mb-4">
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+
+                        {% else %}
+
+                        {% for item in site.themes %}
+                        {% if item.pro and item.categories contains 'landing-page' %}
+                        <div class="col-12">
+                            <div class="item-preview">
+                                <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ item.src }}" onclick="ga('send','event','Premium Link','click','{{ item.title }}')" rel="nofollow">
+                                    <img class="img-fluid" src="{{ item.img-thumbnail }}" alt="{{ item.img-desc }}">
+                                </a>
+                                <div class="item-preview-title d-flex align-items-center">
+                                    {{ item.title }}
+                                    {% if item.pro %}
+                                    <span class='badge badge-warning ml-auto small badge-pill'>Pro</span>
+                                    {% else %}
+                                    <span class='badge badge-success ml-auto small badge-pill'>Free</span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <hr class="mb-4">
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+
+                        {% endif %}
+                    </div>
+                    <a href="/buy-bootstrap-themes" class="btn btn-outline-primary btn-block">View More Premium Content</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ content }}
+
+<!-- Script for Carbon Native Test -->
+<script>
+    (function() {
+        if (typeof _bsa !== 'undefined' && _bsa) {
+            _bsa.init('custom', 'CE7DV2JN', 'placement:startbootstrapcom', {
+                target: '.native-standard',
+                template: `
+<a href="##link##" class="native-banner" style="background: linear-gradient(-30deg, ##backgroundColor##E5, ##backgroundColor##E5 45%, ##backgroundColor## 45%) #fff;">
+    <div class="native-main">
+      <img class="native-img" src="##logo##">
+      <div class="native-details" style="color: ##textColor##">
+        <span class="native-company">Sponsored by ##company##</span>
+        <span class="native-desc">##description##</span>
+      </div>
+      <span class="native-cta" style="color: ##ctaTextColor##; background-color: ##ctaBackgroundColor##;">##callToAction##</span>
+    </div>
+  </a>
+  <a class="native-via" href="##adViaLink##">Ads via BuySellAds</a>
+`,
+            });
+        }
+    })();
+</script>
