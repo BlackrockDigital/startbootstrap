@@ -6,7 +6,7 @@ layout: default
 
 <div class="container">
 
-  <!-- Show paginated posts for the specificed collection -->
+  <!-- Show paginated posts for the specified collection -->
   <div class="row">
     {% assign snippets_sorted = site.snippets | sort: 'rank' %}
     {% for snippet in snippets_sorted %}
