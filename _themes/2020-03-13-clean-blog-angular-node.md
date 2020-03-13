@@ -30,6 +30,6 @@ features:
 
 long-description: "Clean Blog Angular is a fully functional blog which uses the styling from the Clean Blog theme along with an Angular 9 based frontend and a Node.js based backend. With this project, you can create a simple blog that allows you to login as an admin, create new blog posts, edit blog posts, and delete blog posts."
 
-twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/twitter-clean-blog.png
-og-image: https://startbootstrap.com/assets/img/screenshots/themes/og/og-clean-blog.png
+twitter-image: https://startbootstrap.com/assets/img/screenshots/themes/twitter/twitter-clean-blog-angular.png
+og-image: https://startbootstrap.com/assets/img/screenshots/themes/og/og-clean-blog-angular.png
 ---
