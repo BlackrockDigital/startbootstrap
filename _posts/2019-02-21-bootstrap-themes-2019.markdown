@@ -125,7 +125,7 @@ Another diamond in the rough, One Page Wonder has a lot of potential. Originally
 #### [Agency - Free Bootstrap Agency Portfolio Theme](/themes/agency "Agency - A Free Bootstrap Agency Portfolio Theme by Start Bootstrap")
 
 <figure>
-  <img src="/assets/img/screenshots/themes/agency.jpg" class="img-fluid rounded shadow-lg my-2" title="Agency - Free Bootstrap Agency Portfolio Theme">
+  <img src="/assets/img/screenshots/themes/agency.png" class="img-fluid rounded shadow-lg my-2" title="Agency - Free Bootstrap Agency Portfolio Theme">
   <figcaption class="font-italic text-muted text-center">Agency - a free Bootstrap agency portfolio theme</figcaption>
 </figure>
 
