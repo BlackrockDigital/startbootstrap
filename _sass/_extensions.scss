@@ -1,0 +1,12 @@
+.new-badge {
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    display: flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    transform: rotate(15deg);
+}
