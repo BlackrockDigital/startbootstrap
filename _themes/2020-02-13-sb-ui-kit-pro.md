@@ -7,7 +7,7 @@ bump:             "A premium Bootstrap 4 UI Kit"
 img-thumbnail:    /assets/img/screenshots/premium/sb-ui-kit-pro-html.jpg
 img-full:         /assets/img/screenshots/premium/sb-ui-kit-pro-html.png
 img-desc:         "Premium Bootstrap 4 UI Kit - SB UI Kit Pro"
-layout:           redirect
+layout:           custom-redirect
 type:             theme
 pro:              true
 new:              true
