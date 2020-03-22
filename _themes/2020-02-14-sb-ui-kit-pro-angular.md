@@ -7,7 +7,7 @@ bump:             "A premium Angular 9 UI Kit"
 img-thumbnail:    /assets/img/screenshots/premium/sb-ui-kit-pro-angular.jpg
 img-full:         /assets/img/screenshots/premium/sb-ui-kit-pro-angular.png
 img-desc:         "Premium Angular 9 UI Kit - SB UI Kit Pro"
-layout:           redirect
+layout:           custom-redirect
 type:             theme
 pro:              true
 new:              true

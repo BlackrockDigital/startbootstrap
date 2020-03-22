@@ -7,7 +7,7 @@ bump:             "A premium Angular 9 admin template"
 img-thumbnail:    /assets/img/screenshots/premium/sb-admin-pro-angular.jpg
 img-full:         /assets/img/screenshots/premium/sb-admin-pro-angular.png
 img-desc:         "Bootstrap Angular 9 Admin Theme - SB Admin Pro Angular"
-layout:           redirect
+layout:           custom-redirect
 type:             theme
 pro:              true
 new:              true
