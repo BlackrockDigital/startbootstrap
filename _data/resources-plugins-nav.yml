@@ -1,3 +1,8 @@
+- name:        Bootstrap Navbar Dropdowns
+  link:        http://fontenele.github.io/bootstrap-navbar-dropdowns/
+  description: Bootstrap 4 Navbar with multiple dropdowns.
+  supports:    bs4
+
 - name:        Bootstrap Tree View
   link:        http://jonmiles.github.io/bootstrap-treeview/
   description: Tree View for Bootstrap
