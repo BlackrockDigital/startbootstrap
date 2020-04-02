@@ -6,8 +6,8 @@ category: [Article]
 description: "At Start Bootstrap, two of our main product categories are Bootstrap themes and Bootstrap templates. So, what’s the difference?"
 tags: update
 
-meta-title:		"Free Bootstrap Themes in 2020 - Updates and New Themes"
-meta-description:	"Free, freshly updated Bootstrap themes for you to use in 2020. This year, we're focusing on updating designs, using new technologies, and making new themes!"
+meta-title:		"Bootstrap Themes vs. Templates - What’s the Difference?"
+meta-description:	"Bootstrap themes and Bootstrap templates are often used interchangeably. At Start Bootstrap however, we categorize themes and templates as two different things."
 
 author:			"David Miller"
 author-slug:	david-miller
