@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+
 <!-- Page Content -->
 <hr class="custom mt-0 mb-5">
 <div class="container">
@@ -25,12 +28,12 @@ layout: default
           {{ content }}
         </div>
 
-        <span class="mr-2">
+        <div>
           <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://startbootstrap.com{{ page.url }}" data-via="SBootstrap" data-lang="en">Tweet</a>
-        </span>
-        <span>
-          <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fstartbootstrap.com{{ page.url }}&layout=button&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-        </span>
+        </div>
+        <div class="fb-share-button" data-href="https://startbootstrap.com{{ page.url }}" data-layout="button" data-size="small">
+          <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
+        </div>
 
         <hr class="custom my-4">
 
