@@ -14,6 +14,9 @@ type: guide
 
 meta-title: "Create and Launch a Website from Start to Finish"
 meta-description: "A beginners guide to publishing a website using themes from Start Bootstrap and hosting by GitHub Pages"
+
+twitter-image: https://startbootstrap.com/assets/img/guides/create-website/img-twitter.png
+og-image: https://startbootstrap.com/assets/img/guides/create-website/img-og.png
 ---
 
 ### Before we begin
