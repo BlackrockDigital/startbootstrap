@@ -10,11 +10,13 @@ img-full:         /assets/img/screenshots/themes/freelancer.png
 img-desc:         "One Page Bootstrap Portfolio Theme"
 layout:           overview-theme
 type:             theme
-rank: 7
+rank: 5
 
 version:          6.0.2
 bootstrap:        4.4.1
 updated:          2020-04-16
+
+builder:          true
 
 meta-title:       "Freelancer - One Page Theme"
 meta-description: "A free one page Bootstrap portfolio theme for freelancers. All Start Bootstrap templates are free to download and open source."

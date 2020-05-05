@@ -10,7 +10,7 @@ img-full:         /assets/img/screenshots/themes/clean-blog.png
 img-desc:		      "Free Bootstrap Blog Theme - Start Bootstrap"
 layout:			      overview-theme
 type:             theme
-rank: 10
+rank: 12
 
 version:          5.0.8
 bootstrap:        4.3.1

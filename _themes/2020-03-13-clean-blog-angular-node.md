@@ -10,7 +10,7 @@ img-full:         /assets/img/screenshots/themes/clean-blog-angular.png
 img-desc:		      "Free Angular 9 Blog Theme - Start Bootstrap"
 layout:			      overview-node
 type:             theme
-rank: 5
+rank: 7
 
 github-link-angular: 'https://github.com/StartBootstrap/sb-clean-blog-angular/'
 github-link-node:    'https://github.com/StartBootstrap/sb-clean-blog-node/'

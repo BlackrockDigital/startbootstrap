@@ -10,7 +10,7 @@ img-full:         /assets/img/screenshots/themes/one-page-wonder.png
 img-desc:         "Free Bootstrap One Page Website Template"
 layout:           overview-theme
 type:             theme
-rank:             17
+rank:             18
 
 version:          5.0.7
 bootstrap:        4.3.1
