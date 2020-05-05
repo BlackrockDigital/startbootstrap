@@ -12,6 +12,21 @@ p.large {
   line-height: 1.55;
 }
 
+// New badge
+.badge-new {
+  background-color: $yellow;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: $small-font-size;
+  color: $white;
+  transform: rotate(15deg);
+  border-radius: 100%;
+  position: absolute;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
 // Hide Overflow Utility
 .o-hidden {
   overflow: hidden !important;

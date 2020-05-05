@@ -10,7 +10,7 @@ img-full:         /assets/img/screenshots/themes/landing-page.png
 img-desc:         "Free Bootstrap Landing Page Theme"
 layout:           overview-theme
 type:             theme
-rank: 16
+rank: 14
 
 version:          5.0.7
 bootstrap:        4.3.1
