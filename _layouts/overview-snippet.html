@@ -50,13 +50,13 @@ layout: default
       <!-- Affiliate -->
       <div class="card border-0 shadow mb-4">
         <div class="card-body">
-          <h5 class="mb-0">Need more components?</h5>
-          <p class="small mb-4">Try a premium Bootstrap UI kit!</p>
+          <h5 class="mb-0">Want more UI components?</h5>
+          <p class="small mb-4">Try our premium Bootstrap UI kit!</p>
           <div class="row">
-            {% for item in site.premium reversed %}
+            {% for item in site.themes reversed %}
             {% if item.categories contains 'ui' %}
             <!-- UI Based Affiliate Links -->
-            <div class="col-6 mb-4">
+            <div class="mb-4">
               <div class="item-preview">
                 <a class="item-preview-img box-shadow-lg d-block" href="{{ item.src }}" onclick="ga('send','event','Affiliate Link','click','{{ item.affiliate }} - {{ item.title }}')" rel="nofollow">
                   <img class="img-fluid" src="{{ item.img-thumbnail }}" alt="{{ item.img-desc }}">
