@@ -12,9 +12,9 @@ layout:           overview-theme
 type:             theme
 rank: 5
 
-version:          6.0.2
-bootstrap:        4.4.1
-updated:          2020-04-16
+version:          6.0.3
+bootstrap:        4.5.0
+updated:          2020-05-20
 
 builder:          true
 
