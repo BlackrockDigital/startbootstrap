@@ -7,4 +7,5 @@ layout:           preview
 type:             theme
 meta-title:       Freelancer - Theme Preview
 builder:          true
+migrated:         true
 ---

@@ -6,4 +6,5 @@ src:              /templates/scrolling-nav
 layout:           preview
 type:             template
 meta-title:       Scrolling Nav - Template Preview
+migrated:         true
 ---

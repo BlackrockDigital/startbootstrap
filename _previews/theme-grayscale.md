@@ -6,4 +6,5 @@ src:              /themes/grayscale
 layout:           preview
 type:             theme
 meta-title:       Grayscale - Theme Preview
+migrated:         true
 ---

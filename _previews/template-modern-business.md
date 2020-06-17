@@ -6,4 +6,5 @@ src:              /templates/modern-business
 layout:           preview
 type:             template
 meta-title:       Modern Business - Template Preview
+migrated:         true
 ---

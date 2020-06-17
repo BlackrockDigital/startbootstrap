@@ -6,4 +6,5 @@ src:              /themes/coming-soon
 layout:           preview
 type:             theme
 meta-title:       Coming Soon - Theme Preview
+migrated:         true
 ---
