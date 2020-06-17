@@ -6,4 +6,5 @@ src:              /themes/creative
 layout:           preview
 type:             theme
 meta-title:       Creative - Theme Preview
+migrated:         true
 ---

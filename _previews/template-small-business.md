@@ -6,4 +6,5 @@ src:              /templates/small-business
 layout:           preview
 type:             template
 meta-title:       Small Business - Template Preview
+migrated:         true
 ---

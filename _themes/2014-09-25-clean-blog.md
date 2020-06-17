@@ -12,6 +12,8 @@ layout:			      overview-theme
 type:             theme
 rank: 12
 
+migrated:         true
+
 version:          5.0.8
 bootstrap:        4.3.1
 updated:          2019-09-16

@@ -6,4 +6,5 @@ src:              /themes/landing-page
 layout:           preview
 type:             theme
 meta-title:       Landing Page - Theme Preview
+migrated:         true
 ---

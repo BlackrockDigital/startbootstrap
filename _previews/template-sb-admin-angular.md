@@ -8,5 +8,5 @@ type:             template
 meta-title:       SB Admin Angular - Template Preview
 
 custom-preview-link: "https://sb-admin-angular.startbootstrap.com"
-migrated: true
+no-prefix: true
 ---

@@ -12,7 +12,7 @@ layout:		        overview-theme
 type:             template
 rank:             0
 
-migrated:         true
+no-prefix:        true
 
 version:          1.0.0
 bootstrap:        4.4.1

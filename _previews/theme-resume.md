@@ -6,4 +6,5 @@ src:              /themes/resume
 layout:           preview
 type:             theme
 meta-title:       Resume - Theme Preview
+migrated:         true
 ---

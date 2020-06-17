@@ -6,4 +6,5 @@ src:              /templates/blog-post
 layout:           preview
 type:             template
 meta-title:       Blog Post - Template Preview
+migrated:         true
 ---

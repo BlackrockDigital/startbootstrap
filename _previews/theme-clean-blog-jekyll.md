@@ -6,4 +6,5 @@ src:              /themes/clean-blog-jekyll
 layout:           preview
 type:             theme
 meta-title:       Clean Blog Jekyll - Theme Preview
+migrated:         true
 ---

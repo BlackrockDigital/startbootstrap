@@ -6,4 +6,5 @@ src:              /themes/new-age
 layout:           preview
 type:             theme
 meta-title:       New Age - Theme Preview
+migrated:         true
 ---
