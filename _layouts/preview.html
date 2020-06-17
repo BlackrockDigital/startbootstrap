@@ -13,7 +13,7 @@
                     <i class="fab fa-github text-github small"></i>
 
                     {% if page.migrated %}
-                    <a class="small" href="https://github.com/StartBootstrap/{{ page.slug }}">View on GitHub</a>
+                    <a class="small" href="https://github.com/StartBootstrap/startbootstrap-{{ page.slug }}">View on GitHub</a>
                     {% else %}
                     <a class="small" href="https://github.com/BlackrockDigital/startbootstrap-{{ page.slug }}">View on GitHub</a>
                     {% endif %}
@@ -42,13 +42,15 @@
                     {% endif %}
 
                     {% if page.migrated %}
-                    <a href="https://github.com/StartBootstrap/{{ page.slug }}/archive/master.zip" class="btn btn-primary btn-sm mr-2" onclick="ga('send','event','Download','click','{{ page.title }}')">Free Download</a>
+                    <a href="https://github.com/StartBootstrap/startbootstrap-{{ page.slug }}/archive/gh-pages.zip" class="btn btn-primary btn-sm mr-2" onclick="ga('send','event','Download','click','{{ page.title }}')">Free Download</a>
                     {% else %}
                     <a href="https://github.com/BlackrockDigital/startbootstrap-{{ page.slug }}/archive/gh-pages.zip" class="btn btn-primary btn-sm mr-2" onclick="ga('send','event','Download','click','{{ page.title }}')">Free Download</a>
                     {% endif %}
 
                     {% if page.custom-preview-link %}
                     <a href="{{ page.custom-preview-link }}/" class="btn btn-link btn-sm d-none d-md-inline-block"><i class="fal fa-times mr-1"></i> Remove Frame</a>
+                    {% elsif page.migrated %}
+                    <a href="https://startbootstrap.github.io/startbootstrap-{{ page.slug }}/" class="btn btn-link btn-sm d-none d-md-inline-block"><i class="fal fa-times mr-1"></i> Remove Frame</a>
                     {% else %}
                     <a href="https://blackrockdigital.github.io/startbootstrap-{{ page.slug }}/" class="btn btn-link btn-sm d-none d-md-inline-block"><i class="fal fa-times mr-1"></i> Remove Frame</a>
                     {% endif %}
@@ -59,6 +61,8 @@
 
     {% if page.custom-preview-link %}
     <iframe class="iframe-preview" width="100%" src="{{ page.custom-preview-link }}/"></iframe>
+    {% elsif page.migrated %}
+    <iframe class="iframe-preview" width="100%" src="https://startbootstrap.github.io/startbootstrap-{{ page.slug }}/"></iframe>
     {% else %}
     <iframe class="iframe-preview" width="100%" src="https://blackrockdigital.github.io/startbootstrap-{{ page.slug }}/"></iframe>
     {% endif %}
