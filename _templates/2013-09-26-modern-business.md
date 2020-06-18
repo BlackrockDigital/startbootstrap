@@ -14,9 +14,9 @@ rank: 3
 
 migrated:         true
 
-version:          4.2.1
-bootstrap:        4.3.1
-updated:          2019-06-14
+version:          4.2.2
+bootstrap:        4.5.0
+updated:          2020-06-18
 
 meta-title:       "Modern Business - Full Website Template for Bootstrap 4"
 meta-description: "A 17 page full website template for Bootstrap 4. Includes a working contact form, and many other features. All Start Bootstrap templates are free to download and open source."

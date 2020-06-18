@@ -14,9 +14,9 @@ rank: 8
 
 migrated:         true
 
-version:          4.2.1
-bootstrap:        4.3.1
-updated:          2019-06-14
+version:          4.2.2
+bootstrap:        4.5.0
+updated:          2020-06-18
 
 migrated:         true
 
