@@ -14,9 +14,9 @@ rank:             18
 
 migrated:         true
 
-version:          5.0.7
-bootstrap:        4.3.1
-updated:          2019-09-16
+version:          5.0.8
+bootstrap:        4.5.0
+updated:          2020-06-18
 
 meta-title:       "One Page Wonder - Free Bootstrap Template"
 meta-description: "A one page website template for building one page websites using Bootstrap 4. All Start Bootstrap templates are free to download and open source."
