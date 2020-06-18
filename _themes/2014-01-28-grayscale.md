@@ -14,9 +14,9 @@ rank: 10
 
 migrated:         true
 
-version:          6.0.1
+version:          6.0.2
 bootstrap:        4.5.0
-updated:          2020-05-20
+updated:          2020-60-18
 
 meta-title:       "Grayscale - Free One Page Bootstrap Theme"
 meta-description: "Grayscale is a free Bootstrap theme with a dark color scheme, smooth scrolling page animations, and a collapsing top navigation bar. It works great for portfolios, businesses, and more!"

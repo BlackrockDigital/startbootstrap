@@ -14,9 +14,9 @@ rank: 12
 
 migrated:         true
 
-version:          5.0.8
-bootstrap:        4.3.1
-updated:          2019-09-16
+version:          5.0.9
+bootstrap:        4.5.0
+updated:          2020-06-18
 
 meta-title:       "Clean Blog - Bootstrap Blog Theme"
 meta-description: "A free Bootstrap blog theme perfect for personal blogs. All Start Bootstrap templates are free to download and open source."

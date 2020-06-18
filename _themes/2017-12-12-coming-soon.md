@@ -14,9 +14,9 @@ rank: 19
 
 migrated:         true
 
-version:          5.0.7
-bootstrap:        4.3.1
-updated:          2019-09-16
+version:          5.0.8
+bootstrap:        4.5.0
+updated:          2020-06-18
 
 meta-title:       "Coming Soon - Free Coming Soon Bootstrap Template"
 meta-description: "A free coming soon page template for Bootstrap with a newsletter signup and a video background."

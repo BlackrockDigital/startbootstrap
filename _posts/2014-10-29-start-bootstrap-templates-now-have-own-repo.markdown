@@ -24,7 +24,7 @@ By popular demand I have finally pulled all of the templates on Start Bootstrap 
 
 In the coming weeks I will be setting up some basic Grunt environments for most templates, and I will be changing around a few other behind-the-scenes things, but nothing on the surface will change that much. The .zip download of each template will always be just the core template files, so if you don’t know how to use, or don’t want to use the new development environments you can have a vanilla version of the template available via download.
 
-You can see all of the available templates here: <https://github.com/BlackrockDigital>
+You can see all of the available templates here: <https://github.com/StartBootstrap>
 
 My goal with these updates are to make the themes and templates available on Start Bootstrap more developer-friendly. If you have any suggestions, feel free to email me at feedback@startbootstrap.com!
 

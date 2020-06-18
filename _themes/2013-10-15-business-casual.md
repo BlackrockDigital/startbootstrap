@@ -14,9 +14,9 @@ rank: 16
 
 migrated:         true
 
-version:          5.0.9
-bootstrap:        4.3.1
-updated:          2019-09-16
+version:          5.0.10
+bootstrap:        4.5.0
+updated:          2020-06-18
 
 meta-title:       "Business Casual - Free Bootstrap 4 Website Template"
 meta-description: "A free, full website template for Bootstrap 4 perfect for small businesses. All Start Bootstrap templates are free to use and open source."

@@ -26,7 +26,7 @@ Hi there Start Bootstrap users! We have some exciting updates to share with you 
 
 First off, we would like to introduce you to the newest template in the Start Bootstrap line up, ‘Landing Page!’. This template is a bit different than some of our others. You might notice that it features some custom fonts and some custom, but subtle, colors. That being said, the motivation behind doing this was to make this template usable right out of the box, but simple enough to remain easily customizable.
 
-To download this template for free, visit the preview page here: <http://startbootstrap.com/landing-page>.
+To download this template for free, visit the preview page here: <https://startbootstrap.com/landing-page>.
 
 ## Flex Admin - Premium Admin Theme
 

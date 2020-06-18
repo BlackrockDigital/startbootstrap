@@ -22,10 +22,10 @@ meta-title:       "Clean Blog Jekyll - Free Jekyll Theme"
 meta-description: "A free Jekyll theme based on Start Bootstrap's Clean Blog theme perfect for personal blogs."
 
 features:
-  - <a href="https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/master/README.md">Detailed documentation with installation instructions</a>
+  - <a href="https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/blob/master/README.md">Detailed documentation with installation instructions</a>
   - Fully functioning blog using Jekyll
   - Posts written in markdown for easy blogging
-  - Installable via ruby gems - add the <code>jekyll-theme-clean-blog</code> gem to your Gemfile and run <code>bundle install</code>
+  - Install via ruby gems - add the <code>jekyll-theme-clean-blog</code> gem to your Gemfile and run <code>bundle install</code>
 
 long-description: "Jekyll is a blog-aware, static site generator that works with GitHub Pages. Clean Blog was adapted for Jekyll by the Start Bootstrap team, and you can use the theme for a complete functioning blog."
 
