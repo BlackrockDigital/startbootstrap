@@ -14,9 +14,9 @@ rank: 16
 
 migrated:         true
 
-version:          4.2.1
-bootstrap:        4.3.1
-updated:          2019-06-14
+version:          4.2.2
+bootstrap:        4.5.0
+updated:          2020-06-19
 
 meta-title:       "Small Business - Bootstrap Marketing Website Template"
 meta-description: "A free, easy to use, Bootstrap starter template perfect for building small business marketing websites. All Start Bootstrap templates are free to download and open source."

@@ -14,9 +14,9 @@ rank: 2
 
 migrated:         true
 
-version:          5.1.1
-bootstrap:        4.3.1
-updated:          2019-06-14
+version:          5.1.2
+bootstrap:        4.5.0
+updated:          2020-06-19
 
 meta-title:       "Simple Sidebar - Bootstrap Sidebar Template"
 meta-description: "A simple sidebar template for Bootstrap 4 featuring responsive sidebar navigation. All Start Bootstrap templates are free to download and open source."
