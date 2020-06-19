@@ -14,9 +14,9 @@ rank: 15
 
 migrated:         true
 
-version:          5.0.7
-bootstrap:        4.3.1
-updated:          2019-09-16
+version:          5.0.8
+bootstrap:        4.5.0
+updated:          2020-06-19
 
 meta-title:       "Stylish Portfolio - One Page Bootstrap Portfolio Theme"
 meta-description: "A free Bootstrap portfolio theme with off canvas navigation and smooth page scrolling. All Start Bootstrap templates are free to download and open source."
