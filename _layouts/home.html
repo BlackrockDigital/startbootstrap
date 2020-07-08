@@ -30,6 +30,9 @@ layout: default
               {% for theme in themes_sorted limit: 8 %}
               <div class="col-md-6">
                 <div class="item-preview mb-5">
+                  {% if theme.update %}
+                    <span class="badge badge-info position-absolute badge-pill" style="right: -.5rem; top: -.5rem; z-index: 999;">Updated!</span>
+                  {% endif %}
                   <a class="item-preview-img box-shadow-lg d-block mb-3" href="{{ theme.src }}">
                     <img class="lazy img-fluid" data-src="{{ theme.img-thumbnail }}" alt="{{ theme.img-desc }}">
                   </a>
